@@ -1,0 +1,1500 @@
+{"global_ix": 1725, "sentence": "read me my meeting schedule", "label": "meeting_schedule"}
+{"global_ix": 12771, "sentence": "make up a new alarm", "label": "alarm"}
+{"global_ix": 13166, "sentence": "just flip a coin", "label": "flip_coin"}
+{"global_ix": 2102, "sentence": "when are my tires due for changing", "label": "tire_change"}
+{"global_ix": 4887, "sentence": "your factory settings need to be reset", "label": "reset_settings"}
+{"global_ix": 22036, "sentence": "what sort of electrical plug do they use in mainland europe", "label": "plug_type"}
+{"global_ix": 4695, "sentence": "i'd like to just confirm all of the reminders currently on my list of reminders, please", "label": "reminder"}
+{"global_ix": 12390, "sentence": "what are those european plugs called", "label": "plug_type"}
+{"global_ix": 12571, "sentence": "does tofu last long in the freezer before it goes bad", "label": "food_last"}
+{"global_ix": 4477, "sentence": "revert to factory settings", "label": "reset_settings"}
+{"global_ix": 15504, "sentence": "i've had eggs in the fridge since monday are they safe eat", "label": "food_last"}
+{"global_ix": 14559, "sentence": "is it still safe to consume the cake she backed last thursday", "label": "food_last"}
+{"global_ix": 17949, "sentence": "apple cider has been in my fridge for four months so can i still drink it", "label": "food_last"}
+{"global_ix": 16833, "sentence": "i wanted to remember what again", "label": "reminder"}
+{"global_ix": 2108, "sentence": "how many total meetings will i have between 2 and 5", "label": "meeting_schedule"}
+{"global_ix": 3563, "sentence": "do i have any meetings today between 9 and 10:15", "label": "meeting_schedule"}
+{"global_ix": 3796, "sentence": "you should reset your factory settings", "label": "reset_settings"}
+{"global_ix": 6551, "sentence": "i have tomatoes from tuesday, do you think those are still good", "label": "food_last"}
+{"global_ix": 10443, "sentence": "when do i need to get my tires changed", "label": "tire_change"}
+{"global_ix": 4654, "sentence": "what is the correct spelling of the word: dessert", "label": "spelling"}
+{"global_ix": 5504, "sentence": "so how long can pizza last in the fridge", "label": "food_last"}
+{"global_ix": 14159, "sentence": "toss a coin and tell me what it lands on", "label": "flip_coin"}
+{"global_ix": 1747, "sentence": "please set an alarm for 5 am", "label": "alarm"}
+{"global_ix": 6034, "sentence": "do i have any meetings with roger today", "label": "meeting_schedule"}
+{"global_ix": 10347, "sentence": "can you spell the word umbrella for me", "label": "spelling"}
+{"global_ix": 2428, "sentence": "flip a coin i choose heads", "label": "flip_coin"}
+{"global_ix": 4597, "sentence": "help me wake up with an alarm at 5:30am", "label": "alarm"}
+{"global_ix": 8966, "sentence": "should i purchase a new plug converter when in france", "label": "plug_type"}
+{"global_ix": 12770, "sentence": "i need to up by noon", "label": "alarm"}
+{"global_ix": 11920, "sentence": "has flight dl123 arrived yet", "label": "flight_status"}
+{"global_ix": 13666, "sentence": "please list my meetings for today", "label": "meeting_schedule"}
+{"global_ix": 8185, "sentence": "flip a coin, you win with heads", "label": "flip_coin"}
+{"global_ix": 2026, "sentence": "do i have meetings scheduled today", "label": "meeting_schedule"}
+{"global_ix": 18388, "sentence": "do i have anything in my reminders", "label": "reminder"}
+{"global_ix": 4769, "sentence": "when will my car next be due to get its tires changed", "label": "tire_change"}
+{"global_ix": 6247, "sentence": "how long will eggs last in the fridge", "label": "food_last"}
+{"global_ix": 3030, "sentence": "ostensibly when is my flight going to land", "label": "flight_status"}
+{"global_ix": 15628, "sentence": "i need you to flip a coin once", "label": "flip_coin"}
+{"global_ix": 15801, "sentence": "do i have any meetings today between 6 and 7", "label": "meeting_schedule"}
+{"global_ix": 5636, "sentence": "tell me what my day looks like today in terms of meetings", "label": "meeting_schedule"}
+{"global_ix": 12478, "sentence": "revert back to your factory settings, please", "label": "reset_settings"}
+{"global_ix": 16673, "sentence": "do you mind informing me the status of my southwest flight", "label": "flight_status"}
+{"global_ix": 9641, "sentence": "what is the scheduled landing time for my flight", "label": "flight_status"}
+{"global_ix": 8714, "sentence": "set an alarm for 6 am tomorrow", "label": "alarm"}
+{"global_ix": 7195, "sentence": "when do my tires need changing after i replaced them last week", "label": "tire_change"}
+{"global_ix": 22502, "sentence": "at what point will this flight start letting people board", "label": "flight_status"}
+{"global_ix": 20101, "sentence": "tell me how to spell automobile", "label": "spelling"}
+{"global_ix": 1005, "sentence": "how long do i have before frozen chicken will go bad", "label": "food_last"}
+{"global_ix": 1076, "sentence": "toss a coin i will take tails", "label": "flip_coin"}
+{"global_ix": 10207, "sentence": "tell me how to spell the word dessert", "label": "spelling"}
+{"global_ix": 9848, "sentence": "filp a coin, i call heads", "label": "flip_coin"}
+{"global_ix": 2043, "sentence": "do i have any meetings scheduled for today", "label": "meeting_schedule"}
+{"global_ix": 1371, "sentence": "when will my tires need to be replaced", "label": "tire_change"}
+{"global_ix": 8202, "sentence": "should i buy a plug converter if i am traveling to egypt", "label": "plug_type"}
+{"global_ix": 14459, "sentence": "do you know if i have any meetings set up with travis today", "label": "meeting_schedule"}
+{"global_ix": 13000, "sentence": "i replaced my tires in december, when should i replace them again", "label": "tire_change"}
+{"global_ix": 13674, "sentence": "did i request a reminder for my niece's graduation", "label": "reminder"}
+{"global_ix": 16050, "sentence": "revert to your factory settings", "label": "reset_settings"}
+{"global_ix": 19167, "sentence": "do i have any meetings with stan today", "label": "meeting_schedule"}
+{"global_ix": 4109, "sentence": "could you reset your factory settings please", "label": "reset_settings"}
+{"global_ix": 14745, "sentence": "please play my list of reminders", "label": "reminder"}
+{"global_ix": 20879, "sentence": "i don't know how to spell theater", "label": "spelling"}
+{"global_ix": 3635, "sentence": "when would you change my tires", "label": "tire_change"}
+{"global_ix": 17592, "sentence": "i got to know how long can i keep pizza in the freezer for before it goes bad", "label": "food_last"}
+{"global_ix": 632, "sentence": "what were you supposed to remind me of", "label": "reminder"}
+{"global_ix": 20548, "sentence": "do i need a socket converter in england", "label": "plug_type"}
+{"global_ix": 13730, "sentence": "do i have any meetings with ben today", "label": "meeting_schedule"}
+{"global_ix": 13051, "sentence": "go ahead and flip a coin", "label": "flip_coin"}
+{"global_ix": 7008, "sentence": "what time is my plane supposed to arrive", "label": "flight_status"}
+{"global_ix": 15190, "sentence": "in chile, what kind of plugs are used", "label": "plug_type"}
+{"global_ix": 11889, "sentence": "set the alarm now", "label": "alarm"}
+{"global_ix": 10852, "sentence": "let me know what's on my list of reminders", "label": "reminder"}
+{"global_ix": 14191, "sentence": "reminders of my list is what", "label": "reminder"}
+{"global_ix": 14534, "sentence": "how many meetings do i have scheduled between 10 and 3", "label": "meeting_schedule"}
+{"global_ix": 11597, "sentence": "i've got some chips from monday, will they still be ok to eat", "label": "food_last"}
+{"global_ix": 12696, "sentence": "i need your to reset to factory settings", "label": "reset_settings"}
+{"global_ix": 10010, "sentence": "what is now on my reminder list", "label": "reminder"}
+{"global_ix": 1160, "sentence": "do i have any meetings today between 5 and 6", "label": "meeting_schedule"}
+{"global_ix": 6006, "sentence": "i am choosing heads, now please flip that coin", "label": "flip_coin"}
+{"global_ix": 12407, "sentence": "is a meeting with ruth on my schedule today", "label": "meeting_schedule"}
+{"global_ix": 11504, "sentence": "when is my meeting with infrastructure", "label": "meeting_schedule"}
+{"global_ix": 22956, "sentence": "are socket converters something i need to bring if going to australia", "label": "plug_type"}
+{"global_ix": 1203, "sentence": "you need to reset your factory settings", "label": "reset_settings"}
+{"global_ix": 11019, "sentence": "do a hard reset to factory settings", "label": "reset_settings"}
+{"global_ix": 17757, "sentence": "flip a coin heads or tails", "label": "flip_coin"}
+{"global_ix": 5329, "sentence": "what is the boarding time for my upcoming flight", "label": "flight_status"}
+{"global_ix": 21191, "sentence": "are there any meetings on my calendar today", "label": "meeting_schedule"}
+{"global_ix": 14183, "sentence": "tell me how to spell malignant", "label": "spelling"}
+{"global_ix": 20891, "sentence": "flip a coin for me, with you calling heads", "label": "flip_coin"}
+{"global_ix": 19390, "sentence": "read back the reminder list", "label": "reminder"}
+{"global_ix": 12083, "sentence": "how many times a year should i change my tires", "label": "tire_change"}
+{"global_ix": 6002, "sentence": "whats my delta flight's status", "label": "flight_status"}
+{"global_ix": 14764, "sentence": "i want a coin flip", "label": "flip_coin"}
+{"global_ix": 23001, "sentence": "when should i get new tires i last replaced them four years ago", "label": "tire_change"}
+{"global_ix": 7261, "sentence": "does australia have different plug sizes", "label": "plug_type"}
+{"global_ix": 19869, "sentence": "do you know how to spell, bourgeois", "label": "spelling"}
+{"global_ix": 11494, "sentence": "please flip a coin i select tails", "label": "flip_coin"}
+{"global_ix": 18510, "sentence": "my tires should be changed when", "label": "tire_change"}
+{"global_ix": 21486, "sentence": "you need to go back to the original settings", "label": "reset_settings"}
+{"global_ix": 6234, "sentence": "i would like a coin flip", "label": "flip_coin"}
+{"global_ix": 4857, "sentence": "i want to restore your factory settings", "label": "reset_settings"}
+{"global_ix": 5536, "sentence": "can you set the alarm for noon", "label": "alarm"}
+{"global_ix": 7229, "sentence": "any idea where flight dl123 is right now", "label": "flight_status"}
+{"global_ix": 421, "sentence": "what are the thing i told you to help me remember", "label": "reminder"}
+{"global_ix": 17263, "sentence": "can i eat chicken if it's been in the fridge since monday", "label": "food_last"}
+{"global_ix": 14713, "sentence": "when do ribs expire", "label": "food_last"}
+{"global_ix": 17220, "sentence": "can you please update the status of flight dl123", "label": "flight_status"}
+{"global_ix": 14217, "sentence": "do they use any special type of plug in spain that you need a converter for", "label": "plug_type"}
+{"global_ix": 939, "sentence": "flip the coin", "label": "flip_coin"}
+{"global_ix": 8224, "sentence": "when will they let me board", "label": "flight_status"}
+{"global_ix": 8943, "sentence": "is there an outlet plug adapter", "label": "plug_type"}
+{"global_ix": 22107, "sentence": "how do you spell asian", "label": "spelling"}
+{"global_ix": 6960, "sentence": "what kind of outlets does havana have", "label": "plug_type"}
+{"global_ix": 13357, "sentence": "please set the alarm", "label": "alarm"}
+{"global_ix": 6806, "sentence": "how long will my milk be good in the fridge", "label": "food_last"}
+{"global_ix": 10472, "sentence": "i don't know how to spell circumference", "label": "spelling"}
+{"global_ix": 12201, "sentence": "flip a coin, i choose heads", "label": "flip_coin"}
+{"global_ix": 15943, "sentence": "tell me what is showing up on my reminder list", "label": "reminder"}
+{"global_ix": 6347, "sentence": "please list my meetings for today from 8:00 am to 2:00 pm", "label": "meeting_schedule"}
+{"global_ix": 1219, "sentence": "tell me what's on my reminder list", "label": "reminder"}
+{"global_ix": 8427, "sentence": "can i plug in my electronics there like normal", "label": "plug_type"}
+{"global_ix": 21840, "sentence": "ribs can stay in the fridge for how long before they turn", "label": "food_last"}
+{"global_ix": 22170, "sentence": "tell me when my flight is landing", "label": "flight_status"}
+{"global_ix": 3301, "sentence": "at what time will my flight land", "label": "flight_status"}
+{"global_ix": 10445, "sentence": "what did i want to remember again", "label": "reminder"}
+{"global_ix": 6419, "sentence": "please turn on factory settings", "label": "reset_settings"}
+{"global_ix": 3451, "sentence": "now reset your factory settings", "label": "reset_settings"}
+{"global_ix": 8701, "sentence": "i would like to know when my flight scheduled to board", "label": "flight_status"}
+{"global_ix": 7108, "sentence": "spell government", "label": "spelling"}
+{"global_ix": 16401, "sentence": "please tell me how to spell the word coup", "label": "spelling"}
+{"global_ix": 8465, "sentence": "what plugs are used in spain", "label": "plug_type"}
+{"global_ix": 1613, "sentence": "i got my new tires a month ago, when should i replace them", "label": "tire_change"}
+{"global_ix": 9230, "sentence": "please tell me if a coin flip lands on heads or tails", "label": "flip_coin"}
+{"global_ix": 12739, "sentence": "flip the coin ai", "label": "flip_coin"}
+{"global_ix": 6498, "sentence": "do you know how to spell curiosity", "label": "spelling"}
+{"global_ix": 9243, "sentence": "how is the word acquaintance spelled", "label": "spelling"}
+{"global_ix": 203, "sentence": "would you flip a coin", "label": "flip_coin"}
+{"global_ix": 8260, "sentence": "is it okay to eat chicken that i put in the fridge on monday", "label": "food_last"}
+{"global_ix": 717, "sentence": "do i need a power adapter in mexico", "label": "plug_type"}
+{"global_ix": 6279, "sentence": "can you please flip a coin, i call tails", "label": "flip_coin"}
+{"global_ix": 14235, "sentence": "tomorrow i need the alarm to go off at 5", "label": "alarm"}
+{"global_ix": 3075, "sentence": "how long will my eggs be good for", "label": "food_last"}
+{"global_ix": 780, "sentence": "what kind of meetings do i have today", "label": "meeting_schedule"}
+{"global_ix": 10500, "sentence": "can you spell \"diatribe\" for me", "label": "spelling"}
+{"global_ix": 23381, "sentence": "go over my meeting schedule with me please", "label": "meeting_schedule"}
+{"global_ix": 11672, "sentence": "toss a coin i will take heads", "label": "flip_coin"}
+{"global_ix": 11319, "sentence": "what plug type should i use in england", "label": "plug_type"}
+{"global_ix": 11282, "sentence": "can you reset to factor settings", "label": "reset_settings"}
+{"global_ix": 1603, "sentence": "adjust settings back to original factory settings immediately", "label": "reset_settings"}
+{"global_ix": 1159, "sentence": "just toss a coin", "label": "flip_coin"}
+{"global_ix": 19986, "sentence": "do i have any meetings today between 9:30 and 10:30", "label": "meeting_schedule"}
+{"global_ix": 18823, "sentence": "how long before i need to replace my tires after i replaced them on 2/24/18", "label": "tire_change"}
+{"global_ix": 4347, "sentence": "can you spell out \"wonderful", "label": "spelling"}
+{"global_ix": 1550, "sentence": "tell me when my meeting is scheduled with roger", "label": "meeting_schedule"}
+{"global_ix": 17036, "sentence": "i need to know when my flight scheduled to board", "label": "flight_status"}
+{"global_ix": 12034, "sentence": "when will i need to replace my tires if i last replaced them on december 20", "label": "tire_change"}
+{"global_ix": 13327, "sentence": "can you flip a coin i pick heads", "label": "flip_coin"}
+{"global_ix": 3284, "sentence": "whats on my reminder list, read back", "label": "reminder"}
+{"global_ix": 3665, "sentence": "what times are my meetings", "label": "meeting_schedule"}
+{"global_ix": 3925, "sentence": "flip a two sided coin and tell me what it lands on", "label": "flip_coin"}
+{"global_ix": 9453, "sentence": "flip a coin now", "label": "flip_coin"}
+{"global_ix": 14450, "sentence": "flip me a coin i'm calling tails", "label": "flip_coin"}
+{"global_ix": 6345, "sentence": "can you tell me the to do's on my reminder list", "label": "reminder"}
+{"global_ix": 8176, "sentence": "please flip a coin for me, tails i win", "label": "flip_coin"}
+{"global_ix": 5738, "sentence": "please tell me how to spell umbrella", "label": "spelling"}
+{"global_ix": 22563, "sentence": "how many miles can i drive before changing my tires", "label": "tire_change"}
+{"global_ix": 1193, "sentence": "is it time for new tires", "label": "tire_change"}
+{"global_ix": 8793, "sentence": "can you now please go back to the original settings", "label": "reset_settings"}
+{"global_ix": 6442, "sentence": "reset to your original settings", "label": "reset_settings"}
+{"global_ix": 22058, "sentence": "how many miles are my tires rated for", "label": "tire_change"}
+{"global_ix": 7032, "sentence": "will flight dl123 be on time", "label": "flight_status"}
+{"global_ix": 10242, "sentence": "bring up any mettings for today", "label": "meeting_schedule"}
+{"global_ix": 2883, "sentence": "can you tell me all the reminders i have set on my reminder list", "label": "reminder"}
+{"global_ix": 23503, "sentence": "please set an alarm", "label": "alarm"}
+{"global_ix": 9010, "sentence": "what if any meetings do i have today", "label": "meeting_schedule"}
+{"global_ix": 5166, "sentence": "please turn on the alarm", "label": "alarm"}
+{"global_ix": 11063, "sentence": "what do i want to remember", "label": "reminder"}
+{"global_ix": 20938, "sentence": "milk will go bad in my fridge when", "label": "food_last"}
+{"global_ix": 16472, "sentence": "how do you spell antithesis", "label": "spelling"}
+{"global_ix": 7190, "sentence": "tell me how to spent \"frightened", "label": "spelling"}
+{"global_ix": 19613, "sentence": "set this to my factory settings", "label": "reset_settings"}
+{"global_ix": 15333, "sentence": "what kind of electrical outlet does that country use", "label": "plug_type"}
+{"global_ix": 12148, "sentence": "flip a coin i'm calling heads", "label": "flip_coin"}
+{"global_ix": 4623, "sentence": "i'd love to set an alarm", "label": "alarm"}
+{"global_ix": 9556, "sentence": "do i need to have a socket converter in canada", "label": "plug_type"}
+{"global_ix": 21987, "sentence": "do i have any meetings scheduled between 3 and 5 pm today", "label": "meeting_schedule"}
+{"global_ix": 9944, "sentence": "how long can i keep milk in the fridge", "label": "food_last"}
+{"global_ix": 16446, "sentence": "i don't know how to spell mississippi", "label": "spelling"}
+{"global_ix": 17162, "sentence": "do i have any meetings on my calendar today", "label": "meeting_schedule"}
+{"global_ix": 20425, "sentence": "spell out potato", "label": "spelling"}
+{"global_ix": 7855, "sentence": "is flight dl123 coming in on time", "label": "flight_status"}
+{"global_ix": 7644, "sentence": "at what time is my flight scheduled to land", "label": "flight_status"}
+{"global_ix": 16728, "sentence": "at what point should the flight land", "label": "flight_status"}
+{"global_ix": 12578, "sentence": "what reminders do i have", "label": "reminder"}
+{"global_ix": 14010, "sentence": "go back to the original settings now", "label": "reset_settings"}
+{"global_ix": 17676, "sentence": "do i have any meetings with mark today", "label": "meeting_schedule"}
+{"global_ix": 12374, "sentence": "is there any news on flight dl123", "label": "flight_status"}
+{"global_ix": 11570, "sentence": "create alarm 6am", "label": "alarm"}
+{"global_ix": 8200, "sentence": "when is my flight boarding", "label": "flight_status"}
+{"global_ix": 20555, "sentence": "go to factory settings", "label": "reset_settings"}
+{"global_ix": 742, "sentence": "i need an alarm to go off at 6 am", "label": "alarm"}
+{"global_ix": 7705, "sentence": "please tell me everything on my list of reminders", "label": "reminder"}
+{"global_ix": 16521, "sentence": "is my schedule clear with no meetings with dan today", "label": "meeting_schedule"}
+{"global_ix": 2052, "sentence": "will i need a plug converter when i visit costa rica", "label": "plug_type"}
+{"global_ix": 13117, "sentence": "plug used in china", "label": "plug_type"}
+{"global_ix": 6252, "sentence": "do i need a socket converter if i'm going to mexico", "label": "plug_type"}
+{"global_ix": 11585, "sentence": "do i need a socket converter if i'm going to be in france", "label": "plug_type"}
+{"global_ix": 13668, "sentence": "i need an alarm to go off tomorrow at five fifteen", "label": "alarm"}
+{"global_ix": 22406, "sentence": "what is the expiration date of my milk", "label": "food_last"}
+{"global_ix": 6310, "sentence": "go back to your factory settings", "label": "reset_settings"}
+{"global_ix": 18111, "sentence": "go ahead and flip that coin, i choose heads", "label": "flip_coin"}
+{"global_ix": 17962, "sentence": "when should i get my tires changed again", "label": "tire_change"}
+{"global_ix": 8154, "sentence": "how many cs are in acquiescence", "label": "spelling"}
+{"global_ix": 18144, "sentence": "how many e's are in sesame", "label": "spelling"}
+{"global_ix": 4213, "sentence": "i replaced my tires last year when should i replace my tires again", "label": "tire_change"}
+{"global_ix": 17627, "sentence": "what type of outlets do they have in the uk", "label": "plug_type"}
+{"global_ix": 15816, "sentence": "what type of plug do i need when in rome", "label": "plug_type"}
+{"global_ix": 3040, "sentence": "please look to see if paying bills is on my reminders list currently", "label": "reminder"}
+{"global_ix": 19653, "sentence": "what date should i get my tires changed", "label": "tire_change"}
+{"global_ix": 7679, "sentence": "i would appreciate it if you could tell me the status of my southwest flight", "label": "flight_status"}
+{"global_ix": 8148, "sentence": "what meetings do i have today from 3 to 4", "label": "meeting_schedule"}
+{"global_ix": 14380, "sentence": "what meetings do i have today", "label": "meeting_schedule"}
+{"global_ix": 4406, "sentence": "flip coin, heads!", "label": "flip_coin"}
+{"global_ix": 20864, "sentence": "does england require socket converters", "label": "plug_type"}
+{"global_ix": 13458, "sentence": "do i have a reminder for our neighbor's anniversary", "label": "reminder"}
+{"global_ix": 3355, "sentence": "return to your factory settings", "label": "reset_settings"}
+{"global_ix": 9484, "sentence": "please flip a coin - i call heads", "label": "flip_coin"}
+{"global_ix": 15135, "sentence": "how long can i go before i need to change my tires", "label": "tire_change"}
+{"global_ix": 10122, "sentence": "i need you to set alarm for me", "label": "alarm"}
+{"global_ix": 8702, "sentence": "can you flip a coin for me", "label": "flip_coin"}
+{"global_ix": 13632, "sentence": "my tires are 29 months old should u change them", "label": "tire_change"}
+{"global_ix": 13815, "sentence": "how long can i freeze tofu before it goes bad", "label": "food_last"}
+{"global_ix": 11341, "sentence": "how often should my tires be changed", "label": "tire_change"}
+{"global_ix": 16269, "sentence": "what's the shelf life for eggs in the fridge", "label": "food_last"}
+{"global_ix": 12515, "sentence": "how do you spell guerrilla", "label": "spelling"}
+{"global_ix": 20366, "sentence": "tell me how many a's are in magical", "label": "spelling"}
+{"global_ix": 21445, "sentence": "please give me a rundown of my reminder list", "label": "reminder"}
+{"global_ix": 2066, "sentence": "how do you spell out espresso", "label": "spelling"}
+{"global_ix": 12687, "sentence": "i need to know how to spell the word serendipity", "label": "spelling"}
+{"global_ix": 2197, "sentence": "set me an alarm for 4pm and another for 5pm", "label": "alarm"}
+{"global_ix": 1274, "sentence": "what plug type is used internationally", "label": "plug_type"}
+{"global_ix": 6588, "sentence": "how soon should i get my tires changed", "label": "tire_change"}
+{"global_ix": 13427, "sentence": "what were the reminders that i made", "label": "reminder"}
+{"global_ix": 10333, "sentence": "when does pork go bad in the fridge", "label": "food_last"}
+{"global_ix": 2753, "sentence": "cut cucumbers can stay in the fridge for how long before spoiling", "label": "food_last"}
+{"global_ix": 9487, "sentence": "what time will i be able to board the plane", "label": "flight_status"}
+{"global_ix": 21466, "sentence": "when is my flight scheduled to board", "label": "flight_status"}
+{"global_ix": 12065, "sentence": "how many days before milk expire", "label": "food_last"}
+{"global_ix": 22858, "sentence": "i need help spelling superficial", "label": "spelling"}
+{"global_ix": 20062, "sentence": "are there meetings scheduled for today", "label": "meeting_schedule"}
+{"global_ix": 24, "sentence": "water is spelled how", "label": "spelling"}
+{"global_ix": 1043, "sentence": "what do the plugs look like in japan", "label": "plug_type"}
+{"global_ix": 8299, "sentence": "do i have any meetings planned for today", "label": "meeting_schedule"}
+{"global_ix": 2526, "sentence": "please go back to to factory settings now", "label": "reset_settings"}
+{"global_ix": 11415, "sentence": "can you tell me the status of my delta flight", "label": "flight_status"}
+{"global_ix": 21108, "sentence": "what is the length of time i can leave pork in the fridge", "label": "food_last"}
+{"global_ix": 13761, "sentence": "give me a coin toss result", "label": "flip_coin"}
+{"global_ix": 13463, "sentence": "can you remind me what i was trying to remember", "label": "reminder"}
+{"global_ix": 22950, "sentence": "go back to factory settings now", "label": "reset_settings"}
+{"global_ix": 16343, "sentence": "when is the right time to change my tires", "label": "tire_change"}
+{"global_ix": 22494, "sentence": "when ought i get my tires changed next", "label": "tire_change"}
+{"global_ix": 13168, "sentence": "how long can i expect chicken breast to be good for before expiration", "label": "food_last"}
+{"global_ix": 4507, "sentence": "i need to switch back to my factory settings", "label": "reset_settings"}
+{"global_ix": 10160, "sentence": "i gotta know when my flight will land", "label": "flight_status"}
+{"global_ix": 23088, "sentence": "how is doctor spelled", "label": "spelling"}
+{"global_ix": 11593, "sentence": "would you tell me when i should replace my tires next if i last replaced them on june 2", "label": "tire_change"}
+{"global_ix": 3582, "sentence": "what is the scheduled arrival time for my flight", "label": "flight_status"}
+{"global_ix": 4159, "sentence": "what can you tell me about flight dl123", "label": "flight_status"}
+{"global_ix": 15863, "sentence": "do i have any meeting to go to today", "label": "meeting_schedule"}
+{"global_ix": 5206, "sentence": "when would it be wise for me to swap out my tires", "label": "tire_change"}
+{"global_ix": 16161, "sentence": "do i need a socket converter if i'm going to be in ohio", "label": "plug_type"}
+{"global_ix": 3115, "sentence": "what are the things that i wanted to keep in mind", "label": "reminder"}
+{"global_ix": 1662, "sentence": "how do you spell syzygy", "label": "spelling"}
+{"global_ix": 8416, "sentence": "please create a new alarm for me", "label": "alarm"}
+{"global_ix": 2500, "sentence": "is grocery shopping on my reminders list", "label": "reminder"}
+{"global_ix": 16428, "sentence": "i want you to go back to factory settings", "label": "reset_settings"}
+{"global_ix": 2845, "sentence": "is checking the mail on my list of reminder", "label": "reminder"}
+{"global_ix": 23596, "sentence": "please reset your factory settings", "label": "reset_settings"}
+{"global_ix": 4629, "sentence": "return to factory default", "label": "reset_settings"}
+{"global_ix": 6471, "sentence": "are socket converters needed in lisbon", "label": "plug_type"}
+{"global_ix": 11694, "sentence": "when is the milk date before used", "label": "food_last"}
+{"global_ix": 18753, "sentence": "what are my meetings today", "label": "meeting_schedule"}
+{"global_ix": 43, "sentence": "when am i due for a tire change", "label": "tire_change"}
+{"global_ix": 21364, "sentence": "can you alert me at 6 in the morning", "label": "alarm"}
+{"global_ix": 9064, "sentence": "do one coin flip; it will be tails", "label": "flip_coin"}
+{"global_ix": 5120, "sentence": "iterate the items on my reminder list", "label": "reminder"}
+{"global_ix": 7562, "sentence": "at what time should i be boarding my flight", "label": "flight_status"}
+{"global_ix": 16241, "sentence": "within what time is is fine to eat cooked tilapia kept in the fridge", "label": "food_last"}
+{"global_ix": 6342, "sentence": "what is the proper spelling of corporate", "label": "spelling"}
+{"global_ix": 5494, "sentence": "can i use the plug i use at home when traveling in south america", "label": "plug_type"}
+{"global_ix": 8397, "sentence": "is my meeting with frank on my list of reminders", "label": "reminder"}
+{"global_ix": 8091, "sentence": "ai, flip a coin for me", "label": "flip_coin"}
+{"global_ix": 21311, "sentence": "when will my flight take off", "label": "flight_status"}
+{"global_ix": 10801, "sentence": "would you set my alarm for 10:00 and another for 3:00", "label": "alarm"}
+{"global_ix": 17343, "sentence": "do they use special outlets in australia", "label": "plug_type"}
+{"global_ix": 22778, "sentence": "have i got any meetings today with sara", "label": "meeting_schedule"}
+{"global_ix": 18916, "sentence": "i wanna know when my meeting is with dan", "label": "meeting_schedule"}
+{"global_ix": 14602, "sentence": "am i scheduled to meet with heather today", "label": "meeting_schedule"}
+{"global_ix": 10036, "sentence": "how long can i keep pizza in the freezer for before it goes bad", "label": "food_last"}
+{"global_ix": 9663, "sentence": "can you please do a simulated coin flip for me ai", "label": "flip_coin"}
+{"global_ix": 18294, "sentence": "please flip a coin", "label": "flip_coin"}
+{"global_ix": 21385, "sentence": "when does milk expire", "label": "food_last"}
+{"global_ix": 8156, "sentence": "i replaced tires last june when should i do it again", "label": "tire_change"}
+{"global_ix": 2189, "sentence": "switch back to factory settings", "label": "reset_settings"}
+{"global_ix": 9225, "sentence": "what are the things i wanted to recall", "label": "reminder"}
+{"global_ix": 13290, "sentence": "restart your actions with the original settings you came with", "label": "reset_settings"}
+{"global_ix": 671, "sentence": "are barcelona plugs compatible", "label": "plug_type"}
+{"global_ix": 20779, "sentence": "please reset the factory settings", "label": "reset_settings"}
+{"global_ix": 16392, "sentence": "i need you to switch to my original settings", "label": "reset_settings"}
+{"global_ix": 8549, "sentence": "so i have had pizza in the fridge since monday, so is it safe to eat", "label": "food_last"}
+{"global_ix": 18040, "sentence": "give me the results of a coin flip", "label": "flip_coin"}
+{"global_ix": 6507, "sentence": "i need to know how to spell \"miranda", "label": "spelling"}
+{"global_ix": 4263, "sentence": "change all setting to original ones", "label": "reset_settings"}
+{"global_ix": 1327, "sentence": "walk me through the items on my reminder list", "label": "reminder"}
+{"global_ix": 6521, "sentence": "do a coin toss", "label": "flip_coin"}
+{"global_ix": 2089, "sentence": "what time will my flight be boarding", "label": "flight_status"}
+{"global_ix": 4926, "sentence": "give me the status of flight dl123", "label": "flight_status"}
+{"global_ix": 5055, "sentence": "are there any meetings on the calendar for today", "label": "meeting_schedule"}
+{"global_ix": 12272, "sentence": "can you set up alarms for one in the afternoon and ten at night", "label": "alarm"}
+{"global_ix": 13565, "sentence": "please create an alarm for 12 noon", "label": "alarm"}
+{"global_ix": 11857, "sentence": "on my list of reminders is what", "label": "reminder"}
+{"global_ix": 20471, "sentence": "please rely on your original settings", "label": "reset_settings"}
+{"global_ix": 3614, "sentence": "can you flip a coin, i will take tails", "label": "flip_coin"}
+{"global_ix": 16934, "sentence": "create an alarm for 9 am and another one for 11 am", "label": "alarm"}
+{"global_ix": 6534, "sentence": "i want a coin flipped", "label": "flip_coin"}
+{"global_ix": 7411, "sentence": "are my tires due to be changed soon", "label": "tire_change"}
+{"global_ix": 15152, "sentence": "when will my flight land", "label": "flight_status"}
+{"global_ix": 11160, "sentence": "is mr ceo waiting me now", "label": "meeting_schedule"}
+{"global_ix": 5676, "sentence": "what is the plug type in france", "label": "plug_type"}
+{"global_ix": 5191, "sentence": "set up an alarm", "label": "alarm"}
+{"global_ix": 8059, "sentence": "am i good to eat this burger from the fridge that i got two mondays ago", "label": "food_last"}
+{"global_ix": 4701, "sentence": "when does my flight arrive", "label": "flight_status"}
+{"global_ix": 3383, "sentence": "what plug does colombia use", "label": "plug_type"}
+{"global_ix": 13796, "sentence": "i've had these burger patties in the freezer since saturday, are they still fine to cook", "label": "food_last"}
+{"global_ix": 13626, "sentence": "i need to go back on my factory settings", "label": "reset_settings"}
+{"global_ix": 6338, "sentence": "have an alarm wake me at 10:30 am", "label": "alarm"}
+{"global_ix": 4498, "sentence": "i don't know how to spell malfeasance", "label": "spelling"}
+{"global_ix": 5582, "sentence": "how long can pizza be in the fridge", "label": "food_last"}
+{"global_ix": 19057, "sentence": "please add alarms at 430am and 1030am", "label": "alarm"}
+{"global_ix": 17530, "sentence": "restore my factory settings immediately please", "label": "reset_settings"}
+{"global_ix": 6227, "sentence": "what time am i meeting john", "label": "meeting_schedule"}
+{"global_ix": 450, "sentence": "i need you to flip a coin so i can decide", "label": "flip_coin"}
+{"global_ix": 19927, "sentence": "i would like an alarm set", "label": "alarm"}
+{"global_ix": 23345, "sentence": "i am not sure how to spell punctuation", "label": "spelling"}
+{"global_ix": 23115, "sentence": "is flight dl123 due to land as schedule", "label": "flight_status"}
+{"global_ix": 3297, "sentence": "how long can i keep deer meat in the freezer before it's unedible", "label": "food_last"}
+{"global_ix": 3566, "sentence": "spell: dessert", "label": "spelling"}
+{"global_ix": 20238, "sentence": "spell aaron for me", "label": "spelling"}
+{"global_ix": 18782, "sentence": "can you spell hamburger", "label": "spelling"}
+{"global_ix": 9652, "sentence": "has the leftover hamburger from last saturday gone bad", "label": "food_last"}
+{"global_ix": 2148, "sentence": "help me flip a coin", "label": "flip_coin"}
+{"global_ix": 4211, "sentence": "when does milk will go bad", "label": "food_last"}
+{"global_ix": 5323, "sentence": "make the settings go back to the original", "label": "reset_settings"}
+{"global_ix": 2622, "sentence": "is the tofu i put in the fridge tuesday still edible today", "label": "food_last"}
+{"global_ix": 15851, "sentence": "when you go to germany, do you need a special converter for your plugs", "label": "plug_type"}
+{"global_ix": 21482, "sentence": "please make sure the alarm is set", "label": "alarm"}
+{"global_ix": 2847, "sentence": "please set two alarms, one at 12 pm and the next at 1 pm", "label": "alarm"}
+{"global_ix": 7673, "sentence": "i call tails and you call heads on this coin flip i need you to do", "label": "flip_coin"}
+{"global_ix": 7659, "sentence": "how long until i should have my tires replaced", "label": "tire_change"}
+{"global_ix": 14656, "sentence": "what do i need for a plug in wales", "label": "plug_type"}
+{"global_ix": 16891, "sentence": "is there a time limit on leaving pork in the fridge", "label": "food_last"}
+{"global_ix": 11333, "sentence": "i want to be switched back to my factory settings", "label": "reset_settings"}
+{"global_ix": 1638, "sentence": "i need to know if i have meetings from 3 to 6 pm", "label": "meeting_schedule"}
+{"global_ix": 15033, "sentence": "i want you to read my reminder list to me", "label": "reminder"}
+{"global_ix": 23369, "sentence": "how long can i keep fish in the freezer before it gets ruined", "label": "food_last"}
+{"global_ix": 22231, "sentence": "when do i have to get my tires changed", "label": "tire_change"}
+{"global_ix": 11238, "sentence": "did i add to my reminder list that i need to take the car in for an oil change", "label": "reminder"}
+{"global_ix": 8151, "sentence": "how long will steaks last in the freezer", "label": "food_last"}
+{"global_ix": 16600, "sentence": "what's the spelling of multimedia", "label": "spelling"}
+{"global_ix": 18600, "sentence": "please go through my reminder list and tell me what's on it", "label": "reminder"}
+{"global_ix": 1450, "sentence": "mayonaise has been in my fridge for three years, is it still good to eat", "label": "food_last"}
+{"global_ix": 534, "sentence": "heads or tails i choose tails", "label": "flip_coin"}
+{"global_ix": 21032, "sentence": "how long can i put pizza in the fridge", "label": "food_last"}
+{"global_ix": 1171, "sentence": "how do i spell ambitious", "label": "spelling"}
+{"global_ix": 5311, "sentence": "i want a coin flip and i'll take tails", "label": "flip_coin"}
+{"global_ix": 14430, "sentence": "what's the news with my delta flight", "label": "flight_status"}
+{"global_ix": 14080, "sentence": "am i scheduled for any gatherings today", "label": "meeting_schedule"}
+{"global_ix": 10605, "sentence": "set my alarm for eight tomorrow, please", "label": "alarm"}
+{"global_ix": 2133, "sentence": "when is the meeting with homer scheduled for", "label": "meeting_schedule"}
+{"global_ix": 14301, "sentence": "change settings to how they were originally", "label": "reset_settings"}
+{"global_ix": 12265, "sentence": "i wanted to remember somethings, what was it", "label": "reminder"}
+{"global_ix": 3913, "sentence": "set an alarm for 235pm and another an hour later", "label": "alarm"}
+{"global_ix": 5977, "sentence": "i don't know how to spell apparently", "label": "spelling"}
+{"global_ix": 12368, "sentence": "will you flip a coin", "label": "flip_coin"}
+{"global_ix": 16572, "sentence": "how far out is flight dl123", "label": "flight_status"}
+{"global_ix": 22887, "sentence": "how long can i leave tuna casserole in the fridge", "label": "food_last"}
+{"global_ix": 7963, "sentence": "make my settings go back to their factory settings", "label": "reset_settings"}
+{"global_ix": 14895, "sentence": "what plug type does spain use", "label": "plug_type"}
+{"global_ix": 7145, "sentence": "go back to initial settings", "label": "reset_settings"}
+{"global_ix": 704, "sentence": "what scheduled meetings do i have today", "label": "meeting_schedule"}
+{"global_ix": 20284, "sentence": "is it time to change my tires", "label": "tire_change"}
+{"global_ix": 3732, "sentence": "can you spell out \"annulment", "label": "spelling"}
+{"global_ix": 1782, "sentence": "tell me when today's meeting is supposed to happen", "label": "meeting_schedule"}
+{"global_ix": 12568, "sentence": "ai, please flip a coin", "label": "flip_coin"}
+{"global_ix": 19508, "sentence": "how do you spell water", "label": "spelling"}
+{"global_ix": 19900, "sentence": "i've had eggs in the fridge since monday, are they still safe", "label": "food_last"}
+{"global_ix": 9946, "sentence": "is there a reminder for my aa meeting on my list", "label": "reminder"}
+{"global_ix": 253, "sentence": "when is my flight supposed to leave", "label": "flight_status"}
+{"global_ix": 18930, "sentence": "tell me how i can tell if my tires need to be changed", "label": "tire_change"}
+{"global_ix": 18107, "sentence": "lets flip for it", "label": "flip_coin"}
+{"global_ix": 5618, "sentence": "how long until i need to change my tires", "label": "tire_change"}
+{"global_ix": 14649, "sentence": "do i need a socket converter if i'm going to be in uruguay", "label": "plug_type"}
+{"global_ix": 13448, "sentence": "would you say i need new tires if i last bought them on the 24th", "label": "tire_change"}
+{"global_ix": 14108, "sentence": "when should i have my tires replaced if i replaced them on the first of march", "label": "tire_change"}
+{"global_ix": 5412, "sentence": "heads or tails please", "label": "flip_coin"}
+{"global_ix": 21093, "sentence": "change to factory settings now", "label": "reset_settings"}
+{"global_ix": 1521, "sentence": "will the chicken have gone bad if it's been in the fridge since monday", "label": "food_last"}
+{"global_ix": 9172, "sentence": "are my tires due to be changed", "label": "tire_change"}
+{"global_ix": 17752, "sentence": "which plug is used in japan", "label": "plug_type"}
+{"global_ix": 3082, "sentence": "do i have any meetings with michael today", "label": "meeting_schedule"}
+{"global_ix": 1460, "sentence": "i want an alarm set up", "label": "alarm"}
+{"global_ix": 11219, "sentence": "tell me the complete spelling of definitely", "label": "spelling"}
+{"global_ix": 20274, "sentence": "schedule an alarm", "label": "alarm"}
+{"global_ix": 19282, "sentence": "i want you to reset to factory settings", "label": "reset_settings"}
+{"global_ix": 14856, "sentence": "when is that meeting with kara", "label": "meeting_schedule"}
+{"global_ix": 18437, "sentence": "when is my meeting with roger", "label": "meeting_schedule"}
+{"global_ix": 14494, "sentence": "please go ahead and flip a coin", "label": "flip_coin"}
+{"global_ix": 781, "sentence": "set me an alarm right now", "label": "alarm"}
+{"global_ix": 12492, "sentence": "what's the right spelling of rambunctious", "label": "spelling"}
+{"global_ix": 15072, "sentence": "create an alarm for me", "label": "alarm"}
+{"global_ix": 9806, "sentence": "what if i have the wrong plug", "label": "plug_type"}
+{"global_ix": 12861, "sentence": "what's the spelling of cancer", "label": "spelling"}
+{"global_ix": 4045, "sentence": "flip a heads or tails coin i pick heads", "label": "flip_coin"}
+{"global_ix": 1254, "sentence": "how often do tires need changing", "label": "tire_change"}
+{"global_ix": 5842, "sentence": "i have had farm fresh eggs in the fridge for a few months, are they still okay to ingest", "label": "food_last"}
+{"global_ix": 11675, "sentence": "can you tell me how to spell elephant", "label": "spelling"}
+{"global_ix": 16801, "sentence": "can you spell \"fragile\" for me", "label": "spelling"}
+{"global_ix": 6833, "sentence": "the lists of my reminders is what", "label": "reminder"}
+{"global_ix": 23127, "sentence": "when do i have meetings today", "label": "meeting_schedule"}
+{"global_ix": 3052, "sentence": "how often do you change your tires", "label": "tire_change"}
+{"global_ix": 18741, "sentence": "how long does it take tomatoes to expire", "label": "food_last"}
+{"global_ix": 3716, "sentence": "when is my meeting with jack for", "label": "meeting_schedule"}
+{"global_ix": 21121, "sentence": "how many ss are in narcissism", "label": "spelling"}
+{"global_ix": 2938, "sentence": "which electrical plug type should i bring with me to finland", "label": "plug_type"}
+{"global_ix": 2358, "sentence": "tell me the plug type that is used in scotland", "label": "plug_type"}
+{"global_ix": 1944, "sentence": "are the electric plugs the same over in that country", "label": "plug_type"}
+{"global_ix": 10280, "sentence": "what type of electrical plug do they use in spain", "label": "plug_type"}
+{"global_ix": 2702, "sentence": "i'd like to revert to factory settings", "label": "reset_settings"}
+{"global_ix": 4616, "sentence": "how long can you keep chicken in the freeze before it goes bad", "label": "food_last"}
+{"global_ix": 21816, "sentence": "i need one alarm to go off at 6:30 am and a second alarm set for 8:00 am", "label": "alarm"}
+{"global_ix": 22475, "sentence": "what plug type does russia use", "label": "plug_type"}
+{"global_ix": 18105, "sentence": "i wanna know when should i get my tires changed next", "label": "tire_change"}
+{"global_ix": 13807, "sentence": "what kind of plug is used in japan", "label": "plug_type"}
+{"global_ix": 18384, "sentence": "is there a meeting with sam today", "label": "meeting_schedule"}
+{"global_ix": 1998, "sentence": "now restore the original settings", "label": "reset_settings"}
+{"global_ix": 10746, "sentence": "what type of plug does the country use", "label": "plug_type"}
+{"global_ix": 5761, "sentence": "put me back on my factory settings", "label": "reset_settings"}
+{"global_ix": 18239, "sentence": "electrical plugs used in that country", "label": "plug_type"}
+{"global_ix": 16878, "sentence": "please set alarm for me", "label": "alarm"}
+{"global_ix": 3320, "sentence": "what time is my meeting with design team scheduled for", "label": "meeting_schedule"}
+{"global_ix": 7161, "sentence": "flip a coin, i have tails", "label": "flip_coin"}
+{"global_ix": 5685, "sentence": "how is the word economy spelled", "label": "spelling"}
+{"global_ix": 1374, "sentence": "please read my reminders", "label": "reminder"}
+{"global_ix": 18856, "sentence": "what is the fridge life of spahghetti", "label": "food_last"}
+{"global_ix": 11243, "sentence": "hey, flip me a coin i call tails", "label": "flip_coin"}
+{"global_ix": 428, "sentence": "flip that coin please, i choose heads", "label": "flip_coin"}
+{"global_ix": 9185, "sentence": "clear all settings in a reset", "label": "reset_settings"}
+{"global_ix": 17571, "sentence": "what is the expiration date for those eg", "label": "food_last"}
+{"global_ix": 11833, "sentence": "can you tell me what reminders i've set", "label": "reminder"}
+{"global_ix": 15978, "sentence": "tell me if i have a meeting with liz today", "label": "meeting_schedule"}
+{"global_ix": 14247, "sentence": "flip that coin now", "label": "flip_coin"}
+{"global_ix": 8768, "sentence": "coin flip", "label": "flip_coin"}
+{"global_ix": 2773, "sentence": "when is my meeting with bob", "label": "meeting_schedule"}
+{"global_ix": 19267, "sentence": "are there any meetings for today on my calendar", "label": "meeting_schedule"}
+{"global_ix": 22027, "sentence": "can you repeat my list back to me", "label": "reminder"}
+{"global_ix": 17087, "sentence": "what is the meeting schedule today", "label": "meeting_schedule"}
+{"global_ix": 10825, "sentence": "are there meetings schedules today between noon and one", "label": "meeting_schedule"}
+{"global_ix": 11955, "sentence": "my meeting with alice is scheduled for when", "label": "meeting_schedule"}
+{"global_ix": 3759, "sentence": "ai, please flip a simulated coin", "label": "flip_coin"}
+{"global_ix": 18357, "sentence": "can you make an alarm for 7 am", "label": "alarm"}
+{"global_ix": 15765, "sentence": "can i keep rice in the fridge for 3 days", "label": "food_last"}
+{"global_ix": 21878, "sentence": "i want you to help me make a decision by flipping a coin", "label": "flip_coin"}
+{"global_ix": 12068, "sentence": "what is the right way to spell superficial", "label": "spelling"}
+{"global_ix": 1570, "sentence": "can i turn on the alarm now", "label": "alarm"}
+{"global_ix": 22622, "sentence": "how long can i have pizza in the fridge", "label": "food_last"}
+{"global_ix": 22021, "sentence": "when is it time for a tire change", "label": "tire_change"}
+{"global_ix": 2600, "sentence": "give me the length of time that i can leave milk in my fridge", "label": "food_last"}
+{"global_ix": 10118, "sentence": "i need to know how long can i keep pizza in the freezer for before it goes bad", "label": "food_last"}
+{"global_ix": 4114, "sentence": "tires should be changed when", "label": "tire_change"}
+{"global_ix": 23201, "sentence": "could you tell me the status of flight dl123", "label": "flight_status"}
+{"global_ix": 7903, "sentence": "flip the coin, i choose heads", "label": "flip_coin"}
+{"global_ix": 19343, "sentence": "when should i get new tires i just replaced them", "label": "tire_change"}
+{"global_ix": 17671, "sentence": "read my reminder list", "label": "reminder"}
+{"global_ix": 19131, "sentence": "set alarm for 5 am", "label": "alarm"}
+{"global_ix": 18130, "sentence": "exactly what time is my meeting with robin scheduled for on", "label": "meeting_schedule"}
+{"global_ix": 5249, "sentence": "please inform me when my flight scheduled to board", "label": "flight_status"}
+{"global_ix": 8705, "sentence": "what is the eta of my flight", "label": "flight_status"}
+{"global_ix": 276, "sentence": "i need alarm for both 4am and 7am", "label": "alarm"}
+{"global_ix": 1967, "sentence": "where is my delta flight", "label": "flight_status"}
+{"global_ix": 21953, "sentence": "set an alarm for me", "label": "alarm"}
+{"global_ix": 6264, "sentence": "tell me the status of my american airlines flight", "label": "flight_status"}
+{"global_ix": 14222, "sentence": "flip a coin, you're tails and i'm heads", "label": "flip_coin"}
+{"global_ix": 8746, "sentence": "when should i get new tires", "label": "tire_change"}
+{"global_ix": 22026, "sentence": "do i have any meetings scheduled today", "label": "meeting_schedule"}
+{"global_ix": 1540, "sentence": "is a socket converter required if i travel to russia", "label": "plug_type"}
+{"global_ix": 5086, "sentence": "please go back to the original settings", "label": "reset_settings"}
+{"global_ix": 21942, "sentence": "let me know every meeting i have scheduled today", "label": "meeting_schedule"}
+{"global_ix": 21403, "sentence": "should i change my tires", "label": "tire_change"}
+{"global_ix": 17941, "sentence": "can you set an alarm", "label": "alarm"}
+{"global_ix": 14540, "sentence": "will my delta flight leave on time", "label": "flight_status"}
+{"global_ix": 4679, "sentence": "if you flip a coin, i call tails", "label": "flip_coin"}
+{"global_ix": 10416, "sentence": "what time am i meeting with john", "label": "meeting_schedule"}
+{"global_ix": 1996, "sentence": "what's on the reminder list", "label": "reminder"}
+{"global_ix": 22814, "sentence": "would a socket converter be needed in france", "label": "plug_type"}
+{"global_ix": 22627, "sentence": "is the gang getting together this afternoon", "label": "meeting_schedule"}
+{"global_ix": 1661, "sentence": "would i need new tires if my last purchase was in may of 2018", "label": "tire_change"}
+{"global_ix": 16888, "sentence": "when is my plane scheduled to land", "label": "flight_status"}
+{"global_ix": 11765, "sentence": "is buying a light bulb on my reminders list", "label": "reminder"}
+{"global_ix": 16267, "sentence": "set an alarm to go to sleep and another to wake up", "label": "alarm"}
+{"global_ix": 15051, "sentence": "restore your original settings, please", "label": "reset_settings"}
+{"global_ix": 7525, "sentence": "what's the expiration for steak", "label": "food_last"}
+{"global_ix": 401, "sentence": "please read my reminder list", "label": "reminder"}
+{"global_ix": 19354, "sentence": "flip a coin, heads", "label": "flip_coin"}
+{"global_ix": 1052, "sentence": "do i need replacement tires if my last purchase was in june 2015", "label": "tire_change"}
+{"global_ix": 21441, "sentence": "go back to factory settings please", "label": "reset_settings"}
+{"global_ix": 22, "sentence": "can you tell me when my flight is going to board", "label": "flight_status"}
+{"global_ix": 22992, "sentence": "how long can i keep bison in the freezer for before it spoils", "label": "food_last"}
+{"global_ix": 21082, "sentence": "go back the the settings you had originally", "label": "reset_settings"}
+{"global_ix": 13690, "sentence": "set reminder for 2 pm", "label": "alarm"}
+{"global_ix": 12179, "sentence": "when is it time for a change in tires", "label": "tire_change"}
+{"global_ix": 4937, "sentence": "when's my flight boarding", "label": "flight_status"}
+{"global_ix": 5911, "sentence": "how long can i keep avocados in the fridge before they go bad", "label": "food_last"}
+{"global_ix": 3143, "sentence": "change back to factory settings", "label": "reset_settings"}
+{"global_ix": 5138, "sentence": "please spell doctor", "label": "spelling"}
+{"global_ix": 3050, "sentence": "i would like to hear the reminders that i listed on my things to remember list, please", "label": "reminder"}
+{"global_ix": 10181, "sentence": "reset the factory settings now please", "label": "reset_settings"}
+{"global_ix": 19549, "sentence": "what is the status of my frontier flight", "label": "flight_status"}
+{"global_ix": 20592, "sentence": "should i bring a converter to barcelona", "label": "plug_type"}
+{"global_ix": 1926, "sentence": "i'd like a new alarm set for 6am", "label": "alarm"}
+{"global_ix": 21277, "sentence": "what do i have on my reminder list", "label": "reminder"}
+{"global_ix": 8991, "sentence": "what's the right way to spell miscellaneous", "label": "spelling"}
+{"global_ix": 18974, "sentence": "does sweden use the same kind of socket or do i need a converter", "label": "plug_type"}
+{"global_ix": 16405, "sentence": "change to factory settings", "label": "reset_settings"}
+{"global_ix": 4470, "sentence": "set alarm for 6am", "label": "alarm"}
+{"global_ix": 8003, "sentence": "would you please reboot yourself to factory settings", "label": "reset_settings"}
+{"global_ix": 14918, "sentence": "do a virtual coin flip and tell me if i win as tails", "label": "flip_coin"}
+{"global_ix": 2490, "sentence": "what time is boarding for my flight", "label": "flight_status"}
+{"global_ix": 1484, "sentence": "how long is it safe to leave a burger in the refrigerator", "label": "food_last"}
+{"global_ix": 3351, "sentence": "flip a coin one time", "label": "flip_coin"}
+{"global_ix": 6814, "sentence": "to charge my phone in india will i need a plug converter", "label": "plug_type"}
+{"global_ix": 23169, "sentence": "check my reminders for mop and floor", "label": "reminder"}
+{"global_ix": 16249, "sentence": "what's the latest info on flight dl123", "label": "flight_status"}
+{"global_ix": 9088, "sentence": "tell me my scheduled meetings for today only, please", "label": "meeting_schedule"}
+{"global_ix": 2977, "sentence": "i would like to have an alarm set for me", "label": "alarm"}
+{"global_ix": 5379, "sentence": "is there a limit to how long you can store bread in the freezer", "label": "food_last"}
+{"global_ix": 16202, "sentence": "tell me how long can i keep pizza in the freezer for before it goes bad", "label": "food_last"}
+{"global_ix": 1440, "sentence": "can you reset your factory settings", "label": "reset_settings"}
+{"global_ix": 20414, "sentence": "reset to your natural settings", "label": "reset_settings"}
+{"global_ix": 19635, "sentence": "revert to factory settings please", "label": "reset_settings"}
+{"global_ix": 12278, "sentence": "z uses which type of plug", "label": "plug_type"}
+{"global_ix": 12351, "sentence": "create alarms for 8 pm and 9 pm", "label": "alarm"}
+{"global_ix": 8120, "sentence": "any meetings on the schedule today", "label": "meeting_schedule"}
+{"global_ix": 6699, "sentence": "what kind of hertz outlets do they use in z", "label": "plug_type"}
+{"global_ix": 3734, "sentence": "how are british plugs", "label": "plug_type"}
+{"global_ix": 831, "sentence": "will i require a plug converter when i visit kenya", "label": "plug_type"}
+{"global_ix": 13077, "sentence": "can you tell me what kind of outlet plug there is over there", "label": "plug_type"}
+{"global_ix": 4512, "sentence": "what plug type does greece use", "label": "plug_type"}
+{"global_ix": 16835, "sentence": "check the start time of the meeting scheduled for today", "label": "meeting_schedule"}
+{"global_ix": 1851, "sentence": "what is the shelf life for beef in the freezer", "label": "food_last"}
+{"global_ix": 13452, "sentence": "i want you to flip a fair sided coin", "label": "flip_coin"}
+{"global_ix": 9602, "sentence": "whats the status of my south west flight", "label": "flight_status"}
+{"global_ix": 15649, "sentence": "can i get a random heads or tails", "label": "flip_coin"}
+{"global_ix": 12199, "sentence": "change back to the factory set up", "label": "reset_settings"}
+{"global_ix": 18883, "sentence": "tell how many a's are in the word happiness", "label": "spelling"}
+{"global_ix": 9018, "sentence": "do i have any meetings today between 2 and 3", "label": "meeting_schedule"}
+{"global_ix": 11896, "sentence": "when will my aa flight be landing", "label": "flight_status"}
+{"global_ix": 10061, "sentence": "how long does bread last", "label": "food_last"}
+{"global_ix": 5846, "sentence": "tell me what is on my reminder list", "label": "reminder"}
+{"global_ix": 10714, "sentence": "what is my plan for the day", "label": "reminder"}
+{"global_ix": 20622, "sentence": "get my back to factory settings", "label": "reset_settings"}
+{"global_ix": 12211, "sentence": "let me see the reminder list please", "label": "reminder"}
+{"global_ix": 14033, "sentence": "tell me how many meetings with pete i have for today", "label": "meeting_schedule"}
+{"global_ix": 17306, "sentence": "is there a specific date when i should get my tires changed", "label": "tire_change"}
+{"global_ix": 19425, "sentence": "make all settings the initial defaults if you would", "label": "reset_settings"}
+{"global_ix": 18652, "sentence": "can you tell me what time this flight is going to land", "label": "flight_status"}
+{"global_ix": 13989, "sentence": "when will my panam flight be arriving", "label": "flight_status"}
+{"global_ix": 3811, "sentence": "when should my tires be changed next", "label": "tire_change"}
+{"global_ix": 21656, "sentence": "how do i set the alarm", "label": "alarm"}
+{"global_ix": 18690, "sentence": "i want factory settings put back in place", "label": "reset_settings"}
+{"global_ix": 19393, "sentence": "is the meatloaf still good to eat, i've had it in the refrigerator since last monday", "label": "food_last"}
+{"global_ix": 11490, "sentence": "how low should the tread be on my tires to replace them i bought new tires four years ago", "label": "tire_change"}
+{"global_ix": 20232, "sentence": "go back to the factory settings for this device", "label": "reset_settings"}
+{"global_ix": 18938, "sentence": "it seems to be that i have had pizza in the fridge since monday, so is it safe to eat", "label": "food_last"}
+{"global_ix": 4719, "sentence": "do you know how many o's are in honor", "label": "spelling"}
+{"global_ix": 9832, "sentence": "do i have many meetings today between 2 and 4", "label": "meeting_schedule"}
+{"global_ix": 17284, "sentence": "prioritize to the settings you started with", "label": "reset_settings"}
+{"global_ix": 10250, "sentence": "do i have any meetings with dave today", "label": "meeting_schedule"}
+{"global_ix": 21839, "sentence": "if i have garlic from sunday is it still fine to use", "label": "food_last"}
+{"global_ix": 18472, "sentence": "how long does it take milk to expire", "label": "food_last"}
+{"global_ix": 4143, "sentence": "how long until my cereal is ruined", "label": "food_last"}
+{"global_ix": 11051, "sentence": "change back to your factory settins", "label": "reset_settings"}
+{"global_ix": 21585, "sentence": "please read my list of reminders", "label": "reminder"}
+{"global_ix": 3800, "sentence": "can you restore factory settings now", "label": "reset_settings"}
+{"global_ix": 15193, "sentence": "make an alarm for one and two in the morning", "label": "alarm"}
+{"global_ix": 6294, "sentence": "set an alarm for 6am, please", "label": "alarm"}
+{"global_ix": 13065, "sentence": "what is my meeting schedule today", "label": "meeting_schedule"}
+{"global_ix": 9818, "sentence": "does france use a socket converter", "label": "plug_type"}
+{"global_ix": 22398, "sentence": "what time will my flight reach the destination", "label": "flight_status"}
+{"global_ix": 7017, "sentence": "please go to factory settings now", "label": "reset_settings"}
+{"global_ix": 21933, "sentence": "how do i plug stuff in in france", "label": "plug_type"}
+{"global_ix": 22929, "sentence": "how often should i replace my tires sense i replaced them on 2/21/17", "label": "tire_change"}
+{"global_ix": 192, "sentence": "what is the correct spelling of judgment", "label": "spelling"}
+{"global_ix": 6916, "sentence": "set my alarm for five tomorrow morning, please", "label": "alarm"}
+{"global_ix": 4339, "sentence": "i need to know the status of flight dl123", "label": "flight_status"}
+{"global_ix": 3583, "sentence": "do i need a plug converter when i visit russia", "label": "plug_type"}
+{"global_ix": 4492, "sentence": "set a 5 am alarm please", "label": "alarm"}
+{"global_ix": 1627, "sentence": "what's the max time i can leave a green pepper in the fridge", "label": "food_last"}
+{"global_ix": 11870, "sentence": "i want to hear everything on my reminder list", "label": "reminder"}
+{"global_ix": 9012, "sentence": "how long will chicken last in the freezer", "label": "food_last"}
+{"global_ix": 13274, "sentence": "i think dan scheduled a meeting today with me, can you double check please", "label": "meeting_schedule"}
+{"global_ix": 21122, "sentence": "what is the timeframe for getting my tires changed", "label": "tire_change"}
+{"global_ix": 10487, "sentence": "i'd like to switch back to my factory settings", "label": "reset_settings"}
+{"global_ix": 11059, "sentence": "i need to know how to spell excellent", "label": "spelling"}
+{"global_ix": 19437, "sentence": "what are the items on my reminder list", "label": "reminder"}
+{"global_ix": 21929, "sentence": "reset to original settings", "label": "reset_settings"}
+{"global_ix": 14659, "sentence": "reset to factory settings", "label": "reset_settings"}
+{"global_ix": 22337, "sentence": "read my list of reminders to me", "label": "reminder"}
+{"global_ix": 7654, "sentence": "give me my reminders", "label": "reminder"}
+{"global_ix": 6999, "sentence": "what is the expiration date for honey", "label": "food_last"}
+{"global_ix": 9581, "sentence": "how many days milk can be preserved", "label": "food_last"}
+{"global_ix": 23315, "sentence": "how soon until the milk expires", "label": "food_last"}
+{"global_ix": 18033, "sentence": "please set an alarm for me", "label": "alarm"}
+{"global_ix": 613, "sentence": "check if it is ok to eat cheese that has been in the refrigerator since last tuesday", "label": "food_last"}
+{"global_ix": 7839, "sentence": "do i have any meetings today between 4 and 5", "label": "meeting_schedule"}
+{"global_ix": 3758, "sentence": "what is the arrival time for my flight", "label": "flight_status"}
+{"global_ix": 8065, "sentence": "how much longer until i have to change my tires", "label": "tire_change"}
+{"global_ix": 21541, "sentence": "will rice be ok in the fridge for 3 days", "label": "food_last"}
+{"global_ix": 19166, "sentence": "what's the plug type in honduras", "label": "plug_type"}
+{"global_ix": 11150, "sentence": "when i go to dubai will i need a socket converter", "label": "plug_type"}
+{"global_ix": 7728, "sentence": "help me get my device back to it's factory settings", "label": "reset_settings"}
+{"global_ix": 9918, "sentence": "when should i go in and have my tires changed", "label": "tire_change"}
+{"global_ix": 7510, "sentence": "how do you spell \"exactly", "label": "spelling"}
+{"global_ix": 7773, "sentence": "how do you spell out newspaper", "label": "spelling"}
+{"global_ix": 2350, "sentence": "will you repeat my reminder list", "label": "reminder"}
+{"global_ix": 2803, "sentence": "when should i change my tires", "label": "tire_change"}
+{"global_ix": 12152, "sentence": "if i bought new tires on may 27th, should i still need new ones", "label": "tire_change"}
+{"global_ix": 9051, "sentence": "tell me what's on my reminders list please", "label": "reminder"}
+{"global_ix": 21047, "sentence": "my tires need to be changed when", "label": "tire_change"}
+{"global_ix": 8977, "sentence": "do i need a plug converter when i visit belgium", "label": "plug_type"}
+{"global_ix": 4463, "sentence": "please tell me what the boarding time is for my plane", "label": "flight_status"}
+{"global_ix": 15646, "sentence": "when does the jerky expire", "label": "food_last"}
+{"global_ix": 8849, "sentence": "what meetings are on my calendar", "label": "meeting_schedule"}
+{"global_ix": 21330, "sentence": "i'd like to know how to spell cemetary", "label": "spelling"}
+{"global_ix": 14011, "sentence": "what is my schedule like today, any meetings with dan", "label": "meeting_schedule"}
+{"global_ix": 8721, "sentence": "bananas expire in how long", "label": "food_last"}
+{"global_ix": 21353, "sentence": "could you set one alarm for 8am saturday and one for 9am sunday", "label": "alarm"}
+{"global_ix": 5393, "sentence": "how about a coin flip", "label": "flip_coin"}
+{"global_ix": 18441, "sentence": "did i schedule any meetings for today", "label": "meeting_schedule"}
+{"global_ix": 5884, "sentence": "spell water", "label": "spelling"}
+{"global_ix": 4667, "sentence": "i wish i knew how to spell mississippi", "label": "spelling"}
+{"global_ix": 6060, "sentence": "how often should i get my tires changed", "label": "tire_change"}
+{"global_ix": 7245, "sentence": "please create one alarm for 330 pm and one for 8 pm", "label": "alarm"}
+{"global_ix": 852, "sentence": "what time is my flight supposed to be landing", "label": "flight_status"}
+{"global_ix": 3313, "sentence": "my list of reminders is what", "label": "reminder"}
+{"global_ix": 16824, "sentence": "flip a coin into the air", "label": "flip_coin"}
+{"global_ix": 13398, "sentence": "are there meetings from 1 to 5 pm", "label": "meeting_schedule"}
+{"global_ix": 15607, "sentence": "factory settings restoration", "label": "reset_settings"}
+{"global_ix": 17771, "sentence": "what is the spelling of potato", "label": "spelling"}
+{"global_ix": 4073, "sentence": "tell me how to spell doctor", "label": "spelling"}
+{"global_ix": 8464, "sentence": "do i need to get a plug converter for athens", "label": "plug_type"}
+{"global_ix": 10175, "sentence": "ai, heads or tails", "label": "flip_coin"}
+{"global_ix": 23634, "sentence": "how is the tread on my tires", "label": "tire_change"}
+{"global_ix": 22424, "sentence": "please flip a coin, and i call heads", "label": "flip_coin"}
+{"global_ix": 13044, "sentence": "don't forget to set an alarm for noon", "label": "alarm"}
+{"global_ix": 14821, "sentence": "what is the correct spelling for malignant", "label": "spelling"}
+{"global_ix": 12597, "sentence": "please tell me when my flight will land", "label": "flight_status"}
+{"global_ix": 22265, "sentence": "what kind of plugs will i need when i'm in ecuador", "label": "plug_type"}
+{"global_ix": 20508, "sentence": "reset to default settings", "label": "reset_settings"}
+{"global_ix": 11418, "sentence": "i want an alarm to go off at 9 am", "label": "alarm"}
+{"global_ix": 4793, "sentence": "what kind of electrical outlets do they use in z", "label": "plug_type"}
+{"global_ix": 11026, "sentence": "do my tires need to be changed", "label": "tire_change"}
+{"global_ix": 13596, "sentence": "flip a coin and tell me if it's heads", "label": "flip_coin"}
+{"global_ix": 14422, "sentence": "read my list of reminders", "label": "reminder"}
+{"global_ix": 8986, "sentence": "make a new alarm", "label": "alarm"}
+{"global_ix": 7985, "sentence": "change back to default settings", "label": "reset_settings"}
+{"global_ix": 13650, "sentence": "can you do a coin flip for me ai", "label": "flip_coin"}
+{"global_ix": 3419, "sentence": "create an alarm for 6am", "label": "alarm"}
+{"global_ix": 16575, "sentence": "i need to know the proper spelling of curiosity", "label": "spelling"}
+{"global_ix": 23621, "sentence": "let's settle it with a coin flip", "label": "flip_coin"}
+{"global_ix": 13380, "sentence": "can you tell me when my tires should get changed", "label": "tire_change"}
+{"global_ix": 6853, "sentence": "is it time for a tire change", "label": "tire_change"}
+{"global_ix": 6549, "sentence": "i need to know when should i get my tires changed next", "label": "tire_change"}
+{"global_ix": 608, "sentence": "how long until my flight is here", "label": "flight_status"}
+{"global_ix": 15650, "sentence": "how long can i keep chicken in the freezer for before it goes gross", "label": "food_last"}
+{"global_ix": 1528, "sentence": "if i replaced my tires on labor day, when should i next replace them", "label": "tire_change"}
+{"global_ix": 13863, "sentence": "i had a list of reminders what were they", "label": "reminder"}
+{"global_ix": 10418, "sentence": "i want a clean bootup to factory settings", "label": "reset_settings"}
+{"global_ix": 13707, "sentence": "tell me when my flight is scheduled to start boarding", "label": "flight_status"}
+{"global_ix": 8615, "sentence": "what did i list in my reminders", "label": "reminder"}
+{"global_ix": 1235, "sentence": "please flip the coin", "label": "flip_coin"}
+{"global_ix": 23569, "sentence": "when are my meetings today between noon and one", "label": "meeting_schedule"}
+{"global_ix": 23237, "sentence": "check my schedule for meetings today", "label": "meeting_schedule"}
+{"global_ix": 12343, "sentence": "i replaced my tires yesterday, when should i get new ones", "label": "tire_change"}
+{"global_ix": 16848, "sentence": "can you give me a spelling for antipathy", "label": "spelling"}
+{"global_ix": 12714, "sentence": "what does my running list of stuff to do list", "label": "reminder"}
+{"global_ix": 5266, "sentence": "is flight dl123 going to arrive on time", "label": "flight_status"}
+{"global_ix": 3339, "sentence": "is it safe to eat chicken that has been in the fridge since monday", "label": "food_last"}
+{"global_ix": 11769, "sentence": "when is the expected arrival of flight dl123", "label": "flight_status"}
+{"global_ix": 5049, "sentence": "what are all the things on my reminder list", "label": "reminder"}
+{"global_ix": 8030, "sentence": "do i need new tires", "label": "tire_change"}
+{"global_ix": 18631, "sentence": "please read all the items on my reminder list", "label": "reminder"}
+{"global_ix": 19168, "sentence": "go ahead and flip a coin, i am calling tails", "label": "flip_coin"}
+{"global_ix": 3681, "sentence": "when is the egg expired", "label": "food_last"}
+{"global_ix": 20930, "sentence": "flip us a coin, i call heads", "label": "flip_coin"}
+{"global_ix": 1849, "sentence": "\"which things are wanted to remember", "label": "reminder"}
+{"global_ix": 16396, "sentence": "do i need a socket converter if i'm going to be in eithiopia", "label": "plug_type"}
+{"global_ix": 15284, "sentence": "what is the amount of time to keep milk refrigerated", "label": "food_last"}
+{"global_ix": 11715, "sentence": "what did i want to remember", "label": "reminder"}
+{"global_ix": 6268, "sentence": "how long can i keep pork in the freezer for before it gets freezer burnt", "label": "food_last"}
+{"global_ix": 5688, "sentence": "please turn my settings back to the original settings", "label": "reset_settings"}
+{"global_ix": 8205, "sentence": "please set an alarm for 2 pm for me", "label": "alarm"}
+{"global_ix": 23677, "sentence": "can you tell me when my tires have to be changed", "label": "tire_change"}
+{"global_ix": 5575, "sentence": "what time i have to meet mr accountant", "label": "meeting_schedule"}
+{"global_ix": 7863, "sentence": "what time is this flight supposed to land", "label": "flight_status"}
+{"global_ix": 8347, "sentence": "what is the most amount of time that is considered safe to store uncooked chicken in the fridge", "label": "food_last"}
+{"global_ix": 12543, "sentence": "what time is my flight supposed to board", "label": "flight_status"}
+{"global_ix": 18581, "sentence": "what kind of plug type do they use in russia", "label": "plug_type"}
+{"global_ix": 19144, "sentence": "please reconfigure yourself back to factory settings", "label": "reset_settings"}
+{"global_ix": 356, "sentence": "is there a conversion plug if you travel to australia", "label": "plug_type"}
+{"global_ix": 9270, "sentence": "make an alarm 6am", "label": "alarm"}
+{"global_ix": 5314, "sentence": "i put some leftover stew in the fridge and want to know how long it'll last", "label": "food_last"}
+{"global_ix": 8357, "sentence": "reset the factory settings if possible", "label": "reset_settings"}
+{"global_ix": 4528, "sentence": "is the meeting with lisa today", "label": "meeting_schedule"}
+{"global_ix": 9142, "sentence": "tell me flight dl123's statud", "label": "flight_status"}
+{"global_ix": 20487, "sentence": "let's go to default settings", "label": "reset_settings"}
+{"global_ix": 8125, "sentence": "ring my phone at 12 pm", "label": "alarm"}
+{"global_ix": 20291, "sentence": "what were those things i wanted to remember", "label": "reminder"}
+{"global_ix": 13220, "sentence": "how many miles until i change my tires", "label": "tire_change"}
+{"global_ix": 8064, "sentence": "i need an alarm set for 6 in the morning", "label": "alarm"}
+{"global_ix": 18351, "sentence": "tell me that status of flight dl123", "label": "flight_status"}
+{"global_ix": 14555, "sentence": "do they use a different plug in brazil", "label": "plug_type"}
+{"global_ix": 20047, "sentence": "my chinese food has sat in the fridge since friday but can i still eat it", "label": "food_last"}
+{"global_ix": 15184, "sentence": "what is on my reminder list", "label": "reminder"}
+{"global_ix": 8206, "sentence": "would i need to buy a plug converter when in rome", "label": "plug_type"}
+{"global_ix": 13544, "sentence": "i call tails for a coin flip you need to do right now", "label": "flip_coin"}
+{"global_ix": 11586, "sentence": "how long does the average set of tire last before needing replacement", "label": "tire_change"}
+{"global_ix": 4757, "sentence": "so it seems i have had pizza in the fridge since monday, so is it safe to eat", "label": "food_last"}
+{"global_ix": 17646, "sentence": "give me the spelling of potato", "label": "spelling"}
+{"global_ix": 16901, "sentence": "give me the status on my united airlines flight", "label": "flight_status"}
+{"global_ix": 5606, "sentence": "malignant is spelled how exactly", "label": "spelling"}
+{"global_ix": 9360, "sentence": "would it be smart to get a plug converter when i visit israel", "label": "plug_type"}
+{"global_ix": 21450, "sentence": "make a new alarm for 6 in the morning", "label": "alarm"}
+{"global_ix": 7465, "sentence": "what plugs are in england", "label": "plug_type"}
+{"global_ix": 6415, "sentence": "do i have any meetings on my schedule today", "label": "meeting_schedule"}
+{"global_ix": 7559, "sentence": "how do you spell the word comity, i need to know", "label": "spelling"}
+{"global_ix": 17770, "sentence": "i need for you to get me the status of my american airlines flight", "label": "flight_status"}
+{"global_ix": 12340, "sentence": "what's the right way to spell \"emolument", "label": "spelling"}
+{"global_ix": 3255, "sentence": "correct spelling for aaron", "label": "spelling"}
+{"global_ix": 17999, "sentence": "when for i meet jane for our meeting", "label": "meeting_schedule"}
+{"global_ix": 18602, "sentence": "now i'd like for you to return to the original settings", "label": "reset_settings"}
+{"global_ix": 18965, "sentence": "how do you spell hotdog", "label": "spelling"}
+{"global_ix": 18070, "sentence": "is it possible to change to original settings", "label": "reset_settings"}
+{"global_ix": 20954, "sentence": "configure this to factory settings", "label": "reset_settings"}
+{"global_ix": 8684, "sentence": "i'd like alarms set for 11am and 132pm", "label": "alarm"}
+{"global_ix": 16185, "sentence": "is a plug converter necessary in mexico", "label": "plug_type"}
+{"global_ix": 23279, "sentence": "can you get a coin and flip it", "label": "flip_coin"}
+{"global_ix": 22600, "sentence": "when is my meeting with invoicing scheduled", "label": "meeting_schedule"}
+{"global_ix": 3356, "sentence": "has flight dl123 landed", "label": "flight_status"}
+{"global_ix": 18498, "sentence": "when will i get to my destination", "label": "flight_status"}
+{"global_ix": 16752, "sentence": "i don't know how to spell apoplectic, can you tell me", "label": "spelling"}
+{"global_ix": 5984, "sentence": "what do i have on my list of reminders", "label": "reminder"}
+{"global_ix": 3617, "sentence": "please flip the coin over ai", "label": "flip_coin"}
+{"global_ix": 10260, "sentence": "when must i get my tires changed", "label": "tire_change"}
+{"global_ix": 7979, "sentence": "i'd like to know how acommodate is spelled", "label": "spelling"}
+{"global_ix": 20751, "sentence": "how can i spell avocado", "label": "spelling"}
+{"global_ix": 13496, "sentence": "do i have a meeting with paul today", "label": "meeting_schedule"}
+{"global_ix": 9717, "sentence": "how long until my milk expires", "label": "food_last"}
+{"global_ix": 6135, "sentence": "please tell me if a coin lands on tails", "label": "flip_coin"}
+{"global_ix": 13886, "sentence": "set an alarm for 05:00 and one for 16:00", "label": "alarm"}
+{"global_ix": 17601, "sentence": "what meetings do i have on my agenda today", "label": "meeting_schedule"}
+{"global_ix": 18786, "sentence": "how do you spell aaron", "label": "spelling"}
+{"global_ix": 19072, "sentence": "which type of plugs do they use in scotland", "label": "plug_type"}
+{"global_ix": 8831, "sentence": "when is my flight expected to arrive", "label": "flight_status"}
+{"global_ix": 3412, "sentence": "put in an alarm for 5pm", "label": "alarm"}
+{"global_ix": 20023, "sentence": "i want to know my reminders", "label": "reminder"}
+{"global_ix": 16485, "sentence": "is my milk safe to drink after being in the refrigerator for a week", "label": "food_last"}
+{"global_ix": 16634, "sentence": "tell me when the milk will expire", "label": "food_last"}
+{"global_ix": 9123, "sentence": "i require a coin flip", "label": "flip_coin"}
+{"global_ix": 2223, "sentence": "is there a way to tell if i need new tires", "label": "tire_change"}
+{"global_ix": 8515, "sentence": "read what i added to the reminder list", "label": "reminder"}
+{"global_ix": 12237, "sentence": "how long are eggs good for", "label": "food_last"}
+{"global_ix": 5374, "sentence": "what's the right way to spell indict", "label": "spelling"}
+{"global_ix": 10612, "sentence": "milk can stay in my fridge for how long", "label": "food_last"}
+{"global_ix": 14467, "sentence": "do i have any meetings coming up with dan", "label": "meeting_schedule"}
+{"global_ix": 5355, "sentence": "please flip a coin and tell me what side it lands on", "label": "flip_coin"}
+{"global_ix": 23074, "sentence": "i need an alarm set", "label": "alarm"}
+{"global_ix": 14282, "sentence": "spell antipathy for me", "label": "spelling"}
+{"global_ix": 7949, "sentence": "tell my all my reminders", "label": "reminder"}
+{"global_ix": 10197, "sentence": "will my plugs work in barcelona", "label": "plug_type"}
+{"global_ix": 6911, "sentence": "you got to go back to factory settings now", "label": "reset_settings"}
+{"global_ix": 2946, "sentence": "please spell the word umbrella", "label": "spelling"}
+{"global_ix": 4314, "sentence": "where is flight dl123", "label": "flight_status"}
+{"global_ix": 20612, "sentence": "start over using factory setting", "label": "reset_settings"}
+{"global_ix": 7401, "sentence": "can i use electronic devices in mexico without a socket converter", "label": "plug_type"}
+{"global_ix": 13588, "sentence": "perform a coin flip", "label": "flip_coin"}
+{"global_ix": 23685, "sentence": "whats the most recent status for my virgin air flight", "label": "flight_status"}
+{"global_ix": 18492, "sentence": "on what day is my meeting with dr lee", "label": "meeting_schedule"}
+{"global_ix": 19051, "sentence": "what are the cuban plugs like", "label": "plug_type"}
+{"global_ix": 21254, "sentence": "make sure my alarm is set for three thirty in the morning", "label": "alarm"}
+{"global_ix": 21181, "sentence": "the word is happiness; how many a's can you find in that word", "label": "spelling"}
+{"global_ix": 4367, "sentence": "set my alarm for 6am tomorrow", "label": "alarm"}
+{"global_ix": 16341, "sentence": "what reminders did i have", "label": "reminder"}
+{"global_ix": 21230, "sentence": "how long until pork spoils in the fridge", "label": "food_last"}
+{"global_ix": 21672, "sentence": "when i go to mexico, what kind of plugs do i need", "label": "plug_type"}
+{"global_ix": 12020, "sentence": "do i have any meetings today between 8 and 9", "label": "meeting_schedule"}
+{"global_ix": 3970, "sentence": "after how much time is it still safe to drink milk that is in the fridge", "label": "food_last"}
+{"global_ix": 173, "sentence": "go back to default settings", "label": "reset_settings"}
+{"global_ix": 17129, "sentence": "in france do they require socket conveters", "label": "plug_type"}
+{"global_ix": 1663, "sentence": "so please reset your factory settings", "label": "reset_settings"}
+{"global_ix": 10219, "sentence": "whats the status of my delta flight", "label": "flight_status"}
+{"global_ix": 15890, "sentence": "are socket converters necessary in england", "label": "plug_type"}
+{"global_ix": 15434, "sentence": "please tell me my meeting schedule", "label": "meeting_schedule"}
+{"global_ix": 8329, "sentence": "list the things i wanted to remember", "label": "reminder"}
+{"global_ix": 9797, "sentence": "return to your original settings, please", "label": "reset_settings"}
+{"global_ix": 16482, "sentence": "wake me up with an alarm at 6am", "label": "alarm"}
+{"global_ix": 6901, "sentence": "is there a time when i should get my tires changed", "label": "tire_change"}
+{"global_ix": 13569, "sentence": "are there any meetings between 2 and 5 pm", "label": "meeting_schedule"}
+{"global_ix": 11811, "sentence": "when will my tires need to be changed", "label": "tire_change"}
+{"global_ix": 11383, "sentence": "give me the plug type for the country", "label": "plug_type"}
+{"global_ix": 21382, "sentence": "when i visit thailand do i need a plug converter", "label": "plug_type"}
+{"global_ix": 11029, "sentence": "spin a coin", "label": "flip_coin"}
+{"global_ix": 19262, "sentence": "what plug type is used in spain", "label": "plug_type"}
+{"global_ix": 7421, "sentence": "when shall i get my tires changed", "label": "tire_change"}
+{"global_ix": 8498, "sentence": "go through my reminder list with me please", "label": "reminder"}
+{"global_ix": 18118, "sentence": "tell me if flipping the mattress is on my list of reminders please", "label": "reminder"}
+{"global_ix": 739, "sentence": "spell the word restaurant for me", "label": "spelling"}
+{"global_ix": 18826, "sentence": "what time is boarding scheduled", "label": "flight_status"}
+{"global_ix": 7307, "sentence": "what kind of plug do i need for my razor in ireland", "label": "plug_type"}
+{"global_ix": 12160, "sentence": "what time is my meeting with steve", "label": "meeting_schedule"}
+{"global_ix": 12603, "sentence": "is it possible i have a meeting with kim today", "label": "meeting_schedule"}
+{"global_ix": 18277, "sentence": "i want an alarm at 5pm", "label": "alarm"}
+{"global_ix": 13926, "sentence": "set an alarm for four thirty tomorrow, please", "label": "alarm"}
+{"global_ix": 13534, "sentence": "let me know when should i get my tires changed next", "label": "tire_change"}
+{"global_ix": 6272, "sentence": "do i have any reminders to look up how to properly do a potato in my microwave", "label": "reminder"}
+{"global_ix": 23373, "sentence": "how do i know if my milk is expired", "label": "food_last"}
+{"global_ix": 7708, "sentence": "make an alarm for tomorrow at twilight", "label": "alarm"}
+{"global_ix": 11754, "sentence": "how to spell: dessert", "label": "spelling"}
+{"global_ix": 16890, "sentence": "when should i replace my tires next if i last replaced them on the 1st", "label": "tire_change"}
+{"global_ix": 15640, "sentence": "what type of plugs do they use in london", "label": "plug_type"}
+{"global_ix": 13121, "sentence": "how soon until my tires will need to be changed", "label": "tire_change"}
+{"global_ix": 17836, "sentence": "does denmark use different sockets", "label": "plug_type"}
+{"global_ix": 21715, "sentence": "is cooked chicken still good after being refrigerated for two weeks", "label": "food_last"}
+{"global_ix": 15836, "sentence": "do i need a socket converter if i'm going to be in sweden", "label": "plug_type"}
+{"global_ix": 16637, "sentence": "wake me up at 6 am", "label": "alarm"}
+{"global_ix": 14472, "sentence": "can you check when my flight lands", "label": "flight_status"}
+{"global_ix": 8196, "sentence": "how long do tires last for", "label": "tire_change"}
+{"global_ix": 1399, "sentence": "tell me my reminder list", "label": "reminder"}
+{"global_ix": 2252, "sentence": "i'd like you to throw a virtual coin for me", "label": "flip_coin"}
+{"global_ix": 21444, "sentence": "does england have a different plug type and if so what is it", "label": "plug_type"}
+{"global_ix": 7663, "sentence": "flip me a coin", "label": "flip_coin"}
+{"global_ix": 15710, "sentence": "please reset to factory settings", "label": "reset_settings"}
+{"global_ix": 19614, "sentence": "how long does it take for dough in the freezer to go off", "label": "food_last"}
+{"global_ix": 22467, "sentence": "let me know the status of my american airlines flight", "label": "flight_status"}
+{"global_ix": 21557, "sentence": "whats the status of my frontier flight", "label": "flight_status"}
+{"global_ix": 19627, "sentence": "i want you to reset to brand new please", "label": "reset_settings"}
+{"global_ix": 2769, "sentence": "when should i replace my tires sense i last replaced them on 3/21/17", "label": "tire_change"}
+{"global_ix": 10202, "sentence": "provide assistance by setting an alarm at 8:00 and another for 11:00", "label": "alarm"}
+{"global_ix": 21011, "sentence": "what did i ask to be reminded about", "label": "reminder"}
+{"global_ix": 1586, "sentence": "check my reminders for mop the floor", "label": "reminder"}
+{"global_ix": 21793, "sentence": "will it be okay for me to eat my leftover turkey from monday that's been in my fridge", "label": "food_last"}
+{"global_ix": 1104, "sentence": "how do you spell tomato", "label": "spelling"}
+{"global_ix": 14081, "sentence": "what kind of plug does the country use", "label": "plug_type"}
+{"global_ix": 4374, "sentence": "i have potatoes in the cupboard from wednesday, are they fine", "label": "food_last"}
+{"global_ix": 15571, "sentence": "i want to know how to correctly spell cemetery", "label": "spelling"}
+{"global_ix": 3259, "sentence": "would you let me know the status of my american airlines flight", "label": "flight_status"}
+{"global_ix": 14438, "sentence": "oranges expire in how long", "label": "food_last"}
+{"global_ix": 20335, "sentence": "do i have any meetings between 1 and 8 pm", "label": "meeting_schedule"}
+{"global_ix": 8073, "sentence": "i don't know how to spell threshold", "label": "spelling"}
+{"global_ix": 14138, "sentence": "i need you to reset your factory settings", "label": "reset_settings"}
+{"global_ix": 4673, "sentence": "can you please remind me of the items that i made note of to not forget", "label": "reminder"}
+{"global_ix": 11979, "sentence": "can you tell me when i ought to switch out my tires", "label": "tire_change"}
+{"global_ix": 19229, "sentence": "when should the flight land", "label": "flight_status"}
+{"global_ix": 464, "sentence": "let me hear all meetings for today", "label": "meeting_schedule"}
+{"global_ix": 6582, "sentence": "what's the proper way to spell \"helicopter", "label": "spelling"}
+{"global_ix": 12682, "sentence": "when are my tires next due for a change", "label": "tire_change"}
+{"global_ix": 236, "sentence": "tell me when i'll need new tires", "label": "tire_change"}
+{"global_ix": 15358, "sentence": "i need alarms set for 6am and 615am", "label": "alarm"}
+{"global_ix": 6055, "sentence": "do i need a socket converter if i'm going to be in russia", "label": "plug_type"}
+{"global_ix": 10533, "sentence": "whats the status of my singapore flight", "label": "flight_status"}
+{"global_ix": 15883, "sentence": "how long can i keep a ham in the freezer", "label": "food_last"}
+{"global_ix": 5765, "sentence": "about how many meetings am i attending between 12 and 3 today", "label": "meeting_schedule"}
+{"global_ix": 5280, "sentence": "what items did i want to remember", "label": "reminder"}
+{"global_ix": 21246, "sentence": "list my reminders", "label": "reminder"}
+{"global_ix": 13046, "sentence": "i need to know when i should change my tires", "label": "tire_change"}
+{"global_ix": 17053, "sentence": "set an alarm for ten tomorrow", "label": "alarm"}
+{"global_ix": 3575, "sentence": "at what time will my flight begin boarding", "label": "flight_status"}
+{"global_ix": 11457, "sentence": "go ahead and go back to the original settings", "label": "reset_settings"}
+{"global_ix": 11997, "sentence": "what's on my reminder list today", "label": "reminder"}
+{"global_ix": 6385, "sentence": "what is the time for a tire change", "label": "tire_change"}
+{"global_ix": 5994, "sentence": "can i used the same type of plug in z as i do in the us", "label": "plug_type"}
+{"global_ix": 21484, "sentence": "after 3 days in the fridge is rice safe to eat", "label": "food_last"}
+{"global_ix": 22560, "sentence": "what's the status of my united flight", "label": "flight_status"}
+{"global_ix": 18905, "sentence": "please revert to the original settings", "label": "reset_settings"}
+{"global_ix": 18829, "sentence": "could you set the alarm", "label": "alarm"}
+{"global_ix": 19027, "sentence": "can you remind me how to spell because", "label": "spelling"}
+{"global_ix": 22625, "sentence": "set alarm", "label": "alarm"}
+{"global_ix": 1929, "sentence": "how does the dictionary spell antipathy", "label": "spelling"}
+{"global_ix": 15894, "sentence": "how long can i expect to keep steak in the freezer", "label": "food_last"}
+{"global_ix": 22533, "sentence": "tell me what time my flight ought to be landing", "label": "flight_status"}
+{"global_ix": 4797, "sentence": "when is boarding scheduled for my flight", "label": "flight_status"}
+{"global_ix": 7103, "sentence": "when do i need to change my tires", "label": "tire_change"}
+{"global_ix": 11094, "sentence": "tomorrow i need an alarm at 7 tomorrow", "label": "alarm"}
+{"global_ix": 12592, "sentence": "i want an alarm set", "label": "alarm"}
+{"global_ix": 18242, "sentence": "restore your original settings now", "label": "reset_settings"}
+{"global_ix": 12726, "sentence": "when do i need to change my tires again", "label": "tire_change"}
+{"global_ix": 10205, "sentence": "please remove current settings and go back to factory settings now", "label": "reset_settings"}
+{"global_ix": 8450, "sentence": "go back to the default settings please", "label": "reset_settings"}
+{"global_ix": 22754, "sentence": "do i need a converter in barcelona", "label": "plug_type"}
+{"global_ix": 3894, "sentence": "when does boarding for my flight begin", "label": "flight_status"}
+{"global_ix": 17058, "sentence": "do i have any meetings today between 9 and 10:30", "label": "meeting_schedule"}
+{"global_ix": 18423, "sentence": "what's the latest with my united flight", "label": "flight_status"}
+{"global_ix": 17109, "sentence": "do i have meetings from 1 to 4 today", "label": "meeting_schedule"}
+{"global_ix": 1938, "sentence": "can you return to the factory fresh settings", "label": "reset_settings"}
+{"global_ix": 2838, "sentence": "set an alarm", "label": "alarm"}
+{"global_ix": 15877, "sentence": "what is the word on flight dl123", "label": "flight_status"}
+{"global_ix": 21658, "sentence": "please flip a coin, i choose heads!", "label": "flip_coin"}
+{"global_ix": 13880, "sentence": "i need to know how to spell conscience", "label": "spelling"}
+{"global_ix": 5968, "sentence": "roughly how long can i leave bananas in the freezer before i have to throw them out", "label": "food_last"}
+{"global_ix": 13364, "sentence": "do you know when the best time for me to change my tires next would be", "label": "tire_change"}
+{"global_ix": 7587, "sentence": "are socket converters needed if i'm going to cape town", "label": "plug_type"}
+{"global_ix": 9006, "sentence": "flip a coin for me i call tails", "label": "flip_coin"}
+{"global_ix": 9367, "sentence": "can you flip a coin i call heads", "label": "flip_coin"}
+{"global_ix": 22882, "sentence": "flip a coin for me and i call heads", "label": "flip_coin"}
+{"global_ix": 7590, "sentence": "read my reminder list back to me", "label": "reminder"}
+{"global_ix": 7665, "sentence": "if i visit cairo will i need a plug converter", "label": "plug_type"}
+{"global_ix": 14675, "sentence": "restore the factory settings", "label": "reset_settings"}
+{"global_ix": 3724, "sentence": "do i need a socket converter if i'm going to be in hong kong", "label": "plug_type"}
+{"global_ix": 6783, "sentence": "is my spirit flight running on time", "label": "flight_status"}
+{"global_ix": 13204, "sentence": "what electrical plug do they use in the uk", "label": "plug_type"}
+{"global_ix": 17568, "sentence": "when do my tires need to be changed again", "label": "tire_change"}
+{"global_ix": 23427, "sentence": "tell me my reminders", "label": "reminder"}
+{"global_ix": 10267, "sentence": "set an alarm for 9pm please", "label": "alarm"}
+{"global_ix": 15085, "sentence": "would you set up an alarm for me", "label": "alarm"}
+{"global_ix": 14885, "sentence": "when is today's meeting with john", "label": "meeting_schedule"}
+{"global_ix": 11120, "sentence": "how long can i store eggs in the fridge", "label": "food_last"}
+{"global_ix": 11491, "sentence": "please create an alarm for 5:45 am and an alarm for 6:15 am", "label": "alarm"}
+{"global_ix": 14632, "sentence": "how would i go about spelling malignant", "label": "spelling"}
+{"global_ix": 15862, "sentence": "what do i have going on between 9 and 10", "label": "meeting_schedule"}
+{"global_ix": 18220, "sentence": "what time does my flight board", "label": "flight_status"}
+{"global_ix": 1255, "sentence": "i need an alarm set please", "label": "alarm"}
+{"global_ix": 18668, "sentence": "can you tell me how to spell manipulation", "label": "spelling"}
+{"global_ix": 20545, "sentence": "what time is today's meeting", "label": "meeting_schedule"}
+{"global_ix": 13212, "sentence": "let me know the status of flight dl123", "label": "flight_status"}
+{"global_ix": 12864, "sentence": "tell me everything i included on my list of things to remember for later", "label": "reminder"}
+{"global_ix": 3754, "sentence": "i wanted to remember some things, what were they", "label": "reminder"}
+{"global_ix": 14429, "sentence": "can you do a coin flip", "label": "flip_coin"}
+{"global_ix": 4092, "sentence": "what kind of plug converter is needed in c", "label": "plug_type"}
+{"global_ix": 23313, "sentence": "can you read me my list of reminders", "label": "reminder"}
+{"global_ix": 14802, "sentence": "can you read my reminder list, please", "label": "reminder"}
+{"global_ix": 18157, "sentence": "flip a normal coin", "label": "flip_coin"}
+{"global_ix": 19514, "sentence": "should i bring my socket converter while traveling to england", "label": "plug_type"}
+{"global_ix": 20318, "sentence": "does today's schedule include any meetings", "label": "meeting_schedule"}
+{"global_ix": 2254, "sentence": "whats the update on flight dl123", "label": "flight_status"}
+{"global_ix": 10136, "sentence": "change back to your initial settings please", "label": "reset_settings"}
+{"global_ix": 1416, "sentence": "please revert to your factory settings", "label": "reset_settings"}
+{"global_ix": 3426, "sentence": "can you please let me know when next my tires are due to be changed", "label": "tire_change"}
+{"global_ix": 1494, "sentence": "please set me an alarm", "label": "alarm"}
+{"global_ix": 6364, "sentence": "when will my delta flight depart", "label": "flight_status"}
+{"global_ix": 194, "sentence": "i need an alarm", "label": "alarm"}
+{"global_ix": 4905, "sentence": "tell me how to spell curiosity", "label": "spelling"}
+{"global_ix": 9844, "sentence": "set an alarm to start work and another to stop", "label": "alarm"}
+{"global_ix": 21219, "sentence": "which meetings do i have today", "label": "meeting_schedule"}
+{"global_ix": 2340, "sentence": "please revert all settings to factory default", "label": "reset_settings"}
+{"global_ix": 4844, "sentence": "did i set up a reminder to clean the bathroom", "label": "reminder"}
+{"global_ix": 5341, "sentence": "i wanna have an alarm", "label": "alarm"}
+{"global_ix": 5740, "sentence": "tell me when my flight will land", "label": "flight_status"}
+{"global_ix": 9112, "sentence": "how long does cottage cheese keep in the fridge", "label": "food_last"}
+{"global_ix": 10514, "sentence": "set an alarm for me for 10:00 and another one set for 4:00", "label": "alarm"}
+{"global_ix": 11562, "sentence": "how many meetings do i have today between noon and one", "label": "meeting_schedule"}
+{"global_ix": 1175, "sentence": "what is the correct spelling for antipathy", "label": "spelling"}
+{"global_ix": 10633, "sentence": "what time will i be allowed to board", "label": "flight_status"}
+{"global_ix": 17853, "sentence": "lets do a coin toss", "label": "flip_coin"}
+{"global_ix": 14244, "sentence": "for flight dl123 what's the status", "label": "flight_status"}
+{"global_ix": 22656, "sentence": "can you read my list back to me", "label": "reminder"}
+{"global_ix": 12772, "sentence": "how long does chicken curry last in the freezer before it's spoiled", "label": "food_last"}
+{"global_ix": 5614, "sentence": "update me on my delta flight please", "label": "flight_status"}
+{"global_ix": 11786, "sentence": "how much time do i have before i have to change my tires", "label": "tire_change"}
+{"global_ix": 2835, "sentence": "can you tell me the correct spelling of liaison", "label": "spelling"}
+{"global_ix": 2910, "sentence": "go ahead and reset your factory settings", "label": "reset_settings"}
+{"global_ix": 21650, "sentence": "how many miles before i need my tires changed", "label": "tire_change"}
+{"global_ix": 1464, "sentence": "what did i put on my list of reminders", "label": "reminder"}
+{"global_ix": 364, "sentence": "let's decide with a coin flip", "label": "flip_coin"}
+{"global_ix": 17355, "sentence": "should i bring my socket converter to england", "label": "plug_type"}
+{"global_ix": 17796, "sentence": "what's on my list of things to remember", "label": "reminder"}
+{"global_ix": 12977, "sentence": "i need you to reset to your factor settings", "label": "reset_settings"}
+{"global_ix": 7075, "sentence": "i wanna know how long can i keep pizza in the freezer for before it goes bad", "label": "food_last"}
+{"global_ix": 1786, "sentence": "how much time do i have to keep tofu in the freezer before it goes bad", "label": "food_last"}
+{"global_ix": 2105, "sentence": "when am i gonna be meeting roger", "label": "meeting_schedule"}
+{"global_ix": 7989, "sentence": "when will my jetblue flight get here", "label": "flight_status"}
+{"global_ix": 12637, "sentence": "how many es are in receiving", "label": "spelling"}
+{"global_ix": 933, "sentence": "reset the factory settings", "label": "reset_settings"}
+{"global_ix": 23651, "sentence": "how long will eggs keep in the freezer", "label": "food_last"}
+{"global_ix": 19535, "sentence": "do i need to replace my tires if i replaced my tires in january", "label": "tire_change"}
+{"global_ix": 7526, "sentence": "is a socket converter required in india", "label": "plug_type"}
+{"global_ix": 8270, "sentence": "do i need a plug converter when i visit china", "label": "plug_type"}
+{"global_ix": 13070, "sentence": "how do i know when to get the tires changed on my car", "label": "tire_change"}
+{"global_ix": 15067, "sentence": "can you set an alarm for seven fifteen for tomorrow", "label": "alarm"}
+{"global_ix": 16911, "sentence": "do i need a converter for my electronics when i go to that coutntry", "label": "plug_type"}
+{"global_ix": 17081, "sentence": "i ned you to flip a coin", "label": "flip_coin"}
+{"global_ix": 2514, "sentence": "can i use an ordinary plug in scotland", "label": "plug_type"}
+{"global_ix": 21174, "sentence": "i'd like to reset to factory settings", "label": "reset_settings"}
+{"global_ix": 13058, "sentence": "flip a coin and let me know if it lands on heads or tails, please", "label": "flip_coin"}
+{"global_ix": 17673, "sentence": "i replaced my tires on may 2, so when should i replace them next", "label": "tire_change"}
+{"global_ix": 20063, "sentence": "when should my car's tires be changed", "label": "tire_change"}
+{"global_ix": 23514, "sentence": "create alarm", "label": "alarm"}
+{"global_ix": 18812, "sentence": "set my alarm for six tomorrow morning", "label": "alarm"}
+{"global_ix": 17030, "sentence": "when should i change the tires", "label": "tire_change"}
+{"global_ix": 10264, "sentence": "reset the factory settings please", "label": "reset_settings"}
+{"global_ix": 19729, "sentence": "wake me up at noon tomorrow", "label": "alarm"}
+{"global_ix": 10925, "sentence": "flip a coin for me ai", "label": "flip_coin"}
+{"global_ix": 20747, "sentence": "can you set alarm for me", "label": "alarm"}
+{"global_ix": 15581, "sentence": "do i have any meetings today between 9 and 10", "label": "meeting_schedule"}
+{"global_ix": 4227, "sentence": "if i replaced my tires on christmas eve, when will i need to replace them again", "label": "tire_change"}
+{"global_ix": 11710, "sentence": "i want to put you back to original settings", "label": "reset_settings"}
+{"global_ix": 22484, "sentence": "please go back to the settings of the original", "label": "reset_settings"}
+{"global_ix": 23360, "sentence": "flip a quarter", "label": "flip_coin"}
+{"global_ix": 23652, "sentence": "how long is it safe to leave shrimp in the fridge", "label": "food_last"}
+{"global_ix": 21456, "sentence": "set an alarm for 5am", "label": "alarm"}
+{"global_ix": 14441, "sentence": "when will my eggs go bad", "label": "food_last"}
+{"global_ix": 23343, "sentence": "can you describe my list back to me", "label": "reminder"}
+{"global_ix": 13478, "sentence": "when should my tires be changed", "label": "tire_change"}
+{"global_ix": 3237, "sentence": "i want you reset to factory settings", "label": "reset_settings"}
+{"global_ix": 2259, "sentence": "do you know when i should get my tires changed next", "label": "tire_change"}
+{"global_ix": 19286, "sentence": "choose heads or tails and tell me what you came up with", "label": "flip_coin"}
+{"global_ix": 7523, "sentence": "tell me what the status is for my aa flight", "label": "flight_status"}
+{"global_ix": 3098, "sentence": "set an alarm to work out and another to go home", "label": "alarm"}
+{"global_ix": 14415, "sentence": "does my tv need a socket conveter in ny city", "label": "plug_type"}
+{"global_ix": 12229, "sentence": "can you tell me the reminders i have set up", "label": "reminder"}
+{"global_ix": 11602, "sentence": "can you play an alarm at 5pm", "label": "alarm"}
+{"global_ix": 19647, "sentence": "tell me the status of my tires and when i need to replace them", "label": "tire_change"}
+{"global_ix": 15411, "sentence": "what is the projected time frame for the flight to land", "label": "flight_status"}
+{"global_ix": 3461, "sentence": "my list of reminders contains what", "label": "reminder"}
+{"global_ix": 16142, "sentence": "give me a summary of today's meetings", "label": "meeting_schedule"}
+{"global_ix": 8749, "sentence": "i want to make an alarm", "label": "alarm"}
+{"global_ix": 19375, "sentence": "i want to go back to the factory settings", "label": "reset_settings"}
+{"global_ix": 9579, "sentence": "should i buy a specific plug type when in china", "label": "plug_type"}
+{"global_ix": 7770, "sentence": "is my flight, dl123 on time", "label": "flight_status"}
+{"global_ix": 22044, "sentence": "what meetings are on my schedule today between 1:00 pm and 4:00 pm", "label": "meeting_schedule"}
+{"global_ix": 7184, "sentence": "how long can i leave pizza in the fridge", "label": "food_last"}
+{"global_ix": 17432, "sentence": "spell curiosity for me", "label": "spelling"}
+{"global_ix": 5247, "sentence": "go back to the original settings", "label": "reset_settings"}
+{"global_ix": 4838, "sentence": "i can't figure out how to spell superficial", "label": "spelling"}
+{"global_ix": 2435, "sentence": "when do my tires need changing", "label": "tire_change"}
+{"global_ix": 21209, "sentence": "ai, coin flip", "label": "flip_coin"}
+{"global_ix": 14562, "sentence": "can you go back to my original settings", "label": "reset_settings"}
+{"global_ix": 2999, "sentence": "confirm that buy a light bulb is on my list of reminders", "label": "reminder"}
+{"global_ix": 5214, "sentence": "when do my tires need some changing", "label": "tire_change"}
+{"global_ix": 16255, "sentence": "could you tell me the status of my frontier flight", "label": "flight_status"}
+{"global_ix": 10424, "sentence": "flip a coin, i'm heads", "label": "flip_coin"}
+{"global_ix": 13306, "sentence": "i need to have a coin flipped", "label": "flip_coin"}
+{"global_ix": 10094, "sentence": "what landing time is scheduled for my flight", "label": "flight_status"}
+{"global_ix": 5822, "sentence": "do i need a socket converter if i'm going to be in germany", "label": "plug_type"}
+{"global_ix": 2722, "sentence": "set alarm for 5pm", "label": "alarm"}
+{"global_ix": 2810, "sentence": "is dan aware of any meetings with me today", "label": "meeting_schedule"}
+{"global_ix": 23546, "sentence": "reset to default settings please", "label": "reset_settings"}
+{"global_ix": 17824, "sentence": "what is on my to do list", "label": "reminder"}
+{"global_ix": 10460, "sentence": "is there a reminder set to clean the gutters", "label": "reminder"}
+{"global_ix": 21714, "sentence": "will i need a plug converter for my electronics in amman", "label": "plug_type"}
+{"global_ix": 1108, "sentence": "how do i spell acquaintance", "label": "spelling"}
+{"global_ix": 21266, "sentence": "can i store bread in the freezer indefinitely and it will still be okay", "label": "food_last"}
+{"global_ix": 6163, "sentence": "in september i changed my tires are they in need of changing", "label": "tire_change"}
+{"global_ix": 19113, "sentence": "i need an alarm at 8 pm", "label": "alarm"}
+{"global_ix": 20680, "sentence": "how long does it take frozen steaks to go bad", "label": "food_last"}
+{"global_ix": 21888, "sentence": "what meetings are scheduled for today", "label": "meeting_schedule"}
+{"global_ix": 21717, "sentence": "what were the things that i wanted to remember", "label": "reminder"}
+{"global_ix": 23418, "sentence": "check today's calendar for meetings", "label": "meeting_schedule"}
+{"global_ix": 4032, "sentence": "read my reminder list to me", "label": "reminder"}
+{"global_ix": 16310, "sentence": "do i have meetings with anyone today", "label": "meeting_schedule"}
+{"global_ix": 3792, "sentence": "i would like to know flight dl123's status", "label": "flight_status"}
+{"global_ix": 13539, "sentence": "i don't know how to spell drought", "label": "spelling"}
+{"global_ix": 14003, "sentence": "when is it recommended that i change my tires next", "label": "tire_change"}
+{"global_ix": 7044, "sentence": "do i require a plug converter when i visit puerto rico", "label": "plug_type"}
+{"global_ix": 19814, "sentence": "i want you to flip a coin", "label": "flip_coin"}
+{"global_ix": 19962, "sentence": "the word 'you' got how many letters", "label": "spelling"}
+{"global_ix": 5925, "sentence": "check if getting a light bulb is on my list of reminders", "label": "reminder"}
+{"global_ix": 14357, "sentence": "tell me what i had wanted to remember earlier", "label": "reminder"}
+{"global_ix": 4292, "sentence": "will i need a socket converter when i go to france", "label": "plug_type"}
+{"global_ix": 15499, "sentence": "flip that coin once; it must be tails", "label": "flip_coin"}
+{"global_ix": 10917, "sentence": "tell me when my flight scheduled to board", "label": "flight_status"}
+{"global_ix": 22674, "sentence": "what is it i wanted to bear in mind", "label": "reminder"}
+{"global_ix": 2888, "sentence": "do you need a special outlet converter in sweden", "label": "plug_type"}
+{"global_ix": 13577, "sentence": "which plugs does england use", "label": "plug_type"}
+{"global_ix": 23324, "sentence": "tell me my current reminders list", "label": "reminder"}
+{"global_ix": 17623, "sentence": "are there any expected delays for flight dl123", "label": "flight_status"}
+{"global_ix": 12163, "sentence": "can you tell me where flight dl123 is", "label": "flight_status"}
+{"global_ix": 1097, "sentence": "do i meet with joan today", "label": "meeting_schedule"}
+{"global_ix": 15131, "sentence": "i wanna know when my flight scheduled to board", "label": "flight_status"}
+{"global_ix": 8980, "sentence": "how do you spell out shepherd", "label": "spelling"}
+{"global_ix": 1467, "sentence": "how soon milk expires", "label": "food_last"}
+{"global_ix": 397, "sentence": "tell when should i get my tires changed next", "label": "tire_change"}
+{"global_ix": 12879, "sentence": "what did i include on my list of things to remember", "label": "reminder"}
+{"global_ix": 8430, "sentence": "set an alarm for 11 tomorrow", "label": "alarm"}
+{"global_ix": 14816, "sentence": "look up when my flight is set to start boarding", "label": "flight_status"}
+{"global_ix": 16096, "sentence": "how do you spell \"montpelier", "label": "spelling"}
+{"global_ix": 6013, "sentence": "please tell me how curiosity is spelled", "label": "spelling"}
+{"global_ix": 14439, "sentence": "when does my milk expire", "label": "food_last"}
+{"global_ix": 4943, "sentence": "i want an alarm for 6 am", "label": "alarm"}
+{"global_ix": 11664, "sentence": "is a plug converter required for haiti", "label": "plug_type"}
+{"global_ix": 16328, "sentence": "would you reset your factory settings", "label": "reset_settings"}
+{"global_ix": 21534, "sentence": "make an alarm for me", "label": "alarm"}
+{"global_ix": 15114, "sentence": "so when is my flight landing", "label": "flight_status"}
+{"global_ix": 20524, "sentence": "refresh my memory about what items i want to remember", "label": "reminder"}
+{"global_ix": 267, "sentence": "read me my reminders list", "label": "reminder"}
+{"global_ix": 16102, "sentence": "what's the status of my virgin airlines flight", "label": "flight_status"}
+{"global_ix": 12779, "sentence": "heads or tails", "label": "flip_coin"}
+{"global_ix": 9395, "sentence": "how do you spell superficial", "label": "spelling"}
+{"global_ix": 12184, "sentence": "when is boarding scheduled", "label": "flight_status"}
+{"global_ix": 13355, "sentence": "will you flip a coin so i can make a choice", "label": "flip_coin"}
+{"global_ix": 22607, "sentence": "can you flip a coin once", "label": "flip_coin"}
+{"global_ix": 21073, "sentence": "tell me how many p's are in apple", "label": "spelling"}
+{"global_ix": 16154, "sentence": "please flip coin", "label": "flip_coin"}
+{"global_ix": 12102, "sentence": "i need to know how to spell superficial", "label": "spelling"}
+{"global_ix": 14116, "sentence": "begin the coin flip now", "label": "flip_coin"}
+{"global_ix": 3769, "sentence": "i need to know how to spell xylophone", "label": "spelling"}
+{"global_ix": 12835, "sentence": "when will my tires need changed", "label": "tire_change"}
+{"global_ix": 11074, "sentence": "how many more miles can i drive before changing my tires", "label": "tire_change"}
+{"global_ix": 6425, "sentence": "how long does bread last in the freezer", "label": "food_last"}
+{"global_ix": 22169, "sentence": "could you please reset your factory settings", "label": "reset_settings"}
+{"global_ix": 2531, "sentence": "how do you spell out wednesday", "label": "spelling"}
+{"global_ix": 6760, "sentence": "i need to know the status of my alaska air flight", "label": "flight_status"}
+{"global_ix": 975, "sentence": "what is expire of milk", "label": "food_last"}
+{"global_ix": 19776, "sentence": "what is my meeting schedule like for the day", "label": "meeting_schedule"}
+{"global_ix": 14263, "sentence": "you need to set alarm for me", "label": "alarm"}
+{"global_ix": 3799, "sentence": "will i need to have a plug converter when i visit madrid", "label": "plug_type"}
+{"global_ix": 19273, "sentence": "please tell me the status of my southwest flight", "label": "flight_status"}
+{"global_ix": 7577, "sentence": "set an alarm for me please", "label": "alarm"}
+{"global_ix": 2956, "sentence": "when will i need to change my tires again", "label": "tire_change"}
+{"global_ix": 17431, "sentence": "what kind of electrical plugs do they uze in z", "label": "plug_type"}
+{"global_ix": 7395, "sentence": "i need to know the content of my list of reminders", "label": "reminder"}
+{"global_ix": 2863, "sentence": "tell me how i can reset to factory settings", "label": "reset_settings"}
+{"global_ix": 22492, "sentence": "will i get sick if i eat the tuna salad from friday", "label": "food_last"}
+{"global_ix": 22772, "sentence": "is socket converter required in france", "label": "plug_type"}
+{"global_ix": 23496, "sentence": "when should i replace my tires next, if i replaced them on january 15, 2018", "label": "tire_change"}
+{"global_ix": 2574, "sentence": "set one alarm for 215pm and another for 7pm", "label": "alarm"}
+{"global_ix": 5315, "sentence": "what's up with my american airline flight will it be on time", "label": "flight_status"}
+{"global_ix": 8320, "sentence": "set me an alarm now", "label": "alarm"}
+{"global_ix": 6606, "sentence": "when is my meeting with ann", "label": "meeting_schedule"}
+{"global_ix": 14844, "sentence": "will you get a coin and flip it", "label": "flip_coin"}
+{"global_ix": 6404, "sentence": "what's my flight's eta", "label": "flight_status"}
+{"global_ix": 489, "sentence": "what meetings do i have scheduled today", "label": "meeting_schedule"}
+{"global_ix": 22691, "sentence": "tell me what the status of my american airlines flight is", "label": "flight_status"}
+{"global_ix": 21034, "sentence": "tell me how handkerchief is spelled", "label": "spelling"}
+{"global_ix": 10551, "sentence": "i need to know what it is that i wanted to remember before", "label": "reminder"}
+{"global_ix": 13697, "sentence": "please go though the bullet points on my reminder list", "label": "reminder"}
+{"global_ix": 5888, "sentence": "do i need to change any of my tires", "label": "tire_change"}
+{"global_ix": 10732, "sentence": "can you spell out the word special for me", "label": "spelling"}
+{"global_ix": 12242, "sentence": "i need to set an alarm", "label": "alarm"}
+{"global_ix": 23493, "sentence": "help me get up at eight thirty in the morning tomorrow", "label": "alarm"}
+{"global_ix": 13144, "sentence": "set my alarm for quarter after six tomorrow", "label": "alarm"}
+{"global_ix": 8481, "sentence": "can i safely eat chicken that i've had in my fridge since monday", "label": "food_last"}
+{"global_ix": 17198, "sentence": "go back to factory settings", "label": "reset_settings"}
+{"global_ix": 9701, "sentence": "i have to know what plug that country uses", "label": "plug_type"}
+{"global_ix": 16257, "sentence": "what kind of sockets do the us use", "label": "plug_type"}
+{"global_ix": 1752, "sentence": "lets do a coin toss, i call tails", "label": "flip_coin"}
+{"global_ix": 7012, "sentence": "what were those things i was trying to remember", "label": "reminder"}
+{"global_ix": 8906, "sentence": "flip a coin and tell me if its heads or tails", "label": "flip_coin"}
+{"global_ix": 14203, "sentence": "are any meetings booked for today", "label": "meeting_schedule"}
+{"global_ix": 179, "sentence": "am i almost due for a tire change", "label": "tire_change"}
+{"global_ix": 15126, "sentence": "will i need to use a plug converter in el salvador", "label": "plug_type"}
+{"global_ix": 3827, "sentence": "i need an alarm to wake me up at 8 tomorrow morning", "label": "alarm"}
+{"global_ix": 21171, "sentence": "when do you think i should replace my tires because i replaced them on 12/21/17", "label": "tire_change"}
+{"global_ix": 92, "sentence": "please flip a coin for me", "label": "flip_coin"}
+{"global_ix": 9689, "sentence": "spell doctor", "label": "spelling"}
+{"global_ix": 15986, "sentence": "when can i start boarding my flight", "label": "flight_status"}
+{"global_ix": 22962, "sentence": "did i tell you to remind me about laundry", "label": "reminder"}
+{"global_ix": 913, "sentence": "remind me of what i asked you to remember", "label": "reminder"}
+{"global_ix": 1659, "sentence": "when would be a wise time to replace my tires", "label": "tire_change"}
+{"global_ix": 16531, "sentence": "restore factory settings", "label": "reset_settings"}
+{"global_ix": 20377, "sentence": "what were the things i want to recall", "label": "reminder"}
+{"global_ix": 15719, "sentence": "how man z's are in zombie", "label": "spelling"}
+{"global_ix": 14275, "sentence": "flip a coin if you will", "label": "flip_coin"}
+{"global_ix": 8835, "sentence": "how long until delta is at the gate", "label": "flight_status"}
+{"global_ix": 23628, "sentence": "how long before i need to replace my tires", "label": "tire_change"}
+{"global_ix": 3565, "sentence": "the milk will expire when", "label": "food_last"}
+{"global_ix": 19034, "sentence": "have an alarm set for three in the morning", "label": "alarm"}
+{"global_ix": 16843, "sentence": "in australia what outlet type do they use", "label": "plug_type"}
+{"global_ix": 16433, "sentence": "reset all settings to the factory settings", "label": "reset_settings"}
+{"global_ix": 12106, "sentence": "what signs should i look for to know if i should change my tires", "label": "tire_change"}
+{"global_ix": 6321, "sentence": "do a coin flip", "label": "flip_coin"}
+{"global_ix": 19266, "sentence": "what's on my meeting schedule today", "label": "meeting_schedule"}
+{"global_ix": 20534, "sentence": "when should i change these tires", "label": "tire_change"}
+{"global_ix": 3835, "sentence": "revert back to your factory settings", "label": "reset_settings"}
+{"global_ix": 14708, "sentence": "how long are my tires expected to last before needing to be replaced", "label": "tire_change"}
+{"global_ix": 11317, "sentence": "how many miles do i drive before i have to get new tires i replaced them four years ago", "label": "tire_change"}
+{"global_ix": 20174, "sentence": "spell aaron", "label": "spelling"}
+{"global_ix": 2508, "sentence": "i need you to schedule an alarm", "label": "alarm"}
+{"global_ix": 4900, "sentence": "i want you to flip a coin now", "label": "flip_coin"}
+{"global_ix": 17621, "sentence": "what did i ask you to remind me of", "label": "reminder"}
+{"global_ix": 16700, "sentence": "what length of time is safe for consuming leftover meatloaf stored in the fridge", "label": "food_last"}
+{"global_ix": 17187, "sentence": "share my meeting schedule with me", "label": "meeting_schedule"}
+{"global_ix": 12209, "sentence": "reset to factory default", "label": "reset_settings"}
+{"global_ix": 17505, "sentence": "i don't know how to spell spaghetti", "label": "spelling"}
+{"global_ix": 2123, "sentence": "i would love to know when my flight is going to land", "label": "flight_status"}
+{"global_ix": 22397, "sentence": "go ahead and flip that coin, i am choosing heads here", "label": "flip_coin"}
+{"global_ix": 12127, "sentence": "how many meetings do i have today", "label": "meeting_schedule"}
+{"global_ix": 6719, "sentence": "how do you spell dessert", "label": "spelling"}
+{"global_ix": 13694, "sentence": "tell me the status of flight dl123", "label": "flight_status"}
+{"global_ix": 7136, "sentence": "how long can i keep macaroni in the fridge before it spoils", "label": "food_last"}
+{"global_ix": 12232, "sentence": "when is my flight going to board", "label": "flight_status"}
+{"global_ix": 15568, "sentence": "i would like you to change the settings back to factory default now, please", "label": "reset_settings"}
+{"global_ix": 5629, "sentence": "how do you spell antipathy", "label": "spelling"}
+{"global_ix": 22208, "sentence": "please set an alarm for mid day", "label": "alarm"}
+{"global_ix": 18910, "sentence": "for what time is my meeting with marketing scheduled", "label": "meeting_schedule"}
+{"global_ix": 9249, "sentence": "can you do a coin flip for me", "label": "flip_coin"}
+{"global_ix": 11797, "sentence": "what is on my schedule between 10:00 am and 11:00 am", "label": "meeting_schedule"}
+{"global_ix": 21379, "sentence": "what sort of plug is used in the caribbean", "label": "plug_type"}
+{"global_ix": 23379, "sentence": "has flight dl123 left", "label": "flight_status"}
+{"global_ix": 5744, "sentence": "return to your original settings", "label": "reset_settings"}
+{"global_ix": 22045, "sentence": "when is it imperative that i get my tires changed", "label": "tire_change"}
+{"global_ix": 4146, "sentence": "flip coin ai", "label": "flip_coin"}
+{"global_ix": 14482, "sentence": "i want to hear what is on my reminders list", "label": "reminder"}
+{"global_ix": 8133, "sentence": "what is the correct spelling of the word comity, since i do not know", "label": "spelling"}
+{"global_ix": 19023, "sentence": "what is the proper way to spell diamond", "label": "spelling"}
+{"global_ix": 11276, "sentence": "can i eat the eggs i've had in the fridge since 2/21", "label": "food_last"}
+{"global_ix": 11012, "sentence": "what things are currently on my reminder list", "label": "reminder"}
+{"global_ix": 5763, "sentence": "when should i try to change my tires", "label": "tire_change"}
+{"global_ix": 10023, "sentence": "please reset to factory settings at once", "label": "reset_settings"}
+{"global_ix": 2434, "sentence": "can you spell water", "label": "spelling"}
+{"global_ix": 18721, "sentence": "what's the shelf life of guacamole in the fridge", "label": "food_last"}
+{"global_ix": 3936, "sentence": "please flip a coin i hope its tails", "label": "flip_coin"}
+{"global_ix": 7030, "sentence": "am i supposed to attend any meetings today", "label": "meeting_schedule"}
+{"global_ix": 282, "sentence": "on feb 3rd i changed my tires are they still good", "label": "tire_change"}
+{"global_ix": 20133, "sentence": "go back to initial factory state", "label": "reset_settings"}
+{"global_ix": 22634, "sentence": "read my reminders please", "label": "reminder"}
+{"global_ix": 1664, "sentence": "is there an update on flight dl123", "label": "flight_status"}
+{"global_ix": 19429, "sentence": "are the plugs different in barcelona", "label": "plug_type"}
+{"global_ix": 20129, "sentence": "cut carrots can stay in the fridge for how long before going bad", "label": "food_last"}
+{"global_ix": 18933, "sentence": "speak back to me what's on my reminder list", "label": "reminder"}
+{"global_ix": 21993, "sentence": "please change back to initial device settings", "label": "reset_settings"}
+{"global_ix": 2837, "sentence": "how is water spelled", "label": "spelling"}
+{"global_ix": 19210, "sentence": "what time is my flight going to land", "label": "flight_status"}
+{"global_ix": 18659, "sentence": "refresh to factory defaults", "label": "reset_settings"}
+{"global_ix": 6422, "sentence": "what type of plug do they use in mexico", "label": "plug_type"}
+{"global_ix": 20584, "sentence": "when could i get my tires changed next", "label": "tire_change"}
+{"global_ix": 16763, "sentence": "switch back to your factory settings", "label": "reset_settings"}
+{"global_ix": 22411, "sentence": "can you help me spell facetiousness", "label": "spelling"}
+{"global_ix": 242, "sentence": "how do i know when to change my tires", "label": "tire_change"}
+{"global_ix": 18327, "sentence": "can you please repeat my list back to me", "label": "reminder"}
+{"global_ix": 16261, "sentence": "can you flip a coin and tell me the result", "label": "flip_coin"}
+{"global_ix": 13545, "sentence": "tell me when to next change my tires", "label": "tire_change"}
+{"global_ix": 5939, "sentence": "for today only, how many meetings are with jake", "label": "meeting_schedule"}
+{"global_ix": 7671, "sentence": "what's the letters in 'you' word like", "label": "spelling"}
+{"global_ix": 4888, "sentence": "what meetings are on my schedule today", "label": "meeting_schedule"}
+{"global_ix": 3892, "sentence": "what type of plugs are used in cambodia", "label": "plug_type"}
+{"global_ix": 10066, "sentence": "alter back to your orginal settings", "label": "reset_settings"}
+{"global_ix": 3217, "sentence": "when should i replace my tires if i replaced them last year", "label": "tire_change"}
+{"global_ix": 15174, "sentence": "i'm going out of country, what type of outlet plug do i need", "label": "plug_type"}
+{"global_ix": 21674, "sentence": "take a coin and flip it and i call tails", "label": "flip_coin"}
+{"global_ix": 22741, "sentence": "what meetings do i have today between noon and one", "label": "meeting_schedule"}
+{"global_ix": 22334, "sentence": "how do i spell catheter", "label": "spelling"}
+{"global_ix": 22684, "sentence": "inform me as to the plug type of the country", "label": "plug_type"}
+{"global_ix": 7805, "sentence": "i want to reset your settings to the original", "label": "reset_settings"}
+{"global_ix": 9357, "sentence": "go through all the reminders on my list and state what they are", "label": "reminder"}
+{"global_ix": 1124, "sentence": "how soon should i replace my tires from yesterday", "label": "tire_change"}
+{"global_ix": 2677, "sentence": "how long can i keep beef in the freezer for before it gets nasty", "label": "food_last"}
+{"global_ix": 723, "sentence": "do i have to be at any meetings today", "label": "meeting_schedule"}
+{"global_ix": 1506, "sentence": "what is the longest i can leave meatballs in sauce in the freezer before it is no longer safe to eat", "label": "food_last"}
+{"global_ix": 10394, "sentence": "how many miles can i drive before i need to change my tires", "label": "tire_change"}
+{"global_ix": 13842, "sentence": "what's the status of by delta flight", "label": "flight_status"}
+{"global_ix": 21998, "sentence": "throw a coin in the air", "label": "flip_coin"}
+{"global_ix": 11212, "sentence": "remind me of the items on my list of things to remember", "label": "reminder"}
+{"global_ix": 4343, "sentence": "i need you to flip a coin so i can make a choice", "label": "flip_coin"}
+{"global_ix": 13120, "sentence": "did i include cleaning the hamster cage on my list of reminders", "label": "reminder"}
+{"global_ix": 6479, "sentence": "tell me when to get my tires changed", "label": "tire_change"}
+{"global_ix": 3273, "sentence": "create an alarm", "label": "alarm"}
+{"global_ix": 14440, "sentence": "i want my original settings back", "label": "reset_settings"}
+{"global_ix": 8074, "sentence": "how should i spell malignant", "label": "spelling"}
+{"global_ix": 1447, "sentence": "how long is pork good in the fridge", "label": "food_last"}
+{"global_ix": 8317, "sentence": "is flight dl123 delayed", "label": "flight_status"}
+{"global_ix": 5826, "sentence": "i need help spelling \"exquisite", "label": "spelling"}
+{"global_ix": 16473, "sentence": "how many a's can you find in the word happiness", "label": "spelling"}
+{"global_ix": 11838, "sentence": "read all my reminders", "label": "reminder"}
+{"global_ix": 877, "sentence": "if i go to dublin is a socket converter needed", "label": "plug_type"}
+{"global_ix": 19056, "sentence": "please go back to your factory settings", "label": "reset_settings"}
+{"global_ix": 18700, "sentence": "do you know what things i wanted to remember", "label": "reminder"}
+{"global_ix": 1976, "sentence": "do i have any meetings today between 9:20 and 10:30", "label": "meeting_schedule"}
+{"global_ix": 7816, "sentence": "revert to the original configuration", "label": "reset_settings"}
+{"global_ix": 22641, "sentence": "tell me the meeting schdule please", "label": "meeting_schedule"}
+{"global_ix": 8830, "sentence": "i am not sure how to spell the word liaison", "label": "spelling"}
+{"global_ix": 121, "sentence": "recall the things i wanted to remember", "label": "reminder"}
+{"global_ix": 10895, "sentence": "i need an alarm set for 9 am and another for 11 am", "label": "alarm"}
+{"global_ix": 2688, "sentence": "i need an alarm set for 5:30 pm", "label": "alarm"}
+{"global_ix": 21431, "sentence": "figure out for me when i ought to change my tires next", "label": "tire_change"}
+{"global_ix": 1300, "sentence": "what stuff am i trying to remember", "label": "reminder"}
+{"global_ix": 7953, "sentence": "what type of plug do i need to bring if i visit japan", "label": "plug_type"}
+{"global_ix": 14798, "sentence": "tell me when i need to replace my tires, if i replaced them on october 1, 2017", "label": "tire_change"}
+{"global_ix": 197, "sentence": "i have had pizza in the fridge since monday, so is it safe to eat", "label": "food_last"}
+{"global_ix": 22140, "sentence": "what's the time frame for hamburger stored in the freezer to go bad", "label": "food_last"}
+{"global_ix": 18405, "sentence": "in osaka, do i need a plug converter for my electronics", "label": "plug_type"}
+{"global_ix": 13206, "sentence": "i forget how to spell xylophone", "label": "spelling"}
+{"global_ix": 12943, "sentence": "restore your factory settings, please", "label": "reset_settings"}
+{"global_ix": 6701, "sentence": "i want to set an alarm", "label": "alarm"}
+{"global_ix": 1941, "sentence": "how many ts are in tethered", "label": "spelling"}
+{"global_ix": 16423, "sentence": "when is my meeting with dan scheduled for", "label": "meeting_schedule"}
+{"global_ix": 18735, "sentence": "spell \"requisite\" for me", "label": "spelling"}
+{"global_ix": 15810, "sentence": "heads, coin flip", "label": "flip_coin"}
+{"global_ix": 14206, "sentence": "read my reminders to me", "label": "reminder"}
+{"global_ix": 38, "sentence": "are there any meetings i have today", "label": "meeting_schedule"}
+{"global_ix": 20802, "sentence": "how do you spell sanguine", "label": "spelling"}
+{"global_ix": 20002, "sentence": "what are my reminders", "label": "reminder"}
+{"global_ix": 13612, "sentence": "i want you to flip a coin i choose heads", "label": "flip_coin"}
+{"global_ix": 21903, "sentence": "when am i boarding my flight", "label": "flight_status"}
+{"global_ix": 20004, "sentence": "is it ok to eat alfredo that's been in the fridge since last sunday", "label": "food_last"}
+{"global_ix": 13513, "sentence": "when's the next time i should change my tires", "label": "tire_change"}
+{"global_ix": 12010, "sentence": "what time is my meeting with fred scheduled for", "label": "meeting_schedule"}
+{"global_ix": 18347, "sentence": "how do you spell friend", "label": "spelling"}
+{"global_ix": 22490, "sentence": "can you please revert to factory settings at this time", "label": "reset_settings"}
+{"global_ix": 1421, "sentence": "set up two alarms one for 10am and another for 2pm", "label": "alarm"}
+{"global_ix": 4954, "sentence": "how do i know if it is time to replace my tires", "label": "tire_change"}
+{"global_ix": 733, "sentence": "it turns out i have had pizza in the fridge since monday, so is it safe to eat", "label": "food_last"}
+{"global_ix": 946, "sentence": "go back to your manufacturers' settings", "label": "reset_settings"}
+{"global_ix": 1121, "sentence": "i need you to flip a coin", "label": "flip_coin"}
+{"global_ix": 2791, "sentence": "tell me today's scheduled conferences from noon on wards", "label": "meeting_schedule"}
+{"global_ix": 1288, "sentence": "please set a reminder for me", "label": "alarm"}
+{"global_ix": 10455, "sentence": "when will we begin to board my scheduled flight", "label": "flight_status"}
+{"global_ix": 2013, "sentence": "when will tofu expire if i keep it in the freezer", "label": "food_last"}
+{"global_ix": 6660, "sentence": "please return to default settings", "label": "reset_settings"}
+{"global_ix": 14924, "sentence": "do they use weird plugs in australia where i'd need some kind of socket converter", "label": "plug_type"}
+{"global_ix": 11801, "sentence": "i want you to set alarms for 2pm and 3pm", "label": "alarm"}
+{"global_ix": 16722, "sentence": "set my alarm for 5pm", "label": "alarm"}
+{"global_ix": 7244, "sentence": "i need to do a fair coin flip", "label": "flip_coin"}
+{"global_ix": 4117, "sentence": "is mop the floor already in my reminders", "label": "reminder"}
+{"global_ix": 23226, "sentence": "i'm wanting you to flip a coin", "label": "flip_coin"}
+{"global_ix": 19367, "sentence": "can you list each item on my reminder list", "label": "reminder"}
+{"global_ix": 12537, "sentence": "revert to original settings", "label": "reset_settings"}
+{"global_ix": 20081, "sentence": "i need to know when my flight is landing", "label": "flight_status"}
+{"global_ix": 19625, "sentence": "what kind of plug does my hair dryer use in south korea", "label": "plug_type"}
+{"global_ix": 13423, "sentence": "what kind of plug is used in england", "label": "plug_type"}
+{"global_ix": 2406, "sentence": "will i need to get a plug converter when i visit guam", "label": "plug_type"}
+{"global_ix": 9674, "sentence": "when can i commute my tires next", "label": "tire_change"}
+{"global_ix": 8699, "sentence": "i need to know the status of my american airlines flight", "label": "flight_status"}
+{"global_ix": 17944, "sentence": "is there any meetings from 5 to 6 pm", "label": "meeting_schedule"}
+{"global_ix": 4162, "sentence": "will it be all right for me to drink milk i've had in the fridge since tuesday", "label": "food_last"}
+{"global_ix": 14325, "sentence": "set an alarm for 9 tomorrow", "label": "alarm"}
+{"global_ix": 19809, "sentence": "can you tell me how to spell the word schadenfreude, i don't know how it's spelt", "label": "spelling"}
+{"global_ix": 6644, "sentence": "i need an alarm set for ten pm and midnight", "label": "alarm"}
+{"global_ix": 13273, "sentence": "set an alarm for my meeting and another for my phone call", "label": "alarm"}
+{"global_ix": 3010, "sentence": "when is the next time i should get my tires changed", "label": "tire_change"}
+{"global_ix": 19365, "sentence": "tomorrow i would like an alarm for 9 tomorrow", "label": "alarm"}
+{"global_ix": 1989, "sentence": "set my alarm for getting up", "label": "alarm"}
+{"global_ix": 14162, "sentence": "what time is my flight scheduled to leave", "label": "flight_status"}
+{"global_ix": 21728, "sentence": "when is my car due for an tire change", "label": "tire_change"}
+{"global_ix": 17291, "sentence": "please set up an alarm to go off tomorrow at daybreak", "label": "alarm"}
+{"global_ix": 6480, "sentence": "when will my milk be no good", "label": "food_last"}
+{"global_ix": 3352, "sentence": "tell me how long milk stays good in the fridge", "label": "food_last"}
+{"global_ix": 16365, "sentence": "what type of socker conveters do i need in africa", "label": "plug_type"}
+{"global_ix": 14533, "sentence": "jello should stay in the fridge for how long", "label": "food_last"}
+{"global_ix": 21008, "sentence": "please confirm the next time i should get the tires on my car replaced", "label": "tire_change"}
+{"global_ix": 23593, "sentence": "i will determine it with a coin flip", "label": "flip_coin"}
+{"global_ix": 13284, "sentence": "can you tell me what things i was trying to remember", "label": "reminder"}
+{"global_ix": 7871, "sentence": "i wanna know the status of flight dl123", "label": "flight_status"}
+{"global_ix": 14402, "sentence": "spell potato", "label": "spelling"}
+{"global_ix": 21302, "sentence": "how is the word umbrella spelled", "label": "spelling"}
+{"global_ix": 5026, "sentence": "do i have to meet the dev squad to day", "label": "meeting_schedule"}
+{"global_ix": 15838, "sentence": "can you remind me the things i was trying to remember", "label": "reminder"}
+{"global_ix": 22468, "sentence": "give me a run down of my meeting schedules for the day", "label": "meeting_schedule"}
+{"global_ix": 15601, "sentence": "am i scheduled for any meetings between noon and one", "label": "meeting_schedule"}
+{"global_ix": 7572, "sentence": "set an alarm to wake me up at 5:30am", "label": "alarm"}
+{"global_ix": 17959, "sentence": "when is my meeting with jim scheduled for", "label": "meeting_schedule"}
+{"global_ix": 790, "sentence": "what are in my reminders list", "label": "reminder"}
+{"global_ix": 1016, "sentence": "how do you spell umbrella", "label": "spelling"}
+{"global_ix": 11558, "sentence": "i would like you to revert to your factory settings", "label": "reset_settings"}
+{"global_ix": 8036, "sentence": "read my reminder list to me please", "label": "reminder"}
+{"global_ix": 1824, "sentence": "what kinds of things are you supposed to remind me of", "label": "reminder"}
+{"global_ix": 20550, "sentence": "do i need a socket converter if i'm going to be in china", "label": "plug_type"}
+{"global_ix": 23484, "sentence": "go to default setting", "label": "reset_settings"}
+{"global_ix": 7701, "sentence": "do i need a plug converter when i visit france", "label": "plug_type"}
+{"global_ix": 20376, "sentence": "flip that coin please", "label": "flip_coin"}
+{"global_ix": 19070, "sentence": "when should i expect my flight to come in", "label": "flight_status"}
+{"global_ix": 21341, "sentence": "randomly pick between heads or tails and tell me if tails wins", "label": "flip_coin"}
+{"global_ix": 8903, "sentence": "flip a coin for me", "label": "flip_coin"}
+{"global_ix": 13460, "sentence": "i need to know if i have any meetings scheduled for today", "label": "meeting_schedule"}
+{"global_ix": 3682, "sentence": "what things did i not want to forget", "label": "reminder"}
+{"global_ix": 6394, "sentence": "can you update me with the status of flight dl123", "label": "flight_status"}
+{"global_ix": 14811, "sentence": "when will lettuce in the fridge go bad", "label": "food_last"}
+{"global_ix": 4950, "sentence": "tell me how to spell anonymous", "label": "spelling"}
+{"global_ix": 3214, "sentence": "check to see if i have any meetings with peter today", "label": "meeting_schedule"}
+{"global_ix": 12935, "sentence": "how long until i have to replace my tires", "label": "tire_change"}
+{"global_ix": 22466, "sentence": "i purchased new tires yesterday, should i buy new ones", "label": "tire_change"}
+{"global_ix": 1088, "sentence": "when should i replace my tires next if i last replaced them on july 15th", "label": "tire_change"}
+{"global_ix": 14970, "sentence": "return it back to the original settings", "label": "reset_settings"}
+{"global_ix": 10285, "sentence": "i wish to know when my flight will land", "label": "flight_status"}
+{"global_ix": 21918, "sentence": "i need to know when i should replace my tires next if i last replaced them on june 2", "label": "tire_change"}
+{"global_ix": 1687, "sentence": "do i need new tires if i just got them replaced on january 2017", "label": "tire_change"}
+{"global_ix": 15376, "sentence": "ai, give me the results of a coin flip", "label": "flip_coin"}
+{"global_ix": 3579, "sentence": "how do you spell mississippi", "label": "spelling"}
+{"global_ix": 19596, "sentence": "do heads or tails", "label": "flip_coin"}
+{"global_ix": 13252, "sentence": "what time does my flight get in", "label": "flight_status"}
+{"global_ix": 8846, "sentence": "when is my flight due to arrive", "label": "flight_status"}
+{"global_ix": 955, "sentence": "set an alarm for lunch and another for dinner", "label": "alarm"}
+{"global_ix": 6420, "sentence": "list meetings on calendar for today", "label": "meeting_schedule"}
+{"global_ix": 10206, "sentence": "reset device to original settings", "label": "reset_settings"}
+{"global_ix": 16544, "sentence": "initiate a new alarm please", "label": "alarm"}
+{"global_ix": 17923, "sentence": "when is my meeting with john", "label": "meeting_schedule"}
+{"global_ix": 23623, "sentence": "what's the status for my delta flight this afternoon", "label": "flight_status"}
+{"global_ix": 11622, "sentence": "count the number of the letter a in happiness", "label": "spelling"}
+{"global_ix": 215, "sentence": "how many days later is it okay to eat curry that was in the fridge", "label": "food_last"}
+{"global_ix": 11987, "sentence": "what's the status of my southwest flight", "label": "flight_status"}
+{"global_ix": 15540, "sentence": "do i have any meetings coming up today", "label": "meeting_schedule"}
+{"global_ix": 20946, "sentence": "i want factory settings restores right now", "label": "reset_settings"}
+{"global_ix": 9881, "sentence": "coin flip, choose heads", "label": "flip_coin"}
+{"global_ix": 20817, "sentence": "what plug types are there in cuba", "label": "plug_type"}
+{"global_ix": 725, "sentence": "is electricity the same in france", "label": "plug_type"}
+{"global_ix": 13267, "sentence": "how is friend spelled", "label": "spelling"}
+{"global_ix": 22007, "sentence": "when do i take my car in for a tire change", "label": "tire_change"}
+{"global_ix": 166, "sentence": "how do i know what the outlets are like", "label": "plug_type"}
+{"global_ix": 13550, "sentence": "is rice bad after 3 days in fridge", "label": "food_last"}
+{"global_ix": 15075, "sentence": "what is the expiration date of the milk", "label": "food_last"}
+{"global_ix": 21287, "sentence": "flip that dime", "label": "flip_coin"}
+{"global_ix": 19098, "sentence": "when's my meeting with richard", "label": "meeting_schedule"}
+{"global_ix": 1688, "sentence": "set the alarm for me", "label": "alarm"}
+{"global_ix": 10003, "sentence": "check to see if picking up glenn from the airport is on my list of reminders", "label": "reminder"}
+{"global_ix": 18961, "sentence": "do i need a plug converter in doha", "label": "plug_type"}
+{"global_ix": 4453, "sentence": "i don't know how to spell anethesia", "label": "spelling"}
+{"global_ix": 14473, "sentence": "does z used the same plus as we do in the united states", "label": "plug_type"}
+{"global_ix": 10525, "sentence": "what is the most time i can keep a burrito frozen for before it's no good to eat", "label": "food_last"}
+{"global_ix": 3611, "sentence": "do you see any meetings with john on my schedule today", "label": "meeting_schedule"}
+{"global_ix": 15889, "sentence": "i want to hear my reminder list", "label": "reminder"}
+{"global_ix": 650, "sentence": "please flip coin ai", "label": "flip_coin"}
+{"global_ix": 7474, "sentence": "what kind of electrical plug do they use in the uae", "label": "plug_type"}
+{"global_ix": 15492, "sentence": "do a hard reset", "label": "reset_settings"}
+{"global_ix": 10214, "sentence": "when's my flight getting here", "label": "flight_status"}
+{"global_ix": 1709, "sentence": "i would like to hear you read my reminder list to me", "label": "reminder"}
+{"global_ix": 1552, "sentence": "is rice ok after 3 days in the refrigerator", "label": "food_last"}
+{"global_ix": 15705, "sentence": "i don't know how to spell squirrel", "label": "spelling"}
+{"global_ix": 8639, "sentence": "when does the honey expire", "label": "food_last"}
+{"global_ix": 23524, "sentence": "is flight dl123 on time", "label": "flight_status"}
+{"global_ix": 479, "sentence": "is my delta flight on time", "label": "flight_status"}
+{"global_ix": 16152, "sentence": "help me and let me know when i should replace my tires next if i last replaced them on june 2", "label": "tire_change"}
+{"global_ix": 17766, "sentence": "lets go with heads or tails", "label": "flip_coin"}
+{"global_ix": 1508, "sentence": "restore your original settings", "label": "reset_settings"}
+{"global_ix": 7129, "sentence": "whats the latest on flight dl123", "label": "flight_status"}
+{"global_ix": 19821, "sentence": "i wanna flip a coin", "label": "flip_coin"}
+{"global_ix": 8159, "sentence": "do visitors to japan need to use a socket converter", "label": "plug_type"}
+{"global_ix": 3942, "sentence": "i choose heads, now flip that coin", "label": "flip_coin"}
+{"global_ix": 9454, "sentence": "flip it please", "label": "flip_coin"}
+{"global_ix": 15600, "sentence": "i have had pasta in the fridge since monday, can is till consume it", "label": "food_last"}
+{"global_ix": 14625, "sentence": "let's flip a coin i choose heads", "label": "flip_coin"}
+{"global_ix": 15107, "sentence": "when in europe would i be able to use a regular plug", "label": "plug_type"}
+{"global_ix": 19464, "sentence": "go back to your normal settings please", "label": "reset_settings"}
+{"global_ix": 14017, "sentence": "is a socket converter necessary if i'm travelling to london", "label": "plug_type"}
+{"global_ix": 18635, "sentence": "at 9 tomorrow, set off the alarm", "label": "alarm"}
+{"global_ix": 20030, "sentence": "how often should i change the tires on my car", "label": "tire_change"}
+{"global_ix": 21203, "sentence": "sound the alarm at 6 am tomorrow", "label": "alarm"}
+{"global_ix": 6755, "sentence": "revert to your factory settings, please", "label": "reset_settings"}
+{"global_ix": 22524, "sentence": "tell me the meeting schedule for the day", "label": "meeting_schedule"}
+{"global_ix": 20195, "sentence": "can you tell me what time i am meeting with sarah today", "label": "meeting_schedule"}
+{"global_ix": 9164, "sentence": "at what point will i need to change my tires", "label": "tire_change"}
+{"global_ix": 17641, "sentence": "set alarm for noon", "label": "alarm"}
+{"global_ix": 16327, "sentence": "return to default settings", "label": "reset_settings"}
+{"global_ix": 9115, "sentence": "what kind of outlets do they use in z", "label": "plug_type"}
+{"global_ix": 9375, "sentence": "meetings today", "label": "meeting_schedule"}
+{"global_ix": 15533, "sentence": "find all the \"a\"s in happiness", "label": "spelling"}
+{"global_ix": 19022, "sentence": "what's the status of my american airlines flight", "label": "flight_status"}
+{"global_ix": 4014, "sentence": "assist me by setting my alarm for 9:00 and another for 11:00", "label": "alarm"}
+{"global_ix": 6111, "sentence": "i need an alarm set for 10:00 and another set for 3:00", "label": "alarm"}
+{"global_ix": 21056, "sentence": "apples expire in how long", "label": "food_last"}
+{"global_ix": 20740, "sentence": "i want to see my reminder list", "label": "reminder"}
+{"global_ix": 14064, "sentence": "what was it i wanted to remember", "label": "reminder"}
+{"global_ix": 148, "sentence": "what's the status of my jetblue flight", "label": "flight_status"}
+{"global_ix": 14556, "sentence": "is the company party on my list of reminders", "label": "reminder"}
+{"global_ix": 2710, "sentence": "how long will tofu last in the freezer before it expires", "label": "food_last"}
+{"global_ix": 4868, "sentence": "go back to your original settings", "label": "reset_settings"}
+{"global_ix": 11863, "sentence": "how do you spell verisimilitude", "label": "spelling"}
+{"global_ix": 9872, "sentence": "what's the proper way of spelling seance", "label": "spelling"}
+{"global_ix": 694, "sentence": "what date does my apple juice expire", "label": "food_last"}
+{"global_ix": 16098, "sentence": "what plug type would i use in japan", "label": "plug_type"}
+{"global_ix": 16323, "sentence": "on my reminders list, is there an item called conference call", "label": "reminder"}
+{"global_ix": 15579, "sentence": "i need an alarm set now", "label": "alarm"}
+{"global_ix": 8765, "sentence": "how do you spell out university", "label": "spelling"}
+{"global_ix": 9234, "sentence": "flip a coin, i call heads!", "label": "flip_coin"}
+{"global_ix": 9504, "sentence": "how to spell doctor", "label": "spelling"}
+{"global_ix": 20894, "sentence": "how soon till i need to change my tires", "label": "tire_change"}
+{"global_ix": 1061, "sentence": "i want you to reset your factory settings", "label": "reset_settings"}
+{"global_ix": 19641, "sentence": "let me know what is on my reminder list", "label": "reminder"}
+{"global_ix": 17653, "sentence": "can you wake me up at noon", "label": "alarm"}
+{"global_ix": 20053, "sentence": "can i drink milk i've kept in the fridge since wednesday", "label": "food_last"}
+{"global_ix": 18128, "sentence": "are any meetings scheduled for today", "label": "meeting_schedule"}
+{"global_ix": 10848, "sentence": "i need to know how to spell friend", "label": "spelling"}
+{"global_ix": 1644, "sentence": "when are my tires due to be changed", "label": "tire_change"}
+{"global_ix": 10237, "sentence": "flip a coin, i call tails", "label": "flip_coin"}
+{"global_ix": 13699, "sentence": "i need to know how many r's are in restaurant", "label": "spelling"}
+{"global_ix": 15621, "sentence": "flip a fair coin i win if it's tails", "label": "flip_coin"}
+{"global_ix": 19649, "sentence": "i need an alarm for 6am", "label": "alarm"}
+{"global_ix": 16508, "sentence": "i need you to set an alarm for 8am tomorrow", "label": "alarm"}
+{"global_ix": 6056, "sentence": "set an alarm for 5 pm", "label": "alarm"}
+{"global_ix": 22705, "sentence": "is respond to the professor's email on my list of reminders", "label": "reminder"}
+{"global_ix": 21775, "sentence": "flip a coin; i say tails", "label": "flip_coin"}
+{"global_ix": 20071, "sentence": "tell me when should i get my tires changed next", "label": "tire_change"}
+{"global_ix": 22975, "sentence": "i'm going to paris, what plug type do i need", "label": "plug_type"}
+{"global_ix": 4812, "sentence": "when is my flight going to arrive", "label": "flight_status"}
+{"global_ix": 14804, "sentence": "revert back to factory settings", "label": "reset_settings"}
+{"global_ix": 13099, "sentence": "do i really need a plug converter when in london", "label": "plug_type"}
+{"global_ix": 12468, "sentence": "i want to be woken up at 9 tomorrow", "label": "alarm"}
+{"global_ix": 22296, "sentence": "set the alarm to go off at 9 tomorrow", "label": "alarm"}
+{"global_ix": 9756, "sentence": "please flip a coin for me ai", "label": "flip_coin"}
+{"global_ix": 21436, "sentence": "spell the word aaron", "label": "spelling"}
+{"global_ix": 15074, "sentence": "set an alarm for 8 tomorrow", "label": "alarm"}
+{"global_ix": 20233, "sentence": "whats the status of my united flight", "label": "flight_status"}
+{"global_ix": 21849, "sentence": "are you able to flip a two sided coin", "label": "flip_coin"}

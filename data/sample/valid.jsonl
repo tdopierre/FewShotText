@@ -1,0 +1,1500 @@
+{"global_ix": 3534, "sentence": "rename yourself to betty", "label": "change_ai_name"}
+{"global_ix": 17292, "sentence": "what's lifes meaning", "label": "meaning_of_life"}
+{"global_ix": 14968, "sentence": "make a reminder for me to do my resume", "label": "reminder_update"}
+{"global_ix": 10701, "sentence": "will you add a reminder for me", "label": "reminder_update"}
+{"global_ix": 19369, "sentence": "add eggs to my shopping list if it's not already there", "label": "shopping_list_update"}
+{"global_ix": 1187, "sentence": "where is the closest red lobster to my location right now, which is 5th avenue", "label": "directions"}
+{"global_ix": 13797, "sentence": "what number of pto days do i have left", "label": "pto_balance"}
+{"global_ix": 5298, "sentence": "where is the nearest k mart", "label": "directions"}
+{"global_ix": 18495, "sentence": "i want to remove milk from my shopping list and add bread", "label": "shopping_list_update"}
+{"global_ix": 11461, "sentence": "i need milk on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 5325, "sentence": "can you confirm my reservation for jim at lawry's", "label": "confirm_reservation"}
+{"global_ix": 6886, "sentence": "i must know how to say thank you in german", "label": "translate"}
+{"global_ix": 2079, "sentence": "what's the point of everything", "label": "meaning_of_life"}
+{"global_ix": 14091, "sentence": "i need a reminder to order cookies", "label": "reminder_update"}
+{"global_ix": 9524, "sentence": "does life have a meaning", "label": "meaning_of_life"}
+{"global_ix": 12128, "sentence": "set up a reminder to give the cat her flea medicine", "label": "reminder_update"}
+{"global_ix": 12886, "sentence": "let me call you fred", "label": "change_ai_name"}
+{"global_ix": 19293, "sentence": "set a reminder for my doctors appointment", "label": "reminder_update"}
+{"global_ix": 9956, "sentence": "what do i say for goodbye in hawaii", "label": "translate"}
+{"global_ix": 19928, "sentence": "set a reminder to buy bread", "label": "reminder_update"}
+{"global_ix": 17680, "sentence": "remove milk and add eggs to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 7697, "sentence": "can you explain the meaning of life to me", "label": "meaning_of_life"}
+{"global_ix": 7758, "sentence": "what day will it be 373 days from now", "label": "date"}
+{"global_ix": 21432, "sentence": "tell me what tomorrow's date is", "label": "date"}
+{"global_ix": 1041, "sentence": "will you include kleenex on my list for shopping please", "label": "shopping_list_update"}
+{"global_ix": 12373, "sentence": "how can i say not now in spanish", "label": "translate"}
+{"global_ix": 13319, "sentence": "what is the temperature the ac display is showing", "label": "smart_home"}
+{"global_ix": 15689, "sentence": "is there meaning to life", "label": "meaning_of_life"}
+{"global_ix": 7725, "sentence": "what pto time to i have remaining", "label": "pto_balance"}
+{"global_ix": 2166, "sentence": "how do they say yes in brazil", "label": "translate"}
+{"global_ix": 13869, "sentence": "i want to take a bus to mexico city how do i do that", "label": "directions"}
+{"global_ix": 11556, "sentence": "how can i travel by bus to the grand canyon", "label": "directions"}
+{"global_ix": 7653, "sentence": "please turn the lights down low", "label": "smart_home"}
+{"global_ix": 18855, "sentence": "make the lights darker", "label": "smart_home"}
+{"global_ix": 9668, "sentence": "let's try and confirm my reservation for bubble bar under \"franklin", "label": "confirm_reservation"}
+{"global_ix": 18445, "sentence": "i'm out of clorox wipes so will you put that on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 14061, "sentence": "i need you to confirm my reservation for tomorrow at 3 pm", "label": "confirm_reservation"}
+{"global_ix": 2507, "sentence": "add sprite to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 795, "sentence": "i gotta know the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 6849, "sentence": "translate hello to english", "label": "translate"}
+{"global_ix": 19801, "sentence": "what is the date in 5 days", "label": "date"}
+{"global_ix": 2450, "sentence": "how do i say good bye in chinese", "label": "translate"}
+{"global_ix": 23266, "sentence": "can i get vacation day totals i have left", "label": "pto_balance"}
+{"global_ix": 2868, "sentence": "i want to change your name", "label": "change_ai_name"}
+{"global_ix": 323, "sentence": "do i have any pto days left", "label": "pto_balance"}
+{"global_ix": 22380, "sentence": "how do i get to the bowling alley by foot", "label": "directions"}
+{"global_ix": 6794, "sentence": "i would like you to think of yourself as machine and answer when i say your name as such", "label": "change_ai_name"}
+{"global_ix": 15276, "sentence": "add oranges to my to do shopping list", "label": "shopping_list_update"}
+{"global_ix": 20699, "sentence": "what's the current amount of vacation owed to me", "label": "pto_balance"}
+{"global_ix": 11893, "sentence": "calender says tomorrow is", "label": "date"}
+{"global_ix": 16234, "sentence": "what's the date", "label": "date"}
+{"global_ix": 6372, "sentence": "i will call you jimbo from now on", "label": "change_ai_name"}
+{"global_ix": 23448, "sentence": "where is the closest hospital to madison square garden", "label": "directions"}
+{"global_ix": 15935, "sentence": "where can i find the nearest dollar store", "label": "directions"}
+{"global_ix": 17106, "sentence": "how many days can i slack off this year", "label": "pto_balance"}
+{"global_ix": 10321, "sentence": "what is the word for hello spanish", "label": "translate"}
+{"global_ix": 4611, "sentence": "i am in downtown austin where is the nearest airport", "label": "directions"}
+{"global_ix": 9378, "sentence": "what is your perception of the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 5014, "sentence": "on the tv", "label": "smart_home"}
+{"global_ix": 10760, "sentence": "how about a reminder", "label": "reminder_update"}
+{"global_ix": 5871, "sentence": "can you confirm my reservation for 6 pm on the 13th of february", "label": "confirm_reservation"}
+{"global_ix": 5659, "sentence": "make a reminder to give the cat her flea medicine", "label": "reminder_update"}
+{"global_ix": 8661, "sentence": "how do they say hello in france", "label": "translate"}
+{"global_ix": 4297, "sentence": "i gotta change your name to remy", "label": "change_ai_name"}
+{"global_ix": 19177, "sentence": "what's the nearest ups store to walmart", "label": "directions"}
+{"global_ix": 17296, "sentence": "what's the current date", "label": "date"}
+{"global_ix": 9742, "sentence": "please set the temperature to 70 f", "label": "smart_home"}
+{"global_ix": 4168, "sentence": "i want to change your name to emma", "label": "change_ai_name"}
+{"global_ix": 1533, "sentence": "please lock every door", "label": "smart_home"}
+{"global_ix": 21437, "sentence": "can you tell me the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 12320, "sentence": "turn up the oven temperature to 350", "label": "smart_home"}
+{"global_ix": 11643, "sentence": "i need you to remind me to get something done", "label": "reminder_update"}
+{"global_ix": 21646, "sentence": "what is your explanation for the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 21544, "sentence": "how many days of vacation time do i have saved", "label": "pto_balance"}
+{"global_ix": 21359, "sentence": "can i have a reminder set up", "label": "reminder_update"}
+{"global_ix": 17281, "sentence": "what's your opinion on the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 14725, "sentence": "does the bus go to the washington monument", "label": "directions"}
+{"global_ix": 14327, "sentence": "the ac, could you tell me the temperature", "label": "smart_home"}
+{"global_ix": 13642, "sentence": "how do i get to the museum on foot", "label": "directions"}
+{"global_ix": 3580, "sentence": "i want you to turn the tv on", "label": "smart_home"}
+{"global_ix": 13856, "sentence": "are eggs on my list, if not add them", "label": "shopping_list_update"}
+{"global_ix": 11858, "sentence": "remind me to do this in awhile", "label": "reminder_update"}
+{"global_ix": 21857, "sentence": "turn tv on please", "label": "smart_home"}
+{"global_ix": 23175, "sentence": "how do i say 'hotel' in finnish", "label": "translate"}
+{"global_ix": 20479, "sentence": "i need to set a reminder to go to the post office", "label": "reminder_update"}
+{"global_ix": 13652, "sentence": "tell me how to say hello in chile", "label": "translate"}
+{"global_ix": 13763, "sentence": "i need you to add creamer to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 10390, "sentence": "please set up a reminder for me", "label": "reminder_update"}
+{"global_ix": 8924, "sentence": "translate for me hello into french", "label": "translate"}
+{"global_ix": 3280, "sentence": "i would like to put carrots on my list for shopping", "label": "shopping_list_update"}
+{"global_ix": 20564, "sentence": "are there reservation for joe and will", "label": "confirm_reservation"}
+{"global_ix": 22928, "sentence": "how do i get to the grocery store by bus", "label": "directions"}
+{"global_ix": 12244, "sentence": "rename bob to betty", "label": "change_ai_name"}
+{"global_ix": 15268, "sentence": "where is the nearest denny's to gillette stadium", "label": "directions"}
+{"global_ix": 9711, "sentence": "can i call you something else", "label": "change_ai_name"}
+{"global_ix": 2215, "sentence": "what are the directions to get to olympia by bus", "label": "directions"}
+{"global_ix": 6797, "sentence": "who can tell me if there's any meaning to life", "label": "meaning_of_life"}
+{"global_ix": 1009, "sentence": "i need an address for the closest starbucks to home", "label": "directions"}
+{"global_ix": 18345, "sentence": "translate hello english to french", "label": "translate"}
+{"global_ix": 7881, "sentence": "remind me later", "label": "reminder_update"}
+{"global_ix": 13592, "sentence": "im going to call you xander", "label": "change_ai_name"}
+{"global_ix": 14858, "sentence": "i want your name to be gerry", "label": "change_ai_name"}
+{"global_ix": 17565, "sentence": "lock every door on the property", "label": "smart_home"}
+{"global_ix": 5106, "sentence": "what is our purpose", "label": "meaning_of_life"}
+{"global_ix": 14134, "sentence": "how do i get to the court house on foot", "label": "directions"}
+{"global_ix": 1917, "sentence": "what is hello in french", "label": "translate"}
+{"global_ix": 17827, "sentence": "in spanish, meet me tomorrow is said how", "label": "translate"}
+{"global_ix": 11408, "sentence": "set a reminder to bring a book to work tomorrow", "label": "reminder_update"}
+{"global_ix": 17897, "sentence": "say what the meaning of life is", "label": "meaning_of_life"}
+{"global_ix": 1791, "sentence": "find me starbucks", "label": "directions"}
+{"global_ix": 16958, "sentence": "research the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 10126, "sentence": "i'd like to confirm the josh reservation at moe's", "label": "confirm_reservation"}
+{"global_ix": 13230, "sentence": "set a reminder", "label": "reminder_update"}
+{"global_ix": 3789, "sentence": "delete fries from shopping list", "label": "shopping_list_update"}
+{"global_ix": 6984, "sentence": "i would like to confirm my 7:30 pm reservation at morton's steakhouse, under michael james", "label": "confirm_reservation"}
+{"global_ix": 465, "sentence": "can you translate where's the bar into irish for me", "label": "translate"}
+{"global_ix": 10258, "sentence": "please turn the tv on", "label": "smart_home"}
+{"global_ix": 11451, "sentence": "will you please turn the tv on", "label": "smart_home"}
+{"global_ix": 22854, "sentence": "can i change your name to bob", "label": "change_ai_name"}
+{"global_ix": 10666, "sentence": "tell me the date today", "label": "date"}
+{"global_ix": 19127, "sentence": "could you tell me today's date", "label": "date"}
+{"global_ix": 9067, "sentence": "check and confirm reservations at ruth chris for carol lee", "label": "confirm_reservation"}
+{"global_ix": 1284, "sentence": "i just put steaks on the grill remind me to check them at the right time", "label": "reminder_update"}
+{"global_ix": 13130, "sentence": "i want to know how many vacation days i have", "label": "pto_balance"}
+{"global_ix": 22011, "sentence": "please remind me at a later time", "label": "reminder_update"}
+{"global_ix": 18911, "sentence": "check days of pto", "label": "pto_balance"}
+{"global_ix": 12050, "sentence": "would you add bananas to my shopping list as i am out", "label": "shopping_list_update"}
+{"global_ix": 1350, "sentence": "if i may, i'd like to call you slave", "label": "change_ai_name"}
+{"global_ix": 5343, "sentence": "can you confirm my reservation for applebees at 2:00", "label": "confirm_reservation"}
+{"global_ix": 2664, "sentence": "would you tell me how to say goodbye in france", "label": "translate"}
+{"global_ix": 8847, "sentence": "date please", "label": "date"}
+{"global_ix": 22115, "sentence": "how do i get to the train station by bus", "label": "directions"}
+{"global_ix": 18661, "sentence": "what's the quickest way to a bank", "label": "directions"}
+{"global_ix": 6328, "sentence": "what day am i on on vacation and how much do i got left", "label": "pto_balance"}
+{"global_ix": 18189, "sentence": "how do i get to the supermarket on foot", "label": "directions"}
+{"global_ix": 3204, "sentence": "i'd like to refer to you as my house from now on", "label": "change_ai_name"}
+{"global_ix": 7100, "sentence": "how do you say dog in spanish", "label": "translate"}
+{"global_ix": 20645, "sentence": "verify my reservation for smith and wollensky at 6:45", "label": "confirm_reservation"}
+{"global_ix": 14186, "sentence": "update my shopping list, delete canned olives", "label": "shopping_list_update"}
+{"global_ix": 16505, "sentence": "do we know if my reservation for john at bardenay was accepted", "label": "confirm_reservation"}
+{"global_ix": 7956, "sentence": "what is the core meaning of life", "label": "meaning_of_life"}
+{"global_ix": 1133, "sentence": "please remove ginger ale from my shopping list and add root beer", "label": "shopping_list_update"}
+{"global_ix": 12971, "sentence": "i would like to start calling you heath", "label": "change_ai_name"}
+{"global_ix": 4529, "sentence": "what do you think is the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 18841, "sentence": "i need water on my shopping list and beer off of it", "label": "shopping_list_update"}
+{"global_ix": 7014, "sentence": "i would appreciate it if you help me turn the car on", "label": "smart_home"}
+{"global_ix": 7923, "sentence": "may i start referring to you as jeff", "label": "change_ai_name"}
+{"global_ix": 11347, "sentence": "what is the reason humans even exist", "label": "meaning_of_life"}
+{"global_ix": 12931, "sentence": "show me the date", "label": "date"}
+{"global_ix": 19773, "sentence": "i would like to know my vacation days balance", "label": "pto_balance"}
+{"global_ix": 18967, "sentence": "add coke to my shopping cart", "label": "shopping_list_update"}
+{"global_ix": 4203, "sentence": "what do you think the purpose of life is", "label": "meaning_of_life"}
+{"global_ix": 3279, "sentence": "would it be okay to change your name to daphne", "label": "change_ai_name"}
+{"global_ix": 20158, "sentence": "does my life have meaning", "label": "meaning_of_life"}
+{"global_ix": 6645, "sentence": "i need to confirm that i have a reservation at red robin for josh", "label": "confirm_reservation"}
+{"global_ix": 2489, "sentence": "what's my meaning in life", "label": "meaning_of_life"}
+{"global_ix": 1708, "sentence": "how do i get to the movie theater by bus", "label": "directions"}
+{"global_ix": 109, "sentence": "tell me what the date will be tomorrow", "label": "date"}
+{"global_ix": 23141, "sentence": "please open a call to my mother", "label": "change_ai_name"}
+{"global_ix": 11200, "sentence": "on the lounge lights turn", "label": "smart_home"}
+{"global_ix": 22144, "sentence": "can i change your name to buttercup", "label": "change_ai_name"}
+{"global_ix": 1439, "sentence": "please put chips on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 9047, "sentence": "how do i get to the beach by bus", "label": "directions"}
+{"global_ix": 20365, "sentence": "what amount of pto days do i have left", "label": "pto_balance"}
+{"global_ix": 21912, "sentence": "i need you to confirm my reservation for kevin at red robin", "label": "confirm_reservation"}
+{"global_ix": 19845, "sentence": "what is the purpose of creation", "label": "meaning_of_life"}
+{"global_ix": 4644, "sentence": "where is the nearest walmart", "label": "directions"}
+{"global_ix": 22547, "sentence": "i need a reminder", "label": "reminder_update"}
+{"global_ix": 3474, "sentence": "please remind me to do this later", "label": "reminder_update"}
+{"global_ix": 13973, "sentence": "do you know what the meaning of life is", "label": "meaning_of_life"}
+{"global_ix": 11590, "sentence": "how much paid time off have i earned to date", "label": "pto_balance"}
+{"global_ix": 2914, "sentence": "can you adjust the lights down", "label": "smart_home"}
+{"global_ix": 6205, "sentence": "how many days of vacation do i have saved", "label": "pto_balance"}
+{"global_ix": 6368, "sentence": "how do you say please in arabic", "label": "translate"}
+{"global_ix": 7293, "sentence": "how is the temperature at ac", "label": "smart_home"}
+{"global_ix": 9747, "sentence": "what is today", "label": "date"}
+{"global_ix": 8500, "sentence": "where is the nearest gas station", "label": "directions"}
+{"global_ix": 10949, "sentence": "tell me where is the closest coffee shop", "label": "directions"}
+{"global_ix": 4487, "sentence": "could you tell me the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 12430, "sentence": "where is the closest dog groomer in charlotte, north carolina", "label": "directions"}
+{"global_ix": 20940, "sentence": "can i call you betty", "label": "change_ai_name"}
+{"global_ix": 2550, "sentence": "what is the meaning of this life", "label": "meaning_of_life"}
+{"global_ix": 13416, "sentence": "can i call you dave", "label": "change_ai_name"}
+{"global_ix": 9957, "sentence": "please turn the fan on", "label": "smart_home"}
+{"global_ix": 17808, "sentence": "what do you think life is really about", "label": "meaning_of_life"}
+{"global_ix": 16111, "sentence": "please set up a reminder i need to remember to ask about work", "label": "reminder_update"}
+{"global_ix": 3453, "sentence": "what will the date be in 10 days", "label": "date"}
+{"global_ix": 10273, "sentence": "can you turn the oven to 350", "label": "smart_home"}
+{"global_ix": 7451, "sentence": "tell me what date it is please", "label": "date"}
+{"global_ix": 819, "sentence": "what is thank you in spanish", "label": "translate"}
+{"global_ix": 9213, "sentence": "put carrots on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 22510, "sentence": "delete ice cream from my shopping list", "label": "shopping_list_update"}
+{"global_ix": 19335, "sentence": "how close is a gas station to mcdonalds", "label": "directions"}
+{"global_ix": 15180, "sentence": "i don't need eggs anymore, but i do need milk", "label": "shopping_list_update"}
+{"global_ix": 8917, "sentence": "how do i get to the train by foot", "label": "directions"}
+{"global_ix": 16384, "sentence": "can i refer to you as mike from here on out", "label": "change_ai_name"}
+{"global_ix": 2681, "sentence": "what is my remaining amount of pto days", "label": "pto_balance"}
+{"global_ix": 11191, "sentence": "i need to know how to say hello in france", "label": "translate"}
+{"global_ix": 8177, "sentence": "i don't need toilet paper anymore; take it off my shopping list", "label": "shopping_list_update"}
+{"global_ix": 14853, "sentence": "does life have a meaning, according to you", "label": "meaning_of_life"}
+{"global_ix": 2715, "sentence": "i'd rather call you gloria", "label": "change_ai_name"}
+{"global_ix": 5836, "sentence": "can i refer to you as liz", "label": "change_ai_name"}
+{"global_ix": 8898, "sentence": "how do i get to san fransisco by bus", "label": "directions"}
+{"global_ix": 17577, "sentence": "make a new name for the ai", "label": "change_ai_name"}
+{"global_ix": 8141, "sentence": "i would like to check my reservation for jean at taco house", "label": "confirm_reservation"}
+{"global_ix": 6464, "sentence": "add groceries to my shopping list as i am out", "label": "shopping_list_update"}
+{"global_ix": 8807, "sentence": "i would like to try and confirm that i have a reservation at outback for josh", "label": "confirm_reservation"}
+{"global_ix": 6591, "sentence": "remind me to call my mom", "label": "reminder_update"}
+{"global_ix": 5416, "sentence": "i want to verify my reservation for the 18th at 1pm", "label": "confirm_reservation"}
+{"global_ix": 8745, "sentence": "what's tomorrow on the calender", "label": "date"}
+{"global_ix": 5245, "sentence": "tell me what the meaning of life is", "label": "meaning_of_life"}
+{"global_ix": 2418, "sentence": "set reminder pay taxes on monday", "label": "reminder_update"}
+{"global_ix": 9297, "sentence": "can you confirm the reservation at fleming's for jane", "label": "confirm_reservation"}
+{"global_ix": 12776, "sentence": "can you go by a different name", "label": "change_ai_name"}
+{"global_ix": 14032, "sentence": "what is the date of today", "label": "date"}
+{"global_ix": 17880, "sentence": "turn down the lights a little please", "label": "smart_home"}
+{"global_ix": 8405, "sentence": "do i have soda on my shopping list if not please add it", "label": "shopping_list_update"}
+{"global_ix": 12098, "sentence": "how do you say it's snowing in german", "label": "translate"}
+{"global_ix": 21127, "sentence": "can you share with me your interpretation of the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 8110, "sentence": "tell me whether or not i have a reservation at gramercy tavern for tad", "label": "confirm_reservation"}
+{"global_ix": 22129, "sentence": "change your name to something funny", "label": "change_ai_name"}
+{"global_ix": 13053, "sentence": "you are going to be called joe now", "label": "change_ai_name"}
+{"global_ix": 13897, "sentence": "i would like to know the proper way to greet an adult in portuguese", "label": "translate"}
+{"global_ix": 23507, "sentence": "is there a meaning in life", "label": "meaning_of_life"}
+{"global_ix": 9868, "sentence": "what spanish word means hello", "label": "translate"}
+{"global_ix": 15604, "sentence": "i'd like to change the ai name", "label": "change_ai_name"}
+{"global_ix": 11663, "sentence": "can you you confirm my reservation for jean at taco house", "label": "confirm_reservation"}
+{"global_ix": 14695, "sentence": "would you translate a phrase into mandarin for me", "label": "translate"}
+{"global_ix": 16311, "sentence": "how many days of vacation are left now", "label": "pto_balance"}
+{"global_ix": 20768, "sentence": "i need you to translate the sentence, 'we will be there soon' into portuguese", "label": "translate"}
+{"global_ix": 21232, "sentence": "please remind me later", "label": "reminder_update"}
+{"global_ix": 3853, "sentence": "what is life's purpose", "label": "meaning_of_life"}
+{"global_ix": 4645, "sentence": "turn the lights down", "label": "smart_home"}
+{"global_ix": 2391, "sentence": "how would i say if i were english subway", "label": "translate"}
+{"global_ix": 17888, "sentence": "what do you think about the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 11902, "sentence": "is bacon on my shopping list, add if it's not", "label": "shopping_list_update"}
+{"global_ix": 15933, "sentence": "i want your name to be henry", "label": "change_ai_name"}
+{"global_ix": 22465, "sentence": "what does life mean on a deeper level", "label": "meaning_of_life"}
+{"global_ix": 4451, "sentence": "confirm the doors are locked", "label": "smart_home"}
+{"global_ix": 11690, "sentence": "the ac is set to what right now", "label": "smart_home"}
+{"global_ix": 6743, "sentence": "can you please put toilet paper on the shopping list i'm out of it", "label": "shopping_list_update"}
+{"global_ix": 17744, "sentence": "i'd like to start calling you friend", "label": "change_ai_name"}
+{"global_ix": 16876, "sentence": "how many vacation days do i have saved up", "label": "pto_balance"}
+{"global_ix": 18469, "sentence": "dont forget to set a reminder to pay the bills", "label": "reminder_update"}
+{"global_ix": 8051, "sentence": "how do i get to central park by foot", "label": "directions"}
+{"global_ix": 22423, "sentence": "take toilet paper off my shopping list and add paper towels", "label": "shopping_list_update"}
+{"global_ix": 2926, "sentence": "can i take a bus to the grand canyon", "label": "directions"}
+{"global_ix": 15781, "sentence": "what is tomorrow's date", "label": "date"}
+{"global_ix": 974, "sentence": "do i have any remaining pto days", "label": "pto_balance"}
+{"global_ix": 766, "sentence": "whats the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 19926, "sentence": "how do i get to the fine arts center by foot", "label": "directions"}
+{"global_ix": 7685, "sentence": "what's today", "label": "date"}
+{"global_ix": 9817, "sentence": "add apples to my to do shopping list", "label": "shopping_list_update"}
+{"global_ix": 3021, "sentence": "tell me who is by the garage door", "label": "smart_home"}
+{"global_ix": 5879, "sentence": "let me know what tomorrow's date is", "label": "date"}
+{"global_ix": 11207, "sentence": "is there a way to change your name to betty", "label": "change_ai_name"}
+{"global_ix": 8617, "sentence": "where is the closest mcdonald's to foxwoods casino", "label": "directions"}
+{"global_ix": 20469, "sentence": "i need some directions to phoenix", "label": "directions"}
+{"global_ix": 5210, "sentence": "what is the answer to the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 7508, "sentence": "can i call you james instead", "label": "change_ai_name"}
+{"global_ix": 8932, "sentence": "what words would i use to tell someone i am lost if i were japanese", "label": "translate"}
+{"global_ix": 3872, "sentence": "i need to know what the date is today", "label": "date"}
+{"global_ix": 18673, "sentence": "where is the closest target", "label": "directions"}
+{"global_ix": 3640, "sentence": "can you please help me start the car", "label": "smart_home"}
+{"global_ix": 7334, "sentence": "how do i get to new york by bus", "label": "directions"}
+{"global_ix": 22219, "sentence": "what's the status on my vacation days", "label": "pto_balance"}
+{"global_ix": 4441, "sentence": "what is the underlying purpose to life", "label": "meaning_of_life"}
+{"global_ix": 19091, "sentence": "is there a meaning to life", "label": "meaning_of_life"}
+{"global_ix": 4828, "sentence": "from here, how do i get to the statue of liberty by bus", "label": "directions"}
+{"global_ix": 7004, "sentence": "confirm a reservation for nicole brown at diangelo's at 6:45 pm, please", "label": "confirm_reservation"}
+{"global_ix": 3032, "sentence": "please make sure the temperature is set to 68", "label": "smart_home"}
+{"global_ix": 458, "sentence": "the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 5013, "sentence": "remind me tommorow at 3pm i have a doctors appointment", "label": "reminder_update"}
+{"global_ix": 4617, "sentence": "how would i say goodbye if i were norwegian", "label": "translate"}
+{"global_ix": 3703, "sentence": "go ahead and confirm my reservation for kevin at red robin", "label": "confirm_reservation"}
+{"global_ix": 13039, "sentence": "can i change you name to gretchen", "label": "change_ai_name"}
+{"global_ix": 22902, "sentence": "how do i get to statue of liberty by bus", "label": "directions"}
+{"global_ix": 20444, "sentence": "please give me today's date", "label": "date"}
+{"global_ix": 12953, "sentence": "where is the nearest fry's", "label": "directions"}
+{"global_ix": 1303, "sentence": "do you know how to say where is the restroom in french", "label": "translate"}
+{"global_ix": 11058, "sentence": "please confirm my reservation for may 9th at 4pm", "label": "confirm_reservation"}
+{"global_ix": 7980, "sentence": "at ac, what's the temperature like", "label": "smart_home"}
+{"global_ix": 15712, "sentence": "i need you to confirm that there is a reservation under the name david kramer for 7:00 pm at pietro's", "label": "confirm_reservation"}
+{"global_ix": 16094, "sentence": "do you have the date", "label": "date"}
+{"global_ix": 3851, "sentence": "can you add carrots to my shopping list and delete potatoes", "label": "shopping_list_update"}
+{"global_ix": 8840, "sentence": "make sure the oven is set to 350 please", "label": "smart_home"}
+{"global_ix": 6731, "sentence": "can you set a reminder alarm for me to workout", "label": "reminder_update"}
+{"global_ix": 19187, "sentence": "i want your name to be john", "label": "change_ai_name"}
+{"global_ix": 3470, "sentence": "how can i thank somebody in italian", "label": "translate"}
+{"global_ix": 18779, "sentence": "today is what date", "label": "date"}
+{"global_ix": 14797, "sentence": "give me tomorrow's date please", "label": "date"}
+{"global_ix": 10164, "sentence": "can you confirm my reservation for torris at 7:00", "label": "confirm_reservation"}
+{"global_ix": 17921, "sentence": "would you tell me how to get to walmart by bus", "label": "directions"}
+{"global_ix": 21269, "sentence": "how do i get to the airport by foot", "label": "directions"}
+{"global_ix": 5505, "sentence": "how do you say i need coffee in dutch", "label": "translate"}
+{"global_ix": 1419, "sentence": "today is what day of the week", "label": "date"}
+{"global_ix": 19944, "sentence": "will you please confirm my reservation for march 11 at 6:30 pm", "label": "confirm_reservation"}
+{"global_ix": 14734, "sentence": "i need for you to remove milk from my shopping list and add bread", "label": "shopping_list_update"}
+{"global_ix": 7652, "sentence": "does life have meaning", "label": "meaning_of_life"}
+{"global_ix": 16815, "sentence": "please get my car started before i go out to it", "label": "smart_home"}
+{"global_ix": 11740, "sentence": "how many days are left for me for vacation if i may ask", "label": "pto_balance"}
+{"global_ix": 5675, "sentence": "will you answer if i call you lexi", "label": "change_ai_name"}
+{"global_ix": 18755, "sentence": "what is it at, the ac temperature", "label": "smart_home"}
+{"global_ix": 11356, "sentence": "please add bananas to my shopping list unless i already did", "label": "shopping_list_update"}
+{"global_ix": 17887, "sentence": "in french, how do i say, see you later", "label": "translate"}
+{"global_ix": 20635, "sentence": "what's local slang for goodbye in hawaii", "label": "translate"}
+{"global_ix": 5276, "sentence": "how many more pto days are there for me", "label": "pto_balance"}
+{"global_ix": 22367, "sentence": "how many hours of vacation have i saved up", "label": "pto_balance"}
+{"global_ix": 20736, "sentence": "please share today's date", "label": "date"}
+{"global_ix": 15595, "sentence": "do i have any vacation days left", "label": "pto_balance"}
+{"global_ix": 7493, "sentence": "how many days can i take for vacation", "label": "pto_balance"}
+{"global_ix": 7986, "sentence": "let me change your name to dina", "label": "change_ai_name"}
+{"global_ix": 11273, "sentence": "i need the full date for today", "label": "date"}
+{"global_ix": 12395, "sentence": "remove carrots from my shopping list and add soda", "label": "shopping_list_update"}
+{"global_ix": 13905, "sentence": "warm up my car for me", "label": "smart_home"}
+{"global_ix": 19754, "sentence": "please tell me if my reservation is scheduled for sally's at 3 pm", "label": "confirm_reservation"}
+{"global_ix": 11770, "sentence": "how many days on holiday do i have", "label": "pto_balance"}
+{"global_ix": 15647, "sentence": "on the tv, turn on", "label": "smart_home"}
+{"global_ix": 19260, "sentence": "do i have any personal days left", "label": "pto_balance"}
+{"global_ix": 19255, "sentence": "i need my furnace turned on", "label": "smart_home"}
+{"global_ix": 12037, "sentence": "check to confirm my reservation for february 22 at noon", "label": "confirm_reservation"}
+{"global_ix": 20997, "sentence": "please change the ai name for me", "label": "change_ai_name"}
+{"global_ix": 13211, "sentence": "can you take carrots off my shopping list and add soda", "label": "shopping_list_update"}
+{"global_ix": 2588, "sentence": "in 100 days from now, what will be the date", "label": "date"}
+{"global_ix": 13853, "sentence": "which day is it now", "label": "date"}
+{"global_ix": 136, "sentence": "can you tell me where the atm closest to my current location is", "label": "directions"}
+{"global_ix": 23490, "sentence": "do you mind if call you nikolai", "label": "change_ai_name"}
+{"global_ix": 19748, "sentence": "i want to hear what you think life's purpose is about", "label": "meaning_of_life"}
+{"global_ix": 20345, "sentence": "what's the nearest starbucks", "label": "directions"}
+{"global_ix": 16408, "sentence": "i'm out of apples, add that to my list", "label": "shopping_list_update"}
+{"global_ix": 12941, "sentence": "how many vacation days are remaining on my time", "label": "pto_balance"}
+{"global_ix": 18650, "sentence": "your name is roman", "label": "change_ai_name"}
+{"global_ix": 3620, "sentence": "do i have any vacation time left", "label": "pto_balance"}
+{"global_ix": 16336, "sentence": "how would i say love in french", "label": "translate"}
+{"global_ix": 8447, "sentence": "check to see who is at the doof", "label": "smart_home"}
+{"global_ix": 8024, "sentence": "what's the point of life, anyways", "label": "meaning_of_life"}
+{"global_ix": 19548, "sentence": "i want to visit chicago by bus what do i need to do", "label": "directions"}
+{"global_ix": 19047, "sentence": "light the bedroom lights", "label": "smart_home"}
+{"global_ix": 7684, "sentence": "after another eight days, what day will it be", "label": "date"}
+{"global_ix": 1394, "sentence": "on my shopping list, remove eggs", "label": "shopping_list_update"}
+{"global_ix": 18693, "sentence": "please confirm that i have a reservation for 2/20 at 6:00 pm", "label": "confirm_reservation"}
+{"global_ix": 5724, "sentence": "can you assure me i have a table at taco bell at 7pm", "label": "confirm_reservation"}
+{"global_ix": 2334, "sentence": "i need soda added to my list and carrots removed", "label": "shopping_list_update"}
+{"global_ix": 4467, "sentence": "i want to know how many vacation days i can use", "label": "pto_balance"}
+{"global_ix": 861, "sentence": "please double check on my reservations for buffalo wild wings at five for the game", "label": "confirm_reservation"}
+{"global_ix": 16659, "sentence": "let me know what the point of life is", "label": "meaning_of_life"}
+{"global_ix": 4963, "sentence": "tell me what day it is", "label": "date"}
+{"global_ix": 11962, "sentence": "for the shopping list, add ham as well", "label": "shopping_list_update"}
+{"global_ix": 11044, "sentence": "whats lifes meaning exactly", "label": "meaning_of_life"}
+{"global_ix": 16, "sentence": "what is the purpose of existence", "label": "meaning_of_life"}
+{"global_ix": 18320, "sentence": "do i still have the reservation on march 21 at 8pm", "label": "confirm_reservation"}
+{"global_ix": 18278, "sentence": "throw eggs on my shopping list, please", "label": "shopping_list_update"}
+{"global_ix": 4405, "sentence": "would you remove bread from my shopping list and add bread", "label": "shopping_list_update"}
+{"global_ix": 5563, "sentence": "how many vacation days do i have remaining, please", "label": "pto_balance"}
+{"global_ix": 3108, "sentence": "confirm my johnny rockets reservation for this evening", "label": "confirm_reservation"}
+{"global_ix": 16333, "sentence": "how many vacation days do i still have available", "label": "pto_balance"}
+{"global_ix": 4024, "sentence": "can you please confirm that i have a 6:00 pm table reserved under michelle solomon at devon's", "label": "confirm_reservation"}
+{"global_ix": 9945, "sentence": "what do my vacation days amount to", "label": "pto_balance"}
+{"global_ix": 9493, "sentence": "set the tv on", "label": "smart_home"}
+{"global_ix": 10134, "sentence": "translate hello to french", "label": "translate"}
+{"global_ix": 16592, "sentence": "how would i say, 'i don't know the answer' in spanish", "label": "translate"}
+{"global_ix": 1984, "sentence": "make a reminder to pay the mortgage", "label": "reminder_update"}
+{"global_ix": 8335, "sentence": "how do you say thank you in german", "label": "translate"}
+{"global_ix": 12831, "sentence": "are bananas on the list, if not can you add them", "label": "shopping_list_update"}
+{"global_ix": 14234, "sentence": "how do they say \"who is your father\" in german", "label": "translate"}
+{"global_ix": 7812, "sentence": "i need to know today's date please", "label": "date"}
+{"global_ix": 22251, "sentence": "how many pto days do i have remaining", "label": "pto_balance"}
+{"global_ix": 16832, "sentence": "has my reservation for john at bardenay been confirmed", "label": "confirm_reservation"}
+{"global_ix": 4882, "sentence": "set a reminder to feed the dogs", "label": "reminder_update"}
+{"global_ix": 13866, "sentence": "can you turn on the tv", "label": "smart_home"}
+{"global_ix": 2682, "sentence": "make the lights dimmer please", "label": "smart_home"}
+{"global_ix": 2503, "sentence": "i'd like to use another name for you", "label": "change_ai_name"}
+{"global_ix": 23101, "sentence": "i need to change your name, do you have a new name that you like", "label": "change_ai_name"}
+{"global_ix": 18713, "sentence": "i need information on today's date", "label": "date"}
+{"global_ix": 17734, "sentence": "i would like to try and confirm that i have a reservation at macaroni grill for saul", "label": "confirm_reservation"}
+{"global_ix": 23647, "sentence": "what is the saved vacation time i have left", "label": "pto_balance"}
+{"global_ix": 3564, "sentence": "is my 10am village inn reservation valid", "label": "confirm_reservation"}
+{"global_ix": 9376, "sentence": "i really want to confirm that i have a reservation at red robin for josh", "label": "confirm_reservation"}
+{"global_ix": 3396, "sentence": "what is your take on the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 12978, "sentence": "i'm out of kleenex so will you put that on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 20536, "sentence": "remind me", "label": "reminder_update"}
+{"global_ix": 23318, "sentence": "i want you to change the ai name", "label": "change_ai_name"}
+{"global_ix": 9716, "sentence": "i'm not sure if watermelon is on my shopping list, but if it isn't can you put it on there", "label": "shopping_list_update"}
+{"global_ix": 4758, "sentence": "would you tell me the meaning of life, please", "label": "meaning_of_life"}
+{"global_ix": 20673, "sentence": "what date is it today", "label": "date"}
+{"global_ix": 11473, "sentence": "what date is today", "label": "date"}
+{"global_ix": 5722, "sentence": "please give me a reminder", "label": "reminder_update"}
+{"global_ix": 10993, "sentence": "please try to confirm my reservation for jim at barney's", "label": "confirm_reservation"}
+{"global_ix": 5267, "sentence": "where is the closest bathroom to the statue of liberty", "label": "directions"}
+{"global_ix": 19569, "sentence": "are my doors locked right now", "label": "smart_home"}
+{"global_ix": 17151, "sentence": "i need to be notified to clean the room", "label": "reminder_update"}
+{"global_ix": 23257, "sentence": "add a reminder to check how the body is decomposing", "label": "reminder_update"}
+{"global_ix": 1880, "sentence": "set my oven to 350 please", "label": "smart_home"}
+{"global_ix": 4084, "sentence": "let me know my vacation time", "label": "pto_balance"}
+{"global_ix": 16683, "sentence": "can you tell me the current date", "label": "date"}
+{"global_ix": 120, "sentence": "i'd like to know how many vacation days i have", "label": "pto_balance"}
+{"global_ix": 8234, "sentence": "is my reservation set for john at bardenay", "label": "confirm_reservation"}
+{"global_ix": 4902, "sentence": "can you tell me the nearest wells fargo bank location to port authority, new york", "label": "directions"}
+{"global_ix": 8576, "sentence": "remind me friday to call my mother", "label": "reminder_update"}
+{"global_ix": 21194, "sentence": "how about lets start calling you juliette", "label": "change_ai_name"}
+{"global_ix": 16626, "sentence": "please confirm my reservation at brio for theodore", "label": "confirm_reservation"}
+{"global_ix": 16940, "sentence": "i need to add flour to my list for shopping if i haven't already", "label": "shopping_list_update"}
+{"global_ix": 21222, "sentence": "i want to know how to say goodbye in france", "label": "translate"}
+{"global_ix": 19013, "sentence": "make a reminder, pay taxes on monday", "label": "reminder_update"}
+{"global_ix": 14978, "sentence": "turn on the microwave for 3 minutes", "label": "smart_home"}
+{"global_ix": 9751, "sentence": "confirm my reservation at dino's at 6 pm", "label": "confirm_reservation"}
+{"global_ix": 8318, "sentence": "i would like to try and confirm that i have a reservation at chili's for jamie", "label": "confirm_reservation"}
+{"global_ix": 17582, "sentence": "what makes life have any meaning", "label": "meaning_of_life"}
+{"global_ix": 18147, "sentence": "how many vacation days do i have left this year", "label": "pto_balance"}
+{"global_ix": 14792, "sentence": "what's the number of remaining vacation days i have", "label": "pto_balance"}
+{"global_ix": 2679, "sentence": "we no longer need fries on the shopping lisr", "label": "shopping_list_update"}
+{"global_ix": 11378, "sentence": "let's change what you respond to", "label": "change_ai_name"}
+{"global_ix": 12703, "sentence": "what's tomorrow's date", "label": "date"}
+{"global_ix": 4706, "sentence": "what is the equivalent of, 'life is good' in french", "label": "translate"}
+{"global_ix": 5723, "sentence": "i will now call you adam instead of your old name", "label": "change_ai_name"}
+{"global_ix": 6183, "sentence": "i need to know directions to the nearest gas station", "label": "directions"}
+{"global_ix": 15444, "sentence": "can you verify the doors are locked", "label": "smart_home"}
+{"global_ix": 13334, "sentence": "what is the secret or meaning to life", "label": "meaning_of_life"}
+{"global_ix": 10497, "sentence": "do i have pepper my shopping list, if not add it", "label": "shopping_list_update"}
+{"global_ix": 776, "sentence": "can you explain the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 2532, "sentence": "how do they say \"i love you\" in japanese", "label": "translate"}
+{"global_ix": 16870, "sentence": "please confirm my reservation for kevin at red robin", "label": "confirm_reservation"}
+{"global_ix": 7570, "sentence": "is the milk on the shopping list if not, please add", "label": "shopping_list_update"}
+{"global_ix": 16989, "sentence": "set a reminder to take out the trash", "label": "reminder_update"}
+{"global_ix": 9235, "sentence": "the temperature of the ac, what is it at", "label": "smart_home"}
+{"global_ix": 1162, "sentence": "can you tell me the meaning of life, please", "label": "meaning_of_life"}
+{"global_ix": 1392, "sentence": "can a bus get me to the statue of liberty", "label": "directions"}
+{"global_ix": 10276, "sentence": "tell me if i have any spare vacation days", "label": "pto_balance"}
+{"global_ix": 9295, "sentence": "please confirm my reservation for march 8th at 12:00", "label": "confirm_reservation"}
+{"global_ix": 1462, "sentence": "where is the nearest papa john's", "label": "directions"}
+{"global_ix": 271, "sentence": "your name will be queen", "label": "change_ai_name"}
+{"global_ix": 13174, "sentence": "how can i take a bus to dallas", "label": "directions"}
+{"global_ix": 19419, "sentence": "how do i say dinner in spanish", "label": "translate"}
+{"global_ix": 23063, "sentence": "make a reminder to work out at the gym", "label": "reminder_update"}
+{"global_ix": 15667, "sentence": "what do you think is the meaning of like", "label": "meaning_of_life"}
+{"global_ix": 19491, "sentence": "i'd like to me told the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 2780, "sentence": "can you add cherrios to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 17781, "sentence": "start the dishwasher", "label": "smart_home"}
+{"global_ix": 19856, "sentence": "what is our purpose here on earth", "label": "meaning_of_life"}
+{"global_ix": 9022, "sentence": "create a reminder for me to exercise this week", "label": "reminder_update"}
+{"global_ix": 11109, "sentence": "please confirm my reservation for march 1st at 2pm", "label": "confirm_reservation"}
+{"global_ix": 19694, "sentence": "how many weeks of vacation time do i have", "label": "pto_balance"}
+{"global_ix": 23350, "sentence": "is it possible to get to olympia by bus", "label": "directions"}
+{"global_ix": 1665, "sentence": "what number of vacation days do i have at my disposal", "label": "pto_balance"}
+{"global_ix": 20412, "sentence": "do you know the deeper meaning of life", "label": "meaning_of_life"}
+{"global_ix": 9083, "sentence": "is there a reservation for mark at mimis", "label": "confirm_reservation"}
+{"global_ix": 9837, "sentence": "add cherrios to the shopping list", "label": "shopping_list_update"}
+{"global_ix": 2271, "sentence": "create a new reminder to study for my final exams", "label": "reminder_update"}
+{"global_ix": 15588, "sentence": "do i have tortillas on my shopping list if not please add it", "label": "shopping_list_update"}
+{"global_ix": 19495, "sentence": "oven should be set to 350 now", "label": "smart_home"}
+{"global_ix": 2175, "sentence": "make me a reminder about booking it", "label": "reminder_update"}
+{"global_ix": 1214, "sentence": "i need the temperature set at 70 f", "label": "smart_home"}
+{"global_ix": 9001, "sentence": "where is starbucks", "label": "directions"}
+{"global_ix": 22273, "sentence": "turn lights on in my master bathroom", "label": "smart_home"}
+{"global_ix": 7784, "sentence": "i want to change your name, please", "label": "change_ai_name"}
+{"global_ix": 18611, "sentence": "from here on, you'll be responding to the name captain black", "label": "change_ai_name"}
+{"global_ix": 2265, "sentence": "i want to update you name", "label": "change_ai_name"}
+{"global_ix": 16167, "sentence": "please tell me the location of the nearest target store", "label": "directions"}
+{"global_ix": 11278, "sentence": "what is the day now", "label": "date"}
+{"global_ix": 9984, "sentence": "set a reminder to remind me to check when my car payment is", "label": "reminder_update"}
+{"global_ix": 17564, "sentence": "i want to start calling you bob", "label": "change_ai_name"}
+{"global_ix": 6555, "sentence": "please lock the doors", "label": "smart_home"}
+{"global_ix": 4136, "sentence": "tell me the date it will be 5 days from now", "label": "date"}
+{"global_ix": 417, "sentence": "turn on the tv please", "label": "smart_home"}
+{"global_ix": 19030, "sentence": "i have how many vacation days left this year", "label": "pto_balance"}
+{"global_ix": 14488, "sentence": "don't let me forget to check the steak", "label": "reminder_update"}
+{"global_ix": 17338, "sentence": "which bus should i take to get to the statue of liberty", "label": "directions"}
+{"global_ix": 17163, "sentence": "i want to change your name to theodore", "label": "change_ai_name"}
+{"global_ix": 21023, "sentence": "remember to lock the doors", "label": "smart_home"}
+{"global_ix": 19929, "sentence": "can you get my car started", "label": "smart_home"}
+{"global_ix": 20662, "sentence": "how many days of vacation do i have left", "label": "pto_balance"}
+{"global_ix": 8692, "sentence": "i'd like to confirm that i have a reservation at red robin for josh", "label": "confirm_reservation"}
+{"global_ix": 17170, "sentence": "how do i say thank you in japanese", "label": "translate"}
+{"global_ix": 4919, "sentence": "what will be the date in 100 days from now", "label": "date"}
+{"global_ix": 14643, "sentence": "add a reminder to pick milk up at the store", "label": "reminder_update"}
+{"global_ix": 12826, "sentence": "remind me to clean room", "label": "reminder_update"}
+{"global_ix": 2578, "sentence": "what is the date tomorrow", "label": "date"}
+{"global_ix": 22033, "sentence": "please tell me the exact number of days i have still for vacation", "label": "pto_balance"}
+{"global_ix": 16044, "sentence": "i'd like to start calling you lover", "label": "change_ai_name"}
+{"global_ix": 21485, "sentence": "check to see if i have reservations at prado at 6 pm", "label": "confirm_reservation"}
+{"global_ix": 20988, "sentence": "set your name to hillary", "label": "change_ai_name"}
+{"global_ix": 1167, "sentence": "translate hello into french for me", "label": "translate"}
+{"global_ix": 20296, "sentence": "what would the word for grass be in finland", "label": "translate"}
+{"global_ix": 3006, "sentence": "remind me to take out the garbage in the morning", "label": "reminder_update"}
+{"global_ix": 3691, "sentence": "is it okay if i change your name to mud", "label": "change_ai_name"}
+{"global_ix": 19043, "sentence": "what's the date 32 days from now", "label": "date"}
+{"global_ix": 17287, "sentence": "is being alive the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 19767, "sentence": "get me directions to phoenix", "label": "directions"}
+{"global_ix": 9996, "sentence": "what will the date be in 64 days", "label": "date"}
+{"global_ix": 22187, "sentence": "can you translate cat into russian for me", "label": "translate"}
+{"global_ix": 9165, "sentence": "can i change your name", "label": "change_ai_name"}
+{"global_ix": 18165, "sentence": "would you let me know what the meaning is life is", "label": "meaning_of_life"}
+{"global_ix": 15811, "sentence": "tell me what the date is today", "label": "date"}
+{"global_ix": 10097, "sentence": "can you verify my reservation under steve for friendly's", "label": "confirm_reservation"}
+{"global_ix": 20260, "sentence": "what number of vacation days remain for me", "label": "pto_balance"}
+{"global_ix": 5112, "sentence": "remind me to do something", "label": "reminder_update"}
+{"global_ix": 7353, "sentence": "translate hello in french", "label": "translate"}
+{"global_ix": 8794, "sentence": "how would i walk to the liberty bell from here", "label": "directions"}
+{"global_ix": 6089, "sentence": "set my oven to 350 for me right now", "label": "smart_home"}
+{"global_ix": 7907, "sentence": "what is spanish for good morning", "label": "translate"}
+{"global_ix": 21866, "sentence": "how much pto do i have left", "label": "pto_balance"}
+{"global_ix": 18382, "sentence": "how do you say i'm hungry in french", "label": "translate"}
+{"global_ix": 13702, "sentence": "what's the meaning of my life", "label": "meaning_of_life"}
+{"global_ix": 21076, "sentence": "what's the point of sentience", "label": "meaning_of_life"}
+{"global_ix": 22907, "sentence": "i have how many vacation days saved up", "label": "pto_balance"}
+{"global_ix": 15421, "sentence": "would you let me know what date it will be in 3 days", "label": "date"}
+{"global_ix": 12022, "sentence": "remove fries from my shopping list", "label": "shopping_list_update"}
+{"global_ix": 8850, "sentence": "change the name of your system", "label": "change_ai_name"}
+{"global_ix": 6235, "sentence": "did anyone securely lock the door", "label": "smart_home"}
+{"global_ix": 8733, "sentence": "how do i get to the train on foot", "label": "directions"}
+{"global_ix": 9348, "sentence": "give me the date", "label": "date"}
+{"global_ix": 1318, "sentence": "i'd like you to add oranges to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 9637, "sentence": "please tell me how to ask for a taxi in french", "label": "translate"}
+{"global_ix": 10046, "sentence": "to 350, set the oven", "label": "smart_home"}
+{"global_ix": 13984, "sentence": "help me set a reminder to work out", "label": "reminder_update"}
+{"global_ix": 2712, "sentence": "i must change your name to amanda", "label": "change_ai_name"}
+{"global_ix": 9122, "sentence": "where is the closest subway entrance to me to go to brooklyn", "label": "directions"}
+{"global_ix": 5281, "sentence": "what do my pto days amount to", "label": "pto_balance"}
+{"global_ix": 8921, "sentence": "how much vacation do i have saved", "label": "pto_balance"}
+{"global_ix": 18524, "sentence": "can you take frozen food of my shopping list", "label": "shopping_list_update"}
+{"global_ix": 15216, "sentence": "would you explain the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 6374, "sentence": "i want to know how much vacation time i can use", "label": "pto_balance"}
+{"global_ix": 14352, "sentence": "i'm out of cleaning supplies, remind me on my list", "label": "shopping_list_update"}
+{"global_ix": 6646, "sentence": "how can i say i love you in italy", "label": "translate"}
+{"global_ix": 4289, "sentence": "how do you say please in french", "label": "translate"}
+{"global_ix": 22976, "sentence": "i must know the closest gas station to glendale", "label": "directions"}
+{"global_ix": 11953, "sentence": "remove wine and add beer to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 908, "sentence": "do i have reservations at creme at 7 pm", "label": "confirm_reservation"}
+{"global_ix": 19292, "sentence": "will you respond to adam instead of the current name", "label": "change_ai_name"}
+{"global_ix": 9193, "sentence": "give me a reminder for calling bill", "label": "reminder_update"}
+{"global_ix": 10621, "sentence": "did i lock the doors", "label": "smart_home"}
+{"global_ix": 4899, "sentence": "i'm out of laundry detergent so will you put that on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 1651, "sentence": "how do they say goodbye in hawaii", "label": "translate"}
+{"global_ix": 15, "sentence": "what will tomorrow be on the calendar", "label": "date"}
+{"global_ix": 3868, "sentence": "define the meaning of life for me", "label": "meaning_of_life"}
+{"global_ix": 14067, "sentence": "does this life have a meaning", "label": "meaning_of_life"}
+{"global_ix": 22505, "sentence": "are bananas already on the list, if not go ahead and add them", "label": "shopping_list_update"}
+{"global_ix": 8360, "sentence": "how does one say wonderful in german", "label": "translate"}
+{"global_ix": 20885, "sentence": "i'd like to know the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 10776, "sentence": "i want to know the nearest bank's location", "label": "directions"}
+{"global_ix": 16026, "sentence": "can you translate this name into spanish for me, please", "label": "translate"}
+{"global_ix": 21159, "sentence": "switch tv", "label": "smart_home"}
+{"global_ix": 14624, "sentence": "i'd like for you to make sure my reservation is there for charlie's under jack", "label": "confirm_reservation"}
+{"global_ix": 12031, "sentence": "i want to get reminded to clean my room", "label": "reminder_update"}
+{"global_ix": 9389, "sentence": "what will the date be 100 days from now", "label": "date"}
+{"global_ix": 5128, "sentence": "tv turn it on", "label": "smart_home"}
+{"global_ix": 16758, "sentence": "how many pto days do i have left", "label": "pto_balance"}
+{"global_ix": 5855, "sentence": "i'd like to call you alex", "label": "change_ai_name"}
+{"global_ix": 23536, "sentence": "what do you know about lifes meaning", "label": "meaning_of_life"}
+{"global_ix": 19196, "sentence": "how do i say thank you in spanish", "label": "translate"}
+{"global_ix": 335, "sentence": "cross out bananas from my shopping list and put papayas on it, please", "label": "shopping_list_update"}
+{"global_ix": 20339, "sentence": "can you confirm my reservation for dave at outback steakhouse", "label": "confirm_reservation"}
+{"global_ix": 925, "sentence": "are there any furniture outlets near the mall", "label": "directions"}
+{"global_ix": 23437, "sentence": "i would like information on the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 13152, "sentence": "please start my car", "label": "smart_home"}
+{"global_ix": 15738, "sentence": "make me a reminder that tommorow is trash day", "label": "reminder_update"}
+{"global_ix": 17924, "sentence": "revise the ai name", "label": "change_ai_name"}
+{"global_ix": 7118, "sentence": "what is spanish for hello", "label": "translate"}
+{"global_ix": 7079, "sentence": "find my reservation for steve at crucere's and confirm it, please", "label": "confirm_reservation"}
+{"global_ix": 7104, "sentence": "turn on the fan", "label": "smart_home"}
+{"global_ix": 19946, "sentence": "what date will it be 8 days from now", "label": "date"}
+{"global_ix": 15527, "sentence": "take paper towels off of my shopping list", "label": "shopping_list_update"}
+{"global_ix": 3656, "sentence": "can you confirm my reservation for jaime at red lobster", "label": "confirm_reservation"}
+{"global_ix": 23224, "sentence": "today's date is what", "label": "date"}
+{"global_ix": 7172, "sentence": "where is the nearest arco gas station to macdonalds", "label": "directions"}
+{"global_ix": 9899, "sentence": "i am needing you to tell me how to get to dallas, texas, by bus", "label": "directions"}
+{"global_ix": 9790, "sentence": "how do i change the name you came with to something else", "label": "change_ai_name"}
+{"global_ix": 9305, "sentence": "how much pto have i accrued", "label": "pto_balance"}
+{"global_ix": 10356, "sentence": "put the lights on low", "label": "smart_home"}
+{"global_ix": 4776, "sentence": "i would like a reminder", "label": "reminder_update"}
+{"global_ix": 21608, "sentence": "add milk to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 18323, "sentence": "i need to know how many pto days are left", "label": "pto_balance"}
+{"global_ix": 1329, "sentence": "please confirm my reservation for 2/20 at 8 pm", "label": "confirm_reservation"}
+{"global_ix": 8876, "sentence": "give me today's date", "label": "date"}
+{"global_ix": 6039, "sentence": "put spaghetti on my shopping list cause i'm out of it please", "label": "shopping_list_update"}
+{"global_ix": 13322, "sentence": "where is the closest chevron gas station in columbus, ohio", "label": "directions"}
+{"global_ix": 11450, "sentence": "what's the answer to existence", "label": "meaning_of_life"}
+{"global_ix": 5480, "sentence": "i want to start calling you adam", "label": "change_ai_name"}
+{"global_ix": 9528, "sentence": "i'm changing your name to goliath", "label": "change_ai_name"}
+{"global_ix": 1376, "sentence": "i'm out of toilet paper so will you put that on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 19812, "sentence": "how would i say i'm not guilty if i were mexican", "label": "translate"}
+{"global_ix": 19328, "sentence": "what do you call a subway if you were english", "label": "translate"}
+{"global_ix": 22584, "sentence": "what's the meaning of this life", "label": "meaning_of_life"}
+{"global_ix": 6011, "sentence": "what date is it tomorrow", "label": "date"}
+{"global_ix": 10772, "sentence": "how would i say thank you if i were mexican", "label": "translate"}
+{"global_ix": 11067, "sentence": "remove corn from my shopping list", "label": "shopping_list_update"}
+{"global_ix": 18793, "sentence": "what's the distance between home and the closest starbucks", "label": "directions"}
+{"global_ix": 8341, "sentence": "on my shopping list, remove bread and add milk", "label": "shopping_list_update"}
+{"global_ix": 13671, "sentence": "is there really an answer to the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 11734, "sentence": "please respond to me when i reference skynet", "label": "change_ai_name"}
+{"global_ix": 226, "sentence": "how many pto days are in my possesion", "label": "pto_balance"}
+{"global_ix": 17303, "sentence": "could you tell me how to get to the statue of liberty by bus", "label": "directions"}
+{"global_ix": 16936, "sentence": "how is life in existence", "label": "meaning_of_life"}
+{"global_ix": 182, "sentence": "what temp is the ac at", "label": "smart_home"}
+{"global_ix": 19460, "sentence": "what is the way to say thank you in spanish", "label": "translate"}
+{"global_ix": 23250, "sentence": "if i were mongolian, how would i say that i am a tourist", "label": "translate"}
+{"global_ix": 19271, "sentence": "what do you know about the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 21867, "sentence": "tell me what the date is tomorrow", "label": "date"}
+{"global_ix": 13619, "sentence": "can you confirm that i have a reservation for 2/20 at 6:00 pm", "label": "confirm_reservation"}
+{"global_ix": 3239, "sentence": "add bread to my list of groceries", "label": "shopping_list_update"}
+{"global_ix": 16947, "sentence": "remind me to take the chicken out in a hour", "label": "reminder_update"}
+{"global_ix": 21184, "sentence": "what do you think about me calling you cora", "label": "change_ai_name"}
+{"global_ix": 1796, "sentence": "can you remind me of the date", "label": "date"}
+{"global_ix": 18408, "sentence": "i would like to know where the closest gas station is", "label": "directions"}
+{"global_ix": 1573, "sentence": "can i change your name please", "label": "change_ai_name"}
+{"global_ix": 1545, "sentence": "create a reminder to wash the dishes", "label": "reminder_update"}
+{"global_ix": 2767, "sentence": "set the ceiling fan to low", "label": "smart_home"}
+{"global_ix": 18283, "sentence": "how do they say \"what's up\" in chinese", "label": "translate"}
+{"global_ix": 2287, "sentence": "i would like to try and confirm that i have a reservation at applebee's for kristen", "label": "confirm_reservation"}
+{"global_ix": 5157, "sentence": "change your name setting to plato", "label": "change_ai_name"}
+{"global_ix": 2979, "sentence": "put the garage lights on", "label": "smart_home"}
+{"global_ix": 1758, "sentence": "remind me to call bob", "label": "reminder_update"}
+{"global_ix": 20994, "sentence": "make a reminder to change the cat litter", "label": "reminder_update"}
+{"global_ix": 1128, "sentence": "what is the day", "label": "date"}
+{"global_ix": 1891, "sentence": "tell me what the date is for tomorrow", "label": "date"}
+{"global_ix": 2165, "sentence": "is it monday, tuesday, wednesday, thursday, friday, saturday, or sunday", "label": "date"}
+{"global_ix": 22086, "sentence": "can you translate i love you into french for me", "label": "translate"}
+{"global_ix": 8268, "sentence": "i would like you to remind me to do something", "label": "reminder_update"}
+{"global_ix": 6515, "sentence": "can you set a reminder for the meeting", "label": "reminder_update"}
+{"global_ix": 10101, "sentence": "can we change your name to clara", "label": "change_ai_name"}
+{"global_ix": 21180, "sentence": "please confirm my reservation for feburary 21st at 6pm", "label": "confirm_reservation"}
+{"global_ix": 9573, "sentence": "i want to change your name to shelby", "label": "change_ai_name"}
+{"global_ix": 12843, "sentence": "what is the meaning of my life", "label": "meaning_of_life"}
+{"global_ix": 4340, "sentence": "i need to set up a reminder for myself", "label": "reminder_update"}
+{"global_ix": 14826, "sentence": "tell me the date", "label": "date"}
+{"global_ix": 4921, "sentence": "set a new reminder for tomorrow at 4am", "label": "reminder_update"}
+{"global_ix": 4220, "sentence": "set a reminder to go dress shopping", "label": "reminder_update"}
+{"global_ix": 9669, "sentence": "i will call you cap", "label": "change_ai_name"}
+{"global_ix": 606, "sentence": "i need eggs; add them to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 11141, "sentence": "is my reservation confirmed for lu shi at 7 pm", "label": "confirm_reservation"}
+{"global_ix": 3820, "sentence": "who is at the door", "label": "smart_home"}
+{"global_ix": 20446, "sentence": "confirm my reservation for march 12 at 9:00 am", "label": "confirm_reservation"}
+{"global_ix": 9097, "sentence": "i need a reminder to take dinner out of the oven", "label": "reminder_update"}
+{"global_ix": 6804, "sentence": "how would i say i love you if i were french", "label": "translate"}
+{"global_ix": 8487, "sentence": "i am wanting to change your name to felix", "label": "change_ai_name"}
+{"global_ix": 10930, "sentence": "i wanna know a phrase in spanish", "label": "translate"}
+{"global_ix": 16620, "sentence": "what's the date today", "label": "date"}
+{"global_ix": 21637, "sentence": "please tell me if i still have a reservation at acero for susie", "label": "confirm_reservation"}
+{"global_ix": 10565, "sentence": "set a reminder for the movie", "label": "reminder_update"}
+{"global_ix": 13682, "sentence": "help me to remember to pick up stan later", "label": "reminder_update"}
+{"global_ix": 22966, "sentence": "tell me what today's date is", "label": "date"}
+{"global_ix": 19483, "sentence": "what is the date of tomorrow", "label": "date"}
+{"global_ix": 14749, "sentence": "i need to make a reminder please", "label": "reminder_update"}
+{"global_ix": 898, "sentence": "i need to know if i have reservations at arufflo at 5 pm", "label": "confirm_reservation"}
+{"global_ix": 1496, "sentence": "open up a reminder, pay taxes on monday", "label": "reminder_update"}
+{"global_ix": 2728, "sentence": "meaning of life is", "label": "meaning_of_life"}
+{"global_ix": 13387, "sentence": "confirm the john reservation at applebee's", "label": "confirm_reservation"}
+{"global_ix": 3639, "sentence": "please translate grocery into french for me", "label": "translate"}
+{"global_ix": 22786, "sentence": "how many vacation days do i have saved", "label": "pto_balance"}
+{"global_ix": 4310, "sentence": "what is dog in spanish", "label": "translate"}
+{"global_ix": 13040, "sentence": "i need a reminder to remind me to do something", "label": "reminder_update"}
+{"global_ix": 2217, "sentence": "what is the real meaning of life", "label": "meaning_of_life"}
+{"global_ix": 7350, "sentence": "remind me to use the bathroom", "label": "reminder_update"}
+{"global_ix": 17023, "sentence": "i want to get directions to the closest atm", "label": "directions"}
+{"global_ix": 3102, "sentence": "can you figure out how many vacation days i have left", "label": "pto_balance"}
+{"global_ix": 23335, "sentence": "how do i find the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 257, "sentence": "how would i say hello if i were swedish", "label": "translate"}
+{"global_ix": 19997, "sentence": "can you change the name of what you respond to", "label": "change_ai_name"}
+{"global_ix": 14539, "sentence": "i need to know the date it will be 4 days from now", "label": "date"}
+{"global_ix": 19117, "sentence": "please make sure oranges are on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 1174, "sentence": "don't forget to tell me to call my mother", "label": "reminder_update"}
+{"global_ix": 5896, "sentence": "direct me to the closest starbucks near home", "label": "directions"}
+{"global_ix": 22090, "sentence": "the temperature at ac is what", "label": "smart_home"}
+{"global_ix": 12544, "sentence": "please tell me how many vacation days i currently have", "label": "pto_balance"}
+{"global_ix": 6994, "sentence": "new reminder, please", "label": "reminder_update"}
+{"global_ix": 17144, "sentence": "please confirm that i have a reservation for march 1st at 7", "label": "confirm_reservation"}
+{"global_ix": 6741, "sentence": "please give me directions to the nearest starbucks", "label": "directions"}
+{"global_ix": 12119, "sentence": "i don't have any more steak, please put that on my grocery list", "label": "shopping_list_update"}
+{"global_ix": 10355, "sentence": "can you look who is at the door", "label": "smart_home"}
+{"global_ix": 22049, "sentence": "i want to see the golden gate bridge and i'm walking on 5th street right now", "label": "directions"}
+{"global_ix": 21507, "sentence": "put on my shopping list i need carots", "label": "shopping_list_update"}
+{"global_ix": 9195, "sentence": "x will be your name", "label": "change_ai_name"}
+{"global_ix": 22904, "sentence": "please set a reminder for me to put the clothes in the dryer", "label": "reminder_update"}
+{"global_ix": 21893, "sentence": "is there any meaning to being alive", "label": "meaning_of_life"}
+{"global_ix": 20094, "sentence": "what date is tomorrow", "label": "date"}
+{"global_ix": 14714, "sentence": "can you check that i have a reservation on february 28th for 3 in the afternoon", "label": "confirm_reservation"}
+{"global_ix": 4829, "sentence": "is there really a meaning of life", "label": "meaning_of_life"}
+{"global_ix": 13104, "sentence": "add laundry detergent to the list", "label": "shopping_list_update"}
+{"global_ix": 8088, "sentence": "check to see if i am still booked to be eating at gusto handcrafted pasta & pizza at 6:30 pm", "label": "confirm_reservation"}
+{"global_ix": 2093, "sentence": "where is the nearest gas station to 20th and market streets, in philadelphia, pa", "label": "directions"}
+{"global_ix": 23106, "sentence": "would it be possible to change your name to coraline", "label": "change_ai_name"}
+{"global_ix": 22825, "sentence": "remind me to call my mother saturday morning", "label": "reminder_update"}
+{"global_ix": 17719, "sentence": "from now on i'm going to call you ishmael", "label": "change_ai_name"}
+{"global_ix": 7369, "sentence": "what do you think we are on earth for", "label": "meaning_of_life"}
+{"global_ix": 15566, "sentence": "i would i say subway if i were english", "label": "translate"}
+{"global_ix": 12260, "sentence": "x is what i am calling you now", "label": "change_ai_name"}
+{"global_ix": 11184, "sentence": "i want to know what the purpose of life is", "label": "meaning_of_life"}
+{"global_ix": 245, "sentence": "what do people say life means or the meaning is", "label": "meaning_of_life"}
+{"global_ix": 8134, "sentence": "if i were english how would i say subway", "label": "translate"}
+{"global_ix": 17896, "sentence": "at 4 tomorrow afternoon, remind me to start the oven", "label": "reminder_update"}
+{"global_ix": 8411, "sentence": "lets start calling you allan", "label": "change_ai_name"}
+{"global_ix": 14126, "sentence": "please make a reminder", "label": "reminder_update"}
+{"global_ix": 19337, "sentence": "i wonder if you can explain the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 22024, "sentence": "what number of days do i have for vacation", "label": "pto_balance"}
+{"global_ix": 21926, "sentence": "take me to the closest walmart", "label": "directions"}
+{"global_ix": 5866, "sentence": "how much vacation time do i have", "label": "pto_balance"}
+{"global_ix": 9625, "sentence": "is milk in my shopping list if not, add it", "label": "shopping_list_update"}
+{"global_ix": 15562, "sentence": "tell me what the point of life is", "label": "meaning_of_life"}
+{"global_ix": 3289, "sentence": "remind me to put gas in my car", "label": "reminder_update"}
+{"global_ix": 12476, "sentence": "let me know how to get to the starbucks nearby", "label": "directions"}
+{"global_ix": 4116, "sentence": "can you translate good bye into russian for me", "label": "translate"}
+{"global_ix": 16440, "sentence": "can i set a reminder", "label": "reminder_update"}
+{"global_ix": 8839, "sentence": "can you confirm my reservation for donnobys at 5:00", "label": "confirm_reservation"}
+{"global_ix": 2882, "sentence": "find me the location of the nearest gas station", "label": "directions"}
+{"global_ix": 3693, "sentence": "how much vacation time have i accrued", "label": "pto_balance"}
+{"global_ix": 2842, "sentence": "i need you to make a reminder for me to give the cat her flea medicine", "label": "reminder_update"}
+{"global_ix": 10924, "sentence": "show me a calendar", "label": "date"}
+{"global_ix": 18818, "sentence": "i would like to try and confirm that i have a reservation at houlihan’s for mike", "label": "confirm_reservation"}
+{"global_ix": 19959, "sentence": "how would i get to city hall via bus", "label": "directions"}
+{"global_ix": 1412, "sentence": "can you check and see i have a reservation under alex for bon apetite", "label": "confirm_reservation"}
+{"global_ix": 11332, "sentence": "can you tell me how much pto i still have", "label": "pto_balance"}
+{"global_ix": 3773, "sentence": "remind me to set the meat out to defrost", "label": "reminder_update"}
+{"global_ix": 3584, "sentence": "let me know the number of vacation days i have", "label": "pto_balance"}
+{"global_ix": 9033, "sentence": "tack on a gallon of milk to the grocery list", "label": "shopping_list_update"}
+{"global_ix": 11805, "sentence": "confirm four for my reservation at fiji", "label": "confirm_reservation"}
+{"global_ix": 12520, "sentence": "can you set me a reminder", "label": "reminder_update"}
+{"global_ix": 2051, "sentence": "i'd like to confirm the 2:00 reservation for friday", "label": "confirm_reservation"}
+{"global_ix": 2583, "sentence": "how many weeks of vacation time have i earned", "label": "pto_balance"}
+{"global_ix": 640, "sentence": "can i make your name different", "label": "change_ai_name"}
+{"global_ix": 21493, "sentence": "could you translate atm machine into english", "label": "translate"}
+{"global_ix": 14758, "sentence": "will you call and check on my reservation for john at bardenay", "label": "confirm_reservation"}
+{"global_ix": 15971, "sentence": "i always wonder about the meaning of life, can you tell me", "label": "meaning_of_life"}
+{"global_ix": 3608, "sentence": "what is it like the temperature at ac", "label": "smart_home"}
+{"global_ix": 21352, "sentence": "i need to know where the hospital closest to me is", "label": "directions"}
+{"global_ix": 18104, "sentence": "let me know the nearest gas station to glendale", "label": "directions"}
+{"global_ix": 6892, "sentence": "how does one say thank you in spanish", "label": "translate"}
+{"global_ix": 4956, "sentence": "can you tell me what today's date is", "label": "date"}
+{"global_ix": 13994, "sentence": "when will it be in 10 days", "label": "date"}
+{"global_ix": 16004, "sentence": "can you change your name to fred", "label": "change_ai_name"}
+{"global_ix": 4775, "sentence": "please put silverware on my list for shopping", "label": "shopping_list_update"}
+{"global_ix": 13467, "sentence": "could you make me a reminder to do the floors", "label": "reminder_update"}
+{"global_ix": 1875, "sentence": "do you know the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 6463, "sentence": "turn the oven to 350", "label": "smart_home"}
+{"global_ix": 7694, "sentence": "i'd like to add pancake mix to my shopping list if it's not already there", "label": "shopping_list_update"}
+{"global_ix": 20194, "sentence": "what other names can i give you", "label": "change_ai_name"}
+{"global_ix": 6957, "sentence": "tell me the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 12210, "sentence": "set a reminder for when the turkey is finished cooking", "label": "reminder_update"}
+{"global_ix": 4855, "sentence": "is there a reason people exist", "label": "meaning_of_life"}
+{"global_ix": 13396, "sentence": "can you create a reminder", "label": "reminder_update"}
+{"global_ix": 5456, "sentence": "the date tomorrow is what", "label": "date"}
+{"global_ix": 10615, "sentence": "i want your new name to be joshua", "label": "change_ai_name"}
+{"global_ix": 3652, "sentence": "what is the date today", "label": "date"}
+{"global_ix": 21279, "sentence": "what is the amount of vacation days i have left", "label": "pto_balance"}
+{"global_ix": 5076, "sentence": "tell me how to get to target by bus", "label": "directions"}
+{"global_ix": 8785, "sentence": "i need to know tomorrow's date", "label": "date"}
+{"global_ix": 22173, "sentence": "is it okay to change your name to samson", "label": "change_ai_name"}
+{"global_ix": 10518, "sentence": "please remind me to take out the trash", "label": "reminder_update"}
+{"global_ix": 9867, "sentence": "how many vacation days are available to me", "label": "pto_balance"}
+{"global_ix": 4913, "sentence": "can put fan on", "label": "smart_home"}
+{"global_ix": 8750, "sentence": "what is the meaning behind life, do you think", "label": "meaning_of_life"}
+{"global_ix": 22880, "sentence": "which hospital is nearest to me", "label": "directions"}
+{"global_ix": 21368, "sentence": "would you provide me with what the point of life is", "label": "meaning_of_life"}
+{"global_ix": 8273, "sentence": "can you please turn on my furnace", "label": "smart_home"}
+{"global_ix": 258, "sentence": "what day it today", "label": "date"}
+{"global_ix": 11577, "sentence": "i would like to change your name to eli", "label": "change_ai_name"}
+{"global_ix": 18706, "sentence": "where is the closest park", "label": "directions"}
+{"global_ix": 21618, "sentence": "what is the point of life", "label": "meaning_of_life"}
+{"global_ix": 7931, "sentence": "i wanna know the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 20989, "sentence": "could you tell me how many pto days do i have left", "label": "pto_balance"}
+{"global_ix": 12942, "sentence": "translate english to french hello", "label": "translate"}
+{"global_ix": 18314, "sentence": "how do you say good bye in french", "label": "translate"}
+{"global_ix": 8616, "sentence": "what number of vacation days do i have", "label": "pto_balance"}
+{"global_ix": 11990, "sentence": "let me know what today's date is", "label": "date"}
+{"global_ix": 1048, "sentence": "i would like to try and confirm that i have a reservation at macaroni grill for silva", "label": "confirm_reservation"}
+{"global_ix": 13497, "sentence": "you need to respond to a new name called joey", "label": "change_ai_name"}
+{"global_ix": 13462, "sentence": "please double check my reservations for six at mani", "label": "confirm_reservation"}
+{"global_ix": 10759, "sentence": "in 2 days, what date will it be", "label": "date"}
+{"global_ix": 2204, "sentence": "give me directions to the nearest gas station", "label": "directions"}
+{"global_ix": 6489, "sentence": "id like to change your name to max", "label": "change_ai_name"}
+{"global_ix": 22650, "sentence": "how would i say i must be going now if i were german", "label": "translate"}
+{"global_ix": 3516, "sentence": "i'd like to start calling you buddy", "label": "change_ai_name"}
+{"global_ix": 287, "sentence": "please tell me today's date", "label": "date"}
+{"global_ix": 11620, "sentence": "how many vacation days do i have for the year", "label": "pto_balance"}
+{"global_ix": 7551, "sentence": "provide me the number of vacation days i have", "label": "pto_balance"}
+{"global_ix": 13903, "sentence": "i want to change your name to adam", "label": "change_ai_name"}
+{"global_ix": 20875, "sentence": "verify that i have reservations at chilis for john doe", "label": "confirm_reservation"}
+{"global_ix": 21154, "sentence": "i'm going to start calling you alice", "label": "change_ai_name"}
+{"global_ix": 13335, "sentence": "can you confirm i have a reservation at 5 pm on march 13th", "label": "confirm_reservation"}
+{"global_ix": 13724, "sentence": "what day of the week is it", "label": "date"}
+{"global_ix": 15021, "sentence": "do you know ho many vacation days i currently have", "label": "pto_balance"}
+{"global_ix": 5848, "sentence": "is today monday", "label": "date"}
+{"global_ix": 19021, "sentence": "make your name jake", "label": "change_ai_name"}
+{"global_ix": 1536, "sentence": "i am going to address you as my own name", "label": "change_ai_name"}
+{"global_ix": 22271, "sentence": "x on the shopping list please", "label": "shopping_list_update"}
+{"global_ix": 18874, "sentence": "could i please change your name to alicia", "label": "change_ai_name"}
+{"global_ix": 12256, "sentence": "what is your version on the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 14292, "sentence": "i wish to know the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 16486, "sentence": "i'd like to start calling you jake", "label": "change_ai_name"}
+{"global_ix": 16414, "sentence": "can you check that there's a reservation for mark at sidetracks", "label": "confirm_reservation"}
+{"global_ix": 11091, "sentence": "activate my furnace please", "label": "smart_home"}
+{"global_ix": 10059, "sentence": "i want to change your name to another name", "label": "change_ai_name"}
+{"global_ix": 14834, "sentence": "can you translate hello into swedish for me", "label": "translate"}
+{"global_ix": 2563, "sentence": "can you translate bat into russian for me", "label": "translate"}
+{"global_ix": 566, "sentence": "tomorrow, what will the date be", "label": "date"}
+{"global_ix": 9285, "sentence": "i would like to try and confirm that i have a reservation at gusteau's for krystine", "label": "confirm_reservation"}
+{"global_ix": 6824, "sentence": "what is the temperature on the ac", "label": "smart_home"}
+{"global_ix": 8372, "sentence": "i would like to know how to say hello in french", "label": "translate"}
+{"global_ix": 14501, "sentence": "what is our purpose in life", "label": "meaning_of_life"}
+{"global_ix": 8242, "sentence": "can you figure out the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 22781, "sentence": "how could i say twin in chinese", "label": "translate"}
+{"global_ix": 11982, "sentence": "what's the point of this dumpster fire known as life", "label": "meaning_of_life"}
+{"global_ix": 11827, "sentence": "can you confirm my reservation for chillis at 8:00", "label": "confirm_reservation"}
+{"global_ix": 23580, "sentence": "how would i say i love you if i were german", "label": "translate"}
+{"global_ix": 18945, "sentence": "how would i say pleased to meet you if i were japanese", "label": "translate"}
+{"global_ix": 11864, "sentence": "i would like to know what today's date is", "label": "date"}
+{"global_ix": 475, "sentence": "can you add apples to my shopping list if they aren't already on there", "label": "shopping_list_update"}
+{"global_ix": 15273, "sentence": "what do you think the meaning of life is", "label": "meaning_of_life"}
+{"global_ix": 21435, "sentence": "are you able to remind me about something", "label": "reminder_update"}
+{"global_ix": 18115, "sentence": "how do you say hello in french", "label": "translate"}
+{"global_ix": 17979, "sentence": "i'd like to have a reminder made", "label": "reminder_update"}
+{"global_ix": 22127, "sentence": "set reminder for tomorrow to eat", "label": "reminder_update"}
+{"global_ix": 8863, "sentence": "i need to take out the trash please remind me", "label": "reminder_update"}
+{"global_ix": 4999, "sentence": "will you check there is a reservation for laura at black pearl", "label": "confirm_reservation"}
+{"global_ix": 23317, "sentence": "tell me to take out the trash in an hour", "label": "reminder_update"}
+{"global_ix": 7445, "sentence": "can you turn on the lights in the den", "label": "smart_home"}
+{"global_ix": 21201, "sentence": "please confirm my reservation for bar les freres at 7", "label": "confirm_reservation"}
+{"global_ix": 15972, "sentence": "i need to delete tomatoes from my shopping list and add onions instead", "label": "shopping_list_update"}
+{"global_ix": 11117, "sentence": "tell me the date 650 days from now", "label": "date"}
+{"global_ix": 16555, "sentence": "where is the nearest circuit city", "label": "directions"}
+{"global_ix": 10340, "sentence": "can you check who is at the door", "label": "smart_home"}
+{"global_ix": 10037, "sentence": "i need hot dogs added to my shopping list please", "label": "shopping_list_update"}
+{"global_ix": 20700, "sentence": "i want change your name to russ", "label": "change_ai_name"}
+{"global_ix": 7007, "sentence": "turn the fan on please", "label": "smart_home"}
+{"global_ix": 22339, "sentence": "what is today's date", "label": "date"}
+{"global_ix": 5597, "sentence": "has anyone locked the door", "label": "smart_home"}
+{"global_ix": 9177, "sentence": "do you know if my reservation for dono is confirmed at 8 pm", "label": "confirm_reservation"}
+{"global_ix": 18, "sentence": "give me vacation days remaining, please", "label": "pto_balance"}
+{"global_ix": 15642, "sentence": "do i have any vacation days to use", "label": "pto_balance"}
+{"global_ix": 15514, "sentence": "where can i find the mall closest to here", "label": "directions"}
+{"global_ix": 9772, "sentence": "how do i ask about the weather in chinese", "label": "translate"}
+{"global_ix": 9313, "sentence": "is there a tire repair place near the post office", "label": "directions"}
+{"global_ix": 23162, "sentence": "ac temperature is at what", "label": "smart_home"}
+{"global_ix": 13325, "sentence": "are my doors in the locked position right now", "label": "smart_home"}
+{"global_ix": 18460, "sentence": "tell me what day today is", "label": "date"}
+{"global_ix": 7132, "sentence": "search for the nearest expressway to the airport", "label": "directions"}
+{"global_ix": 13517, "sentence": "i want to update you name now", "label": "change_ai_name"}
+{"global_ix": 7712, "sentence": "what day is it", "label": "date"}
+{"global_ix": 10368, "sentence": "today is which day of the week", "label": "date"}
+{"global_ix": 6834, "sentence": "i would like to set a reminder to bring the plants in tonight", "label": "reminder_update"}
+{"global_ix": 6416, "sentence": "please set the temperature to 80", "label": "smart_home"}
+{"global_ix": 20623, "sentence": "what is the right way to say excuse me in spanish", "label": "translate"}
+{"global_ix": 2100, "sentence": "how many of my vacation days do i have remaining", "label": "pto_balance"}
+{"global_ix": 22575, "sentence": "i need to confirm my reservation for red lobster for frank", "label": "confirm_reservation"}
+{"global_ix": 18120, "sentence": "how would you say fly in italian", "label": "translate"}
+{"global_ix": 10660, "sentence": "where is the closest mcdonalds", "label": "directions"}
+{"global_ix": 13156, "sentence": "i want to rename you joe", "label": "change_ai_name"}
+{"global_ix": 16707, "sentence": "set a reminder for me to request time off work around the holidays", "label": "reminder_update"}
+{"global_ix": 11568, "sentence": "can you tell me the location of the nearest bank", "label": "directions"}
+{"global_ix": 8395, "sentence": "add bread to my list of things to buy", "label": "shopping_list_update"}
+{"global_ix": 9963, "sentence": "please check the door to see who is there", "label": "smart_home"}
+{"global_ix": 22717, "sentence": "take soda from my shopping list, and while you're at it add tea", "label": "shopping_list_update"}
+{"global_ix": 10157, "sentence": "what is the month and day tomorrow", "label": "date"}
+{"global_ix": 7947, "sentence": "how can i say thank you in spanish", "label": "translate"}
+{"global_ix": 13889, "sentence": "i would like to try and confirm that i have a reservation at chili's for bart", "label": "confirm_reservation"}
+{"global_ix": 11727, "sentence": "how can i say \"cancel my order\" in french", "label": "translate"}
+{"global_ix": 23383, "sentence": "where is the nearest wal mart", "label": "directions"}
+{"global_ix": 7349, "sentence": "i need you to turn the bathroom lights on", "label": "smart_home"}
+{"global_ix": 4607, "sentence": "what date will it be 7 days from now", "label": "date"}
+{"global_ix": 17337, "sentence": "i want to set your name to gaffigan", "label": "change_ai_name"}
+{"global_ix": 13038, "sentence": "i'd like to confirm my reservation for 2/20 at 8 pm", "label": "confirm_reservation"}
+{"global_ix": 22177, "sentence": "your new name is joe, okay", "label": "change_ai_name"}
+{"global_ix": 9571, "sentence": "tell me what is the purpose of life", "label": "meaning_of_life"}
+{"global_ix": 6179, "sentence": "who is at my front door", "label": "smart_home"}
+{"global_ix": 8492, "sentence": "please confirm my reservation for april 1st at 9am", "label": "confirm_reservation"}
+{"global_ix": 10486, "sentence": "what's today's date", "label": "date"}
+{"global_ix": 9311, "sentence": "would you please tell me today's date", "label": "date"}
+{"global_ix": 11514, "sentence": "i need a reminder set for signing up for the conference", "label": "reminder_update"}
+{"global_ix": 515, "sentence": "can you tell me the number of pto days i have left", "label": "pto_balance"}
+{"global_ix": 9381, "sentence": "please call gusto handcrafted pasta & pizza and ask them about the status of my reservation for 6:30 pm", "label": "confirm_reservation"}
+{"global_ix": 17989, "sentence": "switch fan", "label": "smart_home"}
+{"global_ix": 20821, "sentence": "set a reminder for tomorrows meeting", "label": "reminder_update"}
+{"global_ix": 607, "sentence": "you know the reservation i have on 2:00 friday i confirm it", "label": "confirm_reservation"}
+{"global_ix": 15327, "sentence": "i would like to try and confirm that i have a reservation at longhorn for justin", "label": "confirm_reservation"}
+{"global_ix": 22840, "sentence": "how many days of vacation have i saved", "label": "pto_balance"}
+{"global_ix": 17755, "sentence": "add eggs to my shopping list and remove cheese", "label": "shopping_list_update"}
+{"global_ix": 21080, "sentence": "i need to change your name to ben", "label": "change_ai_name"}
+{"global_ix": 9281, "sentence": "make changes to the name of the ai", "label": "change_ai_name"}
+{"global_ix": 14307, "sentence": "can you tell me how i would say, 'more bread please' in french", "label": "translate"}
+{"global_ix": 23550, "sentence": "alter the name given to the ai", "label": "change_ai_name"}
+{"global_ix": 16678, "sentence": "i must understand the nearest gas station to glendale", "label": "directions"}
+{"global_ix": 17819, "sentence": "how many vacation days do i have at my disposal", "label": "pto_balance"}
+{"global_ix": 2510, "sentence": "take bread off my shopping list and add milk", "label": "shopping_list_update"}
+{"global_ix": 891, "sentence": "can you tell me how i would normally say thank you as a french person", "label": "translate"}
+{"global_ix": 842, "sentence": "i need you to confirm my reservation for outback steakhouse at 6", "label": "confirm_reservation"}
+{"global_ix": 9759, "sentence": "what amount of vacation days do i have", "label": "pto_balance"}
+{"global_ix": 10775, "sentence": "is there meaning in life", "label": "meaning_of_life"}
+{"global_ix": 14321, "sentence": "how many vacation days do i have to spend", "label": "pto_balance"}
+{"global_ix": 9053, "sentence": "what temperature is the ac set at", "label": "smart_home"}
+{"global_ix": 23480, "sentence": "i need to know how many vacation days i have", "label": "pto_balance"}
+{"global_ix": 16206, "sentence": "i need to be reminded to do something", "label": "reminder_update"}
+{"global_ix": 14688, "sentence": "can you please dim the lights", "label": "smart_home"}
+{"global_ix": 8778, "sentence": "i will call you zander", "label": "change_ai_name"}
+{"global_ix": 21271, "sentence": "can you put oranges on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 21, "sentence": "i need to know the nearest bank's location", "label": "directions"}
+{"global_ix": 22758, "sentence": "i need to make sure there is a reservation for george at connor oneil's", "label": "confirm_reservation"}
+{"global_ix": 14218, "sentence": "will you confirm my reservation for red robin at 10", "label": "confirm_reservation"}
+{"global_ix": 3568, "sentence": "add soda on my shopping list and remove carrots", "label": "shopping_list_update"}
+{"global_ix": 6307, "sentence": "remind me to check the steak", "label": "reminder_update"}
+{"global_ix": 20334, "sentence": "where is the closest gas station to glendale", "label": "directions"}
+{"global_ix": 10082, "sentence": "how many more vacation days can i use this year", "label": "pto_balance"}
+{"global_ix": 17245, "sentence": "include asparagus on the list", "label": "shopping_list_update"}
+{"global_ix": 19761, "sentence": "can you tell me tomorrow's date", "label": "date"}
+{"global_ix": 19618, "sentence": "my shopping list should have carrots on it", "label": "shopping_list_update"}
+{"global_ix": 3830, "sentence": "how do germans say goodnight", "label": "translate"}
+{"global_ix": 445, "sentence": "i want you to add milk on my shopping list unless it is already on it", "label": "shopping_list_update"}
+{"global_ix": 1737, "sentence": "set up a reminder to mail a check tommorow", "label": "reminder_update"}
+{"global_ix": 1978, "sentence": "i wanna confirm my reservation for 2/20 at 8 pm", "label": "confirm_reservation"}
+{"global_ix": 16076, "sentence": "from now on, your name will be buttercup", "label": "change_ai_name"}
+{"global_ix": 15697, "sentence": "please tell me what the date is tomorrow", "label": "date"}
+{"global_ix": 18389, "sentence": "what's the word for trees in norway", "label": "translate"}
+{"global_ix": 4680, "sentence": "whats the number of pto days i have to my availability", "label": "pto_balance"}
+{"global_ix": 15344, "sentence": "can you tell me what the meaning of life is", "label": "meaning_of_life"}
+{"global_ix": 1730, "sentence": "i would like to change your name to a different one", "label": "change_ai_name"}
+{"global_ix": 6488, "sentence": "i'll be confirming my reservation for joseph at red lobster", "label": "confirm_reservation"}
+{"global_ix": 4269, "sentence": "set a reminder for me to do this in a bit", "label": "reminder_update"}
+{"global_ix": 19969, "sentence": "is there any consensun regarding lifes true meaning", "label": "meaning_of_life"}
+{"global_ix": 21947, "sentence": "i would like to try and confirm that i have a reservation at hu hot for paulie", "label": "confirm_reservation"}
+{"global_ix": 12576, "sentence": "i need to be reminded", "label": "reminder_update"}
+{"global_ix": 9970, "sentence": "what do you think our purpose is in life", "label": "meaning_of_life"}
+{"global_ix": 23391, "sentence": "i want my reservation for march 1 at 8 pm confirmed", "label": "confirm_reservation"}
+{"global_ix": 13118, "sentence": "how would i say thank you if i were russian", "label": "translate"}
+{"global_ix": 8808, "sentence": "i have no oranges, put them onto my list", "label": "shopping_list_update"}
+{"global_ix": 6902, "sentence": "would you give me directions to the closest starbucks restaurant", "label": "directions"}
+{"global_ix": 10739, "sentence": "can you tell me the nearest restaurant to me and give me directions", "label": "directions"}
+{"global_ix": 18717, "sentence": "does it show me as having a reservation for tomorrow at 5", "label": "confirm_reservation"}
+{"global_ix": 669, "sentence": "set up a reminder so i don't forget the baby shower this weekend", "label": "reminder_update"}
+{"global_ix": 3879, "sentence": "where is the closest applebees to the empire state building", "label": "directions"}
+{"global_ix": 7565, "sentence": "why do you think we're here", "label": "meaning_of_life"}
+{"global_ix": 6051, "sentence": "will you please get my furnace turned on", "label": "smart_home"}
+{"global_ix": 5844, "sentence": "write apples on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 1336, "sentence": "english to spanish for dog", "label": "translate"}
+{"global_ix": 7675, "sentence": "milk should be added to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 20588, "sentence": "maybe we can put blank cds on my list for shopping", "label": "shopping_list_update"}
+{"global_ix": 12983, "sentence": "tell me the date 5 days from now", "label": "date"}
+{"global_ix": 19334, "sentence": "make the temperature 78 in here", "label": "smart_home"}
+{"global_ix": 592, "sentence": "i would like it if you would turn the bedroom lights on low until i'm finished reading", "label": "smart_home"}
+{"global_ix": 20275, "sentence": "set reminder to feed cat tonight at 6pm", "label": "reminder_update"}
+{"global_ix": 3962, "sentence": "i want to call you maggie", "label": "change_ai_name"}
+{"global_ix": 4694, "sentence": "how many vacation days do i have", "label": "pto_balance"}
+{"global_ix": 6996, "sentence": "can you have your name changed to fred", "label": "change_ai_name"}
+{"global_ix": 10292, "sentence": "i'm low on cherrios can you add that to the shopping list", "label": "shopping_list_update"}
+{"global_ix": 21742, "sentence": "how would i say how are you today if i were mexican", "label": "translate"}
+{"global_ix": 19150, "sentence": "i'm going to start calling you joe", "label": "change_ai_name"}
+{"global_ix": 3784, "sentence": "is there a way to go by bus to olympia", "label": "directions"}
+{"global_ix": 19378, "sentence": "15 days from today, what will the date be", "label": "date"}
+{"global_ix": 4837, "sentence": "please confirm i have a reservation for 2 pm on february 21st", "label": "confirm_reservation"}
+{"global_ix": 5681, "sentence": "can you tell me what you think the meaning of life is", "label": "meaning_of_life"}
+{"global_ix": 21569, "sentence": "do i still have any pto days left, and if so, how many", "label": "pto_balance"}
+{"global_ix": 21225, "sentence": "i need to make a reminder", "label": "reminder_update"}
+{"global_ix": 17423, "sentence": "tell me how to say, 'it is a beautiful morning' in italian", "label": "translate"}
+{"global_ix": 11266, "sentence": "what is life all about", "label": "meaning_of_life"}
+{"global_ix": 6214, "sentence": "can you tell me, what is the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 2014, "sentence": "can you translate bowl into russian for me", "label": "translate"}
+{"global_ix": 19948, "sentence": "i hereby rename you felix", "label": "change_ai_name"}
+{"global_ix": 18968, "sentence": "i'd like to get soda while i'm out; add it to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 13778, "sentence": "i need to confirm my reservation for 2/20 at 8 pm", "label": "confirm_reservation"}
+{"global_ix": 23083, "sentence": "how do you say thank you in spanish", "label": "translate"}
+{"global_ix": 15767, "sentence": "what day is it today", "label": "date"}
+{"global_ix": 4316, "sentence": "please take away the fries from the shopping list", "label": "shopping_list_update"}
+{"global_ix": 3664, "sentence": "i really need you to confirm my reservation for kevin at red robin", "label": "confirm_reservation"}
+{"global_ix": 11986, "sentence": "how do they say hello in brazil", "label": "translate"}
+{"global_ix": 19695, "sentence": "i need you to turn the tv on now", "label": "smart_home"}
+{"global_ix": 7029, "sentence": "what is the date", "label": "date"}
+{"global_ix": 11785, "sentence": "i would like you to add milk if it is not on my shopping list already", "label": "shopping_list_update"}
+{"global_ix": 2768, "sentence": "let me know what date it will be in 3 days", "label": "date"}
+{"global_ix": 119, "sentence": "remove chips from my shopping list", "label": "shopping_list_update"}
+{"global_ix": 7093, "sentence": "how do i say i'm sorry in chinese", "label": "translate"}
+{"global_ix": 4501, "sentence": "make sure to put extra paint on the list", "label": "shopping_list_update"}
+{"global_ix": 7818, "sentence": "change your settings so that your respond to the name marion", "label": "change_ai_name"}
+{"global_ix": 995, "sentence": "put fan on", "label": "smart_home"}
+{"global_ix": 13483, "sentence": "please confirm my reservation for morton's at 5 pm", "label": "confirm_reservation"}
+{"global_ix": 13960, "sentence": "i need to know the point of life", "label": "meaning_of_life"}
+{"global_ix": 17373, "sentence": "can you add eggs to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 9727, "sentence": "if soda isn't on my shopping list, go ahead and add it for me", "label": "shopping_list_update"}
+{"global_ix": 6187, "sentence": "please reminder for car meet", "label": "reminder_update"}
+{"global_ix": 15404, "sentence": "i want to make sure my reservation for 5 at mcdonalds is still set", "label": "confirm_reservation"}
+{"global_ix": 274, "sentence": "i would like to try and confirm that i have a reservation at the seven dwarves for peter", "label": "confirm_reservation"}
+{"global_ix": 299, "sentence": "what's the persons name at my door", "label": "smart_home"}
+{"global_ix": 2319, "sentence": "hoe many vacation days are left for me", "label": "pto_balance"}
+{"global_ix": 12047, "sentence": "how many saved days of vacation time do i have", "label": "pto_balance"}
+{"global_ix": 2552, "sentence": "set a reminder to go grocery shopping", "label": "reminder_update"}
+{"global_ix": 14591, "sentence": "is love the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 5098, "sentence": "i am out of trash bags and need them to be added to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 5976, "sentence": "how much vacation am i currently entitled to", "label": "pto_balance"}
+{"global_ix": 11339, "sentence": "how many vacation days do i have left", "label": "pto_balance"}
+{"global_ix": 18830, "sentence": "can you lock all the doors in the house", "label": "smart_home"}
+{"global_ix": 8010, "sentence": "tell me the date, please", "label": "date"}
+{"global_ix": 13006, "sentence": "remind me to exercise", "label": "reminder_update"}
+{"global_ix": 19841, "sentence": "can you turn my lights down just a bit", "label": "smart_home"}
+{"global_ix": 19213, "sentence": "change the ai name", "label": "change_ai_name"}
+{"global_ix": 12467, "sentence": "remind me to take out the trash", "label": "reminder_update"}
+{"global_ix": 4118, "sentence": "what is the year to date total on my vacation days", "label": "pto_balance"}
+{"global_ix": 3028, "sentence": "how can i change your name", "label": "change_ai_name"}
+{"global_ix": 11244, "sentence": "check on my reservation for umami at 6pm", "label": "confirm_reservation"}
+{"global_ix": 8345, "sentence": "how would i say i am lost if i were japanese", "label": "translate"}
+{"global_ix": 15471, "sentence": "i need to add cherrios to the grocery list", "label": "shopping_list_update"}
+{"global_ix": 15098, "sentence": "what is my ac set to right now", "label": "smart_home"}
+{"global_ix": 19836, "sentence": "please verify my reservation for john at bardenay", "label": "confirm_reservation"}
+{"global_ix": 3653, "sentence": "oven set it to 350", "label": "smart_home"}
+{"global_ix": 9696, "sentence": "i need to know what date it is tomorrow", "label": "date"}
+{"global_ix": 3406, "sentence": "what is tomorrow's date, please", "label": "date"}
+{"global_ix": 3441, "sentence": "how much time off do i have left", "label": "pto_balance"}
+{"global_ix": 3165, "sentence": "change your name to fred", "label": "change_ai_name"}
+{"global_ix": 22662, "sentence": "i have how many vacation days left", "label": "pto_balance"}
+{"global_ix": 4230, "sentence": "how many holiday days do i have left to use", "label": "pto_balance"}
+{"global_ix": 21267, "sentence": "change the ai name to a new one", "label": "change_ai_name"}
+{"global_ix": 7889, "sentence": "dim the main lights please", "label": "smart_home"}
+{"global_ix": 10129, "sentence": "can you confirm my reservation for 8 pm on the 7th of november", "label": "confirm_reservation"}
+{"global_ix": 4301, "sentence": "what do you think about changing your name to heath", "label": "change_ai_name"}
+{"global_ix": 13341, "sentence": "please turn on the hallway lights", "label": "smart_home"}
+{"global_ix": 22452, "sentence": "can you put detergent on my shopping list cause i'm all out", "label": "shopping_list_update"}
+{"global_ix": 19329, "sentence": "dog in spanish", "label": "translate"}
+{"global_ix": 13756, "sentence": "i'd like to know the date tomorrow", "label": "date"}
+{"global_ix": 22239, "sentence": "check how much pto i have left", "label": "pto_balance"}
+{"global_ix": 18087, "sentence": "can you set a reminder for me", "label": "reminder_update"}
+{"global_ix": 8612, "sentence": "direct me to the closest korean grocery", "label": "directions"}
+{"global_ix": 19303, "sentence": "your name from this point forward is george", "label": "change_ai_name"}
+{"global_ix": 1491, "sentence": "the tv turn it on", "label": "smart_home"}
+{"global_ix": 6942, "sentence": "how many vacation days have i accrued", "label": "pto_balance"}
+{"global_ix": 10571, "sentence": "confirm my taco house reservation for jean", "label": "confirm_reservation"}
+{"global_ix": 8741, "sentence": "can you translate milk into spanish for me", "label": "translate"}
+{"global_ix": 20965, "sentence": "could you let me know how many pto days do i have left", "label": "pto_balance"}
+{"global_ix": 16391, "sentence": "please change the name of you to tim", "label": "change_ai_name"}
+{"global_ix": 11367, "sentence": "what day is it tomorrow", "label": "date"}
+{"global_ix": 14822, "sentence": "can you please turn the fan on", "label": "smart_home"}
+{"global_ix": 4434, "sentence": "find me the closest public bathroom", "label": "directions"}
+{"global_ix": 1946, "sentence": "how many days of vacation do i have", "label": "pto_balance"}
+{"global_ix": 10725, "sentence": "how would you say can i borrow five dollars in portuguese", "label": "translate"}
+{"global_ix": 16049, "sentence": "can you tell me how to say 'i do not speak much spanish', in spanish", "label": "translate"}
+{"global_ix": 4466, "sentence": "create a reminder to pay taxes on monday", "label": "reminder_update"}
+{"global_ix": 7994, "sentence": "how do they say \"where's the bathroom\" in spanish", "label": "translate"}
+{"global_ix": 2018, "sentence": "can you tell me how many pto days do i have left", "label": "pto_balance"}
+{"global_ix": 11772, "sentence": "tv on turn", "label": "smart_home"}
+{"global_ix": 7389, "sentence": "in six days, what will it be", "label": "date"}
+{"global_ix": 21423, "sentence": "put milk on my shopping list cause i'm out of it", "label": "shopping_list_update"}
+{"global_ix": 13161, "sentence": "do i have cheese on my shopping list if not please add it", "label": "shopping_list_update"}
+{"global_ix": 6452, "sentence": "i would love to know the closest gas station to glendale", "label": "directions"}
+{"global_ix": 21795, "sentence": "can i call you arnold instead", "label": "change_ai_name"}
+{"global_ix": 12284, "sentence": "go ahead and erase cashews from my list, and add walnuts to it, please", "label": "shopping_list_update"}
+{"global_ix": 15537, "sentence": "can you verify mike has a reservation at black rock at 6 pm", "label": "confirm_reservation"}
+{"global_ix": 8480, "sentence": "can you tell me where the nearest rest station to me is", "label": "directions"}
+{"global_ix": 14149, "sentence": "how much vacation time have i earned", "label": "pto_balance"}
+{"global_ix": 17394, "sentence": "i'd like to know what the date is", "label": "date"}
+{"global_ix": 14915, "sentence": "how many vacation days do i still have", "label": "pto_balance"}
+{"global_ix": 6885, "sentence": "what's the amount of pto i have left", "label": "pto_balance"}
+{"global_ix": 21434, "sentence": "i am on main street now, where is the closest bus stop to me", "label": "directions"}
+{"global_ix": 1985, "sentence": "today's date is what exactly", "label": "date"}
+{"global_ix": 6077, "sentence": "what's the date 400 days from now", "label": "date"}
+{"global_ix": 7861, "sentence": "how many days off for vacation do i have left", "label": "pto_balance"}
+{"global_ix": 12877, "sentence": "the list should also have 2 loaves of bread", "label": "shopping_list_update"}
+{"global_ix": 18629, "sentence": "how do i get to the mall by bus", "label": "directions"}
+{"global_ix": 10607, "sentence": "i need to know what the point of life is", "label": "meaning_of_life"}
+{"global_ix": 15775, "sentence": "how do you say hello in mexico", "label": "translate"}
+{"global_ix": 14098, "sentence": "how many sick days do i have", "label": "pto_balance"}
+{"global_ix": 12383, "sentence": "what meaning does life hold", "label": "meaning_of_life"}
+{"global_ix": 6303, "sentence": "do i have reservations at o'neal's at 3 pm", "label": "confirm_reservation"}
+{"global_ix": 16954, "sentence": "how much paid time off do i have", "label": "pto_balance"}
+{"global_ix": 13189, "sentence": "where's the nearest gas station", "label": "directions"}
+{"global_ix": 6138, "sentence": "how do i say you're welcome in chinese", "label": "translate"}
+{"global_ix": 13175, "sentence": "is a bar close to my church", "label": "directions"}
+{"global_ix": 13054, "sentence": "can you tell me what the next day is", "label": "date"}
+{"global_ix": 10791, "sentence": "i would like to change your name to fred", "label": "change_ai_name"}
+{"global_ix": 4095, "sentence": "can you confirm my reservation for minnis at 4:00", "label": "confirm_reservation"}
+{"global_ix": 12892, "sentence": "add corn to my shopping list and remove wine", "label": "shopping_list_update"}
+{"global_ix": 1971, "sentence": "set up an alarm to remind me to give my cat her flea medicine", "label": "reminder_update"}
+{"global_ix": 7187, "sentence": "i would like for you to confirm my reservation for red robin at 5 pm", "label": "confirm_reservation"}
+{"global_ix": 6510, "sentence": "can you tell me today's date", "label": "date"}
+{"global_ix": 17919, "sentence": "how do i get to the closest starbucks", "label": "directions"}
+{"global_ix": 23071, "sentence": "tell me how many vacation days i have", "label": "pto_balance"}
+{"global_ix": 7820, "sentence": "can you confirm that i have a reservation for february 21 at 6 o'clock", "label": "confirm_reservation"}
+{"global_ix": 5543, "sentence": "what date will it be tomorrow", "label": "date"}
+{"global_ix": 2516, "sentence": "does taco house have a reservation for jean", "label": "confirm_reservation"}
+{"global_ix": 13673, "sentence": "create a reminder to give the cat her flea medicine", "label": "reminder_update"}
+{"global_ix": 7198, "sentence": "how many vacation hours do i have", "label": "pto_balance"}
+{"global_ix": 19547, "sentence": "what is latin for i love you", "label": "translate"}
+{"global_ix": 13751, "sentence": "the oven be set at 350", "label": "smart_home"}
+{"global_ix": 13929, "sentence": "i wanna try and confirm that i have a reservation at red robin for josh", "label": "confirm_reservation"}
+{"global_ix": 17614, "sentence": "how do you say goodbye in spanish", "label": "translate"}
+{"global_ix": 17365, "sentence": "remind me to get an oil change", "label": "reminder_update"}
+{"global_ix": 11217, "sentence": "what's the best way to get to my bank by walking", "label": "directions"}
+{"global_ix": 6043, "sentence": "i would like to call you andre 3000", "label": "change_ai_name"}
+{"global_ix": 16599, "sentence": "please confirm my reservation for dinner at gusto handcrafted pasta & pizza at 6:30 pm", "label": "confirm_reservation"}
+{"global_ix": 15773, "sentence": "start responding to joe", "label": "change_ai_name"}
+{"global_ix": 5111, "sentence": "what is today's month, day and year", "label": "date"}
+{"global_ix": 22873, "sentence": "how do i get to the bus stop on foot", "label": "directions"}
+{"global_ix": 22347, "sentence": "how much pto do i have", "label": "pto_balance"}
+{"global_ix": 8589, "sentence": "i need you to tell me the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 12707, "sentence": "current date", "label": "date"}
+{"global_ix": 18097, "sentence": "tell me today's date", "label": "date"}
+{"global_ix": 14268, "sentence": "can i start calling you dave", "label": "change_ai_name"}
+{"global_ix": 1963, "sentence": "how many days for vacation do i have left", "label": "pto_balance"}
+{"global_ix": 12123, "sentence": "do i have a reservation for may 1st, 2019 at 4 pm", "label": "confirm_reservation"}
+{"global_ix": 22394, "sentence": "put bread on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 6636, "sentence": "delete soda from my shopping list and add water to it", "label": "shopping_list_update"}
+{"global_ix": 559, "sentence": "how would you put what life is all about", "label": "meaning_of_life"}
+{"global_ix": 4474, "sentence": "i want you to remind me of something", "label": "reminder_update"}
+{"global_ix": 6209, "sentence": "set a reminder for me to take my meds", "label": "reminder_update"}
+{"global_ix": 14070, "sentence": "how many vacation days have i saved up", "label": "pto_balance"}
+{"global_ix": 921, "sentence": "take frozen food off my shopping list", "label": "shopping_list_update"}
+{"global_ix": 21636, "sentence": "make sure my flower bar reservation is scheduled for tomorrow", "label": "confirm_reservation"}
+{"global_ix": 1165, "sentence": "see if all the doors are locked", "label": "smart_home"}
+{"global_ix": 17419, "sentence": "what information can you give me on the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 16920, "sentence": "would you please tell me how many vacation days i have", "label": "pto_balance"}
+{"global_ix": 20818, "sentence": "do you think we have a higher calling", "label": "meaning_of_life"}
+{"global_ix": 3573, "sentence": "make sure bread gets added to my shopping list", "label": "shopping_list_update"}
+{"global_ix": 21578, "sentence": "do i have enough pto to take time off", "label": "pto_balance"}
+{"global_ix": 5948, "sentence": "turn the furnace on please", "label": "smart_home"}
+{"global_ix": 3507, "sentence": "i'm out of paper towels so will you put that on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 19097, "sentence": "i need to confirm the reservation for frank at chili's", "label": "confirm_reservation"}
+{"global_ix": 13296, "sentence": "how would i say hello in french", "label": "translate"}
+{"global_ix": 17809, "sentence": "what steps do i need to take to take a bus to detroit", "label": "directions"}
+{"global_ix": 12775, "sentence": "i must know the point of life", "label": "meaning_of_life"}
+{"global_ix": 4445, "sentence": "give me the location for the nearest bank", "label": "directions"}
+{"global_ix": 9576, "sentence": "what is the balance on my vacation days", "label": "pto_balance"}
+{"global_ix": 9037, "sentence": "set reminder to prepare for my meeting at 10 am", "label": "reminder_update"}
+{"global_ix": 9207, "sentence": "i need to know where the nearest place that has mountain dew is", "label": "directions"}
+{"global_ix": 11841, "sentence": "need the tv on please", "label": "smart_home"}
+{"global_ix": 1148, "sentence": "find the closest cvs near galleria mall", "label": "directions"}
+{"global_ix": 14457, "sentence": "i'm calling you rupert from now on", "label": "change_ai_name"}
+{"global_ix": 3000, "sentence": "what is the current day", "label": "date"}
+{"global_ix": 11158, "sentence": "secure the doors", "label": "smart_home"}
+{"global_ix": 1487, "sentence": "how would one say cruiser in china", "label": "translate"}
+{"global_ix": 6539, "sentence": "do you know how i get to olympia by bus", "label": "directions"}
+{"global_ix": 8153, "sentence": "i have a reservation for strip house for jennifer that i'd like to confirm", "label": "confirm_reservation"}
+{"global_ix": 10178, "sentence": "right now, i need to know the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 1060, "sentence": "add mountain dew to my list for shopping", "label": "shopping_list_update"}
+{"global_ix": 8322, "sentence": "set a reminder to pick up the kids", "label": "reminder_update"}
+{"global_ix": 4725, "sentence": "i need a reminder to alert me to wish my mom a happy birthday", "label": "reminder_update"}
+{"global_ix": 5105, "sentence": "you will be called rose from now on", "label": "change_ai_name"}
+{"global_ix": 16857, "sentence": "i would like you to confirm my reservation for next saturday at 11 am", "label": "confirm_reservation"}
+{"global_ix": 13237, "sentence": "how much pto days do i have remaining", "label": "pto_balance"}
+{"global_ix": 13910, "sentence": "make sure all doors are locked", "label": "smart_home"}
+{"global_ix": 22639, "sentence": "remind me again please", "label": "reminder_update"}
+{"global_ix": 20609, "sentence": "remind me to call the vet tomorrow", "label": "reminder_update"}
+{"global_ix": 20709, "sentence": "what day of the month is it", "label": "date"}
+{"global_ix": 22697, "sentence": "put milk on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 9687, "sentence": "i'd like the lights in the garage to be turned on", "label": "smart_home"}
+{"global_ix": 10389, "sentence": "please turn my fan on", "label": "smart_home"}
+{"global_ix": 22463, "sentence": "turn the fan to the on position", "label": "smart_home"}
+{"global_ix": 2731, "sentence": "guide me to a laundromat near me", "label": "directions"}
+{"global_ix": 22426, "sentence": "what would the date be 5 days from today", "label": "date"}
+{"global_ix": 16322, "sentence": "take off fries from the shopping list", "label": "shopping_list_update"}
+{"global_ix": 4842, "sentence": "what's life mean to you", "label": "meaning_of_life"}
+{"global_ix": 17742, "sentence": "how might i say hello if i were scottish", "label": "translate"}
+{"global_ix": 2219, "sentence": "do you have any ideas on the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 16764, "sentence": "could you translate water into dutch for me", "label": "translate"}
+{"global_ix": 8039, "sentence": "put rice and pudding on my shopping list cause i need them", "label": "shopping_list_update"}
+{"global_ix": 2966, "sentence": "how many pto days are available", "label": "pto_balance"}
+{"global_ix": 6001, "sentence": "what's the purpose of existence", "label": "meaning_of_life"}
+{"global_ix": 15840, "sentence": "please get milk removed from my shopping list and add bread", "label": "shopping_list_update"}
+{"global_ix": 18432, "sentence": "where is the nearest marijuana dispensary to kentucky fried chicken", "label": "directions"}
+{"global_ix": 6511, "sentence": "remind me to bring a jacket in tomorrow", "label": "reminder_update"}
+{"global_ix": 22071, "sentence": "i want to be reminded to pay the electric bill", "label": "reminder_update"}
+{"global_ix": 4488, "sentence": "from now, your new name will be lord vader", "label": "change_ai_name"}
+{"global_ix": 11477, "sentence": "i need for you to get bananas added to my shopping list; i'm out", "label": "shopping_list_update"}
+{"global_ix": 14257, "sentence": "can you check for reservations at wongs chinese for john acer", "label": "confirm_reservation"}
+{"global_ix": 5001, "sentence": "i wanna learn a phrase in russian", "label": "translate"}
+{"global_ix": 19909, "sentence": "change your name to ginger", "label": "change_ai_name"}
+{"global_ix": 11867, "sentence": "assist me to know how to get to target by bus", "label": "directions"}
+{"global_ix": 14674, "sentence": "i would like to try and confirm that i have a reservation at kelly's for moreno", "label": "confirm_reservation"}
+{"global_ix": 22157, "sentence": "please tell me what date it is today", "label": "date"}
+{"global_ix": 9613, "sentence": "i want to confirm friday's reservation at 2:00", "label": "confirm_reservation"}
+{"global_ix": 21449, "sentence": "what is the number of pto days i have left", "label": "pto_balance"}
+{"global_ix": 3500, "sentence": "how do i get to the park on foot", "label": "directions"}
+{"global_ix": 12542, "sentence": "what is my vacation schedule look like", "label": "pto_balance"}
+{"global_ix": 5899, "sentence": "what is behind life's meaning", "label": "meaning_of_life"}
+{"global_ix": 23240, "sentence": "what's the date tomorrow, please", "label": "date"}
+{"global_ix": 9437, "sentence": "i want to know the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 17958, "sentence": "tell me if i have reservations at the back abbey at 6 pm", "label": "confirm_reservation"}
+{"global_ix": 11153, "sentence": "i need a reminder to give the dog his medicine at ten tonight", "label": "reminder_update"}
+{"global_ix": 20020, "sentence": "please confirm my reservation at parc for 8:00 pm, with the name denise jack", "label": "confirm_reservation"}
+{"global_ix": 23616, "sentence": "verify that my reservations at won wons for joe lee are good", "label": "confirm_reservation"}
+{"global_ix": 22946, "sentence": "i think bradley is a better name for you", "label": "change_ai_name"}
+{"global_ix": 3439, "sentence": "can you check my reservations for mortons under david winters", "label": "confirm_reservation"}
+{"global_ix": 13808, "sentence": "can you translate i have to go pee into korean for me", "label": "translate"}
+{"global_ix": 2779, "sentence": "turn lights on in the garage", "label": "smart_home"}
+{"global_ix": 15130, "sentence": "how many vacation days do i still get", "label": "pto_balance"}
+{"global_ix": 6502, "sentence": "please add milk on my shopping list, if it is not already on it", "label": "shopping_list_update"}
+{"global_ix": 22327, "sentence": "i want you to remove shampoo from my shopping list", "label": "shopping_list_update"}
+{"global_ix": 1686, "sentence": "set a reminder for monday pay taxes", "label": "reminder_update"}
+{"global_ix": 21109, "sentence": "how do i say hello in french", "label": "translate"}
+{"global_ix": 20222, "sentence": "i would like to try and confirm that i have a reservation at chili’s for melinda", "label": "confirm_reservation"}
+{"global_ix": 20533, "sentence": "i need directions to get to olympia by bus", "label": "directions"}
+{"global_ix": 14680, "sentence": "can you tell me about the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 22236, "sentence": "what date is it", "label": "date"}
+{"global_ix": 4951, "sentence": "would you let me know what is the point of life", "label": "meaning_of_life"}
+{"global_ix": 7356, "sentence": "do you think our lives have purpose or meaning", "label": "meaning_of_life"}
+{"global_ix": 13675, "sentence": "do i have graham crackers on my shopping list if not please add it", "label": "shopping_list_update"}
+{"global_ix": 3430, "sentence": "what's the answer to it all", "label": "meaning_of_life"}
+{"global_ix": 15880, "sentence": "confirm my reservation for red robin at 8", "label": "confirm_reservation"}
+{"global_ix": 21644, "sentence": "make sure to put eggs on the grocery list", "label": "shopping_list_update"}
+{"global_ix": 12891, "sentence": "please, will you turn on my tv", "label": "smart_home"}
+{"global_ix": 15313, "sentence": "make a reminder to pay my cable bill today", "label": "reminder_update"}
+{"global_ix": 20228, "sentence": "would you let me know today's date", "label": "date"}
+{"global_ix": 9003, "sentence": "can you turn on the lights in the backyard", "label": "smart_home"}
+{"global_ix": 12360, "sentence": "i would like to try and confirm that i have a reservation at la palapa for bolding", "label": "confirm_reservation"}
+{"global_ix": 10367, "sentence": "can you get the fan going in here", "label": "smart_home"}
+{"global_ix": 17668, "sentence": "the meaning of life please", "label": "meaning_of_life"}
+{"global_ix": 15448, "sentence": "what's the direction for foot traffic to get to the eiffel tower", "label": "directions"}
+{"global_ix": 12481, "sentence": "which day is it today", "label": "date"}
+{"global_ix": 18313, "sentence": "would you translate a sentence into russian for me, please", "label": "translate"}
+{"global_ix": 1244, "sentence": "i've saved what number of days of vacation", "label": "pto_balance"}
+{"global_ix": 163, "sentence": "i would like to be reminded", "label": "reminder_update"}
+{"global_ix": 2242, "sentence": "set temperature to 75", "label": "smart_home"}
+{"global_ix": 16866, "sentence": "please set the temperature to 70", "label": "smart_home"}
+{"global_ix": 18265, "sentence": "i'm at home, so where is the closest starbucks", "label": "directions"}
+{"global_ix": 18891, "sentence": "i no longer need milk, so forget that", "label": "shopping_list_update"}
+{"global_ix": 9158, "sentence": "can we put sunscreen on my list for shopping", "label": "shopping_list_update"}
+{"global_ix": 18677, "sentence": "set a reminder to pay my taxes", "label": "reminder_update"}
+{"global_ix": 14720, "sentence": "i need a reminder to wash dishes", "label": "reminder_update"}
+{"global_ix": 15854, "sentence": "i want to know how to get to statue of liberty by bus", "label": "directions"}
+{"global_ix": 9852, "sentence": "set up a new reminder to alert me when it's time to put the trash out", "label": "reminder_update"}
+{"global_ix": 16791, "sentence": "i would like to know tomorrow's date", "label": "date"}
+{"global_ix": 10696, "sentence": "can you set a reminder for the current time tommorow", "label": "reminder_update"}
+{"global_ix": 11647, "sentence": "i think i want your name changed to fred", "label": "change_ai_name"}
+{"global_ix": 577, "sentence": "how can i say thank you very much in chinese", "label": "translate"}
+{"global_ix": 22570, "sentence": "make sure my reservation is happening for john at olive garden", "label": "confirm_reservation"}
+{"global_ix": 20473, "sentence": "what's the count of vacation days i have left", "label": "pto_balance"}
+{"global_ix": 7483, "sentence": "why are humans on earth", "label": "meaning_of_life"}
+{"global_ix": 17297, "sentence": "set a reminder to check the steak", "label": "reminder_update"}
+{"global_ix": 7419, "sentence": "what is the date for tomorrow", "label": "date"}
+{"global_ix": 16786, "sentence": "i want to update you name, please", "label": "change_ai_name"}
+{"global_ix": 1760, "sentence": "what will be the date tomorrow", "label": "date"}
+{"global_ix": 4975, "sentence": "what number of vacation days do i have available", "label": "pto_balance"}
+{"global_ix": 19126, "sentence": "tell me how the russians say notebook", "label": "translate"}
+{"global_ix": 21343, "sentence": "where is the closest walmart to boise, idaho", "label": "directions"}
+{"global_ix": 95, "sentence": "which day will it be five days from now", "label": "date"}
+{"global_ix": 9278, "sentence": "what is the correct way to say 'i am a visitor' in french", "label": "translate"}
+{"global_ix": 17181, "sentence": "i would like to try and confirm that i have a reservation at carrabbas for heather", "label": "confirm_reservation"}
+{"global_ix": 21949, "sentence": "how many days do i have left of pto", "label": "pto_balance"}
+{"global_ix": 1056, "sentence": "please remind me of something", "label": "reminder_update"}
+{"global_ix": 13150, "sentence": "how many days are remaining on my vacation days", "label": "pto_balance"}
+{"global_ix": 10989, "sentence": "how about i call you sue", "label": "change_ai_name"}
+{"global_ix": 1027, "sentence": "please change the ai name", "label": "change_ai_name"}
+{"global_ix": 15151, "sentence": "can you translate hi into spanish for me", "label": "translate"}
+{"global_ix": 10439, "sentence": "can you see if i have any vacation days available for a request", "label": "pto_balance"}
+{"global_ix": 17838, "sentence": "could you translate this into chinese for me, please", "label": "translate"}
+{"global_ix": 13817, "sentence": "set my temp to 75", "label": "smart_home"}
+{"global_ix": 3599, "sentence": "set a reminder to go check the mail", "label": "reminder_update"}
+{"global_ix": 4513, "sentence": "what day of the month is it today", "label": "date"}
+{"global_ix": 22506, "sentence": "please tell me the subway station nearest to madison square garden in new york", "label": "directions"}
+{"global_ix": 8666, "sentence": "whats your take on the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 12166, "sentence": "make reminder to pay rent on the 30th of every month", "label": "reminder_update"}
+{"global_ix": 10796, "sentence": "what is the temperature setting of the ac", "label": "smart_home"}
+{"global_ix": 81, "sentence": "how many vacation days do i have remaining", "label": "pto_balance"}
+{"global_ix": 7217, "sentence": "tell me how to say hello in spanish", "label": "translate"}
+{"global_ix": 16688, "sentence": "how do they say tacos in mexico", "label": "translate"}
+{"global_ix": 17823, "sentence": "can you tell me life's meaning", "label": "meaning_of_life"}
+{"global_ix": 5121, "sentence": "what exactly is the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 11323, "sentence": "how many more vacation days do i have for the year", "label": "pto_balance"}
+{"global_ix": 23607, "sentence": "search for the nearest atm to newark penn station, newark in new jersey", "label": "directions"}
+{"global_ix": 6766, "sentence": "what's the ac set to", "label": "smart_home"}
+{"global_ix": 210, "sentence": "will you check to see if i am still reserved for 6:30 pm at gusto handcrafted pasta & pizza", "label": "confirm_reservation"}
+{"global_ix": 13028, "sentence": "turn the fan on", "label": "smart_home"}
+{"global_ix": 1356, "sentence": "how do i get to the museum by bus", "label": "directions"}
+{"global_ix": 2008, "sentence": "life has what meaning or what's the secret to it", "label": "meaning_of_life"}
+{"global_ix": 6943, "sentence": "i need to know how to get to target by bus", "label": "directions"}
+{"global_ix": 17743, "sentence": "can i start calling you fred", "label": "change_ai_name"}
+{"global_ix": 22734, "sentence": "what would tomorrow's date be", "label": "date"}
+{"global_ix": 5929, "sentence": "i want to change your name to sarah", "label": "change_ai_name"}
+{"global_ix": 7481, "sentence": "create a reminder to change my oil", "label": "reminder_update"}
+{"global_ix": 18828, "sentence": "confirm that there is a reservation at bellagio for thomas", "label": "confirm_reservation"}
+{"global_ix": 2729, "sentence": "set up a reminder that i need to pay my car ins the 23rd", "label": "reminder_update"}
+{"global_ix": 2539, "sentence": "tell me later to call bill", "label": "reminder_update"}
+{"global_ix": 13223, "sentence": "how do i get to the subway by foot", "label": "directions"}
+{"global_ix": 6325, "sentence": "make a reminder to do my taxes", "label": "reminder_update"}
+{"global_ix": 17332, "sentence": "remind me to write that letter", "label": "reminder_update"}
+{"global_ix": 3823, "sentence": "take toilet paper off my shopping list", "label": "shopping_list_update"}
+{"global_ix": 5259, "sentence": "i need bananas on the list too", "label": "shopping_list_update"}
+{"global_ix": 9167, "sentence": "could you tell me the temperature of the ac", "label": "smart_home"}
+{"global_ix": 8852, "sentence": "how do vietnameses people say hello", "label": "translate"}
+{"global_ix": 7003, "sentence": "what does life mean to you", "label": "meaning_of_life"}
+{"global_ix": 23305, "sentence": "can i rename you", "label": "change_ai_name"}
+{"global_ix": 13420, "sentence": "i would like to get today's date", "label": "date"}
+{"global_ix": 19509, "sentence": "how many vacation days do i have saved up, please", "label": "pto_balance"}
+{"global_ix": 9584, "sentence": "what is the current date", "label": "date"}
+{"global_ix": 10814, "sentence": "how would you describe what life means", "label": "meaning_of_life"}
+{"global_ix": 15306, "sentence": "is it alright with you if i call you scarlet", "label": "change_ai_name"}
+{"global_ix": 15155, "sentence": "set the temperaure to 71", "label": "smart_home"}
+{"global_ix": 22843, "sentence": "how do i get to the library by foot", "label": "directions"}
+{"global_ix": 21132, "sentence": "can you tell me what the ac is on", "label": "smart_home"}
+{"global_ix": 10296, "sentence": "starbucks near me", "label": "directions"}
+{"global_ix": 22852, "sentence": "i want directions to the closest atm", "label": "directions"}
+{"global_ix": 11082, "sentence": "what is the date tomorrow, please", "label": "date"}
+{"global_ix": 19534, "sentence": "can you confirm my reservation for steve at olive garden", "label": "confirm_reservation"}
+{"global_ix": 18170, "sentence": "how much time do i have for vacation saved", "label": "pto_balance"}
+{"global_ix": 3321, "sentence": "how many vacation hours have i accrued", "label": "pto_balance"}
+{"global_ix": 18790, "sentence": "how do i get to the statue of liberty on foot", "label": "directions"}
+{"global_ix": 16554, "sentence": "how many weeks of vacation do i have", "label": "pto_balance"}
+{"global_ix": 23012, "sentence": "can you confirm my reservation for lance at morton's", "label": "confirm_reservation"}
+{"global_ix": 9196, "sentence": "where is the closet bus stop to go to downtown dallas", "label": "directions"}
+{"global_ix": 22052, "sentence": "can you confirm my reservation for kevin at red robin", "label": "confirm_reservation"}
+{"global_ix": 2029, "sentence": "what is life’s meaning", "label": "meaning_of_life"}
+{"global_ix": 2000, "sentence": "how is hello said in french", "label": "translate"}
+{"global_ix": 2879, "sentence": "get rid of butter on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 11595, "sentence": "i need to know today's date", "label": "date"}
+{"global_ix": 9093, "sentence": "on turn tv", "label": "smart_home"}
+{"global_ix": 9397, "sentence": "i want your name to be samantha now", "label": "change_ai_name"}
+{"global_ix": 3221, "sentence": "check who's at the door", "label": "smart_home"}
+{"global_ix": 2117, "sentence": "set a reminder for me to let the plumber in tomorrow", "label": "reminder_update"}
+{"global_ix": 13540, "sentence": "i want to start calling you owen", "label": "change_ai_name"}
+{"global_ix": 9289, "sentence": "is it possible to add grapes to my shopping list if they aren't on there already", "label": "shopping_list_update"}
+{"global_ix": 10230, "sentence": "would you provide the number of vacation days i have", "label": "pto_balance"}
+{"global_ix": 12190, "sentence": "start my vehicle", "label": "smart_home"}
+{"global_ix": 18482, "sentence": "set a reminder for me to request time off", "label": "reminder_update"}
+{"global_ix": 8786, "sentence": "can i call you lucy from now on", "label": "change_ai_name"}
+{"global_ix": 19862, "sentence": "where is the nearest movie theater to time' square", "label": "directions"}
+{"global_ix": 1071, "sentence": "can you confirm my reservation for 6 at the outback", "label": "confirm_reservation"}
+{"global_ix": 20565, "sentence": "x is your new nickname", "label": "change_ai_name"}
+{"global_ix": 13062, "sentence": "confirm my friday reservation at 2:00", "label": "confirm_reservation"}
+{"global_ix": 6180, "sentence": "take me to the nearest dairy queen", "label": "directions"}
+{"global_ix": 15762, "sentence": "i need to get to a church immediately, please take me to one!", "label": "directions"}
+{"global_ix": 1280, "sentence": "turn the tv to on right now", "label": "smart_home"}
+{"global_ix": 4458, "sentence": "what type of vacation schedule do i have left", "label": "pto_balance"}
+{"global_ix": 11260, "sentence": "can you verify that i have a reservation at o'reilly's for 9", "label": "confirm_reservation"}
+{"global_ix": 11739, "sentence": "please add sugar to my shopping list if it's not on it", "label": "shopping_list_update"}
+{"global_ix": 246, "sentence": "how many vacation days have i accumulated", "label": "pto_balance"}
+{"global_ix": 20102, "sentence": "add flour to my shopping list if it's not already on it", "label": "shopping_list_update"}
+{"global_ix": 14955, "sentence": "in england how do they say subway", "label": "translate"}
+{"global_ix": 3810, "sentence": "what day is it gonna be in twenty-one days", "label": "date"}
+{"global_ix": 9170, "sentence": "what's the french word you use for potato", "label": "translate"}
+{"global_ix": 22583, "sentence": "i ran out of cherrios so add that to the list", "label": "shopping_list_update"}
+{"global_ix": 10295, "sentence": "do i have milk on my shopping list please add it if it is not", "label": "shopping_list_update"}
+{"global_ix": 14349, "sentence": "turn lights on in my bedroom", "label": "smart_home"}
+{"global_ix": 21854, "sentence": "dont let me forget to do that thing later", "label": "reminder_update"}
+{"global_ix": 13255, "sentence": "is it possible to take the bus to the brooklyn bridge", "label": "directions"}
+{"global_ix": 16973, "sentence": "do i have bananas on my list, if not please put them on the list", "label": "shopping_list_update"}
+{"global_ix": 8569, "sentence": "i need to set a reminder to call lisa for her birthday", "label": "reminder_update"}
+{"global_ix": 21696, "sentence": "can you share the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 1277, "sentence": "i'm changing your name to joe", "label": "change_ai_name"}
+{"global_ix": 14177, "sentence": "what's the day today", "label": "date"}
+{"global_ix": 18378, "sentence": "you need to remind me to do something", "label": "reminder_update"}
+{"global_ix": 17726, "sentence": "is there a reason beyond biology about why humans are alive", "label": "meaning_of_life"}
+{"global_ix": 5712, "sentence": "i wish to confirm that i have a reservation at red robin for josh", "label": "confirm_reservation"}
+{"global_ix": 2740, "sentence": "what is the meaning of life here", "label": "meaning_of_life"}
+{"global_ix": 2330, "sentence": "how do you say cat in spanish", "label": "translate"}
+{"global_ix": 11665, "sentence": "can you tell me the date", "label": "date"}
+{"global_ix": 12871, "sentence": "what is the full date after today", "label": "date"}
+{"global_ix": 8178, "sentence": "how do i get to the college by bus", "label": "directions"}
+{"global_ix": 23694, "sentence": "make your name steve", "label": "change_ai_name"}
+{"global_ix": 8607, "sentence": "how do you say hi in french", "label": "translate"}
+{"global_ix": 9757, "sentence": "in 5 days from today, what will the date be", "label": "date"}
+{"global_ix": 16470, "sentence": "can you see if i have my doors locked", "label": "smart_home"}
+{"global_ix": 3968, "sentence": "create a reminder", "label": "reminder_update"}
+{"global_ix": 12777, "sentence": "how would i say where is the bathroom if i were korean", "label": "translate"}
+{"global_ix": 13904, "sentence": "set a reminder for me to call my brother at 8 pm", "label": "reminder_update"}
+{"global_ix": 20036, "sentence": "turn on the tv on channel 6", "label": "smart_home"}
+{"global_ix": 1047, "sentence": "is my dinner reservation for gusto handcrafted pasta & pizza at 6:30 pm still valid", "label": "confirm_reservation"}
+{"global_ix": 12146, "sentence": "what date will it be 5 days from now", "label": "date"}
+{"global_ix": 12003, "sentence": "where is the closest starbucks", "label": "directions"}
+{"global_ix": 3774, "sentence": "take fresh carrots off my shopping list", "label": "shopping_list_update"}
+{"global_ix": 21927, "sentence": "350 set the oven", "label": "smart_home"}
+{"global_ix": 19096, "sentence": "what is life's meaning", "label": "meaning_of_life"}
+{"global_ix": 5321, "sentence": "how much vacation have i earned", "label": "pto_balance"}
+{"global_ix": 8094, "sentence": "i must confirm my reservation for 2/20 at 8 pm", "label": "confirm_reservation"}
+{"global_ix": 10438, "sentence": "i don't want to forget to call mom", "label": "reminder_update"}
+{"global_ix": 21633, "sentence": "i'm out of bananas; add to shopping list", "label": "shopping_list_update"}
+{"global_ix": 3898, "sentence": "what's the purpose of life", "label": "meaning_of_life"}
+{"global_ix": 14043, "sentence": "can you set the temp to 69", "label": "smart_home"}
+{"global_ix": 2478, "sentence": "tell me all about the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 5099, "sentence": "create a reminder for me to send flowers to my mom for mother's day", "label": "reminder_update"}
+{"global_ix": 23362, "sentence": "please put milk on my list i just used the last of it", "label": "shopping_list_update"}
+{"global_ix": 7747, "sentence": "confirm my reservation for joe at hoss's", "label": "confirm_reservation"}
+{"global_ix": 6618, "sentence": "how should i say hello in french", "label": "translate"}
+{"global_ix": 19772, "sentence": "what date will it be 6 days from now", "label": "date"}
+{"global_ix": 19058, "sentence": "can i call you adam instead of the current name", "label": "change_ai_name"}
+{"global_ix": 14882, "sentence": "can i rename you bob", "label": "change_ai_name"}
+{"global_ix": 7982, "sentence": "how would they say butter in zambia", "label": "translate"}
+{"global_ix": 14719, "sentence": "please confirm my reservation for red robin at 9", "label": "confirm_reservation"}
+{"global_ix": 16909, "sentence": "can you remind me to finish a task", "label": "reminder_update"}
+{"global_ix": 2708, "sentence": "turn on the tv", "label": "smart_home"}
+{"global_ix": 4280, "sentence": "how many pto days do i have for the year", "label": "pto_balance"}
+{"global_ix": 5534, "sentence": "set all doors to locked", "label": "smart_home"}
+{"global_ix": 3435, "sentence": "how do i say bathroom in italian", "label": "translate"}
+{"global_ix": 14276, "sentence": "please set the oven to 350 f", "label": "smart_home"}
+{"global_ix": 14601, "sentence": "how would i say nice to meet you if i were russian", "label": "translate"}
+{"global_ix": 22567, "sentence": "remember to remind me of this later", "label": "reminder_update"}
+{"global_ix": 12248, "sentence": "post the living room lights on", "label": "smart_home"}
+{"global_ix": 3818, "sentence": "can you tell me the date today", "label": "date"}
+{"global_ix": 7473, "sentence": "can you put carrots on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 18281, "sentence": "tell the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 20292, "sentence": "put film on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 12653, "sentence": "how do they say no in germany", "label": "translate"}
+{"global_ix": 13240, "sentence": "why are we here in life", "label": "meaning_of_life"}
+{"global_ix": 20559, "sentence": "add pepsi to my shopping bag", "label": "shopping_list_update"}
+{"global_ix": 17538, "sentence": "what date will it be 9 days from now", "label": "date"}
+{"global_ix": 16565, "sentence": "what expression would i use to say i love you if i were an italian", "label": "translate"}
+{"global_ix": 3294, "sentence": "the next time it rains, remind me to close the windows", "label": "reminder_update"}
+{"global_ix": 7641, "sentence": "give me the date today", "label": "date"}
+{"global_ix": 21400, "sentence": "where is there meaning in life", "label": "meaning_of_life"}
+{"global_ix": 12033, "sentence": "engage all the door locks", "label": "smart_home"}
+{"global_ix": 10608, "sentence": "let me know the date tomorrow", "label": "date"}
+{"global_ix": 22690, "sentence": "please confirm my reservation for thursday at 10am", "label": "confirm_reservation"}
+{"global_ix": 3880, "sentence": "what's life's meaning", "label": "meaning_of_life"}
+{"global_ix": 8989, "sentence": "would you be willing to add bread to my shopping list if i haven't already", "label": "shopping_list_update"}
+{"global_ix": 18988, "sentence": "can i begin calling you dave", "label": "change_ai_name"}
+{"global_ix": 21782, "sentence": "can you tell me the remaining time i have for pto", "label": "pto_balance"}
+{"global_ix": 3766, "sentence": "what year is it", "label": "date"}
+{"global_ix": 12757, "sentence": "could you tell me the meaning of life, please", "label": "meaning_of_life"}
+{"global_ix": 14650, "sentence": "put soda on the shopping list and add carrots", "label": "shopping_list_update"}
+{"global_ix": 15264, "sentence": "what is the amount of time i can request off in the coming year", "label": "pto_balance"}
+{"global_ix": 16233, "sentence": "please calculate my vacation time", "label": "pto_balance"}
+{"global_ix": 21226, "sentence": "do i still have vacation days", "label": "pto_balance"}
+{"global_ix": 20608, "sentence": "will you make sure robert has a reservation at ruth's steakhouse", "label": "confirm_reservation"}
+{"global_ix": 2906, "sentence": "tell me how many vacation days i have left", "label": "pto_balance"}
+{"global_ix": 15901, "sentence": "how do i get to the leaning tower by bus", "label": "directions"}
+{"global_ix": 22487, "sentence": "how do they say hello in germany", "label": "translate"}
+{"global_ix": 22614, "sentence": "how much paid time off do i have saved", "label": "pto_balance"}
+{"global_ix": 5771, "sentence": "on the fan", "label": "smart_home"}
+{"global_ix": 18980, "sentence": "tell me the number of vacation days i have stored", "label": "pto_balance"}
+{"global_ix": 17166, "sentence": "can you please start my car", "label": "smart_home"}
+{"global_ix": 7617, "sentence": "what's the current count of my pto days", "label": "pto_balance"}
+{"global_ix": 7621, "sentence": "turn on the living room lights", "label": "smart_home"}
+{"global_ix": 8208, "sentence": "how do you say hello in japanese", "label": "translate"}
+{"global_ix": 20013, "sentence": "please tell me what today is", "label": "date"}
+{"global_ix": 18854, "sentence": "what is the answer to life", "label": "meaning_of_life"}
+{"global_ix": 9409, "sentence": "where is the closest pharmacy", "label": "directions"}
+{"global_ix": 3302, "sentence": "set the oven temperature to 350", "label": "smart_home"}
+{"global_ix": 2125, "sentence": "is paprika listed on my shopping list, please add it", "label": "shopping_list_update"}
+{"global_ix": 10327, "sentence": "set a reminder for me", "label": "reminder_update"}
+{"global_ix": 10675, "sentence": "can you explain to me what type of vacation days i have still", "label": "pto_balance"}
+{"global_ix": 18466, "sentence": "can we change your name to lisa", "label": "change_ai_name"}
+{"global_ix": 3572, "sentence": "can you let me know how many pto days do i have left", "label": "pto_balance"}
+{"global_ix": 8191, "sentence": "do i have enough vacation to take a european trip", "label": "pto_balance"}
+{"global_ix": 22098, "sentence": "how would i say what is your name if i were french", "label": "translate"}
+{"global_ix": 3523, "sentence": "what is my remaining pto days", "label": "pto_balance"}
+{"global_ix": 6003, "sentence": "how would they say say goodbye in hawaii", "label": "translate"}
+{"global_ix": 2486, "sentence": "what do spanish people say for the word cow", "label": "translate"}
+{"global_ix": 1391, "sentence": "set a reminder to call my mom", "label": "reminder_update"}
+{"global_ix": 22721, "sentence": "i'm going to start calling you kobe now", "label": "change_ai_name"}
+{"global_ix": 20, "sentence": "do me a favor and put sharpies on my list for shopping", "label": "shopping_list_update"}
+{"global_ix": 18450, "sentence": "give me directions to phoenix", "label": "directions"}
+{"global_ix": 352, "sentence": "i want directions to phoenix", "label": "directions"}
+{"global_ix": 11576, "sentence": "tell me tomorrow's date", "label": "date"}
+{"global_ix": 13256, "sentence": "tell me your thoughts about the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 11550, "sentence": "do you think being alive has any meaning", "label": "meaning_of_life"}
+{"global_ix": 16516, "sentence": "how would i say i need directions if i were french", "label": "translate"}
+{"global_ix": 6590, "sentence": "in 4 days, what date will it be", "label": "date"}
+{"global_ix": 7227, "sentence": "define the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 9828, "sentence": "what's the spanish word for pasta", "label": "translate"}
+{"global_ix": 10870, "sentence": "is there a starbucks close to home", "label": "directions"}
+{"global_ix": 8142, "sentence": "is there a greater purpose in life", "label": "meaning_of_life"}
+{"global_ix": 13181, "sentence": "put on lights", "label": "smart_home"}
+{"global_ix": 4753, "sentence": "what's my vacation day total", "label": "pto_balance"}
+{"global_ix": 3750, "sentence": "i wanna change your name to audrey", "label": "change_ai_name"}
+{"global_ix": 8033, "sentence": "double check my reservation under adam for outback steakhouse", "label": "confirm_reservation"}
+{"global_ix": 16457, "sentence": "what's the name of the day today", "label": "date"}
+{"global_ix": 23041, "sentence": "i am here to conform my friday reservation at 2:00", "label": "confirm_reservation"}
+{"global_ix": 15831, "sentence": "i need to be reminded to pray", "label": "reminder_update"}
+{"global_ix": 5257, "sentence": "what's the spanish word for dog", "label": "translate"}
+{"global_ix": 11446, "sentence": "help me figure out the meaning of life", "label": "meaning_of_life"}
+{"global_ix": 1937, "sentence": "lock all the doors", "label": "smart_home"}
+{"global_ix": 13123, "sentence": "how do they say \"how's it going\" in swahili", "label": "translate"}
+{"global_ix": 23308, "sentence": "set a reminder for later", "label": "reminder_update"}
+{"global_ix": 6390, "sentence": "i want you to turn the fans on", "label": "smart_home"}
+{"global_ix": 15243, "sentence": "could you tell me how many vacation days i have left", "label": "pto_balance"}
+{"global_ix": 3109, "sentence": "check if the doors are locked", "label": "smart_home"}
+{"global_ix": 9580, "sentence": "i want to start calling you marie", "label": "change_ai_name"}
+{"global_ix": 542, "sentence": "i want to change the name i call you to juan", "label": "change_ai_name"}
+{"global_ix": 3142, "sentence": "what are the nearest streets to the statue of liberty in new york", "label": "directions"}
+{"global_ix": 17072, "sentence": "how do you say fast in spanish", "label": "translate"}
+{"global_ix": 4580, "sentence": "who is knocking", "label": "smart_home"}
+{"global_ix": 18108, "sentence": "make sure walnuts is on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 7248, "sentence": "how to i get to the mall on foot", "label": "directions"}
+{"global_ix": 11125, "sentence": "what are the amount of vacation days i have", "label": "pto_balance"}
+{"global_ix": 15396, "sentence": "are bananas on my shopping list can you add them if they aren't", "label": "shopping_list_update"}
+{"global_ix": 5693, "sentence": "how do i get downtown by foot", "label": "directions"}
+{"global_ix": 23625, "sentence": "remind me to buy bread next time i go shopping", "label": "shopping_list_update"}
+{"global_ix": 3309, "sentence": "tell me what the date will be in 5 days", "label": "date"}
+{"global_ix": 21500, "sentence": "what phrase means goodbye in hawaii", "label": "translate"}
+{"global_ix": 6072, "sentence": "what's the current date, month and year", "label": "date"}
+{"global_ix": 18262, "sentence": "what day are we in", "label": "date"}
+{"global_ix": 6517, "sentence": "do i have bananas on my shopping list, if not please add it", "label": "shopping_list_update"}
+{"global_ix": 4319, "sentence": "what is the purpose of exsistance", "label": "meaning_of_life"}
+{"global_ix": 5720, "sentence": "what's the date tomorrow", "label": "date"}
+{"global_ix": 23199, "sentence": "what's the closest mcdonalds", "label": "directions"}
+{"global_ix": 6503, "sentence": "what's the number of vacation days i have left", "label": "pto_balance"}
+{"global_ix": 12566, "sentence": "how many day of my vacation are left for the year", "label": "pto_balance"}
+{"global_ix": 8608, "sentence": "how do i get to the nearest post office", "label": "directions"}
+{"global_ix": 18728, "sentence": "does home have a starbucks nearby", "label": "directions"}
+{"global_ix": 16090, "sentence": "i need to know the date in 256 days", "label": "date"}
+{"global_ix": 18683, "sentence": "i need some air; get the fan going", "label": "smart_home"}
+{"global_ix": 6748, "sentence": "do i have peanuts on my shopping list if not please add it", "label": "shopping_list_update"}
+{"global_ix": 9468, "sentence": "what day of the week are we on", "label": "date"}
+{"global_ix": 8539, "sentence": "set the temperature to 78", "label": "smart_home"}
+{"global_ix": 13828, "sentence": "i need oranges on my shopping list", "label": "shopping_list_update"}
+{"global_ix": 16362, "sentence": "what day will it be in fourteen days", "label": "date"}
+{"global_ix": 13691, "sentence": "may i suggest we put paper towels on my list for shopping", "label": "shopping_list_update"}
+{"global_ix": 3468, "sentence": "how do i get to the hotel by bus", "label": "directions"}
+{"global_ix": 10712, "sentence": "what is the ac temperature", "label": "smart_home"}
+{"global_ix": 12304, "sentence": "show me the nearest gas station", "label": "directions"}
+{"global_ix": 18035, "sentence": "confirm my reservation for acero at 7", "label": "confirm_reservation"}
+{"global_ix": 18992, "sentence": "i want the light less bright please", "label": "smart_home"}
+{"global_ix": 7769, "sentence": "do you know the temperature of the ac", "label": "smart_home"}
+{"global_ix": 1611, "sentence": "i need to know what the meaning of life is now", "label": "meaning_of_life"}
+{"global_ix": 2922, "sentence": "what's the day of the week", "label": "date"}
+{"global_ix": 8677, "sentence": "i wanna know the point of life", "label": "meaning_of_life"}
+{"global_ix": 13207, "sentence": "so i have any vacation days left", "label": "pto_balance"}
+{"global_ix": 20912, "sentence": "can i start calling you chris", "label": "change_ai_name"}
+{"global_ix": 7018, "sentence": "take carrots off my list for shopping", "label": "shopping_list_update"}

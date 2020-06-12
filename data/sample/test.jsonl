@@ -1,0 +1,1500 @@
+{"global_ix": 8843, "sentence": "ai, routing number for my b of a checking account", "label": "routing"}
+{"global_ix": 18646, "sentence": "i think i need to make a reservation for 8 pm at red robin for 3", "label": "restaurant_reservation"}
+{"global_ix": 7879, "sentence": "will it take more than a month to get a new card", "label": "replacement_card_duration"}
+{"global_ix": 10897, "sentence": "i think my account is blocked but i do not know the reason", "label": "account_blocked"}
+{"global_ix": 11421, "sentence": "book 3 under the name zebee at xenophobe", "label": "restaurant_reservation"}
+{"global_ix": 7319, "sentence": "i need a table for 3 at olive garden for 7", "label": "restaurant_reservation"}
+{"global_ix": 21539, "sentence": "i need to set up a new pin number for my college fund account", "label": "pin_change"}
+{"global_ix": 18720, "sentence": "report fraud on my card", "label": "report_fraud"}
+{"global_ix": 5907, "sentence": "can i reserve a table for 2 at the olive garden at 8", "label": "restaurant_reservation"}
+{"global_ix": 5453, "sentence": "looks like my card is being used by someone else, report it", "label": "report_fraud"}
+{"global_ix": 17724, "sentence": "whats on my list for shopping", "label": "shopping_list"}
+{"global_ix": 19559, "sentence": "time to get replacement credit card for stolen one", "label": "replacement_card_duration"}
+{"global_ix": 4656, "sentence": "are you really an actual human being", "label": "are_you_a_bot"}
+{"global_ix": 11265, "sentence": "what's my salary for this year", "label": "income"}
+{"global_ix": 12192, "sentence": "can you check and see if my account's blocked", "label": "account_blocked"}
+{"global_ix": 8248, "sentence": "provide me the routing number for my fed account", "label": "routing"}
+{"global_ix": 18093, "sentence": "could you be a person", "label": "are_you_a_bot"}
+{"global_ix": 20725, "sentence": "there is an unauthorized transaction on my bank of america checking", "label": "report_fraud"}
+{"global_ix": 9392, "sentence": "get reservations at olive garden for two at 7:00pm under michael", "label": "restaurant_reservation"}
+{"global_ix": 15475, "sentence": "how long should i expect to wait for my replacement credit card", "label": "replacement_card_duration"}
+{"global_ix": 12367, "sentence": "how long until i get a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 8467, "sentence": "why is my checking account not working", "label": "account_blocked"}
+{"global_ix": 2965, "sentence": "how do i freeze my bank account", "label": "freeze_account"}
+{"global_ix": 13679, "sentence": "can you tell me what kind of life form you are", "label": "are_you_a_bot"}
+{"global_ix": 990, "sentence": "are you real or automated", "label": "are_you_a_bot"}
+{"global_ix": 2256, "sentence": "where can i see the routing number for bmo", "label": "routing"}
+{"global_ix": 9997, "sentence": "i need to know bank of america's routing", "label": "routing"}
+{"global_ix": 15222, "sentence": "can you put a stop on my account", "label": "freeze_account"}
+{"global_ix": 1477, "sentence": "my account is blocked, help me figure out why", "label": "account_blocked"}
+{"global_ix": 12193, "sentence": "give me the details on my income", "label": "income"}
+{"global_ix": 6460, "sentence": "what's the routing number for my bank of america account", "label": "routing"}
+{"global_ix": 16568, "sentence": "are you a real person or a computer", "label": "are_you_a_bot"}
+{"global_ix": 1697, "sentence": "how long will it take to get a new card", "label": "replacement_card_duration"}
+{"global_ix": 22675, "sentence": "i'm afraid i've forgotten the pin for my 401k account", "label": "pin_change"}
+{"global_ix": 11340, "sentence": "what is my bank routing number", "label": "routing"}
+{"global_ix": 18319, "sentence": "can you please put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 14348, "sentence": "are you a human", "label": "are_you_a_bot"}
+{"global_ix": 6497, "sentence": "why cannot i take any money out from my bank account", "label": "account_blocked"}
+{"global_ix": 6469, "sentence": "reserve a table for 5 at lawry's under the name steve at 8:00pm", "label": "restaurant_reservation"}
+{"global_ix": 10084, "sentence": "when will my replacement card get mailed", "label": "replacement_card_duration"}
+{"global_ix": 12730, "sentence": "check with my bank to see why my account is frozen", "label": "account_blocked"}
+{"global_ix": 16063, "sentence": "did i remember to put eggs on my shopping list", "label": "shopping_list"}
+{"global_ix": 4578, "sentence": "what is the earliest date i can get my new card", "label": "replacement_card_duration"}
+{"global_ix": 11055, "sentence": "should i regard you as a human or as a computer", "label": "are_you_a_bot"}
+{"global_ix": 8638, "sentence": "how many days does it take to receive a new card", "label": "replacement_card_duration"}
+{"global_ix": 21212, "sentence": "how much money do i earn", "label": "income"}
+{"global_ix": 10299, "sentence": "where do i find the routing number for great western bank", "label": "routing"}
+{"global_ix": 2176, "sentence": "i'd like to know if my account's blocked and the reason if so", "label": "account_blocked"}
+{"global_ix": 6478, "sentence": "there has been fraudulent activity on my card and i need to report it", "label": "report_fraud"}
+{"global_ix": 5704, "sentence": "what's the routing number for my money market account", "label": "routing"}
+{"global_ix": 6449, "sentence": "go over my shopping list with me", "label": "shopping_list"}
+{"global_ix": 21465, "sentence": "can you tell me if i have paper towels on my shopping list", "label": "shopping_list"}
+{"global_ix": 9455, "sentence": "what's my take home from work", "label": "income"}
+{"global_ix": 22724, "sentence": "i want a block placed on my college fund account immediately", "label": "freeze_account"}
+{"global_ix": 10365, "sentence": "please allow my account to freeze", "label": "freeze_account"}
+{"global_ix": 20234, "sentence": "tell me whats on my shopping list", "label": "shopping_list"}
+{"global_ix": 2198, "sentence": "close out my account", "label": "freeze_account"}
+{"global_ix": 3456, "sentence": "looks like someone made an unauthorized charge to nike on my account", "label": "report_fraud"}
+{"global_ix": 19467, "sentence": "do you know why the bank put a hold on my joint checking account", "label": "account_blocked"}
+{"global_ix": 4519, "sentence": "where can i find wells fargo's routing number", "label": "routing"}
+{"global_ix": 16894, "sentence": "are you a real person or automated", "label": "are_you_a_bot"}
+{"global_ix": 23367, "sentence": "do you know why i can't log into my bank account", "label": "account_blocked"}
+{"global_ix": 11474, "sentence": "what's the pin number for my checking account", "label": "pin_change"}
+{"global_ix": 10682, "sentence": "tell me my routing number at my bank, community trust", "label": "routing"}
+{"global_ix": 1541, "sentence": "are you a bot or a real person", "label": "are_you_a_bot"}
+{"global_ix": 15641, "sentence": "are you able to put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 4553, "sentence": "what was my income last year", "label": "income"}
+{"global_ix": 5464, "sentence": "when can you send me a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 10462, "sentence": "can i get the routing number for my boa account", "label": "routing"}
+{"global_ix": 8642, "sentence": "what is my routing number to my checking account at bb&t bankj", "label": "routing"}
+{"global_ix": 12420, "sentence": "search for my routing number for my checking account with wells fargo", "label": "routing"}
+{"global_ix": 8962, "sentence": "what reason could the bank have had for blocking my account", "label": "account_blocked"}
+{"global_ix": 3379, "sentence": "will you tell me my routing number", "label": "routing"}
+{"global_ix": 13617, "sentence": "i gotta report fraudulent activity on my credit card", "label": "report_fraud"}
+{"global_ix": 20320, "sentence": "it seems someone conducted a fraudulent transaction on my account", "label": "report_fraud"}
+{"global_ix": 8819, "sentence": "can you freeze my bank account", "label": "freeze_account"}
+{"global_ix": 12810, "sentence": "place a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 22701, "sentence": "i need to know what my wife's account's routing number is", "label": "routing"}
+{"global_ix": 16387, "sentence": "i'm afraid this charge on my account is fraud", "label": "report_fraud"}
+{"global_ix": 22338, "sentence": "how long will it be for me to get a new card", "label": "replacement_card_duration"}
+{"global_ix": 8597, "sentence": "change the pin on my chase account to be 1234", "label": "pin_change"}
+{"global_ix": 1426, "sentence": "can i make a reservation for 2 at state bird for 6:30, please", "label": "restaurant_reservation"}
+{"global_ix": 9373, "sentence": "block my chase account asap", "label": "freeze_account"}
+{"global_ix": 22124, "sentence": "i want the pin on my wells fargo account to be changed", "label": "pin_change"}
+{"global_ix": 1901, "sentence": "can you help me unlock my bank account", "label": "account_blocked"}
+{"global_ix": 6672, "sentence": "the table should be reserved at 8pm at tropicana using martins name and it should be for 5 people", "label": "restaurant_reservation"}
+{"global_ix": 5913, "sentence": "what's my pay for the year", "label": "income"}
+{"global_ix": 16769, "sentence": "what reservations are available for 3 people at the xenophobe", "label": "restaurant_reservation"}
+{"global_ix": 5910, "sentence": "are you a robot", "label": "are_you_a_bot"}
+{"global_ix": 591, "sentence": "my bank account must be frozen", "label": "freeze_account"}
+{"global_ix": 14532, "sentence": "i need to talk to someone about a fraudulent activity on my card", "label": "report_fraud"}
+{"global_ix": 8008, "sentence": "are you a machine", "label": "are_you_a_bot"}
+{"global_ix": 17966, "sentence": "i would like you to secure a 4:30 pm reservation for five people at morton's steakhouse", "label": "restaurant_reservation"}
+{"global_ix": 11391, "sentence": "reservations for two need to be made using michael's name for 7:00pm at olive garden", "label": "restaurant_reservation"}
+{"global_ix": 1601, "sentence": "are you real or an ai", "label": "are_you_a_bot"}
+{"global_ix": 10548, "sentence": "please reserve a table for two at olive garden at 7:00pm for michael", "label": "restaurant_reservation"}
+{"global_ix": 1115, "sentence": "i want to report fraudulent activity on my navy federal card", "label": "report_fraud"}
+{"global_ix": 56, "sentence": "what's my pioneer routing number", "label": "routing"}
+{"global_ix": 6961, "sentence": "what amount do i make", "label": "income"}
+{"global_ix": 17179, "sentence": "i need you to tell me my salary", "label": "income"}
+{"global_ix": 13684, "sentence": "can you get me a table for 6 at lawry's at 7:30pm", "label": "restaurant_reservation"}
+{"global_ix": 23653, "sentence": "are you real or not", "label": "are_you_a_bot"}
+{"global_ix": 545, "sentence": "i need to make a reservation for 8 pm at red robin for 3", "label": "restaurant_reservation"}
+{"global_ix": 7723, "sentence": "can you explain why there is a hold on my savings account", "label": "account_blocked"}
+{"global_ix": 15981, "sentence": "please make my account a frozen one", "label": "freeze_account"}
+{"global_ix": 2182, "sentence": "can you tell me my routing number", "label": "routing"}
+{"global_ix": 21822, "sentence": "are you a computer", "label": "are_you_a_bot"}
+{"global_ix": 19854, "sentence": "i need to report fraudulent activity on my visa card, please", "label": "report_fraud"}
+{"global_ix": 4505, "sentence": "would you be classified as a bot", "label": "are_you_a_bot"}
+{"global_ix": 4903, "sentence": "please book a reservation for 8 pm at red robin under the name kevin", "label": "restaurant_reservation"}
+{"global_ix": 23109, "sentence": "how do i get the routing number for chase", "label": "routing"}
+{"global_ix": 9930, "sentence": "please make a reservation at ruth's steaks for a party of five at 7:00 pm under jack arnold", "label": "restaurant_reservation"}
+{"global_ix": 20774, "sentence": "i have a fraudulent transaction from wal mart on my account", "label": "report_fraud"}
+{"global_ix": 5965, "sentence": "is tomato on my shopping list", "label": "shopping_list"}
+{"global_ix": 21316, "sentence": "get my income amount for me", "label": "income"}
+{"global_ix": 19304, "sentence": "what is the procedure for getting a new pin number", "label": "pin_change"}
+{"global_ix": 1505, "sentence": "i would like to change the pin on my savings account", "label": "pin_change"}
+{"global_ix": 19985, "sentence": "can we stop my bank account", "label": "freeze_account"}
+{"global_ix": 16803, "sentence": "do i need to get milk", "label": "shopping_list"}
+{"global_ix": 6151, "sentence": "does pnc have a routing number", "label": "routing"}
+{"global_ix": 14991, "sentence": "please give me my salary figure", "label": "income"}
+{"global_ix": 10654, "sentence": "can you tell me if your a bot", "label": "are_you_a_bot"}
+{"global_ix": 1209, "sentence": "if i ordered a new card, how long til it comes", "label": "replacement_card_duration"}
+{"global_ix": 7194, "sentence": "i would like to change the name on my credit card account", "label": "pin_change"}
+{"global_ix": 4350, "sentence": "schedule me a table for 2 at red lobster at 8", "label": "restaurant_reservation"}
+{"global_ix": 1977, "sentence": "for anew card to be mailed to me, how long does it take", "label": "replacement_card_duration"}
+{"global_ix": 3808, "sentence": "after losing a credit card, how long does it take to get a new one", "label": "replacement_card_duration"}
+{"global_ix": 20495, "sentence": "set up a new pin number on my college fund account and make it be 1234", "label": "pin_change"}
+{"global_ix": 16879, "sentence": "i wanna know my bank of america routing number", "label": "routing"}
+{"global_ix": 5411, "sentence": "freeze my bank account", "label": "freeze_account"}
+{"global_ix": 7164, "sentence": "does the shopping list have apples on it", "label": "shopping_list"}
+{"global_ix": 8668, "sentence": "what is your current income", "label": "income"}
+{"global_ix": 13194, "sentence": "i'm reporting fraudelent activity on my card", "label": "report_fraud"}
+{"global_ix": 6455, "sentence": "are you a bot right now", "label": "are_you_a_bot"}
+{"global_ix": 9909, "sentence": "is there a routing number for wachovia", "label": "routing"}
+{"global_ix": 9531, "sentence": "i'd like to change my pin number for my checking account", "label": "pin_change"}
+{"global_ix": 983, "sentence": "how much do i earn a year", "label": "income"}
+{"global_ix": 14237, "sentence": "is there a problem with my account, it appears to be blocked", "label": "account_blocked"}
+{"global_ix": 14652, "sentence": "did someone who is unauthorized try to get into my bank account", "label": "account_blocked"}
+{"global_ix": 8870, "sentence": "average time to receive new card", "label": "replacement_card_duration"}
+{"global_ix": 6825, "sentence": "find out for me why is my bank account frozen", "label": "account_blocked"}
+{"global_ix": 20710, "sentence": "why did my bank place a hold on my bank account", "label": "account_blocked"}
+{"global_ix": 17335, "sentence": "are you a real person or software", "label": "are_you_a_bot"}
+{"global_ix": 13625, "sentence": "can you change my 1st national account pin to 4892", "label": "pin_change"}
+{"global_ix": 12869, "sentence": "how many days before my credit card arrives", "label": "replacement_card_duration"}
+{"global_ix": 10699, "sentence": "would most people say you are a computer or a human", "label": "are_you_a_bot"}
+{"global_ix": 8261, "sentence": "am i talking to a real live person", "label": "are_you_a_bot"}
+{"global_ix": 2943, "sentence": "what has my income been like", "label": "income"}
+{"global_ix": 8659, "sentence": "i have a fraudulent transaction from wal mart on my account right now", "label": "report_fraud"}
+{"global_ix": 22540, "sentence": "what's my routing number from chase", "label": "routing"}
+{"global_ix": 19055, "sentence": "are you actually a person", "label": "are_you_a_bot"}
+{"global_ix": 8157, "sentence": "please pause my banking actions", "label": "freeze_account"}
+{"global_ix": 14253, "sentence": "i need to block all transactions from going through on my citi checking account straight away", "label": "freeze_account"}
+{"global_ix": 8128, "sentence": "when will me new card arrive", "label": "replacement_card_duration"}
+{"global_ix": 20793, "sentence": "i'd like my account frozen", "label": "freeze_account"}
+{"global_ix": 3984, "sentence": "can you tell me the routing number of wells fargo", "label": "routing"}
+{"global_ix": 9354, "sentence": "can i change my pin number", "label": "pin_change"}
+{"global_ix": 9406, "sentence": "what can you see on my shopping list", "label": "shopping_list"}
+{"global_ix": 5537, "sentence": "i think there's a fraudulent charge from mcdonald's on my account", "label": "report_fraud"}
+{"global_ix": 15330, "sentence": "i didn't make these purchases on my card; these are fraudulent charges i need to report them", "label": "report_fraud"}
+{"global_ix": 21575, "sentence": "can you tell me my exact salary", "label": "income"}
+{"global_ix": 17878, "sentence": "so are you a real person", "label": "are_you_a_bot"}
+{"global_ix": 2190, "sentence": "tell me my bank of america routing number", "label": "routing"}
+{"global_ix": 16083, "sentence": "what would be the estimated time from to get a new card mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 5041, "sentence": "please put a stop on my back account", "label": "freeze_account"}
+{"global_ix": 18577, "sentence": "put a freeze on my bank account", "label": "freeze_account"}
+{"global_ix": 11944, "sentence": "please file a fraud report", "label": "report_fraud"}
+{"global_ix": 10000, "sentence": "i have some charges on my account from old navy that aren't mine", "label": "report_fraud"}
+{"global_ix": 19990, "sentence": "please change my retirement account pin number to 1234", "label": "pin_change"}
+{"global_ix": 12939, "sentence": "did i add salt to my shopping list", "label": "shopping_list"}
+{"global_ix": 22965, "sentence": "i'd like to change my pin number for my savings account", "label": "pin_change"}
+{"global_ix": 7282, "sentence": "i'd like to make a reservation at rooth chris, can you do that", "label": "restaurant_reservation"}
+{"global_ix": 5431, "sentence": "are you real or a computer", "label": "are_you_a_bot"}
+{"global_ix": 4011, "sentence": "ai, what is the routing number for my citibank savings account", "label": "routing"}
+{"global_ix": 496, "sentence": "how much do i make every 2 weeks", "label": "income"}
+{"global_ix": 3225, "sentence": "do you consider yourself an artificial intelligence being", "label": "are_you_a_bot"}
+{"global_ix": 5933, "sentence": "my account appears to be blocked and i don't know why", "label": "account_blocked"}
+{"global_ix": 20166, "sentence": "how long will it take for me to get a new credit card to replace the one that was stolen", "label": "replacement_card_duration"}
+{"global_ix": 12030, "sentence": "what do i need when i go shopping", "label": "shopping_list"}
+{"global_ix": 2609, "sentence": "i want to report fraud on my american express", "label": "report_fraud"}
+{"global_ix": 8653, "sentence": "can you get me a table for 8 at mastro's at 8:30pm", "label": "restaurant_reservation"}
+{"global_ix": 4579, "sentence": "are your real or artificial", "label": "are_you_a_bot"}
+{"global_ix": 18142, "sentence": "i must change my pin number for my account", "label": "pin_change"}
+{"global_ix": 18419, "sentence": "whats on my shopping list at the moment", "label": "shopping_list"}
+{"global_ix": 18255, "sentence": "read me my shopping list please", "label": "shopping_list"}
+{"global_ix": 18808, "sentence": "what is the routing number for royal", "label": "routing"}
+{"global_ix": 17988, "sentence": "please put a block on my discover account immediately", "label": "freeze_account"}
+{"global_ix": 11420, "sentence": "how long it takes to get a new replacement card", "label": "replacement_card_duration"}
+{"global_ix": 6174, "sentence": "read my shopping list", "label": "shopping_list"}
+{"global_ix": 12474, "sentence": "you need to call the melt in lakewood for a table for at 2:00, monday, the first week in march", "label": "restaurant_reservation"}
+{"global_ix": 21016, "sentence": "where can i locate the routing number for the bank i bank with", "label": "routing"}
+{"global_ix": 4968, "sentence": "what is my hourly rate", "label": "income"}
+{"global_ix": 10957, "sentence": "my account shows a transaction that i didn't make from foot locker", "label": "report_fraud"}
+{"global_ix": 2366, "sentence": "help me change my pin number for my money market account", "label": "pin_change"}
+{"global_ix": 6603, "sentence": "on account ending in 3838 change my pin to 1234", "label": "pin_change"}
+{"global_ix": 788, "sentence": "what do i need to get when i go shopping", "label": "shopping_list"}
+{"global_ix": 62, "sentence": "i am very confused about why or how my bank would lock me out of my account", "label": "account_blocked"}
+{"global_ix": 8346, "sentence": "are you a human being or a computer", "label": "are_you_a_bot"}
+{"global_ix": 3151, "sentence": "what's the transit time on a new card", "label": "replacement_card_duration"}
+{"global_ix": 14366, "sentence": "need help with frozen bank account", "label": "account_blocked"}
+{"global_ix": 14773, "sentence": "i need a stop placed on my bank account please", "label": "freeze_account"}
+{"global_ix": 23612, "sentence": "what do i need to buy", "label": "shopping_list"}
+{"global_ix": 19749, "sentence": "did i forget to put protein shakes on my shopping list", "label": "shopping_list"}
+{"global_ix": 13382, "sentence": "i'm confused about the reason for my bank account being frozen", "label": "account_blocked"}
+{"global_ix": 14436, "sentence": "i think someone jacked my bank account", "label": "report_fraud"}
+{"global_ix": 18043, "sentence": "an unauthorized transactions has been made on my gap card and i need to report it", "label": "report_fraud"}
+{"global_ix": 20483, "sentence": "figure out why there is a block on my account please", "label": "account_blocked"}
+{"global_ix": 569, "sentence": "mailing to me for a new card takes how long", "label": "replacement_card_duration"}
+{"global_ix": 20863, "sentence": "put a block on my chase account right away", "label": "freeze_account"}
+{"global_ix": 23669, "sentence": "tell me why i get an error logging in to my bank account", "label": "account_blocked"}
+{"global_ix": 18461, "sentence": "martins needs a table for 5 people at tropicana at 8pm precisely", "label": "restaurant_reservation"}
+{"global_ix": 18290, "sentence": "look for me a table at carl's cabin for twelve at eight", "label": "restaurant_reservation"}
+{"global_ix": 23424, "sentence": "block my monkey market right now", "label": "freeze_account"}
+{"global_ix": 8523, "sentence": "i must learn my routing number", "label": "routing"}
+{"global_ix": 8479, "sentence": "get a table for me at 7 for 3 people at olive garden", "label": "restaurant_reservation"}
+{"global_ix": 11112, "sentence": "i think someone made an illegal charge to my card", "label": "report_fraud"}
+{"global_ix": 21253, "sentence": "put a hault on my savings account", "label": "freeze_account"}
+{"global_ix": 11159, "sentence": "tell me what i can find on the shopping list", "label": "shopping_list"}
+{"global_ix": 18948, "sentence": "would you say you are a bot", "label": "are_you_a_bot"}
+{"global_ix": 11389, "sentence": "change the pin on my bank account first republic to 1234", "label": "pin_change"}
+{"global_ix": 12993, "sentence": "get me a table for five at itta bena at three", "label": "restaurant_reservation"}
+{"global_ix": 16100, "sentence": "do you know why my bank account is frozen", "label": "account_blocked"}
+{"global_ix": 18102, "sentence": "can you check and see why us bank put a hold on my account", "label": "account_blocked"}
+{"global_ix": 23446, "sentence": "freeze my account at the bank immediately", "label": "freeze_account"}
+{"global_ix": 1384, "sentence": "i need the pin number for my checking account", "label": "pin_change"}
+{"global_ix": 19176, "sentence": "i have transactions on my card that aren't mine", "label": "report_fraud"}
+{"global_ix": 17961, "sentence": "i need to change my pin number for my account", "label": "pin_change"}
+{"global_ix": 2734, "sentence": "i have to report fraudulent activity on my bank of the west card", "label": "report_fraud"}
+{"global_ix": 634, "sentence": "how long before my new card is mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 9659, "sentence": "turns out i made a fraudulent transaction", "label": "report_fraud"}
+{"global_ix": 7336, "sentence": "i have to report fraudulent activity the bank of america card", "label": "report_fraud"}
+{"global_ix": 16530, "sentence": "i want to know if your a bot", "label": "are_you_a_bot"}
+{"global_ix": 12219, "sentence": "i need to reset my pin number", "label": "pin_change"}
+{"global_ix": 5272, "sentence": "i need to know nfcu's routing number", "label": "routing"}
+{"global_ix": 9291, "sentence": "it looks like someone made an unauthorized amazon purchase on my account", "label": "report_fraud"}
+{"global_ix": 2413, "sentence": "i need my pin number for my bank of america account and i can't remember it", "label": "pin_change"}
+{"global_ix": 10408, "sentence": "tell me the pin number to my card", "label": "pin_change"}
+{"global_ix": 10149, "sentence": "what's on the shopping list", "label": "shopping_list"}
+{"global_ix": 2128, "sentence": "does my shopping list have tomato written on it", "label": "shopping_list"}
+{"global_ix": 5862, "sentence": "how much money am i earning", "label": "income"}
+{"global_ix": 4383, "sentence": "how do i know that you're a person", "label": "are_you_a_bot"}
+{"global_ix": 8854, "sentence": "how do i change the account pin number for me", "label": "pin_change"}
+{"global_ix": 2107, "sentence": "tell me my salary", "label": "income"}
+{"global_ix": 8521, "sentence": "i need to report fraudulent activity on my usaa card", "label": "report_fraud"}
+{"global_ix": 11433, "sentence": "put a hold on my bank of america account right away please", "label": "freeze_account"}
+{"global_ix": 954, "sentence": "what's the reason for a hold on my wells fargo account", "label": "account_blocked"}
+{"global_ix": 21614, "sentence": "do i have butter on my list", "label": "shopping_list"}
+{"global_ix": 11454, "sentence": "do you know why my account is blocked", "label": "account_blocked"}
+{"global_ix": 20120, "sentence": "can you tell me whats on my shopping list", "label": "shopping_list"}
+{"global_ix": 938, "sentence": "i would like to know if you are a robot", "label": "are_you_a_bot"}
+{"global_ix": 20361, "sentence": "what is my total annual income", "label": "income"}
+{"global_ix": 17371, "sentence": "what is my current net salary", "label": "income"}
+{"global_ix": 17981, "sentence": "is there anyway, i can report a suspicious activity on my citi card", "label": "report_fraud"}
+{"global_ix": 17859, "sentence": "please freeze my bank account", "label": "freeze_account"}
+{"global_ix": 2253, "sentence": "let me know if you are a human or are a computer", "label": "are_you_a_bot"}
+{"global_ix": 19380, "sentence": "please put a hold on my retirement account right now", "label": "freeze_account"}
+{"global_ix": 8738, "sentence": "how do i get a new pin", "label": "pin_change"}
+{"global_ix": 15079, "sentence": "\"i need to report fraudulent activity to my card company", "label": "report_fraud"}
+{"global_ix": 15357, "sentence": "change the pin on my redwood credit union account to be 1234", "label": "pin_change"}
+{"global_ix": 22881, "sentence": "read off shopping list", "label": "shopping_list"}
+{"global_ix": 12556, "sentence": "is my replacement card due to arrive in the mail today", "label": "replacement_card_duration"}
+{"global_ix": 21402, "sentence": "how do i update my pin number for my account", "label": "pin_change"}
+{"global_ix": 907, "sentence": "i cannot recall the pin for my savings account", "label": "pin_change"}
+{"global_ix": 2186, "sentence": "so i made a fraudulent transaction", "label": "report_fraud"}
+{"global_ix": 22272, "sentence": "there's a hold on my chase account, but why", "label": "account_blocked"}
+{"global_ix": 722, "sentence": "what do i need to go shopping for", "label": "shopping_list"}
+{"global_ix": 3539, "sentence": "my account appears to be blocked but i have no idea why that could be", "label": "account_blocked"}
+{"global_ix": 16605, "sentence": "are you an ai or a real person", "label": "are_you_a_bot"}
+{"global_ix": 196, "sentence": "book a reservation for 6 at shakey's under the name jason", "label": "restaurant_reservation"}
+{"global_ix": 14697, "sentence": "are you ai or a real person please", "label": "are_you_a_bot"}
+{"global_ix": 3696, "sentence": "how much money do i make", "label": "income"}
+{"global_ix": 6035, "sentence": "can you assist me on my fradulent activity on my chase card", "label": "report_fraud"}
+{"global_ix": 13777, "sentence": "freeze my account", "label": "freeze_account"}
+{"global_ix": 13165, "sentence": "michael will reserve a table for two at 7:00pm for olive garden", "label": "restaurant_reservation"}
+{"global_ix": 13944, "sentence": "i need you to reserve a table for 4 at red robin under the name kevin at 7", "label": "restaurant_reservation"}
+{"global_ix": 9148, "sentence": "at 7, i need a table for 3 at olive garden", "label": "restaurant_reservation"}
+{"global_ix": 10978, "sentence": "please reserve me a table at hell's kitchen on may 3rd at 8 pm", "label": "restaurant_reservation"}
+{"global_ix": 2285, "sentence": "can you please put a block on my chase account quickly", "label": "freeze_account"}
+{"global_ix": 18315, "sentence": "how do i change my pin number for my account, please", "label": "pin_change"}
+{"global_ix": 9045, "sentence": "can you help me find my routing number from wells fargo", "label": "routing"}
+{"global_ix": 16784, "sentence": "how do i report a fraudulent charge on my visa", "label": "report_fraud"}
+{"global_ix": 22195, "sentence": "how soon will you mail me a new card", "label": "replacement_card_duration"}
+{"global_ix": 13768, "sentence": "what are my shopping list's content", "label": "shopping_list"}
+{"global_ix": 3274, "sentence": "give me the low down on my income", "label": "income"}
+{"global_ix": 8169, "sentence": "when can i expect my replacement card", "label": "replacement_card_duration"}
+{"global_ix": 18781, "sentence": "listen i need to get a reservation for , me and teresa at georgetown cafe on tuesday at 7:00 pm", "label": "restaurant_reservation"}
+{"global_ix": 11776, "sentence": "go ahead and book a reservation for 8 pm at red robin under the name kevin", "label": "restaurant_reservation"}
+{"global_ix": 20610, "sentence": "i need to know the routing number for my checking", "label": "routing"}
+{"global_ix": 2930, "sentence": "is there a way to change my pin number for my savings account", "label": "pin_change"}
+{"global_ix": 16153, "sentence": "what is my routing number for marine bank", "label": "routing"}
+{"global_ix": 4749, "sentence": "i need to know if you are a real person or an ai", "label": "are_you_a_bot"}
+{"global_ix": 5560, "sentence": "please tell me what amount i'm earning", "label": "income"}
+{"global_ix": 3630, "sentence": "is there a way to tell if you are real or an ai", "label": "are_you_a_bot"}
+{"global_ix": 14641, "sentence": "what are the contents of my shopping list", "label": "shopping_list"}
+{"global_ix": 7591, "sentence": "if i need a new card mailed how long will it take", "label": "replacement_card_duration"}
+{"global_ix": 11673, "sentence": "help me change my pin number", "label": "pin_change"}
+{"global_ix": 5828, "sentence": "please put my account on hold", "label": "freeze_account"}
+{"global_ix": 11006, "sentence": "i want to report fraudulent activity on my amex card, please", "label": "report_fraud"}
+{"global_ix": 3185, "sentence": "i want my account locked out", "label": "freeze_account"}
+{"global_ix": 13607, "sentence": "do i get a replacement card mailed, and when", "label": "replacement_card_duration"}
+{"global_ix": 9181, "sentence": "do you have any idea why my account may be blocked", "label": "account_blocked"}
+{"global_ix": 674, "sentence": "about how long does it usually take a new card to get mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 6398, "sentence": "please tell me what my bank routing number is", "label": "routing"}
+{"global_ix": 12271, "sentence": "clear something up, are you a robot", "label": "are_you_a_bot"}
+{"global_ix": 20254, "sentence": "check if my shopping list has tomato", "label": "shopping_list"}
+{"global_ix": 8195, "sentence": "what are the possible reasons behind frozen bank account", "label": "account_blocked"}
+{"global_ix": 20570, "sentence": "what routing number does chase in michigan use", "label": "routing"}
+{"global_ix": 20530, "sentence": "what exactly is my pin", "label": "pin_change"}
+{"global_ix": 17872, "sentence": "are you really real", "label": "are_you_a_bot"}
+{"global_ix": 3723, "sentence": "someone is charging my card for playstations, and it's not me! what do i do!", "label": "report_fraud"}
+{"global_ix": 6553, "sentence": "did i remember to put milk in the shopping list", "label": "shopping_list"}
+{"global_ix": 1625, "sentence": "what're my wages for the week", "label": "income"}
+{"global_ix": 19340, "sentence": "why would the bank have frozen my account", "label": "account_blocked"}
+{"global_ix": 17877, "sentence": "what is my compensation", "label": "income"}
+{"global_ix": 17084, "sentence": "would you call yourself a human or a computer", "label": "are_you_a_bot"}
+{"global_ix": 2045, "sentence": "this costco charge looks fraudulent", "label": "report_fraud"}
+{"global_ix": 13970, "sentence": "when should i expect my replacement card", "label": "replacement_card_duration"}
+{"global_ix": 14900, "sentence": "can you tell me what i earned", "label": "income"}
+{"global_ix": 13068, "sentence": "i want to freeze my bank account", "label": "freeze_account"}
+{"global_ix": 2890, "sentence": "is this a bot", "label": "are_you_a_bot"}
+{"global_ix": 5628, "sentence": "what are you, a bot or human", "label": "are_you_a_bot"}
+{"global_ix": 11289, "sentence": "advise me of my income", "label": "income"}
+{"global_ix": 11718, "sentence": "i'd like to know what's on my shopping list", "label": "shopping_list"}
+{"global_ix": 8271, "sentence": "change my amex account pin to 1234", "label": "pin_change"}
+{"global_ix": 6438, "sentence": "would you tell me if you are a human or are a computer", "label": "are_you_a_bot"}
+{"global_ix": 7051, "sentence": "what's my income before taxes", "label": "income"}
+{"global_ix": 11930, "sentence": "i want to report fraudulent activity on my capital one", "label": "report_fraud"}
+{"global_ix": 5637, "sentence": "if i order a new card how long would it take", "label": "replacement_card_duration"}
+{"global_ix": 17350, "sentence": "i need x's routing number", "label": "routing"}
+{"global_ix": 16646, "sentence": "when will you mail me a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 21853, "sentence": "are you a computer generated voice", "label": "are_you_a_bot"}
+{"global_ix": 13546, "sentence": "how much is the pay offered for my work", "label": "income"}
+{"global_ix": 12995, "sentence": "my bill shows a purchase from payless shoes but i didn't buy anything", "label": "report_fraud"}
+{"global_ix": 1919, "sentence": "yearly salary", "label": "income"}
+{"global_ix": 10106, "sentence": "what did i write down on my shopping list this time", "label": "shopping_list"}
+{"global_ix": 2582, "sentence": "i don't understand why there is a hold on my retirement fund account", "label": "account_blocked"}
+{"global_ix": 2541, "sentence": "call my bank and ask them why my account is frozen", "label": "account_blocked"}
+{"global_ix": 17829, "sentence": "i forgot my pin number for my northfield account", "label": "pin_change"}
+{"global_ix": 19181, "sentence": "what caused a freeze to be put on my bank account", "label": "account_blocked"}
+{"global_ix": 22084, "sentence": "how do i let visa know about a charge i didn't make", "label": "report_fraud"}
+{"global_ix": 6109, "sentence": "what is amount of time it takes to get a new credit card i lost mine recently", "label": "replacement_card_duration"}
+{"global_ix": 688, "sentence": "when will my card replacement arrive", "label": "replacement_card_duration"}
+{"global_ix": 11927, "sentence": "what's the routing number for my usaa account", "label": "routing"}
+{"global_ix": 366, "sentence": "i have no idea what the pin is for my checking account", "label": "pin_change"}
+{"global_ix": 9436, "sentence": "can i get the routing number for sunflower bank", "label": "routing"}
+{"global_ix": 16288, "sentence": "my account needs to be frozen", "label": "freeze_account"}
+{"global_ix": 1718, "sentence": "i need to change my pin number for my checking account", "label": "pin_change"}
+{"global_ix": 17580, "sentence": "are you real", "label": "are_you_a_bot"}
+{"global_ix": 18334, "sentence": "i saw suspicious activity on my bank account", "label": "report_fraud"}
+{"global_ix": 19622, "sentence": "what is my income from work", "label": "income"}
+{"global_ix": 6610, "sentence": "how much is my salary", "label": "income"}
+{"global_ix": 5208, "sentence": "how much do i make at work", "label": "income"}
+{"global_ix": 9418, "sentence": "how we stop my account", "label": "freeze_account"}
+{"global_ix": 21668, "sentence": "i'd like to change the pin on my savings account, please", "label": "pin_change"}
+{"global_ix": 18960, "sentence": "please stop my account", "label": "freeze_account"}
+{"global_ix": 4504, "sentence": "tell me what i put on the shopping list", "label": "shopping_list"}
+{"global_ix": 9834, "sentence": "how can i unfreeze my bank account", "label": "account_blocked"}
+{"global_ix": 8586, "sentence": "i need to know the pin number to my card", "label": "pin_change"}
+{"global_ix": 5223, "sentence": "can you tell me my routing number for summit", "label": "routing"}
+{"global_ix": 10144, "sentence": "i need to know what routing number i should use for ally", "label": "routing"}
+{"global_ix": 9368, "sentence": "help me unblock my account", "label": "account_blocked"}
+{"global_ix": 655, "sentence": "do i already have cereal on my shopping list", "label": "shopping_list"}
+{"global_ix": 3903, "sentence": "read my entire shopping list to me", "label": "shopping_list"}
+{"global_ix": 1474, "sentence": "what is the routing number of my checking account at first national bankj", "label": "routing"}
+{"global_ix": 11528, "sentence": "can you book a table at the restaurant for me and my husband", "label": "restaurant_reservation"}
+{"global_ix": 3213, "sentence": "book a reservation for 4 at outback steakhouse under the name dave", "label": "restaurant_reservation"}
+{"global_ix": 5583, "sentence": "what's wells fargo's routing number", "label": "routing"}
+{"global_ix": 15279, "sentence": "how long will it take a new card to come in the mail", "label": "replacement_card_duration"}
+{"global_ix": 19756, "sentence": "what's the routing number for my current savings", "label": "routing"}
+{"global_ix": 20178, "sentence": "discover card reporting fraud", "label": "report_fraud"}
+{"global_ix": 3224, "sentence": "help me reserve a table for 3 at lucky's under the name crystal at 8 pm", "label": "restaurant_reservation"}
+{"global_ix": 7311, "sentence": "my shopping list contains what", "label": "shopping_list"}
+{"global_ix": 9754, "sentence": "is it a short time before i receive my new credit card", "label": "replacement_card_duration"}
+{"global_ix": 4939, "sentence": "are you a human or ai computer based", "label": "are_you_a_bot"}
+{"global_ix": 2230, "sentence": "please tell me the routing number for my wells fargo account", "label": "routing"}
+{"global_ix": 20553, "sentence": "did carrots get on my shopping list", "label": "shopping_list"}
+{"global_ix": 22844, "sentence": "how much do you make", "label": "income"}
+{"global_ix": 12780, "sentence": "call my bank customer service number", "label": "account_blocked"}
+{"global_ix": 19178, "sentence": "i'd like a stop placed on my bank account", "label": "freeze_account"}
+{"global_ix": 11669, "sentence": "i need help investigating a suspicious transaction", "label": "report_fraud"}
+{"global_ix": 21342, "sentence": "is your voice from a human or is it synthesized", "label": "are_you_a_bot"}
+{"global_ix": 12321, "sentence": "give me a table for 3 at o'reilly's bar for 7 please", "label": "restaurant_reservation"}
+{"global_ix": 11995, "sentence": "what does my income amount to", "label": "income"}
+{"global_ix": 21422, "sentence": "i am going to need a block put on my chase account right away", "label": "freeze_account"}
+{"global_ix": 6144, "sentence": "what's the time of arrival on my new credit card", "label": "replacement_card_duration"}
+{"global_ix": 10546, "sentence": "can you tell me what i have on my shopping list", "label": "shopping_list"}
+{"global_ix": 10369, "sentence": "help me figure out where this fraudulent transaction from google came from on my account", "label": "report_fraud"}
+{"global_ix": 13723, "sentence": "i think this transaction is bogus", "label": "report_fraud"}
+{"global_ix": 23326, "sentence": "how do i find axos bank's routing number", "label": "routing"}
+{"global_ix": 15923, "sentence": "use the name wheeler to reserve a table for 3 at andrea's steakhouse at 5pm", "label": "restaurant_reservation"}
+{"global_ix": 9499, "sentence": "what is the shipping status of my replacement card", "label": "replacement_card_duration"}
+{"global_ix": 20258, "sentence": "can you notify the bank to put a stop on my account", "label": "freeze_account"}
+{"global_ix": 5591, "sentence": "this charge is bs", "label": "report_fraud"}
+{"global_ix": 4683, "sentence": "i need you to place a stop on my bank account, thank you", "label": "freeze_account"}
+{"global_ix": 22504, "sentence": "i can't remember my pin for my first national debit account", "label": "pin_change"}
+{"global_ix": 7237, "sentence": "am i speaking with a real person", "label": "are_you_a_bot"}
+{"global_ix": 17239, "sentence": "i would appreciate it if you put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 2433, "sentence": "are you a person or robot", "label": "are_you_a_bot"}
+{"global_ix": 13241, "sentence": "my checking account needs a new pin number", "label": "pin_change"}
+{"global_ix": 15882, "sentence": "tell me my routing number", "label": "routing"}
+{"global_ix": 9032, "sentence": "is waffles on my list for shopping", "label": "shopping_list"}
+{"global_ix": 17536, "sentence": "there's a false charge on my account from mcdonald's", "label": "report_fraud"}
+{"global_ix": 13180, "sentence": "why does my credit union account have a hold on it", "label": "account_blocked"}
+{"global_ix": 850, "sentence": "turn off my account", "label": "freeze_account"}
+{"global_ix": 20603, "sentence": "are you a human being or a robot", "label": "are_you_a_bot"}
+{"global_ix": 2808, "sentence": "can you get me a table for 5 at outback steakhouse at 6:30pm", "label": "restaurant_reservation"}
+{"global_ix": 13562, "sentence": "did i do something to get my bank account frozen", "label": "account_blocked"}
+{"global_ix": 16413, "sentence": "i suspect fraudulent transaction", "label": "report_fraud"}
+{"global_ix": 20433, "sentence": "why is there a hold on my capital one checking account", "label": "account_blocked"}
+{"global_ix": 12462, "sentence": "my new card will arrive when", "label": "replacement_card_duration"}
+{"global_ix": 22683, "sentence": "when will my new card come in the mail", "label": "replacement_card_duration"}
+{"global_ix": 10304, "sentence": "could you tell me the routing number for my chase checking account", "label": "routing"}
+{"global_ix": 576, "sentence": "what all do i have on my shopping list", "label": "shopping_list"}
+{"global_ix": 15091, "sentence": "i want to change my savings account pin to 1234", "label": "pin_change"}
+{"global_ix": 1794, "sentence": "i want my bank account frozen", "label": "freeze_account"}
+{"global_ix": 20702, "sentence": "tell me my bank routing number", "label": "routing"}
+{"global_ix": 1099, "sentence": "i would like my account frozen", "label": "freeze_account"}
+{"global_ix": 2891, "sentence": "i must report fraudulent activity on my debit", "label": "report_fraud"}
+{"global_ix": 22896, "sentence": "please reserve a table for two at rouge for 7:00 pm", "label": "restaurant_reservation"}
+{"global_ix": 7921, "sentence": "what do i have on my list for shopping", "label": "shopping_list"}
+{"global_ix": 21059, "sentence": "tell me the routing number for my wf account", "label": "routing"}
+{"global_ix": 15857, "sentence": "my list for shopping has what on it", "label": "shopping_list"}
+{"global_ix": 20676, "sentence": "can you tell me my shopping list items, please", "label": "shopping_list"}
+{"global_ix": 12812, "sentence": "please make a reservation for me: party of two, february 22nd at chili's, two in the afternoon", "label": "restaurant_reservation"}
+{"global_ix": 17597, "sentence": "hello, i'd like a reservation for two at the olive garden at six tonight", "label": "restaurant_reservation"}
+{"global_ix": 1755, "sentence": "read me my shopping list", "label": "shopping_list"}
+{"global_ix": 18476, "sentence": "what is the routing number for pnc", "label": "routing"}
+{"global_ix": 2720, "sentence": "what's my total earnings", "label": "income"}
+{"global_ix": 22582, "sentence": "i must change my pin number for my money market account", "label": "pin_change"}
+{"global_ix": 17557, "sentence": "what's my pay for this week", "label": "income"}
+{"global_ix": 17938, "sentence": "read my shopping list to me", "label": "shopping_list"}
+{"global_ix": 8872, "sentence": "would you tell me about my income", "label": "income"}
+{"global_ix": 18606, "sentence": "what is the quickest way to get a new card", "label": "replacement_card_duration"}
+{"global_ix": 7046, "sentence": "tell me my income amount", "label": "income"}
+{"global_ix": 14678, "sentence": "it looks like my account is blocked but i have no clue why", "label": "account_blocked"}
+{"global_ix": 10798, "sentence": "do you think you are a bot", "label": "are_you_a_bot"}
+{"global_ix": 11043, "sentence": "what's my pin for my fidelity account", "label": "pin_change"}
+{"global_ix": 15065, "sentence": "i need to know the pin number", "label": "pin_change"}
+{"global_ix": 11447, "sentence": "are you alive", "label": "are_you_a_bot"}
+{"global_ix": 11232, "sentence": "there's a messed up transaction on my account from mcdonald's", "label": "report_fraud"}
+{"global_ix": 1542, "sentence": "can you get me a table for 4 at steve's", "label": "restaurant_reservation"}
+{"global_ix": 20104, "sentence": "can you report credit card fraud for me", "label": "report_fraud"}
+{"global_ix": 19655, "sentence": "can you get me a table for 6 at mark's at 11am", "label": "restaurant_reservation"}
+{"global_ix": 19662, "sentence": "where do i go if i am seeking the routing number of dallas capital", "label": "routing"}
+{"global_ix": 14783, "sentence": "switch the pin on my chase account", "label": "pin_change"}
+{"global_ix": 18113, "sentence": "do you know if you are a robot", "label": "are_you_a_bot"}
+{"global_ix": 540, "sentence": "help me, i forgot my pin number", "label": "pin_change"}
+{"global_ix": 22320, "sentence": "what do i make annually", "label": "income"}
+{"global_ix": 10976, "sentence": "change the pin on my bank of america account to be 1234", "label": "pin_change"}
+{"global_ix": 15281, "sentence": "i don't remember buying this", "label": "report_fraud"}
+{"global_ix": 21885, "sentence": "help! i'm a victim of credit card fraud!", "label": "report_fraud"}
+{"global_ix": 4216, "sentence": "my credit card got stolen and i need to know how long it will be before a new on arrives", "label": "replacement_card_duration"}
+{"global_ix": 3919, "sentence": "i lost my credit card recently  how long does take to get a new one in the mail", "label": "replacement_card_duration"}
+{"global_ix": 6164, "sentence": "how much am i getting paid", "label": "income"}
+{"global_ix": 369, "sentence": "are you a human or an ai", "label": "are_you_a_bot"}
+{"global_ix": 13952, "sentence": "i need to know my salary", "label": "income"}
+{"global_ix": 33, "sentence": "please give my routing number for my national account", "label": "routing"}
+{"global_ix": 22152, "sentence": "what would the routing number for chase be", "label": "routing"}
+{"global_ix": 18471, "sentence": "you sound like a bot", "label": "are_you_a_bot"}
+{"global_ix": 21996, "sentence": "i need to report fraudulent activity on my card", "label": "report_fraud"}
+{"global_ix": 7734, "sentence": "check my shopping list", "label": "shopping_list"}
+{"global_ix": 15346, "sentence": "please specify if you are human or computer", "label": "are_you_a_bot"}
+{"global_ix": 7936, "sentence": "where can i locate my routing number for chase please", "label": "routing"}
+{"global_ix": 18191, "sentence": "please put a block on my td ameritrade account now", "label": "freeze_account"}
+{"global_ix": 6671, "sentence": "on the shopping list did i put tomato", "label": "shopping_list"}
+{"global_ix": 10815, "sentence": "where do i locate the routing number for the credit union", "label": "routing"}
+{"global_ix": 17768, "sentence": "i think i've been the victim of fraud", "label": "report_fraud"}
+{"global_ix": 13125, "sentence": "book me a table for three at rainforest cafe at seven", "label": "restaurant_reservation"}
+{"global_ix": 5748, "sentence": "i seem to have a purchase that i didn't make from olive garden on my account", "label": "report_fraud"}
+{"global_ix": 3908, "sentence": "i need to know if you are a bot", "label": "are_you_a_bot"}
+{"global_ix": 2651, "sentence": "i need you to reserve at table for a party of four at devon's for 6:00 pm", "label": "restaurant_reservation"}
+{"global_ix": 16776, "sentence": "where can i find routing number for pnc", "label": "routing"}
+{"global_ix": 10297, "sentence": "can you tell me if you are a real live person", "label": "are_you_a_bot"}
+{"global_ix": 22944, "sentence": "how long should i expect to wait for my new card in the mail", "label": "replacement_card_duration"}
+{"global_ix": 8866, "sentence": "make a reservation for wheeler party of 3 for 5pm at andrea's steakhouse", "label": "restaurant_reservation"}
+{"global_ix": 10100, "sentence": "what do you make in a year", "label": "income"}
+{"global_ix": 12647, "sentence": "how come a hold was placed on my 401k account", "label": "account_blocked"}
+{"global_ix": 12802, "sentence": "could you put a stop on my bank account, please", "label": "freeze_account"}
+{"global_ix": 3594, "sentence": "i need to know my bank of america account routing number", "label": "routing"}
+{"global_ix": 2261, "sentence": "do i have carrots on my shopping list", "label": "shopping_list"}
+{"global_ix": 8546, "sentence": "i need to lock my account right now!", "label": "freeze_account"}
+{"global_ix": 20363, "sentence": "can you find out why is my bank account frozen", "label": "account_blocked"}
+{"global_ix": 13982, "sentence": "i'm afraid there is a false transaction on my account", "label": "report_fraud"}
+{"global_ix": 11876, "sentence": "when will i received a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 6598, "sentence": "is it true your a real person", "label": "are_you_a_bot"}
+{"global_ix": 10795, "sentence": "what is my pnc account routing number", "label": "routing"}
+{"global_ix": 17890, "sentence": "what is my routing number on my checking account", "label": "routing"}
+{"global_ix": 2971, "sentence": "i gotta change my pin number for my debit account", "label": "pin_change"}
+{"global_ix": 3418, "sentence": "please tell me if you are a bot", "label": "are_you_a_bot"}
+{"global_ix": 17518, "sentence": "i want a block placed on my checking account right away", "label": "freeze_account"}
+{"global_ix": 23541, "sentence": "how long will a new card take to reach me", "label": "replacement_card_duration"}
+{"global_ix": 5230, "sentence": "i want you to immediatly block any further activity on my bb&t bank account", "label": "freeze_account"}
+{"global_ix": 13394, "sentence": "please put a block on my citi account immediately", "label": "freeze_account"}
+{"global_ix": 15596, "sentence": "i think the charge for uber on my account is fraudulent", "label": "report_fraud"}
+{"global_ix": 4403, "sentence": "do i need milk at the store", "label": "shopping_list"}
+{"global_ix": 5389, "sentence": "is my replacement card coming soon", "label": "replacement_card_duration"}
+{"global_ix": 11152, "sentence": "what is my income", "label": "income"}
+{"global_ix": 14030, "sentence": "what do i currently have on my shopping list", "label": "shopping_list"}
+{"global_ix": 17031, "sentence": "why is there a hold on my american saving bank account", "label": "account_blocked"}
+{"global_ix": 14971, "sentence": "are you human", "label": "are_you_a_bot"}
+{"global_ix": 14365, "sentence": "please put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 21984, "sentence": "what would cause me to be locked out of my bank account", "label": "account_blocked"}
+{"global_ix": 8606, "sentence": "i get an error message when i try logging in to capital one that says i'm locked out", "label": "account_blocked"}
+{"global_ix": 19157, "sentence": "where do i go to find my routing number for southpoint", "label": "routing"}
+{"global_ix": 6982, "sentence": "what's the usual time to get a new card when your previous one was lost", "label": "replacement_card_duration"}
+{"global_ix": 6439, "sentence": "i need to know why my bank account is blocking all of activity", "label": "account_blocked"}
+{"global_ix": 18303, "sentence": "i need to know my earnings", "label": "income"}
+{"global_ix": 20904, "sentence": "can you tell me what my total income is for the pay period", "label": "income"}
+{"global_ix": 22381, "sentence": "will you please read the things on my shopping list", "label": "shopping_list"}
+{"global_ix": 1751, "sentence": "how long does it take for a credit card to be reissued and mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 15426, "sentence": "i would love it if you could put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 344, "sentence": "why is there a stop on my deposit account", "label": "account_blocked"}
+{"global_ix": 2832, "sentence": "i've forgotten my pin number for my citibank gold account", "label": "pin_change"}
+{"global_ix": 12286, "sentence": "i need to know the time it takes to get a new credit card sent to someone who lost theirs", "label": "replacement_card_duration"}
+{"global_ix": 13506, "sentence": "why is my bank account blocking me", "label": "account_blocked"}
+{"global_ix": 5397, "sentence": "what is my gross income per pay period", "label": "income"}
+{"global_ix": 21923, "sentence": "can you freeze my account", "label": "freeze_account"}
+{"global_ix": 14627, "sentence": "what's the routing number for my chase account", "label": "routing"}
+{"global_ix": 23104, "sentence": "what's the routing number for my savings account", "label": "routing"}
+{"global_ix": 9322, "sentence": "please put a block on my capital one account immediately", "label": "freeze_account"}
+{"global_ix": 13124, "sentence": "what does my shopping list involve", "label": "shopping_list"}
+{"global_ix": 19486, "sentence": "i need you to block my chase account immediately", "label": "freeze_account"}
+{"global_ix": 23363, "sentence": "what is the shipping time for my card", "label": "replacement_card_duration"}
+{"global_ix": 19068, "sentence": "tell me if you are a person or ai", "label": "are_you_a_bot"}
+{"global_ix": 9642, "sentence": "please reserve a table for 2 at lucky's under the name melissa at 7 pm", "label": "restaurant_reservation"}
+{"global_ix": 23068, "sentence": "what would cause my bank account to be frozen", "label": "account_blocked"}
+{"global_ix": 6160, "sentence": "please put a block on my us bank account immediately", "label": "freeze_account"}
+{"global_ix": 12126, "sentence": "i want to know the bofa routing number", "label": "routing"}
+{"global_ix": 16831, "sentence": "why is my bank account stopping all transactions from going through", "label": "account_blocked"}
+{"global_ix": 7158, "sentence": "please tell me my income", "label": "income"}
+{"global_ix": 18619, "sentence": "what's the routing number for my checking account", "label": "routing"}
+{"global_ix": 17256, "sentence": "list out what is on my shopping list", "label": "shopping_list"}
+{"global_ix": 17800, "sentence": "i need to know what i have on my shopping list", "label": "shopping_list"}
+{"global_ix": 6927, "sentence": "can you show me my shopping list", "label": "shopping_list"}
+{"global_ix": 874, "sentence": "i need you to change the pin on my bank of america account to be 1234", "label": "pin_change"}
+{"global_ix": 9277, "sentence": "i think there has been a fraud on my black visa card, can i report it", "label": "report_fraud"}
+{"global_ix": 4575, "sentence": "is it too much trouble to put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 15987, "sentence": "can you make a reservation for me at the restaurant", "label": "restaurant_reservation"}
+{"global_ix": 19916, "sentence": "can you find out what triggered a hold on my bank account", "label": "account_blocked"}
+{"global_ix": 2998, "sentence": "please tell me about my income", "label": "income"}
+{"global_ix": 22126, "sentence": "is ice cream currently on my shopping list", "label": "shopping_list"}
+{"global_ix": 7479, "sentence": "\"please contact my credit card company to report fraudulent activity on", "label": "report_fraud"}
+{"global_ix": 9548, "sentence": "are there 8pm tables available at texas roadhouse", "label": "restaurant_reservation"}
+{"global_ix": 17228, "sentence": "i need a reservation for one at applebee's, four in the afternoon on march 3rd", "label": "restaurant_reservation"}
+{"global_ix": 20973, "sentence": "please give me the pin number for my checking account", "label": "pin_change"}
+{"global_ix": 20971, "sentence": "can you provide information on my income", "label": "income"}
+{"global_ix": 8014, "sentence": "what's the timeline on replacing a stolen credit card", "label": "replacement_card_duration"}
+{"global_ix": 9865, "sentence": "i would like to change the name on my checking account", "label": "pin_change"}
+{"global_ix": 1642, "sentence": "i need to talk to someone about a transaction that was not made by me on my chase account", "label": "report_fraud"}
+{"global_ix": 16238, "sentence": "are you a real person or an ai", "label": "are_you_a_bot"}
+{"global_ix": 10225, "sentence": "i need to update the pin number of my aaa visa", "label": "pin_change"}
+{"global_ix": 20784, "sentence": "someone misused my card and put fraudulent transactions on it", "label": "report_fraud"}
+{"global_ix": 6162, "sentence": "how did my bank account get frozen", "label": "account_blocked"}
+{"global_ix": 8505, "sentence": "will my credit card be mailed soon", "label": "replacement_card_duration"}
+{"global_ix": 7738, "sentence": "can i replace a stolen card soon", "label": "replacement_card_duration"}
+{"global_ix": 14662, "sentence": "can you find the reason for the block on my account", "label": "account_blocked"}
+{"global_ix": 12754, "sentence": "i want my account frozen", "label": "freeze_account"}
+{"global_ix": 18748, "sentence": "is this a person talking to me or a computer", "label": "are_you_a_bot"}
+{"global_ix": 14055, "sentence": "can you set me up for a reservation for five at outback steakhouse on february 28th at seven pm", "label": "restaurant_reservation"}
+{"global_ix": 18335, "sentence": "block my american saving bank for now", "label": "freeze_account"}
+{"global_ix": 16563, "sentence": "please force my account to freeze", "label": "freeze_account"}
+{"global_ix": 5856, "sentence": "i need my routing number", "label": "routing"}
+{"global_ix": 15852, "sentence": "what is my routing number for home federal account", "label": "routing"}
+{"global_ix": 17158, "sentence": "is there a reason you put a hold on my chase account", "label": "account_blocked"}
+{"global_ix": 2323, "sentence": "my account has a fraudulent transaction i think", "label": "report_fraud"}
+{"global_ix": 19198, "sentence": "give me all contents of my shopping list", "label": "shopping_list"}
+{"global_ix": 18584, "sentence": "for my westport account, what is the routing number", "label": "routing"}
+{"global_ix": 5353, "sentence": "what do i get paid", "label": "income"}
+{"global_ix": 10311, "sentence": "how much have i earned this week", "label": "income"}
+{"global_ix": 6862, "sentence": "if i lose my credit card, will i get a replacement immediately", "label": "replacement_card_duration"}
+{"global_ix": 11303, "sentence": "display shopping list", "label": "shopping_list"}
+{"global_ix": 17429, "sentence": "do you know you are not human", "label": "are_you_a_bot"}
+{"global_ix": 1918, "sentence": "you are a bot aren't you", "label": "are_you_a_bot"}
+{"global_ix": 10325, "sentence": "show everything on my to buy list", "label": "shopping_list"}
+{"global_ix": 11651, "sentence": "what amount of money do i earn", "label": "income"}
+{"global_ix": 17285, "sentence": "i have a bs transaction from ebay on my account", "label": "report_fraud"}
+{"global_ix": 13522, "sentence": "is garlic on my grocery list", "label": "shopping_list"}
+{"global_ix": 13987, "sentence": "my credit card has been stolen and i want to know how long it will be before i can get a new one", "label": "replacement_card_duration"}
+{"global_ix": 21862, "sentence": "i believe there's fraud on my card", "label": "report_fraud"}
+{"global_ix": 1163, "sentence": "are you a live person or a computer", "label": "are_you_a_bot"}
+{"global_ix": 1338, "sentence": "i'm pretty sure this charge from sam's club is fraudulent", "label": "report_fraud"}
+{"global_ix": 13523, "sentence": "please tell me if you are an ai", "label": "are_you_a_bot"}
+{"global_ix": 16272, "sentence": "shopping list", "label": "shopping_list"}
+{"global_ix": 3404, "sentence": "what date will my replacement card get mailed", "label": "replacement_card_duration"}
+{"global_ix": 430, "sentence": "are you an actual person, or ai", "label": "are_you_a_bot"}
+{"global_ix": 21607, "sentence": "why is there a hold on my discover account", "label": "account_blocked"}
+{"global_ix": 14581, "sentence": "do when you when my replacement card will get mailed", "label": "replacement_card_duration"}
+{"global_ix": 11653, "sentence": "please change my checking account pin to 1234", "label": "pin_change"}
+{"global_ix": 8276, "sentence": "reserve a table for four for tonight at 7 at the fatted calf", "label": "restaurant_reservation"}
+{"global_ix": 14788, "sentence": "i must know my bank of america routing number", "label": "routing"}
+{"global_ix": 22147, "sentence": "what do i have on my shopping list", "label": "shopping_list"}
+{"global_ix": 16417, "sentence": "how soon until you send me replacement card", "label": "replacement_card_duration"}
+{"global_ix": 7405, "sentence": "can you check to see if my shopping list already has milk", "label": "shopping_list"}
+{"global_ix": 13940, "sentence": "stop any future processing on my savings account", "label": "freeze_account"}
+{"global_ix": 20972, "sentence": "what is my salary", "label": "income"}
+{"global_ix": 4988, "sentence": "why did my bank account freeze", "label": "account_blocked"}
+{"global_ix": 22055, "sentence": "check for why is my bank account frozen", "label": "account_blocked"}
+{"global_ix": 19584, "sentence": "can you place a stop on my account", "label": "freeze_account"}
+{"global_ix": 7582, "sentence": "i really want my account frozen", "label": "freeze_account"}
+{"global_ix": 14800, "sentence": "am i talking with a real person", "label": "are_you_a_bot"}
+{"global_ix": 5222, "sentence": "how do i tell mastercard about a fraudulent charge", "label": "report_fraud"}
+{"global_ix": 3503, "sentence": "is a toothbrush on my shopping list", "label": "shopping_list"}
+{"global_ix": 4869, "sentence": "may i know if you are a real person or an ai", "label": "are_you_a_bot"}
+{"global_ix": 7629, "sentence": "i may have a fraudulent transaction", "label": "report_fraud"}
+{"global_ix": 2530, "sentence": "tell me my income", "label": "income"}
+{"global_ix": 15068, "sentence": "are you a person", "label": "are_you_a_bot"}
+{"global_ix": 22118, "sentence": "i got to change my pin number for my account", "label": "pin_change"}
+{"global_ix": 16092, "sentence": "i would like to change the name on my first bankcard account", "label": "pin_change"}
+{"global_ix": 3791, "sentence": "use martins name to reserve a table at tropicana for 5 people at 8pm", "label": "restaurant_reservation"}
+{"global_ix": 12075, "sentence": "i need you to act swiftly and freeze all activity on my capital one checking", "label": "freeze_account"}
+{"global_ix": 14185, "sentence": "tell me about today weather", "label": "replacement_card_duration"}
+{"global_ix": 16109, "sentence": "does my shopping list have pop tarts", "label": "shopping_list"}
+{"global_ix": 18963, "sentence": "i want to report fraudulent activity on my amex card", "label": "report_fraud"}
+{"global_ix": 6340, "sentence": "why are the funds in my bank account frozen", "label": "account_blocked"}
+{"global_ix": 3794, "sentence": "is this human or a robot", "label": "are_you_a_bot"}
+{"global_ix": 9262, "sentence": "how do i find my income", "label": "income"}
+{"global_ix": 11065, "sentence": "are you a person in real life or programmed ai", "label": "are_you_a_bot"}
+{"global_ix": 13190, "sentence": "my online bill has some items that i didn't purchase from penneys", "label": "report_fraud"}
+{"global_ix": 19588, "sentence": "tell me how much i make", "label": "income"}
+{"global_ix": 11049, "sentence": "i'd like to change the pin number on my visa account", "label": "pin_change"}
+{"global_ix": 15803, "sentence": "why in the world am i locked out of my bank account", "label": "account_blocked"}
+{"global_ix": 11394, "sentence": "add a block to my capital one bank account so it cannot be used any more", "label": "freeze_account"}
+{"global_ix": 3899, "sentence": "i need to make a report due to fraudulent activity on my card", "label": "report_fraud"}
+{"global_ix": 17519, "sentence": "how long does it take to get a new credit card", "label": "replacement_card_duration"}
+{"global_ix": 14560, "sentence": "put a stop on my deposit account", "label": "freeze_account"}
+{"global_ix": 1634, "sentence": "show me my shopping list", "label": "shopping_list"}
+{"global_ix": 17401, "sentence": "i have a bogus transaction from amazon on my account", "label": "report_fraud"}
+{"global_ix": 19253, "sentence": "how much money do i make from work", "label": "income"}
+{"global_ix": 21868, "sentence": "what's my bank routing number", "label": "routing"}
+{"global_ix": 8648, "sentence": "why does my visa account have a hold on it", "label": "account_blocked"}
+{"global_ix": 2576, "sentence": "are you a human or a bot", "label": "are_you_a_bot"}
+{"global_ix": 18210, "sentence": "i think a thief used my card", "label": "report_fraud"}
+{"global_ix": 23585, "sentence": "please tell me the reason for the hold on my bb&t account", "label": "account_blocked"}
+{"global_ix": 16145, "sentence": "will my new credit card be here this week", "label": "replacement_card_duration"}
+{"global_ix": 19746, "sentence": "can you freeze my account, please", "label": "freeze_account"}
+{"global_ix": 526, "sentence": "could you tell me about my income", "label": "income"}
+{"global_ix": 9972, "sentence": "can you make a reservation at the restaurant for tomorrow", "label": "restaurant_reservation"}
+{"global_ix": 23143, "sentence": "are you a computer, or are you a real person", "label": "are_you_a_bot"}
+{"global_ix": 3058, "sentence": "there's fraudulent transaction going on", "label": "report_fraud"}
+{"global_ix": 4927, "sentence": "how soon does it take a card new card to get mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 14655, "sentence": "tell me the reason there is a hold or block on my account", "label": "account_blocked"}
+{"global_ix": 4190, "sentence": "is it possible for you to read the things on my shopping list", "label": "shopping_list"}
+{"global_ix": 16425, "sentence": "how much is my income", "label": "income"}
+{"global_ix": 914, "sentence": "why would i have been locked out of my own account", "label": "account_blocked"}
+{"global_ix": 1594, "sentence": "how much do you make an hour", "label": "income"}
+{"global_ix": 12502, "sentence": "would you tell me my routing number", "label": "routing"}
+{"global_ix": 13128, "sentence": "could you reserve table for 3 at carlos jr under the name adam at 4", "label": "restaurant_reservation"}
+{"global_ix": 5151, "sentence": "i have a fraudulent buy from dave's video on my account", "label": "report_fraud"}
+{"global_ix": 5915, "sentence": "can i make a reservation for 8 pm at red robin for 3", "label": "restaurant_reservation"}
+{"global_ix": 23234, "sentence": "how long does it take a new card to arrive in the mail to me", "label": "replacement_card_duration"}
+{"global_ix": 22447, "sentence": "would you please put a block on my chase account right away", "label": "freeze_account"}
+{"global_ix": 22877, "sentence": "is milk one of the things i need to buy", "label": "shopping_list"}
+{"global_ix": 8557, "sentence": "will i have to wait a long time to receive my new credit card after i lost my old one", "label": "replacement_card_duration"}
+{"global_ix": 10465, "sentence": "tell me my first national account's routing number", "label": "routing"}
+{"global_ix": 714, "sentence": "can you tell me my password checking account", "label": "pin_change"}
+{"global_ix": 21294, "sentence": "i would like to know what my salary is at this time", "label": "income"}
+{"global_ix": 14959, "sentence": "i think i have fraud on my account from walmart", "label": "report_fraud"}
+{"global_ix": 12830, "sentence": "when will you send me a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 20261, "sentence": "please turn my account to frozen", "label": "freeze_account"}
+{"global_ix": 19446, "sentence": "i need my routing number for my checking account at bb&t bank", "label": "routing"}
+{"global_ix": 23555, "sentence": "you need to change the pin on my bank of america account to be 1234", "label": "pin_change"}
+{"global_ix": 9500, "sentence": "i think my chase account has been compromised and fraud committed", "label": "report_fraud"}
+{"global_ix": 13169, "sentence": "are an an ai", "label": "are_you_a_bot"}
+{"global_ix": 22253, "sentence": "i need an 8 o'clock reservation at pizza hut for the last name mercury", "label": "restaurant_reservation"}
+{"global_ix": 12898, "sentence": "i'd like a block on my charles schwab account immediately", "label": "freeze_account"}
+{"global_ix": 21982, "sentence": "where would century bank have their routing number listed", "label": "routing"}
+{"global_ix": 15110, "sentence": "are you human or a bot", "label": "are_you_a_bot"}
+{"global_ix": 15189, "sentence": "i want to change my pin number for my account", "label": "pin_change"}
+{"global_ix": 4436, "sentence": "hey, i need to make a reservation for three at umi, six pm on february 30th", "label": "restaurant_reservation"}
+{"global_ix": 3701, "sentence": "why can't i access my chase account", "label": "account_blocked"}
+{"global_ix": 4221, "sentence": "are you a real person or a robot", "label": "are_you_a_bot"}
+{"global_ix": 21451, "sentence": "i really need to change my pin number for my account", "label": "pin_change"}
+{"global_ix": 2687, "sentence": "how many days do i have to wait for my card", "label": "replacement_card_duration"}
+{"global_ix": 14672, "sentence": "swap my amex pin to 1234", "label": "pin_change"}
+{"global_ix": 1021, "sentence": "access my checking account and update my pin to 1234", "label": "pin_change"}
+{"global_ix": 11104, "sentence": "did i remember to put oatmeal on my list", "label": "shopping_list"}
+{"global_ix": 16097, "sentence": "can you help me deal with this fraudulent transaction from verizon on my account", "label": "report_fraud"}
+{"global_ix": 10300, "sentence": "help me out with changing this pin number", "label": "pin_change"}
+{"global_ix": 5380, "sentence": "routing number for american river", "label": "routing"}
+{"global_ix": 18306, "sentence": "i think your a bot", "label": "are_you_a_bot"}
+{"global_ix": 17869, "sentence": "are you a real life person", "label": "are_you_a_bot"}
+{"global_ix": 6197, "sentence": "can you tell me my current salary", "label": "income"}
+{"global_ix": 23328, "sentence": "i would like to change the pin on my checking account, please", "label": "pin_change"}
+{"global_ix": 18490, "sentence": "can you put a stop on my bank account, please", "label": "freeze_account"}
+{"global_ix": 21293, "sentence": "do i have toothpaste on my shopping list", "label": "shopping_list"}
+{"global_ix": 11713, "sentence": "why don't i have access to my bank account", "label": "account_blocked"}
+{"global_ix": 6772, "sentence": "so tell me the pin number", "label": "pin_change"}
+{"global_ix": 4239, "sentence": "what do i need to do to change my abc bank account pin number", "label": "pin_change"}
+{"global_ix": 9563, "sentence": "could you tell me if you're a real person", "label": "are_you_a_bot"}
+{"global_ix": 15740, "sentence": "i want to change my pin number for my checking account", "label": "pin_change"}
+{"global_ix": 21133, "sentence": "there are some questionable charges on my card", "label": "report_fraud"}
+{"global_ix": 4904, "sentence": "could you tell me what my routing number from first republic is", "label": "routing"}
+{"global_ix": 7002, "sentence": "when will i get a replacement card for a lost one", "label": "replacement_card_duration"}
+{"global_ix": 687, "sentence": "please set my account as frozen", "label": "freeze_account"}
+{"global_ix": 7900, "sentence": "please make me a reservation for monty's at noon for 55555", "label": "restaurant_reservation"}
+{"global_ix": 15961, "sentence": "what's my income been for the last 6 months", "label": "income"}
+{"global_ix": 3897, "sentence": "why is there a delay on my checking account", "label": "account_blocked"}
+{"global_ix": 16199, "sentence": "does my shopping list include corn", "label": "shopping_list"}
+{"global_ix": 6929, "sentence": "can you confirm my account's blocked and tell me why", "label": "account_blocked"}
+{"global_ix": 6692, "sentence": "what did i put on my shopping list so far", "label": "shopping_list"}
+{"global_ix": 23416, "sentence": "i'd like to report a fraudulent charge from people's natural gas", "label": "report_fraud"}
+{"global_ix": 18287, "sentence": "are you a real person or a bot", "label": "are_you_a_bot"}
+{"global_ix": 19875, "sentence": "my credit card was stolen; how long before a new one will arrive", "label": "replacement_card_duration"}
+{"global_ix": 13186, "sentence": "i need to freeze my bank account", "label": "freeze_account"}
+{"global_ix": 10018, "sentence": "make my pin 1234 for my checking account", "label": "pin_change"}
+{"global_ix": 6129, "sentence": "how much money am i making", "label": "income"}
+{"global_ix": 5801, "sentence": "list out my shopping list for me", "label": "shopping_list"}
+{"global_ix": 3295, "sentence": "can you please unlock my bank account", "label": "account_blocked"}
+{"global_ix": 5900, "sentence": "ai, what is my chase routing number", "label": "routing"}
+{"global_ix": 7552, "sentence": "why is my account locked", "label": "account_blocked"}
+{"global_ix": 19315, "sentence": "there seems to be an issue with my account", "label": "account_blocked"}
+{"global_ix": 2009, "sentence": "what's the routing number for my navy federal account", "label": "routing"}
+{"global_ix": 12643, "sentence": "put a block on my amalgamated bank account right now", "label": "freeze_account"}
+{"global_ix": 13892, "sentence": "help me tell visa about fraud on my account", "label": "report_fraud"}
+{"global_ix": 2320, "sentence": "can you specify if you are a human or a computer", "label": "are_you_a_bot"}
+{"global_ix": 2633, "sentence": "what is my salary right now", "label": "income"}
+{"global_ix": 940, "sentence": "are you a real human being", "label": "are_you_a_bot"}
+{"global_ix": 9704, "sentence": "what is up with my account, why is it blocked", "label": "account_blocked"}
+{"global_ix": 5687, "sentence": "how do you describe yourself: as a computer or a human", "label": "are_you_a_bot"}
+{"global_ix": 17266, "sentence": "is my routing number on my account page", "label": "routing"}
+{"global_ix": 1911, "sentence": "please make a reservation for 2 at olive garden for 5 pm today", "label": "restaurant_reservation"}
+{"global_ix": 11720, "sentence": "how do i unlock my bank account", "label": "account_blocked"}
+{"global_ix": 3627, "sentence": "can you tell me what my income will be this week", "label": "income"}
+{"global_ix": 6811, "sentence": "so are you human", "label": "are_you_a_bot"}
+{"global_ix": 2296, "sentence": "what do i need to buy at the store", "label": "shopping_list"}
+{"global_ix": 4836, "sentence": "how long to get a new credit card", "label": "replacement_card_duration"}
+{"global_ix": 21351, "sentence": "i need to know what's on my shopping list", "label": "shopping_list"}
+{"global_ix": 5052, "sentence": "change the pin on my savings account to 1234", "label": "pin_change"}
+{"global_ix": 5292, "sentence": "is there a reason that my bank account has a freeze on it", "label": "account_blocked"}
+{"global_ix": 19595, "sentence": "where do i find my routing number for my pnc account", "label": "routing"}
+{"global_ix": 10269, "sentence": "why is there a block on my account", "label": "account_blocked"}
+{"global_ix": 10278, "sentence": "can you tell me why there's a hold on my mutualone account", "label": "account_blocked"}
+{"global_ix": 3124, "sentence": "place a hold on my chase money market market account at once", "label": "freeze_account"}
+{"global_ix": 5346, "sentence": "i'd like to change my pin number for my wells fargo account", "label": "pin_change"}
+{"global_ix": 19275, "sentence": "change the code of my savings account to be 1234", "label": "pin_change"}
+{"global_ix": 17157, "sentence": "find out why i can't log in to my bank of america account", "label": "account_blocked"}
+{"global_ix": 13795, "sentence": "am i speaking with ai or a real, live person", "label": "are_you_a_bot"}
+{"global_ix": 8672, "sentence": "when will i get my new credit card", "label": "replacement_card_duration"}
+{"global_ix": 20077, "sentence": "someone else used my account to buy stuff from mcdonald's", "label": "report_fraud"}
+{"global_ix": 13331, "sentence": "my last card was stolen and i want to know how long until i get my new one", "label": "replacement_card_duration"}
+{"global_ix": 8954, "sentence": "can you get a table for 5 at joe's at 5pm", "label": "restaurant_reservation"}
+{"global_ix": 7967, "sentence": "what is the time frame to get a new card mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 12118, "sentence": "my account at the bank needs to be frozen", "label": "freeze_account"}
+{"global_ix": 15097, "sentence": "can you help me unblock my account", "label": "account_blocked"}
+{"global_ix": 18775, "sentence": "is there anything real about you", "label": "are_you_a_bot"}
+{"global_ix": 9449, "sentence": "give me the routing number of my checking account at my main bank, first commerce", "label": "routing"}
+{"global_ix": 14165, "sentence": "can you get me a table for 5 at mcdonalds at 5pm", "label": "restaurant_reservation"}
+{"global_ix": 18404, "sentence": "can you look up what my shopping list has on it", "label": "shopping_list"}
+{"global_ix": 7772, "sentence": "are you an actual live person", "label": "are_you_a_bot"}
+{"global_ix": 23025, "sentence": "i'd like to set up a reservation for kibble at 4", "label": "restaurant_reservation"}
+{"global_ix": 14373, "sentence": "i need to put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 7909, "sentence": "are you considered a bot", "label": "are_you_a_bot"}
+{"global_ix": 12699, "sentence": "put a hold on my account", "label": "freeze_account"}
+{"global_ix": 3276, "sentence": "calculate my total income from my job", "label": "income"}
+{"global_ix": 2241, "sentence": "can you help me find the routing number", "label": "routing"}
+{"global_ix": 10261, "sentence": "when do they mail me a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 18048, "sentence": "reserve a table for 2 at red lobster at 8:00", "label": "restaurant_reservation"}
+{"global_ix": 12116, "sentence": "what's my monthly income", "label": "income"}
+{"global_ix": 4282, "sentence": "what's my pay", "label": "income"}
+{"global_ix": 2257, "sentence": "i would like to change my pin number for my chase account", "label": "pin_change"}
+{"global_ix": 20304, "sentence": "how long before my updated cc takes to arrive", "label": "replacement_card_duration"}
+{"global_ix": 17745, "sentence": "can i make a reservation for 2 at state bird for 8:30, please", "label": "restaurant_reservation"}
+{"global_ix": 16914, "sentence": "please find my routing number for my citizens' bank account", "label": "routing"}
+{"global_ix": 21197, "sentence": "make 1234 a new pin for my savings account", "label": "pin_change"}
+{"global_ix": 12422, "sentence": "how much cash do i earn", "label": "income"}
+{"global_ix": 3863, "sentence": "i'd like to know what is on my shopping list", "label": "shopping_list"}
+{"global_ix": 9175, "sentence": "what's the eta for a new card to come in the mail", "label": "replacement_card_duration"}
+{"global_ix": 1434, "sentence": "please immediatly block my presidential bank account right now", "label": "freeze_account"}
+{"global_ix": 9893, "sentence": "can you reset my pin number", "label": "pin_change"}
+{"global_ix": 19884, "sentence": "please tell me my pin number for my synovus account", "label": "pin_change"}
+{"global_ix": 11015, "sentence": "how long will it take before the postal service delivers my new card", "label": "replacement_card_duration"}
+{"global_ix": 13981, "sentence": "what is the bank's routing number", "label": "routing"}
+{"global_ix": 18556, "sentence": "i want to have a table for 2 at the broadmore around 6", "label": "restaurant_reservation"}
+{"global_ix": 7710, "sentence": "i want income data", "label": "income"}
+{"global_ix": 1119, "sentence": "what is the total amount of my paychecks over the last year", "label": "income"}
+{"global_ix": 23329, "sentence": "why can't i get into my account", "label": "account_blocked"}
+{"global_ix": 16765, "sentence": "i don't understand why i have been barred from accessing my own account", "label": "account_blocked"}
+{"global_ix": 16458, "sentence": "show me what's on the shopping list", "label": "shopping_list"}
+{"global_ix": 20663, "sentence": "is it possible to get a table for 4 at the village inn around 10am", "label": "restaurant_reservation"}
+{"global_ix": 20539, "sentence": "what would wells fargo use as routing", "label": "routing"}
+{"global_ix": 23314, "sentence": "i need to know the amount of my income", "label": "income"}
+{"global_ix": 11925, "sentence": "you could tell me if you were real", "label": "are_you_a_bot"}
+{"global_ix": 14518, "sentence": "i need my savings account placed under a block as soon as possible", "label": "freeze_account"}
+{"global_ix": 16254, "sentence": "can you put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 5542, "sentence": "tell me if you are a real person or an ai", "label": "are_you_a_bot"}
+{"global_ix": 3471, "sentence": "does my checking account have a pin number", "label": "pin_change"}
+{"global_ix": 21613, "sentence": "can my debit card be replaced quickly", "label": "replacement_card_duration"}
+{"global_ix": 12442, "sentence": "what is the eta on getting a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 18549, "sentence": "make a reservation for three at prime rib at 6:30 pm", "label": "restaurant_reservation"}
+{"global_ix": 16159, "sentence": "i'm pretty sure i have a fraudulent transaction on my account", "label": "report_fraud"}
+{"global_ix": 11484, "sentence": "can you unlock my bank account", "label": "account_blocked"}
+{"global_ix": 19069, "sentence": "i want to change my bank of america account pin number", "label": "pin_change"}
+{"global_ix": 4338, "sentence": "i want to know what the routing is for chase", "label": "routing"}
+{"global_ix": 7255, "sentence": "what does my shopping list say that i should get", "label": "shopping_list"}
+{"global_ix": 23243, "sentence": "do you prefer peanut butter or cheese for your celery", "label": "shopping_list"}
+{"global_ix": 3753, "sentence": "my new card arrives in the post when", "label": "replacement_card_duration"}
+{"global_ix": 15784, "sentence": "what is the length of time it takes a new card to get mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 21505, "sentence": "are you a live human being", "label": "are_you_a_bot"}
+{"global_ix": 595, "sentence": "tell me about my income this week", "label": "income"}
+{"global_ix": 6074, "sentence": "tell me my shopping list", "label": "shopping_list"}
+{"global_ix": 14425, "sentence": "book a reservation for 5 at lawry's under the name chris", "label": "restaurant_reservation"}
+{"global_ix": 15573, "sentence": "there's something fishy on my card, report it", "label": "report_fraud"}
+{"global_ix": 21470, "sentence": "i want to eat at seven in the restaurant for two people", "label": "restaurant_reservation"}
+{"global_ix": 9710, "sentence": "my shopping list contains what again", "label": "shopping_list"}
+{"global_ix": 4897, "sentence": "how did my bank account is frozen", "label": "account_blocked"}
+{"global_ix": 12486, "sentence": "please freeze my account", "label": "freeze_account"}
+{"global_ix": 15655, "sentence": "can you help me with my pin number", "label": "pin_change"}
+{"global_ix": 13389, "sentence": "how many days will it take to get a new credit card to replace the one stolen from me", "label": "replacement_card_duration"}
+{"global_ix": 14743, "sentence": "i would like to know if you are an artificial intelligence being", "label": "are_you_a_bot"}
+{"global_ix": 10655, "sentence": "what is my income this year", "label": "income"}
+{"global_ix": 23543, "sentence": "i am confused because my account seems to have been blocked for no reason", "label": "account_blocked"}
+{"global_ix": 1157, "sentence": "what is chase bank's routing number", "label": "routing"}
+{"global_ix": 3114, "sentence": "for what reason is my account blocked", "label": "account_blocked"}
+{"global_ix": 21142, "sentence": "please put a block on my regions account immediately", "label": "freeze_account"}
+{"global_ix": 23024, "sentence": "stop all payments to my bank account", "label": "freeze_account"}
+{"global_ix": 1017, "sentence": "can you tell me the routing number for my chase checking", "label": "routing"}
+{"global_ix": 23154, "sentence": "show shopping list", "label": "shopping_list"}
+{"global_ix": 16361, "sentence": "i think my account is blocked", "label": "account_blocked"}
+{"global_ix": 8838, "sentence": "how long before the replacement card is mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 1843, "sentence": "please put a block on my wells fargo account immediately", "label": "freeze_account"}
+{"global_ix": 13922, "sentence": "please reserve a table for 4 at red robin under the name kevin at 7", "label": "restaurant_reservation"}
+{"global_ix": 16358, "sentence": "can credit card companies expedite delivery of reissued credit cards", "label": "replacement_card_duration"}
+{"global_ix": 14434, "sentence": "i need to report fraudulent activity on my mastercard", "label": "report_fraud"}
+{"global_ix": 19787, "sentence": "would you freeze my bank account", "label": "freeze_account"}
+{"global_ix": 17279, "sentence": "i believe that there is some fraudulent activity on my capital one account", "label": "report_fraud"}
+{"global_ix": 12000, "sentence": "i want to make a reservation for 8 pm at red robin for 3", "label": "restaurant_reservation"}
+{"global_ix": 23495, "sentence": "what will i get paid this year", "label": "income"}
+{"global_ix": 10694, "sentence": "can i have more information about my income", "label": "income"}
+{"global_ix": 16618, "sentence": "how much do you start at", "label": "income"}
+{"global_ix": 10364, "sentence": "change the pin on my capital one account to be 1234", "label": "pin_change"}
+{"global_ix": 15817, "sentence": "i think i made a fraudulent transaction", "label": "report_fraud"}
+{"global_ix": 8928, "sentence": "i would like to change the pin on my savings account, please", "label": "pin_change"}
+{"global_ix": 10618, "sentence": "where's the routing number for wells fargo", "label": "routing"}
+{"global_ix": 11280, "sentence": "please let me into my bank account", "label": "account_blocked"}
+{"global_ix": 3801, "sentence": "make a reservation for chik-fil-a at 3 o' clock please", "label": "restaurant_reservation"}
+{"global_ix": 22034, "sentence": "do i have tomato on the shopping list", "label": "shopping_list"}
+{"global_ix": 18895, "sentence": "i need a table at gemma for nine at two", "label": "restaurant_reservation"}
+{"global_ix": 16467, "sentence": "how much longer before the card is mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 11334, "sentence": "what's my paycheck going to be", "label": "income"}
+{"global_ix": 18847, "sentence": "why'd they put a freeze on my bank account", "label": "account_blocked"}
+{"global_ix": 18484, "sentence": "how long should i wait to get my new card when my old one was stolen", "label": "replacement_card_duration"}
+{"global_ix": 1184, "sentence": "what is my payment going to be", "label": "income"}
+{"global_ix": 23043, "sentence": "what was the reason my bank account was frozen", "label": "account_blocked"}
+{"global_ix": 20631, "sentence": "provide me with the knowledge of whether you are a human or are a computer", "label": "are_you_a_bot"}
+{"global_ix": 3731, "sentence": "are you an actual person", "label": "are_you_a_bot"}
+{"global_ix": 6799, "sentence": "i would like to replace the pin number for my retirement account", "label": "pin_change"}
+{"global_ix": 10589, "sentence": "i am very confused about the block that seems to have been placed on my account why is it there", "label": "account_blocked"}
+{"global_ix": 16222, "sentence": "i need to know chase banks routing #", "label": "routing"}
+{"global_ix": 20525, "sentence": "make a reservation at 5 pm today for 2 at olive garden", "label": "restaurant_reservation"}
+{"global_ix": 9863, "sentence": "what's the deal with my bank account being locked", "label": "account_blocked"}
+{"global_ix": 22523, "sentence": "what does my shopping list contain", "label": "shopping_list"}
+{"global_ix": 17638, "sentence": "iterate over the items on my grocery list", "label": "shopping_list"}
+{"global_ix": 11509, "sentence": "i have a fraudulent transaction from red robin on my account", "label": "report_fraud"}
+{"global_ix": 18486, "sentence": "what is my current gross salary", "label": "income"}
+{"global_ix": 5445, "sentence": "i need a table for two at the havana at nine", "label": "restaurant_reservation"}
+{"global_ix": 8349, "sentence": "do you want me to shop for peanut butter", "label": "shopping_list"}
+{"global_ix": 6007, "sentence": "what's bank of america's routing number", "label": "routing"}
+{"global_ix": 2919, "sentence": "check to see why us bank placed a hold on my account", "label": "account_blocked"}
+{"global_ix": 2669, "sentence": "am i talking to a real person", "label": "are_you_a_bot"}
+{"global_ix": 572, "sentence": "where would the routing number for first utah be located", "label": "routing"}
+{"global_ix": 9226, "sentence": "i may have had fraud committed on my account", "label": "report_fraud"}
+{"global_ix": 17549, "sentence": "i think someone stole my card and used it", "label": "report_fraud"}
+{"global_ix": 3240, "sentence": "i don't understand why my bank account is frozen right now", "label": "account_blocked"}
+{"global_ix": 3081, "sentence": "when does the replacement card arrive", "label": "replacement_card_duration"}
+{"global_ix": 13466, "sentence": "can you reserve a table for 2 at red lobster at 8pm", "label": "restaurant_reservation"}
+{"global_ix": 894, "sentence": "i need to know the routing number for my wells fargo account", "label": "routing"}
+{"global_ix": 11616, "sentence": "can you reserve a table for 6 at red robin under the name mavrick at 5 clock", "label": "restaurant_reservation"}
+{"global_ix": 17063, "sentence": "tell me what my shopping list consists of", "label": "shopping_list"}
+{"global_ix": 21426, "sentence": "could you freeze my account", "label": "freeze_account"}
+{"global_ix": 4973, "sentence": "i need you to freeze my account", "label": "freeze_account"}
+{"global_ix": 5558, "sentence": "i need to report unauthorized activity on my card", "label": "report_fraud"}
+{"global_ix": 2303, "sentence": "i'd like to know what's on the shopping list", "label": "shopping_list"}
+{"global_ix": 70, "sentence": "change my amex pin to 1234", "label": "pin_change"}
+{"global_ix": 15484, "sentence": "tell me the pin number for my checking account", "label": "pin_change"}
+{"global_ix": 14589, "sentence": "are you a computer or a real person", "label": "are_you_a_bot"}
+{"global_ix": 9604, "sentence": "what's the routing number for my current checking", "label": "routing"}
+{"global_ix": 8095, "sentence": "what is my current salary", "label": "income"}
+{"global_ix": 7622, "sentence": "do you know why my account appears to be blocked", "label": "account_blocked"}
+{"global_ix": 9941, "sentence": "can you call the help desk line for my credit card company", "label": "replacement_card_duration"}
+{"global_ix": 19095, "sentence": "it takes how long to mail me a new card", "label": "replacement_card_duration"}
+{"global_ix": 9091, "sentence": "what's on my shopping list", "label": "shopping_list"}
+{"global_ix": 5027, "sentence": "please let me know what is on my shopping list", "label": "shopping_list"}
+{"global_ix": 8004, "sentence": "my income equals what amount", "label": "income"}
+{"global_ix": 14066, "sentence": "can you get me a table for 5 at johnnys", "label": "restaurant_reservation"}
+{"global_ix": 5700, "sentence": "can you put a stop on my bank account now", "label": "freeze_account"}
+{"global_ix": 19185, "sentence": "i made a fraudulent transaction", "label": "report_fraud"}
+{"global_ix": 10544, "sentence": "i want to report fraudulent activity on my mastercard", "label": "report_fraud"}
+{"global_ix": 12708, "sentence": "great western bank's login screen tells me i'm locked out but not why", "label": "account_blocked"}
+{"global_ix": 12569, "sentence": "i need to know the things on my shopping list", "label": "shopping_list"}
+{"global_ix": 18749, "sentence": "are you ai", "label": "are_you_a_bot"}
+{"global_ix": 21513, "sentence": "what's with the block on my bank account", "label": "account_blocked"}
+{"global_ix": 4688, "sentence": "can you remind me what i put on my shopping list", "label": "shopping_list"}
+{"global_ix": 21261, "sentence": "no payments on my bank account", "label": "freeze_account"}
+{"global_ix": 16614, "sentence": "report fraudulent activity on my credit card now", "label": "report_fraud"}
+{"global_ix": 22518, "sentence": "how many days till i get a new card to replace the stolen one", "label": "replacement_card_duration"}
+{"global_ix": 20775, "sentence": "prove that you're a person", "label": "are_you_a_bot"}
+{"global_ix": 3747, "sentence": "why am i unable to access my bank account", "label": "account_blocked"}
+{"global_ix": 5196, "sentence": "i need to know my routing number", "label": "routing"}
+{"global_ix": 9959, "sentence": "reserve a table for two for 7:30 pm at dibruno's under patrick donoghue", "label": "restaurant_reservation"}
+{"global_ix": 21448, "sentence": "are you a live being", "label": "are_you_a_bot"}
+{"global_ix": 15195, "sentence": "call and make a 5:45 pm reservation for jason rogers, table for four", "label": "restaurant_reservation"}
+{"global_ix": 14277, "sentence": "what is my pay grade at work", "label": "income"}
+{"global_ix": 7515, "sentence": "i have activity on my bank of america card i don't recognize", "label": "report_fraud"}
+{"global_ix": 12086, "sentence": "make 1234 the pin on my savings account", "label": "pin_change"}
+{"global_ix": 7677, "sentence": "how much money did i make", "label": "income"}
+{"global_ix": 12161, "sentence": "i need to hear what's on my shopping list", "label": "shopping_list"}
+{"global_ix": 17487, "sentence": "what's my work salary", "label": "income"}
+{"global_ix": 10142, "sentence": "how come i am being denied access to my bank account", "label": "account_blocked"}
+{"global_ix": 7166, "sentence": "i want to reserve table for 5 at red robin under the name sara at 5", "label": "restaurant_reservation"}
+{"global_ix": 21235, "sentence": "my capital one account has a hold; why", "label": "account_blocked"}
+{"global_ix": 15848, "sentence": "show me my routing number for account finishing in 29309", "label": "routing"}
+{"global_ix": 7317, "sentence": "would you consider yourself to be a bot", "label": "are_you_a_bot"}
+{"global_ix": 2149, "sentence": "am i talking to a person or a bot", "label": "are_you_a_bot"}
+{"global_ix": 642, "sentence": "i have a false charge on my account from mcdonald's", "label": "report_fraud"}
+{"global_ix": 934, "sentence": "does my shopping list consist of chips", "label": "shopping_list"}
+{"global_ix": 551, "sentence": "why isn't it letting me into my bank account", "label": "account_blocked"}
+{"global_ix": 14344, "sentence": "i need the routing number to my chase checking account", "label": "routing"}
+{"global_ix": 4171, "sentence": "let me know the wait on a replacement credit card", "label": "replacement_card_duration"}
+{"global_ix": 12525, "sentence": "how much did i earn in income only last year", "label": "income"}
+{"global_ix": 23275, "sentence": "can you check what the problem with my account is, it seems to b e blocked", "label": "account_blocked"}
+{"global_ix": 22643, "sentence": "what is my routing number", "label": "routing"}
+{"global_ix": 21428, "sentence": "i am not a bot, are you", "label": "are_you_a_bot"}
+{"global_ix": 14813, "sentence": "is there a reservation available at ruth chris today", "label": "restaurant_reservation"}
+{"global_ix": 4172, "sentence": "inform me of the routing number for my amerifirst account", "label": "routing"}
+{"global_ix": 15690, "sentence": "can you tell me if you're human or if you're a computer", "label": "are_you_a_bot"}
+{"global_ix": 18272, "sentence": "i spotted a fraudulent transaction from microsoft on my account", "label": "report_fraud"}
+{"global_ix": 9246, "sentence": "my account looks to be blocked and i have no idea why", "label": "account_blocked"}
+{"global_ix": 23195, "sentence": "i want to update my pin number on my bank of america account", "label": "pin_change"}
+{"global_ix": 10786, "sentence": "whats the wait time for a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 8053, "sentence": "i would like to change the pin on my checking account", "label": "pin_change"}
+{"global_ix": 20726, "sentence": "may you stop a paymet on my account", "label": "freeze_account"}
+{"global_ix": 12751, "sentence": "please block my discover account immediately", "label": "freeze_account"}
+{"global_ix": 18500, "sentence": "what's the phone number for my credit card company", "label": "replacement_card_duration"}
+{"global_ix": 13881, "sentence": "there has been unauthorized use of my visa", "label": "report_fraud"}
+{"global_ix": 16719, "sentence": "i wanna know my income", "label": "income"}
+{"global_ix": 21882, "sentence": "if my credit card was stolen, how long will it take to replace", "label": "replacement_card_duration"}
+{"global_ix": 4224, "sentence": "what is the turn around for a new card", "label": "replacement_card_duration"}
+{"global_ix": 16604, "sentence": "what could cause a hold on my savings account", "label": "account_blocked"}
+{"global_ix": 22375, "sentence": "would you please make a reservation for 2 at olive garden for 5 pm today", "label": "restaurant_reservation"}
+{"global_ix": 9444, "sentence": "can i talk to someone about why there is a hold on my checking account", "label": "account_blocked"}
+{"global_ix": 22737, "sentence": "tell me now if you are a bot", "label": "are_you_a_bot"}
+{"global_ix": 7635, "sentence": "turn off my bank account", "label": "freeze_account"}
+{"global_ix": 7058, "sentence": "is milk one of my shopping list items", "label": "shopping_list"}
+{"global_ix": 17514, "sentence": "how do i change my pin number for my payroll account", "label": "pin_change"}
+{"global_ix": 7208, "sentence": "can you read my shopping list to me", "label": "shopping_list"}
+{"global_ix": 15654, "sentence": "tell me chase's routing number", "label": "routing"}
+{"global_ix": 3454, "sentence": "i don't remember the pin number to my card", "label": "pin_change"}
+{"global_ix": 18260, "sentence": "what items are on my shopping list", "label": "shopping_list"}
+{"global_ix": 14572, "sentence": "can you tell me the routing number to pnc", "label": "routing"}
+{"global_ix": 858, "sentence": "please block my chase account right away", "label": "freeze_account"}
+{"global_ix": 13033, "sentence": "is there a routing number for wells fargo", "label": "routing"}
+{"global_ix": 1717, "sentence": "what is the reason for frozen status on my bank account", "label": "account_blocked"}
+{"global_ix": 14794, "sentence": "5 people are going to be at tropicana by 8pm, reserve the table under martins name please", "label": "restaurant_reservation"}
+{"global_ix": 22456, "sentence": "i don't want my current pin for my wells account anymore", "label": "pin_change"}
+{"global_ix": 18879, "sentence": "place a hold on my bank account", "label": "freeze_account"}
+{"global_ix": 1411, "sentence": "can you get me a table for 2 at mexico viejo at 3pm", "label": "restaurant_reservation"}
+{"global_ix": 485, "sentence": "put a hold on my bank account", "label": "freeze_account"}
+{"global_ix": 18310, "sentence": "i got to report fraudulent activity on my credit card", "label": "report_fraud"}
+{"global_ix": 6391, "sentence": "how much do i make in a year", "label": "income"}
+{"global_ix": 2403, "sentence": "i need the routing number for my woodlawn account", "label": "routing"}
+{"global_ix": 2171, "sentence": "give me the routing number for my paragon account", "label": "routing"}
+{"global_ix": 23439, "sentence": "i've got a fraudulent purchase from kayak on my account", "label": "report_fraud"}
+{"global_ix": 5155, "sentence": "reserve a table for 3 under the name wheeler at andrea's steakhouse for 5pm", "label": "restaurant_reservation"}
+{"global_ix": 11717, "sentence": "show me the routing number for chase", "label": "routing"}
+{"global_ix": 17013, "sentence": "how much time before my new card is mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 22433, "sentence": "can you please read me the routing number to pnc", "label": "routing"}
+{"global_ix": 4253, "sentence": "what is the routing number for my wells fargo account", "label": "routing"}
+{"global_ix": 23422, "sentence": "i want to know what my routing number is", "label": "routing"}
+{"global_ix": 14664, "sentence": "i have detected fraudulent activity on my account", "label": "report_fraud"}
+{"global_ix": 6908, "sentence": "why is there a hold on my edward jones account", "label": "account_blocked"}
+{"global_ix": 5818, "sentence": "how do i locate my routing number for tax reasons", "label": "routing"}
+{"global_ix": 10550, "sentence": "display the routing number for account huntington", "label": "routing"}
+{"global_ix": 18747, "sentence": "what are they paying me at work right now", "label": "income"}
+{"global_ix": 19766, "sentence": "i need my pin number", "label": "pin_change"}
+{"global_ix": 18569, "sentence": "what kind of items are on my shopping list", "label": "shopping_list"}
+{"global_ix": 1155, "sentence": "i wanna change my pin number for my credit acount", "label": "pin_change"}
+{"global_ix": 23456, "sentence": "are you an ai or can you prove you're human", "label": "are_you_a_bot"}
+{"global_ix": 12327, "sentence": "was my bank account frozen for a specific reason", "label": "account_blocked"}
+{"global_ix": 1322, "sentence": "block my bank of america immdediately", "label": "freeze_account"}
+{"global_ix": 20744, "sentence": "what routing number do i use to send an international wire with citibank", "label": "routing"}
+{"global_ix": 138, "sentence": "i need to report a fraudulent transaction from postmates on my account", "label": "report_fraud"}
+{"global_ix": 12809, "sentence": "how much time does it take a new card to get mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 11886, "sentence": "tell me the items in my shopping list", "label": "shopping_list"}
+{"global_ix": 5576, "sentence": "how much did i get paid", "label": "income"}
+{"global_ix": 15406, "sentence": "would you let me know what is on my shopping list", "label": "shopping_list"}
+{"global_ix": 7550, "sentence": "help me remember my pin number", "label": "pin_change"}
+{"global_ix": 6276, "sentence": "how long can i expect to wait for a new card", "label": "replacement_card_duration"}
+{"global_ix": 10271, "sentence": "how soon will i be sent a new card", "label": "replacement_card_duration"}
+{"global_ix": 5029, "sentence": "let me know what's on my shopping list", "label": "shopping_list"}
+{"global_ix": 21664, "sentence": "i would like to change the name on my first hawaiian bank account", "label": "pin_change"}
+{"global_ix": 19932, "sentence": "put a hold on my bank account please", "label": "freeze_account"}
+{"global_ix": 22900, "sentence": "tell me what's is on my shopping list", "label": "shopping_list"}
+{"global_ix": 16409, "sentence": "i don't know the reason my account is blocked", "label": "account_blocked"}
+{"global_ix": 3220, "sentence": "where can i find my routing number", "label": "routing"}
+{"global_ix": 20647, "sentence": "how long until you send me a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 7798, "sentence": "what do i make yearly", "label": "income"}
+{"global_ix": 16296, "sentence": "i forgot my pin number for my credit union bank account, can you help", "label": "pin_change"}
+{"global_ix": 14565, "sentence": "am i talking with real person or ai", "label": "are_you_a_bot"}
+{"global_ix": 9762, "sentence": "what's my total income", "label": "income"}
+{"global_ix": 9904, "sentence": "what amount of money do i earn at work", "label": "income"}
+{"global_ix": 11605, "sentence": "what's the routing number for my bank of the west account", "label": "routing"}
+{"global_ix": 4827, "sentence": "tell me what is on my shopping list", "label": "shopping_list"}
+{"global_ix": 2772, "sentence": "how long will a new card take to come in the mail", "label": "replacement_card_duration"}
+{"global_ix": 4800, "sentence": "did i remember to add milk to my shopping list", "label": "shopping_list"}
+{"global_ix": 5703, "sentence": "tell me the duration it takes to get a new cc", "label": "replacement_card_duration"}
+{"global_ix": 12429, "sentence": "what things are on my shopping list", "label": "shopping_list"}
+{"global_ix": 19591, "sentence": "please make the pin on my zion bank account to 3232", "label": "pin_change"}
+{"global_ix": 3593, "sentence": "book a reservation for 3 at red lobster under the name steve", "label": "restaurant_reservation"}
+{"global_ix": 4353, "sentence": "are you ai, or a person", "label": "are_you_a_bot"}
+{"global_ix": 3505, "sentence": "can i make a reservation for 3 at state bird for 8:30, please", "label": "restaurant_reservation"}
+{"global_ix": 8328, "sentence": "please report information about activity on my credit card", "label": "report_fraud"}
+{"global_ix": 16610, "sentence": "did you put carrots on the shopping list", "label": "shopping_list"}
+{"global_ix": 4202, "sentence": "a new cards takes how long to mail to me", "label": "replacement_card_duration"}
+{"global_ix": 16439, "sentence": "what is the correct routing number for my citizens bank account, pennsylvania", "label": "routing"}
+{"global_ix": 10317, "sentence": "how much am i paid", "label": "income"}
+{"global_ix": 8533, "sentence": "give me my income", "label": "income"}
+{"global_ix": 22199, "sentence": "how can i stop transactions on my account", "label": "freeze_account"}
+{"global_ix": 695, "sentence": "hey computer, make a reservation for 2 for my parents at red lobster on wednseday next, 2:00pm if possible", "label": "restaurant_reservation"}
+{"global_ix": 14153, "sentence": "how can i switch the pin on my wells fargo account to 9982", "label": "pin_change"}
+{"global_ix": 303, "sentence": "what did i put on my shopping list", "label": "shopping_list"}
+{"global_ix": 20152, "sentence": "my card is coming by mail how long will that take", "label": "replacement_card_duration"}
+{"global_ix": 19234, "sentence": "what things are on my shopping list today", "label": "shopping_list"}
+{"global_ix": 22390, "sentence": "tell me how i can get a new pin number", "label": "pin_change"}
+{"global_ix": 17665, "sentence": "find out the reason why am i locked out of my bank account", "label": "account_blocked"}
+{"global_ix": 3841, "sentence": "i need to put a freeze on my banking account", "label": "freeze_account"}
+{"global_ix": 9693, "sentence": "is it possible to book a room at the taco bell for reavers at 3", "label": "restaurant_reservation"}
+{"global_ix": 5365, "sentence": "reverse a table for 5 at burger king under the name sara at 6", "label": "restaurant_reservation"}
+{"global_ix": 19083, "sentence": "why does us bank have a hold on my account", "label": "account_blocked"}
+{"global_ix": 17378, "sentence": "which purchases are on my shopping list", "label": "shopping_list"}
+{"global_ix": 10277, "sentence": "is this a computer right now or a human being", "label": "are_you_a_bot"}
+{"global_ix": 13958, "sentence": "what is the routing number of cadence", "label": "routing"}
+{"global_ix": 5012, "sentence": "i need my bank account frozen", "label": "freeze_account"}
+{"global_ix": 1828, "sentence": "will i get getting my new card anytime soon", "label": "replacement_card_duration"}
+{"global_ix": 7610, "sentence": "i have a crap transaction from guitar center on my account", "label": "report_fraud"}
+{"global_ix": 12527, "sentence": "where should i go to find the routing number for well's fargo", "label": "routing"}
+{"global_ix": 23428, "sentence": "where can i locate the ally routing number", "label": "routing"}
+{"global_ix": 10847, "sentence": "how long until the credit card company replaces my lost card", "label": "replacement_card_duration"}
+{"global_ix": 11103, "sentence": "my chase account has a hold why", "label": "account_blocked"}
+{"global_ix": 1079, "sentence": "are you an automated assistance", "label": "are_you_a_bot"}
+{"global_ix": 15680, "sentence": "can i have a table held at the outback steakhouse for johnson at 5", "label": "restaurant_reservation"}
+{"global_ix": 16802, "sentence": "my card has purchases i don't recognize", "label": "report_fraud"}
+{"global_ix": 17326, "sentence": "what is the reason i am locked out of my bank account", "label": "account_blocked"}
+{"global_ix": 20168, "sentence": "where can i look up x's routing number", "label": "routing"}
+{"global_ix": 9526, "sentence": "please put a block on my wells fargo account", "label": "freeze_account"}
+{"global_ix": 13198, "sentence": "tell me if you are a human or are a computer", "label": "are_you_a_bot"}
+{"global_ix": 19414, "sentence": "what caused a hold on my us bank account", "label": "account_blocked"}
+{"global_ix": 10324, "sentence": "i need to know the items on my shopping list", "label": "shopping_list"}
+{"global_ix": 2084, "sentence": "how much do i make", "label": "income"}
+{"global_ix": 23684, "sentence": "where do i find the routing number for usaa", "label": "routing"}
+{"global_ix": 5718, "sentence": "are you actually a bot", "label": "are_you_a_bot"}
+{"global_ix": 3718, "sentence": "modify my account pin to 1234 on my checking account", "label": "pin_change"}
+{"global_ix": 3137, "sentence": "can i make a reservation for 6 pm on the 21st at sidetracks", "label": "restaurant_reservation"}
+{"global_ix": 3436, "sentence": "could you be human", "label": "are_you_a_bot"}
+{"global_ix": 12039, "sentence": "i need to change my pin number for my savings account", "label": "pin_change"}
+{"global_ix": 3867, "sentence": "can you make me a reservation for 4 pm on the 22nd at ruth's", "label": "restaurant_reservation"}
+{"global_ix": 7476, "sentence": "do you mind putting a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 16366, "sentence": "make a reservation for 2 at red lobster at 8pm", "label": "restaurant_reservation"}
+{"global_ix": 10743, "sentence": "i think someone's using my visa card without my permission", "label": "report_fraud"}
+{"global_ix": 23554, "sentence": "did i put bread on my shopping list", "label": "shopping_list"}
+{"global_ix": 3074, "sentence": "tell me the routing number for bluebird", "label": "routing"}
+{"global_ix": 18236, "sentence": "my account has a hold on it and i can't access my funds, why", "label": "account_blocked"}
+{"global_ix": 16990, "sentence": "i would like to know my income", "label": "income"}
+{"global_ix": 171, "sentence": "book a reservation for 3 at xenophobe under the name zebee", "label": "restaurant_reservation"}
+{"global_ix": 20378, "sentence": "are you real or are you an ai", "label": "are_you_a_bot"}
+{"global_ix": 3305, "sentence": "what amount is my income", "label": "income"}
+{"global_ix": 6839, "sentence": "how do i change my pin for number for my abc bank account", "label": "pin_change"}
+{"global_ix": 17707, "sentence": "i'm pretty sure this charge is fraudulent", "label": "report_fraud"}
+{"global_ix": 420, "sentence": "i need you to book a reservation for 8 pm at red robin under the name kevin", "label": "restaurant_reservation"}
+{"global_ix": 8089, "sentence": "where do i find the routing number for chase", "label": "routing"}
+{"global_ix": 20180, "sentence": "switch my amex pin to 1234", "label": "pin_change"}
+{"global_ix": 4459, "sentence": "why am i locked out of my bank account", "label": "account_blocked"}
+{"global_ix": 4974, "sentence": "can you tell me how i change my pin number", "label": "pin_change"}
+{"global_ix": 16884, "sentence": "i think we should reserve dad's regular table friday for 6 people, use his name, make that close to 4:00 pm at the club", "label": "restaurant_reservation"}
+{"global_ix": 15310, "sentence": "do i have a fraudulent transaction on my account", "label": "report_fraud"}
+{"global_ix": 18076, "sentence": "does my shopping list include apples right now", "label": "shopping_list"}
+{"global_ix": 13075, "sentence": "time to order and receive a new credit card", "label": "replacement_card_duration"}
+{"global_ix": 17474, "sentence": "why am i seeing a hold on my boa account", "label": "account_blocked"}
+{"global_ix": 12521, "sentence": "reserve a table for 3 at 7 for olive garden", "label": "restaurant_reservation"}
+{"global_ix": 7289, "sentence": "i want my savings account pin to be 1234 from now on", "label": "pin_change"}
+{"global_ix": 19730, "sentence": "how do i update my pin number for my account, please", "label": "pin_change"}
+{"global_ix": 12247, "sentence": "do i have twinkies on the grocery list", "label": "shopping_list"}
+{"global_ix": 16591, "sentence": "plase hold my account for now", "label": "freeze_account"}
+{"global_ix": 20421, "sentence": "where do i find the routing number for navy federal", "label": "routing"}
+{"global_ix": 18608, "sentence": "reserve a table for 6 at morton's under the name jaime at 8:30pm", "label": "restaurant_reservation"}
+{"global_ix": 9323, "sentence": "correct my account pin to 1234 on my checking account", "label": "pin_change"}
+{"global_ix": 22930, "sentence": "i need a block put on my chase account right away", "label": "freeze_account"}
+{"global_ix": 14958, "sentence": "do you know anything about my income", "label": "income"}
+{"global_ix": 21818, "sentence": "i'm thinking someone may have used my card in a fraudulent way", "label": "report_fraud"}
+{"global_ix": 21415, "sentence": "change the pin on my bofa account to 3892", "label": "pin_change"}
+{"global_ix": 22425, "sentence": "would you be able to freeze my bank account", "label": "freeze_account"}
+{"global_ix": 20845, "sentence": "i need to book a reservation for 3 at xenophobe under the name zebee", "label": "restaurant_reservation"}
+{"global_ix": 17135, "sentence": "do i have a big shopping list", "label": "shopping_list"}
+{"global_ix": 22847, "sentence": "i would like to know what my income is", "label": "income"}
+{"global_ix": 7689, "sentence": "what is on my shopping list", "label": "shopping_list"}
+{"global_ix": 228, "sentence": "why is my account blocked", "label": "account_blocked"}
+{"global_ix": 345, "sentence": "please change the pin on my bank of america account to be 1234", "label": "pin_change"}
+{"global_ix": 23355, "sentence": "book a reservation for 8 pm at red robin under the name kevin", "label": "restaurant_reservation"}
+{"global_ix": 4026, "sentence": "i need to know my income", "label": "income"}
+{"global_ix": 10165, "sentence": "tell me the things on my shopping list", "label": "shopping_list"}
+{"global_ix": 2200, "sentence": "what's my salary", "label": "income"}
+{"global_ix": 14527, "sentence": "are you secretly real", "label": "are_you_a_bot"}
+{"global_ix": 2940, "sentence": "please immediately block my navy federal credit union account", "label": "freeze_account"}
+{"global_ix": 3604, "sentence": "did i put milk on the shopping list", "label": "shopping_list"}
+{"global_ix": 13031, "sentence": "are you a member or the human race or are you a computer program", "label": "are_you_a_bot"}
+{"global_ix": 40, "sentence": "how long til my new card arrives by mail", "label": "replacement_card_duration"}
+{"global_ix": 4381, "sentence": "there's been some fraudulent activity on my card", "label": "report_fraud"}
+{"global_ix": 19233, "sentence": "i think there's a fraudulent transaction on my account", "label": "report_fraud"}
+{"global_ix": 11263, "sentence": "are you real or fake", "label": "are_you_a_bot"}
+{"global_ix": 8723, "sentence": "could you please put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 21545, "sentence": "do i have to buy milk", "label": "shopping_list"}
+{"global_ix": 14767, "sentence": "i am unable to remember what my pin is for my bank of america checking account", "label": "pin_change"}
+{"global_ix": 23307, "sentence": "i need to know whether you are a human or are a computer", "label": "are_you_a_bot"}
+{"global_ix": 19936, "sentence": "how long until i can expect my new card to get mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 9856, "sentence": "i have charges on my amex card i didn't make", "label": "report_fraud"}
+{"global_ix": 8591, "sentence": "why did you freeze my bank account", "label": "account_blocked"}
+{"global_ix": 11960, "sentence": "can you please freeze my bank account", "label": "freeze_account"}
+{"global_ix": 10388, "sentence": "i want to report fraudulent activity on my visa card, please", "label": "report_fraud"}
+{"global_ix": 17964, "sentence": "who froze my bank account", "label": "account_blocked"}
+{"global_ix": 15113, "sentence": "how long until i get my replacement card", "label": "replacement_card_duration"}
+{"global_ix": 12177, "sentence": "i cant recall my pin number for my city first account", "label": "pin_change"}
+{"global_ix": 12800, "sentence": "can i freeze my bank account", "label": "freeze_account"}
+{"global_ix": 16045, "sentence": "can you list my shopping list for me", "label": "shopping_list"}
+{"global_ix": 20526, "sentence": "i am hoping you can put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 2338, "sentence": "are you really a human", "label": "are_you_a_bot"}
+{"global_ix": 2457, "sentence": "set my amex pin to 1234", "label": "pin_change"}
+{"global_ix": 14018, "sentence": "tell me how much money i'm earning at my job", "label": "income"}
+{"global_ix": 16908, "sentence": "show tracking information on my replacement credit card", "label": "replacement_card_duration"}
+{"global_ix": 22640, "sentence": "why on earth would a block have been placed on my account", "label": "account_blocked"}
+{"global_ix": 4585, "sentence": "what does my shopping list consist of", "label": "shopping_list"}
+{"global_ix": 17916, "sentence": "name the items on my shopping list", "label": "shopping_list"}
+{"global_ix": 4252, "sentence": "what are you", "label": "are_you_a_bot"}
+{"global_ix": 5028, "sentence": "what's my yearly salary", "label": "income"}
+{"global_ix": 660, "sentence": "how much am i getting paid today", "label": "income"}
+{"global_ix": 6461, "sentence": "i want to know if you are a real person or an ai", "label": "are_you_a_bot"}
+{"global_ix": 821, "sentence": "tell me my salary please", "label": "income"}
+{"global_ix": 10247, "sentence": "can you act and think like a real person", "label": "are_you_a_bot"}
+{"global_ix": 471, "sentence": "i need my account frozen", "label": "freeze_account"}
+{"global_ix": 4952, "sentence": "did i include butter in my shopping list", "label": "shopping_list"}
+{"global_ix": 9915, "sentence": "is milk on my shopping list", "label": "shopping_list"}
+{"global_ix": 414, "sentence": "i need for you to tell me what is on my shopping list", "label": "shopping_list"}
+{"global_ix": 17678, "sentence": "could you freeze my account, please", "label": "freeze_account"}
+{"global_ix": 4184, "sentence": "can you help me figure out my pin number for my visa account", "label": "pin_change"}
+{"global_ix": 13348, "sentence": "pause my account", "label": "freeze_account"}
+{"global_ix": 10598, "sentence": "how can i find my routing number for el dorado", "label": "routing"}
+{"global_ix": 18609, "sentence": "where do i find the routing number for nfcu", "label": "routing"}
+{"global_ix": 23549, "sentence": "tell me why am i locked out of my bank account", "label": "account_blocked"}
+{"global_ix": 11470, "sentence": "can you get me a table for 8 at johnnys", "label": "restaurant_reservation"}
+{"global_ix": 4750, "sentence": "are you a real human", "label": "are_you_a_bot"}
+{"global_ix": 7346, "sentence": "so it turns out i can't remember what my pin is for my bank of america checking account", "label": "pin_change"}
+{"global_ix": 16827, "sentence": "stop all access to my account", "label": "freeze_account"}
+{"global_ix": 16948, "sentence": "i would like to report a fraud on my wells fargo card, please", "label": "report_fraud"}
+{"global_ix": 17716, "sentence": "ai, routing number for my wells fargo checking", "label": "routing"}
+{"global_ix": 10152, "sentence": "help me freeze my bank account, please", "label": "freeze_account"}
+{"global_ix": 22912, "sentence": "i want you to tell me about my income", "label": "income"}
+{"global_ix": 1345, "sentence": "can you help me with some fraudulent charges on my card", "label": "report_fraud"}
+{"global_ix": 7321, "sentence": "is there lettuce on my shopping list", "label": "shopping_list"}
+{"global_ix": 5817, "sentence": "i need a routing number", "label": "routing"}
+{"global_ix": 21138, "sentence": "calculate how much i earn from my job", "label": "income"}
+{"global_ix": 19161, "sentence": "reserve a table for 4 at red lobster under the name dave at 7:30pm", "label": "restaurant_reservation"}
+{"global_ix": 12834, "sentence": "you must reserve a table for 4 at red robin under the name kevin at 7", "label": "restaurant_reservation"}
+{"global_ix": 7759, "sentence": "what is the location that td bank has their routing number listed", "label": "routing"}
+{"global_ix": 2145, "sentence": "can you get me a table for 4 at red lobster at 8pm", "label": "restaurant_reservation"}
+{"global_ix": 10323, "sentence": "so are you real", "label": "are_you_a_bot"}
+{"global_ix": 1920, "sentence": "let me know if you are a human or a computer", "label": "are_you_a_bot"}
+{"global_ix": 6356, "sentence": "can i make a reservation for 2 at state bird for 8:30", "label": "restaurant_reservation"}
+{"global_ix": 8255, "sentence": "i'm having trouble remembering the pin number to my card", "label": "pin_change"}
+{"global_ix": 3173, "sentence": "are you a bot or a person", "label": "are_you_a_bot"}
+{"global_ix": 13336, "sentence": "how much do i make per day", "label": "income"}
+{"global_ix": 17463, "sentence": "i really cannot remember what my pin is for my bank of america checking account", "label": "pin_change"}
+{"global_ix": 10073, "sentence": "now, i need a reservation for backwoods crossing at seven for 6 people", "label": "restaurant_reservation"}
+{"global_ix": 17717, "sentence": "are carrots added to the grocery list", "label": "shopping_list"}
+{"global_ix": 13481, "sentence": "can you tell me why my bank account is frozen", "label": "account_blocked"}
+{"global_ix": 22294, "sentence": "make me a reservation for tomorrow at happys for four", "label": "restaurant_reservation"}
+{"global_ix": 5684, "sentence": "do you consider yourself a bot", "label": "are_you_a_bot"}
+{"global_ix": 21729, "sentence": "how do i reset my pin number for my account, please", "label": "pin_change"}
+{"global_ix": 14382, "sentence": "how can i request a new credit card", "label": "replacement_card_duration"}
+{"global_ix": 17328, "sentence": "report fraudulent activity on my debit card", "label": "report_fraud"}
+{"global_ix": 8289, "sentence": "i see a fraudulent transaction from netflix on my account", "label": "report_fraud"}
+{"global_ix": 14295, "sentence": "mailing a new card to me takes how long", "label": "replacement_card_duration"}
+{"global_ix": 9190, "sentence": "can you get me a table for 6 at johnnys", "label": "restaurant_reservation"}
+{"global_ix": 7201, "sentence": "i am unable to complete my order, why could there be a hold on my wells fargo account", "label": "account_blocked"}
+{"global_ix": 3417, "sentence": "i want you to book a reservation for 8 pm at red robin under the name kevin", "label": "restaurant_reservation"}
+{"global_ix": 22972, "sentence": "make a reservation for tuesday at 7:00 pm at cielo for 2", "label": "restaurant_reservation"}
+{"global_ix": 8881, "sentence": "what do i bring in over a year", "label": "income"}
+{"global_ix": 2139, "sentence": "i want to know my income", "label": "income"}
+{"global_ix": 15692, "sentence": "send information about suspicious credit card activity", "label": "report_fraud"}
+{"global_ix": 11573, "sentence": "how do i report fraud on my chase bank card", "label": "report_fraud"}
+{"global_ix": 1154, "sentence": "i think my account is block but i am not sure why", "label": "account_blocked"}
+{"global_ix": 14265, "sentence": "send fraudulent activity information", "label": "report_fraud"}
+{"global_ix": 8407, "sentence": "how are you classified, as a human or a computer", "label": "are_you_a_bot"}
+{"global_ix": 2739, "sentence": "i need you to reserve a table for 6:00 pm for three at devon's seafood", "label": "restaurant_reservation"}
+{"global_ix": 16432, "sentence": "my checking account has a hold on it and i need to know why", "label": "account_blocked"}
+{"global_ix": 7, "sentence": "can you explain to me why my bank account might be frozen", "label": "account_blocked"}
+{"global_ix": 12483, "sentence": "it seems that there's fraudulent activity on my card i'd like to file a report", "label": "report_fraud"}
+{"global_ix": 820, "sentence": "i need to know how much i make at my job", "label": "income"}
+{"global_ix": 20950, "sentence": "how much money do i have coming in each month", "label": "income"}
+{"global_ix": 15934, "sentence": "what's on my purchase list", "label": "shopping_list"}
+{"global_ix": 15681, "sentence": "how long will i have to wait until they replace a stolen credit card", "label": "replacement_card_duration"}
+{"global_ix": 10511, "sentence": "go ahead and change the pin on my bank of america account to be 1234", "label": "pin_change"}
+{"global_ix": 7886, "sentence": "a table for two needs to be reserved for 7:00pm at olive garden using the name michael", "label": "restaurant_reservation"}
+{"global_ix": 15700, "sentence": "alter the pin on my savings account to be 1234", "label": "pin_change"}
+{"global_ix": 8627, "sentence": "can you get me a table for 3 at captain d's at 2pm", "label": "restaurant_reservation"}
+{"global_ix": 2109, "sentence": "can you make a reservation at the restaurant for tonight", "label": "restaurant_reservation"}
+{"global_ix": 17062, "sentence": "what routing number does chase use", "label": "routing"}
+{"global_ix": 2676, "sentence": "put a block on bank of amerian immediately", "label": "freeze_account"}
+{"global_ix": 19676, "sentence": "what's the average time it takes for a new card to arrive", "label": "replacement_card_duration"}
+{"global_ix": 8686, "sentence": "please tell me how do i change the account pin number", "label": "pin_change"}
+{"global_ix": 10562, "sentence": "can you tell me what my currnet salary is", "label": "income"}
+{"global_ix": 17982, "sentence": "please ask the bank to freeze my account", "label": "freeze_account"}
+{"global_ix": 5407, "sentence": "can you get me a table for 2 at diablo", "label": "restaurant_reservation"}
+{"global_ix": 4004, "sentence": "switch the pin on my visa account", "label": "pin_change"}
+{"global_ix": 15305, "sentence": "how soon can i expect a replacement card for my lost card to arrive", "label": "replacement_card_duration"}
+{"global_ix": 13918, "sentence": "what is the time frame for sending a customer who lost their credit card a new one", "label": "replacement_card_duration"}
+{"global_ix": 17071, "sentence": "i need to hold off on my account", "label": "freeze_account"}
+{"global_ix": 5713, "sentence": "place a stop on my main account for me please", "label": "freeze_account"}
+{"global_ix": 738, "sentence": "help me please, my account is blocked", "label": "account_blocked"}
+{"global_ix": 18326, "sentence": "how much should my income be for the month", "label": "income"}
+{"global_ix": 6605, "sentence": "how long does it take to get a replacement credit card when your last one was stolen", "label": "replacement_card_duration"}
+{"global_ix": 8090, "sentence": "there's a shady charge from comcast on my account", "label": "report_fraud"}
+{"global_ix": 16566, "sentence": "place a block on my capital one account right now", "label": "freeze_account"}
+{"global_ix": 10835, "sentence": "i recently lost my credit card and need to know how long it takes to get a new one mailed to me", "label": "replacement_card_duration"}
+{"global_ix": 13961, "sentence": "make me a reservation for 5 people at village tavern for the calloways", "label": "restaurant_reservation"}
+{"global_ix": 14392, "sentence": "how long does it take you to mail me a new card", "label": "replacement_card_duration"}
+{"global_ix": 11935, "sentence": "when will the replaecment card arrive", "label": "replacement_card_duration"}
+{"global_ix": 16667, "sentence": "the pin number to my card has been forgotten", "label": "pin_change"}
+{"global_ix": 16170, "sentence": "can anyone let me know the reason behind my frozen bank account", "label": "account_blocked"}
+{"global_ix": 20968, "sentence": "i have a fraudulent transaction from fry's on my account", "label": "report_fraud"}
+{"global_ix": 953, "sentence": "how long will delivery of a new card take", "label": "replacement_card_duration"}
+{"global_ix": 16636, "sentence": "i have a fraudulent transaction from wal mart showing on my account", "label": "report_fraud"}
+{"global_ix": 15899, "sentence": "where do i report fraud on my credit card", "label": "report_fraud"}
+{"global_ix": 10290, "sentence": "reasons that us bank would place a hold on my account", "label": "account_blocked"}
+{"global_ix": 9878, "sentence": "how is it possible that my account has been frozen", "label": "account_blocked"}
+{"global_ix": 2761, "sentence": "stop my account activity", "label": "freeze_account"}
+{"global_ix": 15974, "sentence": "let me know what the routing number for my civista account is", "label": "routing"}
+{"global_ix": 13490, "sentence": "what do i usually earn in a day", "label": "income"}
+{"global_ix": 2735, "sentence": "i seem to have lost the pin for my retirement account", "label": "pin_change"}
+{"global_ix": 1735, "sentence": "it seems that my account is blocked and i'm not sure why", "label": "account_blocked"}
+{"global_ix": 22978, "sentence": "time to replace my credit card", "label": "replacement_card_duration"}
+{"global_ix": 2001, "sentence": "can you get me a table for 1 at the vega at 1pm", "label": "restaurant_reservation"}
+{"global_ix": 4826, "sentence": "i need help changing my pin", "label": "pin_change"}
+{"global_ix": 12857, "sentence": "what is the time frame for receiving a new credit card if my original one gets lost", "label": "replacement_card_duration"}
+{"global_ix": 17956, "sentence": "i want to reserve a table at 8 at long john silver's under the name freddie", "label": "restaurant_reservation"}
+{"global_ix": 20566, "sentence": "i am curious to know if you are a bot", "label": "are_you_a_bot"}
+{"global_ix": 10414, "sentence": "where do i find the routing number for bank of the west", "label": "routing"}
+{"global_ix": 4448, "sentence": "are you computer or human", "label": "are_you_a_bot"}
+{"global_ix": 16321, "sentence": "what does my shopping list entail", "label": "shopping_list"}
+{"global_ix": 11209, "sentence": "i want to know my routing number please", "label": "routing"}
+{"global_ix": 12593, "sentence": "i need to know my bank of america routing number", "label": "routing"}
+{"global_ix": 17111, "sentence": "in regards to my wells fargo account, why is there a hold", "label": "account_blocked"}
+{"global_ix": 4410, "sentence": "let me know my bank of america routing number", "label": "routing"}
+{"global_ix": 21183, "sentence": "how real are you", "label": "are_you_a_bot"}
+{"global_ix": 12380, "sentence": "was is my salary", "label": "income"}
+{"global_ix": 16118, "sentence": "do you identify as a human or computer", "label": "are_you_a_bot"}
+{"global_ix": 3140, "sentence": "can you tell me the routing number for bank of america for domestic accounts", "label": "routing"}
+{"global_ix": 15965, "sentence": "how much am i paid a year", "label": "income"}
+{"global_ix": 8394, "sentence": "are you an ai or person", "label": "are_you_a_bot"}
+{"global_ix": 11399, "sentence": "i cannot remember what my pin is for my bank of america checking account", "label": "pin_change"}
+{"global_ix": 4928, "sentence": "are you a person that's real", "label": "are_you_a_bot"}
+{"global_ix": 6220, "sentence": "i want to report fraudulent activity on my visa", "label": "report_fraud"}
+{"global_ix": 2064, "sentence": "terminate the account", "label": "freeze_account"}
+{"global_ix": 10244, "sentence": "what is my yearly salary", "label": "income"}
+{"global_ix": 19840, "sentence": "make me a reservation for 5 at coral for 10 pm immediately", "label": "restaurant_reservation"}
+{"global_ix": 16367, "sentence": "change my pin to 1234 on account ending with digits 4994", "label": "pin_change"}
+{"global_ix": 23400, "sentence": "there seems to be fraudulent activity", "label": "report_fraud"}
+{"global_ix": 835, "sentence": "i would like to change the name on my capital one account", "label": "pin_change"}
+{"global_ix": 12024, "sentence": "please change pin to 1234 on my bank account trailing in 3829", "label": "pin_change"}
+{"global_ix": 222, "sentence": "what's the typical time it takes for a new card to arrive", "label": "replacement_card_duration"}
+{"global_ix": 13426, "sentence": "what's on my to-buy list", "label": "shopping_list"}
+{"global_ix": 23403, "sentence": "how much do i get paid", "label": "income"}
+{"global_ix": 21502, "sentence": "don't let payments go through using my bank account", "label": "freeze_account"}
+{"global_ix": 14063, "sentence": "how much money do i make a week", "label": "income"}
+{"global_ix": 21504, "sentence": "tell me information about my income", "label": "income"}
+{"global_ix": 6802, "sentence": "make a reservation for 2 tonight at 7:00 at outback steakhouse", "label": "restaurant_reservation"}
+{"global_ix": 4693, "sentence": "change pin to 1234 on account banner", "label": "pin_change"}
+{"global_ix": 1975, "sentence": "how long does it usually take for a new credit card to come", "label": "replacement_card_duration"}
+{"global_ix": 11936, "sentence": "you have to reserve a table for 4 at red robin under the name kevin at 7", "label": "restaurant_reservation"}
+{"global_ix": 20424, "sentence": "please do a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 15952, "sentence": "when is my new card expected to arrive", "label": "replacement_card_duration"}
+{"global_ix": 7098, "sentence": "i think there's fraud on my account", "label": "report_fraud"}
+{"global_ix": 22358, "sentence": "can you initiate a block on my bank of america checking asap", "label": "freeze_account"}
+{"global_ix": 17011, "sentence": "i need to report some fraudulent card activity", "label": "report_fraud"}
+{"global_ix": 15735, "sentence": "would it be accurate to call you a bot", "label": "are_you_a_bot"}
+{"global_ix": 7197, "sentence": "could you please reserve a table for 6 at lucille's under the name tom at 5pm", "label": "restaurant_reservation"}
+{"global_ix": 301, "sentence": "what do i earn from my job", "label": "income"}
+{"global_ix": 19893, "sentence": "i need my account frozen!", "label": "freeze_account"}
+{"global_ix": 15096, "sentence": "why can't i use my money market account", "label": "account_blocked"}
+{"global_ix": 2383, "sentence": "where do i find the routing number for wells fargo", "label": "routing"}
+{"global_ix": 506, "sentence": "am i talking to an actual person", "label": "are_you_a_bot"}
+{"global_ix": 20814, "sentence": "reserve a table for 3 at andrea's steakhouse around 5pm under the name wheeler", "label": "restaurant_reservation"}
+{"global_ix": 2790, "sentence": "please make sure my account is frozen", "label": "freeze_account"}
+{"global_ix": 9319, "sentence": "why am i seeing a hold on my charles schwab account", "label": "account_blocked"}
+{"global_ix": 1871, "sentence": "i want a new pin for my savings account", "label": "pin_change"}
+{"global_ix": 19012, "sentence": "will you notify me when my new card is on the way", "label": "replacement_card_duration"}
+{"global_ix": 16273, "sentence": "i do not recall the pin number to my card", "label": "pin_change"}
+{"global_ix": 9183, "sentence": "can you put a block on my visa account right away", "label": "freeze_account"}
+{"global_ix": 19045, "sentence": "do you know my work income", "label": "income"}
+{"global_ix": 23639, "sentence": "how long to replace a credit card", "label": "replacement_card_duration"}
+{"global_ix": 15849, "sentence": "have i already got eggs down on the shopping list", "label": "shopping_list"}
+{"global_ix": 14744, "sentence": "when will my new visa get here", "label": "replacement_card_duration"}
+{"global_ix": 12070, "sentence": "how do i get my pin number, i forgot mine", "label": "pin_change"}
+{"global_ix": 15526, "sentence": "please go and change the pin on my bank of america account to be 1234", "label": "pin_change"}
+{"global_ix": 8067, "sentence": "please tell me my bank of america routing number", "label": "routing"}
+{"global_ix": 9706, "sentence": "there is a fraudulent charge for paypal on my bank account", "label": "report_fraud"}
+{"global_ix": 9750, "sentence": "please read my shopping list", "label": "shopping_list"}
+{"global_ix": 21528, "sentence": "what products are on my shopping list", "label": "shopping_list"}
+{"global_ix": 23244, "sentence": "are there any open reservations at outback tonight", "label": "restaurant_reservation"}
+{"global_ix": 19950, "sentence": "what's my income from work", "label": "income"}
+{"global_ix": 15903, "sentence": "i want 1234 to be the new pin number for my joint account", "label": "pin_change"}
+{"global_ix": 4041, "sentence": "how can i report fraudulent charges on my card", "label": "report_fraud"}
+{"global_ix": 9359, "sentence": "put a freeze on my account", "label": "freeze_account"}
+{"global_ix": 19494, "sentence": "what is the routing number on my first merit account", "label": "routing"}
+{"global_ix": 6348, "sentence": "how long will it takes to get a new credit card", "label": "replacement_card_duration"}
+{"global_ix": 18978, "sentence": "tell me about the hold on my chase account", "label": "account_blocked"}
+{"global_ix": 3408, "sentence": "how much money was deposited to my bank account from my employer this month", "label": "income"}
+{"global_ix": 2463, "sentence": "how long does it take to replace a stolen credit card", "label": "replacement_card_duration"}
+{"global_ix": 12426, "sentence": "could you make reservations for 2 at olive garden for 5 pm today", "label": "restaurant_reservation"}
+{"global_ix": 23289, "sentence": "can you please tell me my income", "label": "income"}
+{"global_ix": 3783, "sentence": "reserve a table for 4 at red robin under the name kevin at 7", "label": "restaurant_reservation"}
+{"global_ix": 12721, "sentence": "who can i talk to right away about the current freeze on my account", "label": "account_blocked"}
+{"global_ix": 9591, "sentence": "please put a freeze on my banking account", "label": "freeze_account"}
+{"global_ix": 4601, "sentence": "i would like to report fraudulent activity on my chase card", "label": "report_fraud"}
+{"global_ix": 4113, "sentence": "how do i report fraud on my discover card", "label": "report_fraud"}
+{"global_ix": 7942, "sentence": "i see a suspicious transaction in my account history", "label": "report_fraud"}
+{"global_ix": 4115, "sentence": "list everything on my shopping list", "label": "shopping_list"}
+{"global_ix": 9858, "sentence": "when will my card come", "label": "replacement_card_duration"}
+{"global_ix": 9414, "sentence": "i have suspicious charges on my discovery card", "label": "report_fraud"}
+{"global_ix": 3268, "sentence": "i want to report fraudulent activity on my card", "label": "report_fraud"}
+{"global_ix": 22470, "sentence": "i want my chase account blocked immediately", "label": "freeze_account"}
+{"global_ix": 14495, "sentence": "am i supposed to buy milk", "label": "shopping_list"}
+{"global_ix": 14466, "sentence": "put a hold on my chase account right away please", "label": "freeze_account"}
+{"global_ix": 22698, "sentence": "i want to change the pin number on my credit union account", "label": "pin_change"}
+{"global_ix": 1308, "sentence": "can you get me a table for two for 8:00 pm at parc", "label": "restaurant_reservation"}
+{"global_ix": 2205, "sentence": "tell me what my savings account routing number is", "label": "routing"}
+{"global_ix": 7435, "sentence": "are you really a person or an ai", "label": "are_you_a_bot"}
+{"global_ix": 5322, "sentence": "stop payments from my bank", "label": "freeze_account"}
+{"global_ix": 18258, "sentence": "reserve a table for 3 at outback steakhouse under the name lance at 7:00pm", "label": "restaurant_reservation"}
+{"global_ix": 14127, "sentence": "check reservation availability for 2 at red lobster at 8pm", "label": "restaurant_reservation"}
+{"global_ix": 21461, "sentence": "what do i do to freeze my account", "label": "freeze_account"}
+{"global_ix": 20899, "sentence": "i would like to reserve a table for 2 at sam's steakhouse under the name jessie at 6:30 pm", "label": "restaurant_reservation"}
+{"global_ix": 11008, "sentence": "why can't i access my bank account", "label": "account_blocked"}
+{"global_ix": 18566, "sentence": "my account is showing a charge to venmo that i did not make", "label": "report_fraud"}
+{"global_ix": 7844, "sentence": "i want a new pin on my card of private client account", "label": "pin_change"}
+{"global_ix": 4283, "sentence": "how much do i earn", "label": "income"}
+{"global_ix": 1520, "sentence": "is my card made immedietly after reporting stolen", "label": "replacement_card_duration"}
+{"global_ix": 6354, "sentence": "can you block my chase account right away please", "label": "freeze_account"}
+{"global_ix": 12187, "sentence": "tell me how to change my pin number", "label": "pin_change"}
+{"global_ix": 1825, "sentence": "reserve table for 5 at red robin under the name sara at 3", "label": "restaurant_reservation"}
+{"global_ix": 8804, "sentence": "what's the expected time to have a stolen credit card replaced", "label": "replacement_card_duration"}
+{"global_ix": 3164, "sentence": "what is my pay for this year", "label": "income"}
+{"global_ix": 5038, "sentence": "i want to report fraudulent activity on my visa card", "label": "report_fraud"}
+{"global_ix": 13755, "sentence": "can you tell me why is my bank account frozen", "label": "account_blocked"}
+{"global_ix": 19688, "sentence": "do you know when my card will come in", "label": "replacement_card_duration"}
+{"global_ix": 18091, "sentence": "reserve a table for 2 at olive garden under the name jim at 6:00pm", "label": "restaurant_reservation"}
+{"global_ix": 19733, "sentence": "ai, what is my chase checking routing number", "label": "routing"}
+{"global_ix": 12961, "sentence": "i need to know how to report fraud on my discover card", "label": "report_fraud"}
+{"global_ix": 1279, "sentence": "what's the typical lag time in receiving a new credit card when your previous one was lost", "label": "replacement_card_duration"}
+{"global_ix": 2858, "sentence": "tell me what's on my shopping list", "label": "shopping_list"}
+{"global_ix": 18918, "sentence": "my new card will get here in the mail when", "label": "replacement_card_duration"}
+{"global_ix": 5734, "sentence": "please find the routing number for chase bank accounts opened in new york", "label": "routing"}
+{"global_ix": 16564, "sentence": "so are you a bot", "label": "are_you_a_bot"}
+{"global_ix": 5485, "sentence": "how much money do i bring in", "label": "income"}
+{"global_ix": 7556, "sentence": "how much am i making at my job", "label": "income"}
+{"global_ix": 7055, "sentence": "how come my chase account has a hold on it", "label": "account_blocked"}
+{"global_ix": 6203, "sentence": "when will i get my replacement card", "label": "replacement_card_duration"}
+{"global_ix": 1363, "sentence": "your a bot aren't you", "label": "are_you_a_bot"}
+{"global_ix": 7403, "sentence": "how long does it take to get a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 20448, "sentence": "let me know my routing number", "label": "routing"}
+{"global_ix": 5413, "sentence": "are there any problems with my bank account", "label": "account_blocked"}
+{"global_ix": 22418, "sentence": "could you put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 7094, "sentence": "i see a purchase on my chase checking that i did not make", "label": "report_fraud"}
+{"global_ix": 920, "sentence": "look up how much i earn annually", "label": "income"}
+{"global_ix": 9179, "sentence": "what stuff did i put on my shopping list", "label": "shopping_list"}
+{"global_ix": 15092, "sentence": "i need a new pin on my chase account", "label": "pin_change"}
+{"global_ix": 14914, "sentence": "i would like a block put on my chase account asap", "label": "freeze_account"}
+{"global_ix": 15077, "sentence": "dont allow any action on my account", "label": "freeze_account"}
+{"global_ix": 17265, "sentence": "why is my bank account frozen", "label": "account_blocked"}
+{"global_ix": 18383, "sentence": "i want to report fraudulent activity on my quicksilver card", "label": "report_fraud"}
+{"global_ix": 7149, "sentence": "go my to checking account and switch my pin to 1234", "label": "pin_change"}
+{"global_ix": 16886, "sentence": "i would like you to put a stop on my bank account", "label": "freeze_account"}
+{"global_ix": 20251, "sentence": "i saw a fraudulent transaction", "label": "report_fraud"}
+{"global_ix": 3634, "sentence": "i believe there are fraudulent charges on my card how can i report them", "label": "report_fraud"}
+{"global_ix": 4874, "sentence": "can you read the things to me that are on my shopping list", "label": "shopping_list"}
+{"global_ix": 2749, "sentence": "help me find the chase routing number", "label": "routing"}
+{"global_ix": 15439, "sentence": "what's my income", "label": "income"}
+{"global_ix": 6997, "sentence": "what is available on the shopping list", "label": "shopping_list"}
+{"global_ix": 20472, "sentence": "i am nost sure why my account is blocked", "label": "account_blocked"}
+{"global_ix": 11092, "sentence": "how much can i expect on my next check", "label": "income"}
+{"global_ix": 17559, "sentence": "please reserve me a table for 2 pm at maxwell's on the 14th", "label": "restaurant_reservation"}
+{"global_ix": 16579, "sentence": "can i make a reservation for 2 at state bird for 7:30, please", "label": "restaurant_reservation"}
+{"global_ix": 10231, "sentence": "do you want peanut butter for your lunches this week", "label": "shopping_list"}
+{"global_ix": 16671, "sentence": "are you a person or artificial intelligence", "label": "are_you_a_bot"}
+{"global_ix": 18778, "sentence": "when can i expect my new card", "label": "replacement_card_duration"}
+{"global_ix": 700, "sentence": "who do i contact to report fraud on my visa", "label": "report_fraud"}
+{"global_ix": 3288, "sentence": "how long is the shipping for my replacement card", "label": "replacement_card_duration"}
+{"global_ix": 9999, "sentence": "how long does visa take to get me a new card", "label": "replacement_card_duration"}
+{"global_ix": 5639, "sentence": "why was a hold placed on my wells fargo account", "label": "account_blocked"}
+{"global_ix": 9269, "sentence": "i would like a reservation for 6:30 pm at pietro's under the name david jones", "label": "restaurant_reservation"}
+{"global_ix": 728, "sentence": "where do i find the routing number for bank of america", "label": "routing"}
+{"global_ix": 15388, "sentence": "what is the shipping wait for my card", "label": "replacement_card_duration"}
+{"global_ix": 13818, "sentence": "i need to find the correct td bank routing number for my pennsylvania account", "label": "routing"}
+{"global_ix": 8011, "sentence": "how much am i getting back from work", "label": "income"}
+{"global_ix": 23378, "sentence": "will you reserve a table at olive garden for 3 people at 7", "label": "restaurant_reservation"}
+{"global_ix": 9379, "sentence": "how much is my income going to be this month", "label": "income"}
+{"global_ix": 13193, "sentence": "can you read the things on my shopping list", "label": "shopping_list"}
+{"global_ix": 16036, "sentence": "where do i locate my routing number for my premium checking account", "label": "routing"}
+{"global_ix": 3621, "sentence": "i gotta make a reservation for 8 pm at red robin for 3", "label": "restaurant_reservation"}
+{"global_ix": 21610, "sentence": "what is the exact number of my salary", "label": "income"}
+{"global_ix": 10599, "sentence": "pull up my shopping list for me", "label": "shopping_list"}
+{"global_ix": 3136, "sentence": "was a hold placed on my wells fargo account, and if so why", "label": "account_blocked"}
+{"global_ix": 11467, "sentence": "i need a table for 3 at 5pm at andrea's steakhouse under wheeler", "label": "restaurant_reservation"}
+{"global_ix": 15506, "sentence": "i forgot my pin number to my chase account", "label": "pin_change"}
+{"global_ix": 7243, "sentence": "book a reservation for 2 at olive garden under the name jim", "label": "restaurant_reservation"}
+{"global_ix": 2519, "sentence": "i need you to block my mutualone account now", "label": "freeze_account"}
+{"global_ix": 16706, "sentence": "i need you to tell my what my routing number is for my first county account", "label": "routing"}
+{"global_ix": 14732, "sentence": "how do i know if you are a real person", "label": "are_you_a_bot"}
+{"global_ix": 1299, "sentence": "can you make 1234 the pin for my savings account", "label": "pin_change"}
+{"global_ix": 20079, "sentence": "allow me to turn on the lights", "label": "restaurant_reservation"}
+{"global_ix": 13720, "sentence": "help, my account is blocked", "label": "account_blocked"}
+{"global_ix": 12883, "sentence": "freeze my account for me", "label": "freeze_account"}
+{"global_ix": 14910, "sentence": "why would a hold have been placed on my checking account", "label": "account_blocked"}
+{"global_ix": 9205, "sentence": "is there a way to get my pin number", "label": "pin_change"}
+{"global_ix": 16393, "sentence": "can you put a block on my chase account right away", "label": "freeze_account"}
+{"global_ix": 11660, "sentence": "recite the items i'm planning to purchase", "label": "shopping_list"}
+{"global_ix": 18359, "sentence": "my account has been blocked, but i have no idea why", "label": "account_blocked"}
+{"global_ix": 4910, "sentence": "i want to report fraudulent activity on my discover card", "label": "report_fraud"}
+{"global_ix": 11342, "sentence": "let me know when the replacement card will arrive", "label": "replacement_card_duration"}
+{"global_ix": 6145, "sentence": "how much have i earned", "label": "income"}
+{"global_ix": 689, "sentence": "under the name zebee book a reservation at the xenophobe for 3", "label": "restaurant_reservation"}
+{"global_ix": 454, "sentence": "are you an actual human", "label": "are_you_a_bot"}
+{"global_ix": 5859, "sentence": "am i speaking with someone real", "label": "are_you_a_bot"}
+{"global_ix": 10747, "sentence": "would you please schedule a reservation for 2 at lucky's under the name sam at 7:30pm", "label": "restaurant_reservation"}
+{"global_ix": 6601, "sentence": "what are all the things on the shopping list", "label": "shopping_list"}
+{"global_ix": 7226, "sentence": "i'd like a reservation for 2 at olive garden for 5 pm today", "label": "restaurant_reservation"}
+{"global_ix": 11640, "sentence": "shut down my account", "label": "freeze_account"}
+{"global_ix": 20462, "sentence": "why is my bank account locked", "label": "account_blocked"}
+{"global_ix": 23434, "sentence": "what date will my card be here", "label": "replacement_card_duration"}
+{"global_ix": 19847, "sentence": "when can i expect my new card to get here", "label": "replacement_card_duration"}
+{"global_ix": 10883, "sentence": "what's the amount of my income", "label": "income"}
+{"global_ix": 13453, "sentence": "how much money am i making this year at work", "label": "income"}
+{"global_ix": 20706, "sentence": "reserve a table at tropicana for 5 people under the name martins for 8pm", "label": "restaurant_reservation"}
+{"global_ix": 13925, "sentence": "change my pin number for my checking account", "label": "pin_change"}
+{"global_ix": 4820, "sentence": "how can i find my routing number from bank of america", "label": "routing"}
+{"global_ix": 21057, "sentence": "i need more information about my income", "label": "income"}
+{"global_ix": 23382, "sentence": "why can't i log into my bank account", "label": "account_blocked"}
+{"global_ix": 13249, "sentence": "tell me if you are a human or a computer", "label": "are_you_a_bot"}
+{"global_ix": 20358, "sentence": "do you know whether you are a human or whether you're a computer", "label": "are_you_a_bot"}
+{"global_ix": 2120, "sentence": "what all is on my shopping list", "label": "shopping_list"}
+{"global_ix": 19199, "sentence": "i need a block placed right away on my joint checking account", "label": "freeze_account"}
+{"global_ix": 11001, "sentence": "can you help me remember my pin to my boa account", "label": "pin_change"}
+{"global_ix": 6788, "sentence": "change the pin on my wells fargo account to be 1234", "label": "pin_change"}
+{"global_ix": 3802, "sentence": "book room for me and her under the name kendra", "label": "restaurant_reservation"}
+{"global_ix": 13050, "sentence": "let me know chase's routing number", "label": "routing"}
+{"global_ix": 22661, "sentence": "i need a reservation at 8 on the 22nd of november at ruth's", "label": "restaurant_reservation"}
+{"global_ix": 15403, "sentence": "freeze my account immediately", "label": "freeze_account"}
+{"global_ix": 7444, "sentence": "i need to know what is on my shopping list", "label": "shopping_list"}
+{"global_ix": 12581, "sentence": "would you say that you are human or copmuter", "label": "are_you_a_bot"}
+{"global_ix": 1436, "sentence": "what date will my replacement card arrive on", "label": "replacement_card_duration"}
+{"global_ix": 16051, "sentence": "i think you are a bot", "label": "are_you_a_bot"}
+{"global_ix": 17225, "sentence": "why is there a hold on my charles swab account", "label": "account_blocked"}
+{"global_ix": 5674, "sentence": "is there milk on my shopping list", "label": "shopping_list"}
+{"global_ix": 2880, "sentence": "i need a reminder for my pin number", "label": "pin_change"}
+{"global_ix": 677, "sentence": "contact the bank about fraud activity on my card", "label": "report_fraud"}
+{"global_ix": 1116, "sentence": "how much do i take home yearly", "label": "income"}
+{"global_ix": 8564, "sentence": "help me get my pin on my capitol one account changed to 3892", "label": "pin_change"}
+{"global_ix": 392, "sentence": "\"disable my card account and contact company to report fraudulent activty", "label": "report_fraud"}
+{"global_ix": 20937, "sentence": "please make a reservation for us at joy bar for 4 adults", "label": "restaurant_reservation"}
+{"global_ix": 14638, "sentence": "what do i earn on average at my job", "label": "income"}
+{"global_ix": 16598, "sentence": "can you get me a table for 3 at olive garden at 7pm", "label": "restaurant_reservation"}
+{"global_ix": 20805, "sentence": "due to fraudulent activity on my card i need to make a report", "label": "report_fraud"}
+{"global_ix": 7887, "sentence": "i'd like to put a freeze on my bank account", "label": "freeze_account"}
+{"global_ix": 4046, "sentence": "block my citibank account right away", "label": "freeze_account"}
+{"global_ix": 4785, "sentence": "i forgot the pin number for my college fund account", "label": "pin_change"}
+{"global_ix": 20628, "sentence": "what do i take home", "label": "income"}
+{"global_ix": 114, "sentence": "i cannot remember what my pin is for my bank of america checking account this moment", "label": "pin_change"}
+{"global_ix": 4131, "sentence": "what's my routing number", "label": "routing"}
+{"global_ix": 14391, "sentence": "i suspect some suspicious activity", "label": "report_fraud"}
+{"global_ix": 15401, "sentence": "do you know where i can find my suntrust routing number", "label": "routing"}
+{"global_ix": 15509, "sentence": "what steps do i take if there is a transaction that i do not recognize on my navy federal credit union account", "label": "report_fraud"}
+{"global_ix": 12644, "sentence": "where is wells fargo's routing number listed", "label": "routing"}
+{"global_ix": 23433, "sentence": "tell me if you are human", "label": "are_you_a_bot"}
+{"global_ix": 1062, "sentence": "what is on the shopping list", "label": "shopping_list"}
+{"global_ix": 6107, "sentence": "how long before i can get a replacement card", "label": "replacement_card_duration"}
+{"global_ix": 23206, "sentence": "when will a replacement card get here", "label": "replacement_card_duration"}
+{"global_ix": 4737, "sentence": "what will i make this year", "label": "income"}
+{"global_ix": 4697, "sentence": "could you freeze my account now", "label": "freeze_account"}
+{"global_ix": 3803, "sentence": "what's my yearly income", "label": "income"}
+{"global_ix": 1800, "sentence": "can you please freeze my account", "label": "freeze_account"}
+{"global_ix": 20842, "sentence": "where do i find the routing number for sunflower bank", "label": "routing"}
+{"global_ix": 6263, "sentence": "did i put elbow noodles on the shopping list", "label": "shopping_list"}
+{"global_ix": 1604, "sentence": "i'm struggling to remind myself the pin number to my card", "label": "pin_change"}
+{"global_ix": 2678, "sentence": "i need details on my income", "label": "income"}
+{"global_ix": 15229, "sentence": "could you be a real person", "label": "are_you_a_bot"}
+{"global_ix": 2004, "sentence": "tell me how to retrieve my pin number", "label": "pin_change"}
+{"global_ix": 1287, "sentence": "are tomatoes on my shopping list", "label": "shopping_list"}
+{"global_ix": 9950, "sentence": "read me everything on my shopping list", "label": "shopping_list"}
+{"global_ix": 13857, "sentence": "how long does it take to replace a lost card", "label": "replacement_card_duration"}
+{"global_ix": 16697, "sentence": "could you please tell me, my wells fargo account, is there a hold and why", "label": "account_blocked"}
+{"global_ix": 6634, "sentence": "how much money do i make at my job", "label": "income"}
+{"global_ix": 3002, "sentence": "are you a real person or artificial intelligence", "label": "are_you_a_bot"}
+{"global_ix": 10141, "sentence": "tell me what i have on my shopping list", "label": "shopping_list"}

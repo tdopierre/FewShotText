@@ -1,0 +1,4 @@
+.envrc
+.venv
+.idea
+**/__pycache__

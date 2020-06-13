@@ -68,8 +68,6 @@ class BaselineNet(nn.Module):
             optimizer = torch.optim.Adam(list(self.parameters()) + list(training_classifier.parameters()), lr=2e-5)
 
         n_samples = len(training_data_list)
-        loss = None
-        acc = None
         loss_fn = nn.CrossEntropyLoss()
         global_step = 0
 
@@ -99,6 +97,7 @@ class BaselineNet(nn.Module):
 
                 global_step += 1
                 training_losses.append(loss.item())
+                training_accuracies.append(acc.item())
                 if (global_step % log_every) == 0:
                     if summary_writer:
                         summary_writer.add_scalar(tag="loss", global_step=global_step, scalar_value=np.mean(training_losses))
@@ -106,11 +105,6 @@ class BaselineNet(nn.Module):
                     # Empty metrics
                     training_losses = list()
                     training_accuracies = list()
-
-        return {
-            "loss": loss.item(),
-            "acc": acc.item()
-        }
 
     def test_one_episode(
             self,
@@ -150,7 +144,7 @@ class BaselineNet(nn.Module):
 
             batch = support_data_list[iteration * batch_size: iteration * batch_size + batch_size]
             batch_sentences = [d['sentence'] for d in batch]
-            batch_labels = torch.Tensor([class_to_ix[d['label']] for d in batch]).float().to(device)
+            batch_labels = torch.Tensor([class_to_ix[d['label']] for d in batch]).long().to(device)
             z = self.encoder(batch_sentences)
 
             if self.is_pp:
@@ -158,10 +152,9 @@ class BaselineNet(nn.Module):
             else:
                 z = self.dropout(z)
                 z = episode_classifier(z)
-                query
 
             loss = loss_fn(input=z, target=batch_labels)
-            acc = (z.argmax(1) == batch_labels).item()
+            acc = (z.argmax(1) == batch_labels).float().mean()
             loss.backward()
             optimizer.step()
 
@@ -173,7 +166,7 @@ class BaselineNet(nn.Module):
         self.eval()
         episode_classifier.eval()
         query_data_list = [{"sentence": sentence, "label": label} for label, sentences in query_data_dict.items() for sentence in sentences]
-        query_labels = torch.Tensor([class_to_ix[d['label']] for d in query_data_list]).float().to(device)
+        query_labels = torch.Tensor([class_to_ix[d['label']] for d in query_data_list]).long().to(device)
         logits = list()
         with torch.no_grad():
             for ix in range(len(query_data_list), 16):
@@ -191,7 +184,7 @@ class BaselineNet(nn.Module):
         y_hat = logits.argmax(1)
 
         loss = loss_fn(input=logits, target=query_labels)
-        acc = (y_hat == torch.Tensor(query_labels).float())
+        acc = y_hat == torch.Tensor(query_labels).float().mean()
 
         return {
             "loss": loss.item(),
@@ -209,7 +202,7 @@ class BaselineNet(nn.Module):
         test_metrics = list()
 
         for episode in tqdm.tqdm(range(n_episodes)):
-            episode_classes = np.random.choice(data_dict.keys(), size=n_classes, replace=False)
+            episode_classes = np.random.choice(list(data_dict.keys()), size=n_classes, replace=False)
             episode_query_data_dict = dict()
             episode_support_data_dict = dict()
 

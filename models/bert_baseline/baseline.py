@@ -68,7 +68,6 @@ class BaselineNet(nn.Module):
             optimizer = torch.optim.Adam(list(self.parameters()) + list(training_classifier.parameters()), lr=2e-5)
 
         n_samples = len(training_data_list)
-
         loss = None
         acc = None
         loss_fn = nn.CrossEntropyLoss()
@@ -80,13 +79,13 @@ class BaselineNet(nn.Module):
 
         for _ in tqdm.tqdm(range(n_epoch)):
             random.shuffle(training_data_list)
-            for ix in tqdm.tqdm(range(n_samples, batch_size)):
+            for ix in tqdm.tqdm(range(0, n_samples, batch_size)):
                 optimizer.zero_grad()
                 torch.cuda.empty_cache()
 
                 batch_items = training_data_list[ix:ix + batch_size]
                 batch_sentences = [d['sentence'] for d in batch_items]
-                batch_labels = torch.Tensor([class_to_ix[d['label']] for d in batch_items]).float().to(device)
+                batch_labels = torch.Tensor([class_to_ix[d['label']] for d in batch_items]).long().to(device)
                 z = self.encoder(batch_sentences)
                 if self.is_pp:
                     z = cosine_similarity(z, training_matrix) * 5
@@ -94,7 +93,7 @@ class BaselineNet(nn.Module):
                     z = self.dropout(z)
                     z = training_classifier(z)
                 loss = loss_fn(input=z, target=batch_labels)
-                acc = (z.argmax(1) == batch_labels).item()
+                acc = (z.argmax(1) == batch_labels).float().mean()
                 loss.backward()
                 optimizer.step()
 

@@ -169,7 +169,7 @@ class BaselineNet(nn.Module):
         query_labels = torch.Tensor([class_to_ix[d['label']] for d in query_data_list]).long().to(device)
         logits = list()
         with torch.no_grad():
-            for ix in range(len(query_data_list), 16):
+            for ix in range(0, len(query_data_list), 16):
                 batch = query_data_list[ix:ix + 16]
                 batch_sentences = [d['sentence'] for d in batch]
                 z = self.encoder(batch_sentences)

@@ -184,7 +184,7 @@ class BaselineNet(nn.Module):
         y_hat = logits.argmax(1)
 
         loss = loss_fn(input=logits, target=query_labels)
-        acc = y_hat == torch.Tensor(query_labels).float().mean()
+        acc = (y_hat == query_labels).float().mean()
 
         return {
             "loss": loss.item(),

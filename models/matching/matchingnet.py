@@ -247,7 +247,7 @@ def run_matching(
                 ):
                     if path:
                         set_results = matching_net.test_step(
-                            data_dict=train_data_dict,
+                            data_dict=set_data,
                             n_support=n_support,
                             n_query=n_query,
                             n_classes=n_classes,

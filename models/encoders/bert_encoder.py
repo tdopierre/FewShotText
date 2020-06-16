@@ -24,7 +24,7 @@ class BERTEncoder(nn.Module):
         logger.info(f"Encoder loaded.")
 
     def forward(self, sentences: List[str]):
-        batch_size = 2
+        batch_size = 16
         if len(sentences) > batch_size:
             return torch.cat([self.forward(sentences[i:i + batch_size]) for i in range(0, len(sentences), batch_size)], 0)
         encoded_plus = [self.tokenizer.encode_plus(s, max_length=256) for s in sentences]

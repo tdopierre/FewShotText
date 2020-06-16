@@ -61,7 +61,7 @@ class BaselineNet(nn.Module):
         training_classifier = None
 
         if self.is_pp:
-            training_matrix = torch.nn.Parameter(torch.randn(n_training_classes, self.hidden_dim))
+            training_matrix = torch.randn(n_training_classes, self.hidden_dim, requires_grad=True, device=device)
             optimizer = torch.optim.Adam(list(self.parameters()) + [training_matrix], lr=2e-5)
         else:
             training_classifier = nn.Linear(in_features=self.hidden_dim, out_features=n_training_classes).to(device)
@@ -115,6 +115,9 @@ class BaselineNet(nn.Module):
             summary_writer: SummaryWriter = None,
             summary_tag_prefix: str = None):
 
+        # todo remove
+        n_iter = n_iter * 3
+
         # Check data integrity
         assert set(support_data_dict.keys()) == set(query_data_dict.keys())
 
@@ -125,22 +128,22 @@ class BaselineNet(nn.Module):
         n_episode_classes = len(episode_classes)
         class_to_ix = {c: ix for ix, c in enumerate(episode_classes)}
         support_data_list = [{"sentence": sentence, "label": label} for label, sentences in support_data_dict.items() for sentence in sentences]
-        support_data_list = (support_data_list * 400)[:400]
+        support_data_list = (support_data_list * batch_size * n_iter)[:(batch_size * n_iter)]
 
         loss_fn = nn.CrossEntropyLoss()
         episode_matrix = None
         episode_classifier = None
         if self.is_pp:
-            episode_matrix = torch.nn.Parameter(torch.randn(n_episode_classes, self.hidden_dim))
-            optimizer = torch.optim.Adam(list(self.parameters()) + [episode_matrix], lr=1e-3)
+            episode_matrix = torch.randn(n_episode_classes, self.hidden_dim, requires_grad=True, device=device)
+            optimizer = torch.optim.Adam([episode_matrix], lr=1e-3)
         else:
             episode_classifier = nn.Linear(in_features=self.hidden_dim, out_features=n_episode_classes).to(device)
-            optimizer = torch.optim.Adam(list(self.parameters()) + list(episode_classifier.parameters()), lr=1e-3)
+            optimizer = torch.optim.Adam(list(episode_classifier.parameters()), lr=1e-3)
 
             # Train on support
-        for iteration in range(n_iter):
+        iter_bar = tqdm.tqdm(range(n_iter))
+        for iteration in iter_bar:
             optimizer.zero_grad()
-            torch.cuda.empty_cache()
 
             batch = support_data_list[iteration * batch_size: iteration * batch_size + batch_size]
             batch_sentences = [d['sentence'] for d in batch]
@@ -157,6 +160,7 @@ class BaselineNet(nn.Module):
             acc = (z.argmax(1) == batch_labels).float().mean()
             loss.backward()
             optimizer.step()
+            iter_bar.set_description(f"{loss.item():.3f} | {acc.item():.3f}")
 
             if summary_writer:
                 summary_writer.add_scalar(tag=f'{summary_tag_prefix}_loss', global_step=iteration, scalar_value=loss.item())
@@ -164,7 +168,9 @@ class BaselineNet(nn.Module):
 
         # Predict on query
         self.eval()
-        episode_classifier.eval()
+        if not self.is_pp:
+            episode_classifier.eval()
+
         query_data_list = [{"sentence": sentence, "label": label} for label, sentences in query_data_dict.items() for sentence in sentences]
         query_labels = torch.Tensor([class_to_ix[d['label']] for d in query_data_list]).long().to(device)
         logits = list()
@@ -216,6 +222,7 @@ class BaselineNet(nn.Module):
                 query_data_dict=episode_query_data_dict,
 
             )
+            logger.info(f"Episode metrics: {episode_metrics}")
             test_metrics.append(episode_metrics)
             for metric_name, metric_value in episode_metrics.items():
                 summary_writer.add_scalar(tag=metric_name, global_step=episode, scalar_value=metric_value)
@@ -234,7 +241,8 @@ def run_baseline(
         n_test_episodes: int = 600,
         log_every: int = 10,
         n_train_epoch: int = 400,
-        train_batch_size: int = 16
+        train_batch_size: int = 16,
+        is_pp: bool = False
 ):
     if output_path:
         if os.path.exists(output_path):
@@ -271,7 +279,7 @@ def run_baseline(
 
     # Load model
     bert = BERTEncoder(model_name_or_path).to(device)
-    baseline_net = BaselineNet(encoder=bert).to(device)
+    baseline_net = BaselineNet(encoder=bert, is_pp=is_pp).to(device)
 
     # Load data
     train_data = get_jsonl_data(train_path)
@@ -342,6 +350,9 @@ def main():
     parser.add_argument("--n-train-epoch", type=int, default=400, help="Number of epoch during training")
     parser.add_argument("--train-batch-size", type=int, default=16, help="Batch size used during training")
 
+    # Baseline++
+    parser.add_argument("--pp", default=False, action="store_true", help="Boolean to use the ++ baseline model")
+
     args = parser.parse_args()
 
     # Set random seed
@@ -366,7 +377,8 @@ def main():
         n_test_episodes=args.n_test_episodes,
         log_every=args.log_every,
         n_train_epoch=args.n_train_epoch,
-        train_batch_size=args.train_batch_size
+        train_batch_size=args.train_batch_size,
+        is_pp=args.pp
     )
 
     # Save config

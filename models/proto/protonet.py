@@ -312,7 +312,7 @@ def run_proto(
                 ):
                     if path:
                         set_results = protonet.test_step(
-                            data_dict=train_data_dict,
+                            data_dict=set_data,
                             n_unlabeled=refined,
                             n_support=n_support,
                             n_query=n_query,

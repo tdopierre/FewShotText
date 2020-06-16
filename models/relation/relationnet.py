@@ -66,7 +66,7 @@ class RelationNet(nn.Module):
 
         # Declare relation module
         if not self.relation_module:
-            self.relation_module = RelationModule(input_dim=z_dim * 2)
+            self.relation_module = RelationModule(input_dim=z_dim * 2).to(device)
 
         z_query = z[n_class * n_support:]
         z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
@@ -77,7 +77,7 @@ class RelationNet(nn.Module):
         ), dim=1)
 
         relation_module_scores = self.relation_module(concatenated).view(-1, n_class)
-        true_labels = torch.zeros_like(relation_module_scores).view(-1, n_class)
+        true_labels = torch.zeros_like(relation_module_scores).view(-1, n_class).to(device)
 
         for ix_class, class_query_sentences in enumerate(xq):
             for ix_sentence, sentence in enumerate(class_query_sentences):

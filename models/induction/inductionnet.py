@@ -204,7 +204,6 @@ def run_induction(
         early_stop: int = None,
         n_test_episodes: int = 1000,
         log_every: int = 10,
-        relation_module_type: str = "base",
         ntl_n_slices: int = 100,
         n_routing_iter: int = 3
 ):
@@ -245,7 +244,6 @@ def run_induction(
     bert = BERTEncoder(model_name_or_path).to(device)
     matching_net = InductionNet(
         encoder=bert,
-        relation_module_type=relation_module_type,
         ntl_n_slices=ntl_n_slices,
         n_routing_iter=n_routing_iter
     )
@@ -379,7 +377,6 @@ def main():
     parser.add_argument("--n-test-episodes", type=int, default=1000, help="Number of episodes during evaluation (valid, test)")
 
     # Relation Network-specific
-    parser.add_argument("--relation-module-type", type=str, required=True, help="Which relation module to use")
     parser.add_argument("--ntl-n-slices", type=int, default=100, help="Number of matrices to use in NTL")
     parser.add_argument("--n-routing-iter", type=int, default=3, help="Number of routing iterations in the induction module")
 
@@ -408,9 +405,7 @@ def main():
         n_test_episodes=args.n_test_episodes,
 
         max_iter=args.max_iter,
-        evaluate_every=args.evaluate_every,
-
-        relation_module_type=args.relation_module_type,
+        evaluate_every=args.evaluate_every
     )
 
     # Save config

@@ -25,7 +25,7 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 
 
 class InductionNet(nn.Module):
-    def __init__(self, encoder, hidden_dim: int, ntl_n_slices: int = 100, n_routing_iter: int = 3):
+    def __init__(self, encoder, hidden_dim: int = 768, ntl_n_slices: int = 100, n_routing_iter: int = 3):
         super(InductionNet, self).__init__()
 
         self.encoder = encoder

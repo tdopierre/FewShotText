@@ -206,7 +206,7 @@ def run_proto(
         log_every: int = 10,
 ):
     if output_path:
-        if os.path.exists(output_path):
+        if os.path.exists(output_path) and len(os.listdir(output_path)):
             raise FileExistsError(f"Output path {output_path} already exists. Exiting.")
 
     # --------------------

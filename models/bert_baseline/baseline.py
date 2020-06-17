@@ -111,12 +111,9 @@ class BaselineNet(nn.Module):
             support_data_dict: Dict[str, List[str]],
             query_data_dict: Dict[str, List[str]],
             batch_size: int = 4,
-            n_iter: int = 100,
+            n_iter: int = 1000,
             summary_writer: SummaryWriter = None,
             summary_tag_prefix: str = None):
-
-        # todo remove
-        n_iter = n_iter * 3
 
         # Check data integrity
         assert set(support_data_dict.keys()) == set(query_data_dict.keys())
@@ -203,7 +200,9 @@ class BaselineNet(nn.Module):
             n_support: int,
             n_classes: int,
             n_episodes=600,
-            summary_writer: SummaryWriter = None
+            summary_writer: SummaryWriter = None,
+            n_test_iter: int = 100,
+            test_batch_size: int = 4
     ):
         test_metrics = list()
 
@@ -220,7 +219,8 @@ class BaselineNet(nn.Module):
             episode_metrics = self.test_one_episode(
                 support_data_dict=episode_support_data_dict,
                 query_data_dict=episode_query_data_dict,
-
+                n_iter=n_test_iter,
+                batch_size=test_batch_size
             )
             logger.info(f"Episode metrics: {episode_metrics}")
             test_metrics.append(episode_metrics)
@@ -242,10 +242,12 @@ def run_baseline(
         log_every: int = 10,
         n_train_epoch: int = 400,
         train_batch_size: int = 16,
-        is_pp: bool = False
+        is_pp: bool = False,
+        test_batch_size: int = 4,
+        n_test_iter: int = 100
 ):
     if output_path:
-        if os.path.exists(output_path):
+        if os.path.exists(output_path) and len(os.listdir(output_path)):
             raise FileExistsError(f"Output path {output_path} already exists. Exiting.")
 
     # --------------------
@@ -314,7 +316,9 @@ def run_baseline(
         n_support=n_support,
         n_classes=n_classes,
         n_episodes=n_test_episodes,
-        summary_writer=valid_writer
+        summary_writer=valid_writer,
+        n_test_iter=n_test_iter,
+        test_batch_size=test_batch_size
     )
 
     # Test
@@ -349,6 +353,8 @@ def main():
     parser.add_argument("--n-test-episodes", type=int, default=600, help="Number of episodes during evaluation (valid, test)")
     parser.add_argument("--n-train-epoch", type=int, default=400, help="Number of epoch during training")
     parser.add_argument("--train-batch-size", type=int, default=16, help="Batch size used during training")
+    parser.add_argument("--n-test-iter", type=int, default=100, help="Number of training iterations during testing episodes")
+    parser.add_argument("--test-batch-size", type=int, default=4, help="Batch size used during training")
 
     # Baseline++
     parser.add_argument("--pp", default=False, action="store_true", help="Boolean to use the ++ baseline model")
@@ -378,7 +384,10 @@ def main():
         log_every=args.log_every,
         n_train_epoch=args.n_train_epoch,
         train_batch_size=args.train_batch_size,
-        is_pp=args.pp
+        is_pp=args.pp,
+
+        test_batch_size=args.test_batch_size,
+        n_test_iter=args.n_test_iter
     )
 
     # Save config

@@ -5,7 +5,7 @@ from utils.python import now, set_seeds
 import random
 import collections
 import os
-from typing import List, Dict
+from typing import List, Dict, Union
 from tensorboardX import SummaryWriter
 import numpy as np
 from models.encoders.bert_encoder import BERTEncoder
@@ -28,11 +28,13 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 
 
 class RelationNet(nn.Module):
-    def __init__(self, encoder):
+    def __init__(self, encoder, relation_module_type: str = "base", ntl_n_slices: int = 100):
         super(RelationNet, self).__init__()
 
         self.encoder = encoder
-        self.relation_module = None  # Will be declared at first pass
+        self.relation_module: Union[RelationModule, NTLRelationModule] = None  # Union
+        self.relation_module_type = relation_module_type
+        self.ntl_n_slices = ntl_n_slices
 
     def loss(self, sample):
         """
@@ -66,18 +68,18 @@ class RelationNet(nn.Module):
 
         # Declare relation module
         if not self.relation_module:
-            self.relation_module = RelationModule(input_dim=z_dim * 2).to(device)
+            if self.relation_module_type == "base":
+                self.relation_module = RelationModule(input_dim=z_dim).to(device)
+            elif self.relation_module_type == "ntl":
+                self.relation_module = NTLRelationModule(input_dim=z_dim, n_slice=self.ntl_n_slices).to(device)
+            else:
+                raise NotImplementedError(f"relation module type {self.relation_module_type} not implemented.")
 
         z_query = z[n_class * n_support:]
         z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
 
-        concatenated = torch.cat((
-            z_query.repeat(1, n_class).view(-1, z_query.size(-1)),
-            z_proto.repeat(n_query * n_class, 1)
-        ), dim=1)
-
-        relation_module_scores = self.relation_module(concatenated).view(-1, n_class)
-        true_labels = torch.zeros_like(relation_module_scores).view(-1, n_class).to(device)
+        relation_module_scores = self.relation_module.forward(z_q=z_query, z_c=z_proto)
+        true_labels = torch.zeros_like(relation_module_scores).to(device)
 
         for ix_class, class_query_sentences in enumerate(xq):
             for ix_sentence, sentence in enumerate(class_query_sentences):
@@ -140,16 +142,46 @@ class RelationModule(nn.Module):
     def __init__(self, input_dim):
         super(RelationModule, self).__init__()
         self.fc1 = nn.Sequential(
-            nn.Linear(in_features=input_dim, out_features=input_dim // 2),
+            nn.Linear(in_features=input_dim * 2, out_features=input_dim),
             nn.ReLU(),
             nn.Dropout(p=0.25)
         )
         self.fc2 = nn.Sequential(
-            nn.Linear(in_features=input_dim // 2, out_features=1)
+            nn.Linear(in_features=input_dim, out_features=1)
         )
 
-    def forward(self, x):
-        return self.fc2(self.fc1(x)).flatten()
+    def forward(self, z_q, z_c):
+        n_class = z_c.size(0)
+        n_query = z_q.size(0)
+        concatenated = torch.cat((
+            z_q.repeat(1, n_class).view(-1, z_q.size(-1)),
+            z_c.repeat(n_query, 1)
+        ), dim=1)
+
+        return self.fc2(self.fc1(concatenated)).view(n_query, n_class)
+
+
+class NTLRelationModule(nn.Module):
+    def __init__(self, input_dim, n_slice=100):
+        super(NTLRelationModule, self).__init__()
+        self.n_slice = n_slice
+        import numpy as np
+        M = np.random.randn(n_slice, input_dim, input_dim)
+        M = M / np.linalg.norm(M, axis=(1, 2))[:, None, None]
+        self.M = torch.Tensor(M).to(device)
+        self.M.requires_grad = True
+        self.dropout = nn.Dropout(p=0.25)
+        # self.M = torch.randn(n_slice, input_dim, input_dim, requires_grad=True, device=device)
+        # self.M = self.M / self.M.norm(dim=0)
+        self.fc = nn.Linear(n_slice, 1)
+
+    def forward(self, z_q, z_c):
+        n_query = z_q.size(0)
+        n_class = z_c.size(0)
+
+        v = self.dropout(nn.ReLU()(torch.cat([(z_q @ m @ z_c.T).unsqueeze(-1) for m in self.M], dim=-1).view(-1, self.n_slice)))
+        r_logit = self.fc(v).view(n_query, n_class)
+        return r_logit
 
 
 def run_relation(
@@ -166,9 +198,11 @@ def run_relation(
         early_stop: int = None,
         n_test_episodes: int = 1000,
         log_every: int = 10,
+        relation_module_type: str = "base",
+        ntl_n_slices: int = 100
 ):
     if output_path:
-        if os.path.exists(output_path):
+        if os.path.exists(output_path) and len(os.listdir(output_path)):
             raise FileExistsError(f"Output path {output_path} already exists. Exiting.")
 
     # --------------------
@@ -202,7 +236,7 @@ def run_relation(
 
     # Load model
     bert = BERTEncoder(model_name_or_path).to(device)
-    matching_net = RelationNet(encoder=bert)
+    matching_net = RelationNet(encoder=bert, relation_module_type=relation_module_type)
     optimizer = torch.optim.Adam(matching_net.parameters(), lr=2e-5)
 
     # Load data
@@ -273,7 +307,7 @@ def run_relation(
                 ):
                     if path:
                         set_results = matching_net.test_step(
-                            data_dict=train_data_dict,
+                            data_dict=set_data,
                             n_support=n_support,
                             n_query=n_query,
                             n_classes=n_classes,
@@ -332,6 +366,10 @@ def main():
     parser.add_argument("--n-classes", type=int, help="Number of classes per episode", required=True)
     parser.add_argument("--n-test-episodes", type=int, default=1000, help="Number of episodes during evaluation (valid, test)")
 
+    # Relation Network-specific
+    parser.add_argument("--relation-module-type", type=str, required=True, help="Which relation module to use")
+    parser.add_argument("--ntl-n-slices", type=int, default=100, help="Number of matrices to use in NTL")
+
     args = parser.parse_args()
 
     # Set random seed
@@ -358,6 +396,8 @@ def main():
 
         max_iter=args.max_iter,
         evaluate_every=args.evaluate_every,
+
+        relation_module_type=args.relation_module_type
     )
 
     # Save config

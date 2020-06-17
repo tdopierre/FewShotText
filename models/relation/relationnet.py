@@ -28,13 +28,21 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 
 
 class RelationNet(nn.Module):
-    def __init__(self, encoder, relation_module_type: str = "base", ntl_n_slices: int = 100):
+    def __init__(self, encoder, hidden_dim: int, relation_module_type: str = "base", ntl_n_slices: int = 100):
         super(RelationNet, self).__init__()
 
         self.encoder = encoder
-        self.relation_module: Union[RelationModule, NTLRelationModule] = None  # Union
         self.relation_module_type = relation_module_type
         self.ntl_n_slices = ntl_n_slices
+        self.hidden_dim = hidden_dim
+
+        # Declare relation module
+        if self.relation_module_type == "base":
+            self.relation_module = RelationModule(input_dim=hidden_dim).to(device)
+        elif self.relation_module_type == "ntl":
+            self.relation_module = NTLRelationModule(input_dim=hidden_dim, n_slice=self.ntl_n_slices).to(device)
+        else:
+            raise NotImplementedError(f"relation module type {self.relation_module_type} not implemented.")
 
     def loss(self, sample):
         """
@@ -65,15 +73,6 @@ class RelationNet(nn.Module):
         x = [item for xs_ in xs for item in xs_] + [item for xq_ in xq for item in xq_]
         z = self.encoder.forward(x)
         z_dim = z.size(-1)
-
-        # Declare relation module
-        if not self.relation_module:
-            if self.relation_module_type == "base":
-                self.relation_module = RelationModule(input_dim=z_dim).to(device)
-            elif self.relation_module_type == "ntl":
-                self.relation_module = NTLRelationModule(input_dim=z_dim, n_slice=self.ntl_n_slices).to(device)
-            else:
-                raise NotImplementedError(f"relation module type {self.relation_module_type} not implemented.")
 
         z_query = z[n_class * n_support:]
         z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
@@ -165,14 +164,11 @@ class NTLRelationModule(nn.Module):
     def __init__(self, input_dim, n_slice=100):
         super(NTLRelationModule, self).__init__()
         self.n_slice = n_slice
-        import numpy as np
         M = np.random.randn(n_slice, input_dim, input_dim)
         M = M / np.linalg.norm(M, axis=(1, 2))[:, None, None]
         self.M = torch.Tensor(M).to(device)
         self.M.requires_grad = True
         self.dropout = nn.Dropout(p=0.25)
-        # self.M = torch.randn(n_slice, input_dim, input_dim, requires_grad=True, device=device)
-        # self.M = self.M / self.M.norm(dim=0)
         self.fc = nn.Linear(n_slice, 1)
 
     def forward(self, z_q, z_c):
@@ -236,7 +232,7 @@ def run_relation(
 
     # Load model
     bert = BERTEncoder(model_name_or_path).to(device)
-    matching_net = RelationNet(encoder=bert, relation_module_type=relation_module_type)
+    matching_net = RelationNet(encoder=bert, relation_module_type=relation_module_type, ntl_n_slices=ntl_n_slices)
     optimizer = torch.optim.Adam(matching_net.parameters(), lr=2e-5)
 
     # Load data
@@ -397,7 +393,8 @@ def main():
         max_iter=args.max_iter,
         evaluate_every=args.evaluate_every,
 
-        relation_module_type=args.relation_module_type
+        relation_module_type=args.relation_module_type,
+        ntl_n_slices=args.ntl_n_slices
     )
 
     # Save config

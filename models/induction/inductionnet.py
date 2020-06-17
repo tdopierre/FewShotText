@@ -20,6 +20,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 warnings.simplefilter('ignore')
+torch.autograd.set_detect_anomaly(True)
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
@@ -151,17 +152,16 @@ class InductionModule(nn.Module):
         :param z_s: embedding of support samples, shape=(C, K, hidden_dim)
         :return:
         """
-        C, K, _ = z_s.size()
+        C, K, hidden_dim = z_s.size()
         class_representatives: List[torch.Tensor] = list()
 
         for i in range(C):
-            z = z_s[i]
-            z_squashed = self.squash(z)
-            b_i = torch.zeros(K).to(device)
-            c_i = None
+            z_squashed = self.squash(z_s[i])
+            b_i = torch.autograd.Variable(torch.zeros(K)).to(device)
             for iteration in range(self.n_routing_iter):
-                d_i = nn.Softmax(dim=-1)(b_i)
-                c_i = d_i @ z_squashed
+
+                d_i = b_i.clone().softmax(dim=-1)
+                c_i = torch.matmul(d_i, z_squashed)
                 c_i = self.squash(c_i.view(1, -1))
                 b_i += (z_squashed @ c_i.view(-1, 1)).view(-1)
 
@@ -405,7 +405,9 @@ def main():
         n_test_episodes=args.n_test_episodes,
 
         max_iter=args.max_iter,
-        evaluate_every=args.evaluate_every
+        evaluate_every=args.evaluate_every,
+        n_routing_iter=args.n_routing_iter,
+        ntl_n_slices=args.ntl_n_slices
     )
 
     # Save config

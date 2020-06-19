@@ -124,6 +124,7 @@ class BaselineNet(nn.Module):
         episode_classes = sorted(set(support_data_dict.keys()))
         n_episode_classes = len(episode_classes)
         class_to_ix = {c: ix for ix, c in enumerate(episode_classes)}
+        ix_to_class = {ix: c for ix, c in enumerate(episode_classes)}
         support_data_list = [{"sentence": sentence, "label": label} for label, sentences in support_data_dict.items() for sentence in sentences]
         support_data_list = (support_data_list * batch_size * n_iter)[:(batch_size * n_iter)]
 
@@ -311,30 +312,31 @@ def run_baseline(
     )
 
     # Validation
-    validation_metrics = baseline_net.test_model(
-        data_dict=valid_data_dict,
-        n_support=n_support,
-        n_classes=n_classes,
-        n_episodes=n_test_episodes,
-        summary_writer=valid_writer,
-        n_test_iter=n_test_iter,
-        test_batch_size=test_batch_size
-    )
-
+    if valid_path:
+        validation_metrics = baseline_net.test_model(
+            data_dict=valid_data_dict,
+            n_support=n_support,
+            n_classes=n_classes,
+            n_episodes=n_test_episodes,
+            summary_writer=valid_writer,
+            n_test_iter=n_test_iter,
+            test_batch_size=test_batch_size
+        )
+        with open(os.path.join(output_path, 'validation_metrics.json'), "w") as file:
+            json.dump(validation_metrics, file, ensure_ascii=False)
     # Test
-    test_metrics = baseline_net.test_model(
-        data_dict=test_data_dict,
-        n_support=n_support,
-        n_classes=n_classes,
-        n_episodes=n_test_episodes,
-        summary_writer=test_writer
-    )
+    if test_path:
+        test_metrics = baseline_net.test_model(
+            data_dict=test_data_dict,
+            n_support=n_support,
+            n_classes=n_classes,
+            n_episodes=n_test_episodes,
+            summary_writer=test_writer
+        )
 
-    with open(os.path.join(output_path, 'validation_metrics.json'), "w") as file:
-        json.dump(validation_metrics, file, ensure_ascii=False)
-    with open(os.path.join(output_path, 'test_metrics.json'), "w") as file:
-        json.dump(test_metrics, file, ensure_ascii=False)
-
+        with open(os.path.join(output_path, 'test_metrics.json'), "w") as file:
+            json.dump(test_metrics, file, ensure_ascii=False)
+    
 
 def main():
     parser = argparse.ArgumentParser()

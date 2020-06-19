@@ -27,7 +27,7 @@ class BERTEncoder(nn.Module):
         batch_size = 16
         if len(sentences) > batch_size:
             return torch.cat([self.forward(sentences[i:i + batch_size]) for i in range(0, len(sentences), batch_size)], 0)
-        encoded_plus = [self.tokenizer.encode_plus(s, max_length=256) for s in sentences]
+        encoded_plus = [self.tokenizer.encode_plus(s, max_length=128) for s in sentences]
         max_len = max([len(e['input_ids']) for e in encoded_plus])
 
         input_ids = list()

@@ -35,13 +35,16 @@ class BaselineNet(nn.Module):
             self,
             encoder,
             is_pp: bool = False,
-            hidden_dim: int = 768
+            hidden_dim: int = 768,
+            metric: str = "cosine"
     ):
         super(BaselineNet, self).__init__()
         self.encoder = encoder
         self.dropout = nn.Dropout(p=0.25).to(device)
         self.is_pp = is_pp
         self.hidden_dim = hidden_dim
+        self.metric = metric
+        assert self.metric in ("euclidean", "cosine")
 
     def train_model(
             self,
@@ -86,7 +89,12 @@ class BaselineNet(nn.Module):
                 batch_labels = torch.Tensor([class_to_ix[d['label']] for d in batch_items]).long().to(device)
                 z = self.encoder(batch_sentences)
                 if self.is_pp:
-                    z = cosine_similarity(z, training_matrix) * 5
+                    if self.metric == "cosine":
+                        z = cosine_similarity(z, training_matrix) * 5
+                    elif self.metric == "euclidean":
+                        z = -euclidean_dist(z, training_matrix)
+                    else:
+                        raise NotImplementedError
                 else:
                     z = self.dropout(z)
                     z = training_classifier(z)
@@ -110,10 +118,12 @@ class BaselineNet(nn.Module):
             self,
             support_data_dict: Dict[str, List[str]],
             query_data_dict: Dict[str, List[str]],
+            sentence_to_embedding_dict: Dict,
             batch_size: int = 4,
             n_iter: int = 1000,
             summary_writer: SummaryWriter = None,
-            summary_tag_prefix: str = None):
+            summary_tag_prefix: str = None,
+    ):
 
         # Check data integrity
         assert set(support_data_dict.keys()) == set(query_data_dict.keys())
@@ -132,24 +142,40 @@ class BaselineNet(nn.Module):
         episode_matrix = None
         episode_classifier = None
         if self.is_pp:
-            episode_matrix = torch.randn(n_episode_classes, self.hidden_dim, requires_grad=True, device=device)
+            init_matrix = np.array([
+                [
+                    sentence_to_embedding_dict[sentence].ravel()
+                    for sentence in support_data_dict[ix_to_class[c]]
+                ]
+                for c in range(n_episode_classes)
+            ]).mean(1)
+
+            episode_matrix = torch.Tensor(init_matrix).to(device)
+            episode_matrix.requires_grad = True
             optimizer = torch.optim.Adam([episode_matrix], lr=1e-3)
         else:
             episode_classifier = nn.Linear(in_features=self.hidden_dim, out_features=n_episode_classes).to(device)
             optimizer = torch.optim.Adam(list(episode_classifier.parameters()), lr=1e-3)
 
-            # Train on support
+        # Train on support
         iter_bar = tqdm.tqdm(range(n_iter))
         for iteration in iter_bar:
             optimizer.zero_grad()
 
             batch = support_data_list[iteration * batch_size: iteration * batch_size + batch_size]
             batch_sentences = [d['sentence'] for d in batch]
+            batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in batch_sentences]).squeeze().to(device)
             batch_labels = torch.Tensor([class_to_ix[d['label']] for d in batch]).long().to(device)
-            z = self.encoder(batch_sentences)
+            # z = self.encoder(batch_sentences)
+            z = batch_embeddings
 
             if self.is_pp:
-                z = cosine_similarity(z, episode_matrix) * 5
+                if self.metric == "cosine":
+                    z = cosine_similarity(z, episode_matrix) * 5
+                elif self.metric == "euclidean":
+                    z = -euclidean_dist(z, episode_matrix)
+                else:
+                    raise NotImplementedError
             else:
                 z = self.dropout(z)
                 z = episode_classifier(z)
@@ -176,10 +202,17 @@ class BaselineNet(nn.Module):
             for ix in range(0, len(query_data_list), 16):
                 batch = query_data_list[ix:ix + 16]
                 batch_sentences = [d['sentence'] for d in batch]
-                z = self.encoder(batch_sentences)
+                batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in batch_sentences]).squeeze().to(device)
+                # z = self.encoder(batch_sentences)
+                z = batch_embeddings
 
                 if self.is_pp:
-                    z = cosine_similarity(z, episode_matrix) * 5
+                    if self.metric == "cosine":
+                        z = cosine_similarity(z, episode_matrix) * 5
+                    elif self.metric == "euclidean":
+                        z = -euclidean_dist(z, episode_matrix)
+                    else:
+                        raise NotImplementedError
                 else:
                     z = episode_classifier(z)
 
@@ -207,6 +240,12 @@ class BaselineNet(nn.Module):
     ):
         test_metrics = list()
 
+        # Freeze encoder
+        self.encoder.eval()
+        logger.info("Embedding sentences...")
+        sentences_to_embed = [s for label, sentences in data_dict.items() for s in sentences]
+        sentence_to_embedding_dict = {s: self.encoder.forward([s]).cpu().detach().numpy() for s in tqdm.tqdm(sentences_to_embed)}
+
         for episode in tqdm.tqdm(range(n_episodes)):
             episode_classes = np.random.choice(list(data_dict.keys()), size=n_classes, replace=False)
             episode_query_data_dict = dict()
@@ -221,7 +260,8 @@ class BaselineNet(nn.Module):
                 support_data_dict=episode_support_data_dict,
                 query_data_dict=episode_query_data_dict,
                 n_iter=n_test_iter,
-                batch_size=test_batch_size
+                batch_size=test_batch_size,
+                sentence_to_embedding_dict=sentence_to_embedding_dict
             )
             logger.info(f"Episode metrics: {episode_metrics}")
             test_metrics.append(episode_metrics)
@@ -245,7 +285,8 @@ def run_baseline(
         train_batch_size: int = 16,
         is_pp: bool = False,
         test_batch_size: int = 4,
-        n_test_iter: int = 100
+        n_test_iter: int = 100,
+        metric: str = "cosine"
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -282,7 +323,7 @@ def run_baseline(
 
     # Load model
     bert = BERTEncoder(model_name_or_path).to(device)
-    baseline_net = BaselineNet(encoder=bert, is_pp=is_pp).to(device)
+    baseline_net = BaselineNet(encoder=bert, is_pp=is_pp, metric=metric).to(device)
 
     # Load data
     train_data = get_jsonl_data(train_path)
@@ -336,7 +377,7 @@ def run_baseline(
 
         with open(os.path.join(output_path, 'test_metrics.json'), "w") as file:
             json.dump(test_metrics, file, ensure_ascii=False)
-    
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -360,6 +401,7 @@ def main():
 
     # Baseline++
     parser.add_argument("--pp", default=False, action="store_true", help="Boolean to use the ++ baseline model")
+    parser.add_argument("--metric", default="cosine", type=str, help="Which metric to use in baseline++", choices=("euclidean", "cosine"))
 
     args = parser.parse_args()
 
@@ -389,7 +431,8 @@ def main():
         is_pp=args.pp,
 
         test_batch_size=args.test_batch_size,
-        n_test_iter=args.n_test_iter
+        n_test_iter=args.n_test_iter,
+        metric=args.metric
     )
 
     # Save config

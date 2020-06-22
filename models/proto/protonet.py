@@ -16,7 +16,7 @@ from torch.autograd import Variable
 import warnings
 import logging
 from utils.few_shot import create_episode
-from utils.math import euclidean_dist
+from utils.math import euclidean_dist, cosine_similarity
 
 logging.basicConfig()
 logger = logging.getLogger(__name__)
@@ -28,10 +28,12 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 
 
 class ProtoNet(nn.Module):
-    def __init__(self, encoder):
+    def __init__(self, encoder, metric="euclidean"):
         super(ProtoNet, self).__init__()
 
         self.encoder = encoder
+        self.metric = metric
+        assert self.metric in ('euclidean', 'cosine')
 
     def loss(self, sample):
         """
@@ -69,7 +71,11 @@ class ProtoNet(nn.Module):
         z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
         zq = z[n_class * n_support:]
 
-        dists = euclidean_dist(zq, z_proto)
+        if self.metric == "euclidean":
+            dists = euclidean_dist(zq, z_proto)
+        elif self.metric == "cosine":
+            dists = (-cosine_similarity(zq, z_proto) + 1) * 5
+
         log_p_y = torch_functional.log_softmax(-dists, dim=1).view(n_class, n_query, -1)
         dists.view(n_class, n_query, -1)
         loss_val = -log_p_y.gather(2, target_inds).squeeze().view(-1).mean()
@@ -204,6 +210,7 @@ def run_proto(
         early_stop: int = None,
         n_test_episodes: int = 1000,
         log_every: int = 10,
+        metric: str = "euclidean"
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -240,7 +247,7 @@ def run_proto(
 
     # Load model
     bert = BERTEncoder(model_name_or_path).to(device)
-    protonet = ProtoNet(encoder=bert)
+    protonet = ProtoNet(encoder=bert, metric=metric)
     optimizer = torch.optim.Adam(protonet.parameters(), lr=2e-5)
 
     # Load data
@@ -373,6 +380,9 @@ def main():
     parser.add_argument("--n-classes", type=int, help="Number of classes per episode", required=True)
     parser.add_argument("--n-test-episodes", type=int, default=1000, help="Number of episodes during evaluation (valid, test)")
 
+    # Metric to use in proto distance calculation
+    parser.add_argument("--metric", type=str, default="euclidean", help="Metric to use", choices=("euclidean", "cosine"))
+
     args = parser.parse_args()
 
     # Set random seed
@@ -400,6 +410,8 @@ def main():
 
         max_iter=args.max_iter,
         evaluate_every=args.evaluate_every,
+
+        metric=args.metric
     )
 
     # Save config

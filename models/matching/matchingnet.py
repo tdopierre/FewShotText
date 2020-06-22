@@ -281,7 +281,7 @@ def run_matching(
                                 logger.info(f"Worse eval results ({n_eval_since_last_best}/{early_stop})")
 
                 if early_stop and n_eval_since_last_best >= early_stop:
-                    print(f"Early-stopping.")
+                    logger.warning(f"Early-stopping.")
                     break
     with open(os.path.join(output_path, "metrics.json"), "w") as file:
         json.dump(log_dict, file, ensure_ascii=False)

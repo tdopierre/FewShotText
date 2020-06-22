@@ -28,10 +28,12 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 
 
 class MatchingNet(nn.Module):
-    def __init__(self, encoder):
+    def __init__(self, encoder, metric: str = "cosine"):
         super(MatchingNet, self).__init__()
 
         self.encoder = encoder
+        self.metric = metric
+        assert self.metric in ("cosine", "euclidean")
 
     def loss(self, sample):
         """
@@ -63,11 +65,14 @@ class MatchingNet(nn.Module):
         z = self.encoder.forward(x)
         z_support = z[:n_class * n_support]
         z_query = z[n_class * n_support:]
-        similarities = cosine_similarity(z_query, z_support)
 
+        if self.metric == "euclidean":
+            similarities = -euclidean_dist(z_query, z_support)
+        elif self.metric == "cosine":
+            similarities = cosine_similarity(z_query, z_support) * 5
+
+        # Average over support samples
         distances_from_query_to_classes = torch.cat([similarities[:, c * n_support: (c + 1) * n_support].mean(1).view(1, -1) for c in range(n_class)]).T
-        # To make softmax more relevant (directly applied to cosine = sucks)
-        distances_from_query_to_classes = distances_from_query_to_classes * 5
         true_labels = torch.zeros_like(distances_from_query_to_classes)
 
         for ix_class, class_query_sentences in enumerate(xq):
@@ -140,6 +145,7 @@ def run_matching(
         early_stop: int = None,
         n_test_episodes: int = 1000,
         log_every: int = 10,
+        metric: str = "cosine"
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -176,7 +182,7 @@ def run_matching(
 
     # Load model
     bert = BERTEncoder(model_name_or_path).to(device)
-    matching_net = MatchingNet(encoder=bert)
+    matching_net = MatchingNet(encoder=bert, metric=metric)
     optimizer = torch.optim.Adam(matching_net.parameters(), lr=2e-5)
 
     # Load data
@@ -299,12 +305,16 @@ def main():
     parser.add_argument("--evaluate-every", type=int, default=100, help="Number of training episodes between each evaluation (on both valid, test)")
     parser.add_argument("--log-every", type=int, default=10, help="Number of training episodes between each logging")
     parser.add_argument("--seed", type=int, default=42, help="Random seed to set")
+    parser.add_argument("--early-stop", type=int, default=0, help="Number of worse evaluation steps before stopping. 0=disabled")
 
     # Few-Shot related stuff
     parser.add_argument("--n-support", type=int, help="Number of support points for each class", required=True)
     parser.add_argument("--n-query", type=int, help="Number of query points for each class", required=True)
     parser.add_argument("--n-classes", type=int, help="Number of classes per episode", required=True)
     parser.add_argument("--n-test-episodes", type=int, default=1000, help="Number of episodes during evaluation (valid, test)")
+
+    # Which metric to use
+    parser.add_argument("--metric", type=str, default="cosine", help="Metric to use", choices=("euclidean", "cosine"))
 
     args = parser.parse_args()
 
@@ -332,6 +342,8 @@ def main():
 
         max_iter=args.max_iter,
         evaluate_every=args.evaluate_every,
+        metric=args.metric,
+        early_stop=args.early_stop
     )
 
     # Save config

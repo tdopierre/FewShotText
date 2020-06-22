@@ -373,6 +373,7 @@ def main():
     parser.add_argument("--evaluate-every", type=int, default=100, help="Number of training episodes between each evaluation (on both valid, test)")
     parser.add_argument("--log-every", type=int, default=10, help="Number of training episodes between each logging")
     parser.add_argument("--seed", type=int, default=42, help="Random seed to set")
+    parser.add_argument("--early-stop", type=int, default=0, help="Number of worse evaluation steps before stopping. 0=disabled")
 
     # Few-Shot related stuff
     parser.add_argument("--n-support", type=int, help="Number of support points for each class", required=True)
@@ -411,7 +412,8 @@ def main():
         max_iter=args.max_iter,
         evaluate_every=args.evaluate_every,
 
-        metric=args.metric
+        metric=args.metric,
+        early_stop=args.early_stop
     )
 
     # Save config

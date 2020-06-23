@@ -5,18 +5,15 @@ from utils.python import now, set_seeds
 import random
 import collections
 import os
-from typing import List, Dict, Union
+from typing import List, Dict
 from tensorboardX import SummaryWriter
 import numpy as np
 from models.encoders.bert_encoder import BERTEncoder
 import torch
 import torch.nn as nn
-import torch.nn.functional as torch_functional
-from torch.autograd import Variable
 import warnings
 import logging
 from utils.few_shot import create_episode
-from utils.math import euclidean_dist, cosine_similarity
 
 logging.basicConfig()
 logger = logging.getLogger(__name__)

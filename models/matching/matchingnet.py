@@ -11,8 +11,6 @@ import numpy as np
 from models.encoders.bert_encoder import BERTEncoder
 import torch
 import torch.nn as nn
-import torch.nn.functional as torch_functional
-from torch.autograd import Variable
 import warnings
 import logging
 from utils.few_shot import create_episode
@@ -70,6 +68,8 @@ class MatchingNet(nn.Module):
             similarities = -euclidean_dist(z_query, z_support)
         elif self.metric == "cosine":
             similarities = cosine_similarity(z_query, z_support) * 5
+        else:
+            raise NotImplementedError
 
         # Average over support samples
         distances_from_query_to_classes = torch.cat([similarities[:, c * n_support: (c + 1) * n_support].mean(1).view(1, -1) for c in range(n_class)]).T

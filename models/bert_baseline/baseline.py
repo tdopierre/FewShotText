@@ -14,11 +14,8 @@ from tensorboardX import SummaryWriter
 import numpy as np
 import torch
 import torch.nn as nn
-import torch.nn.functional as torch_functional
-from torch.autograd import Variable
 import warnings
 import logging
-from utils.few_shot import create_episode
 from utils.math import euclidean_dist, cosine_similarity
 
 logging.basicConfig()
@@ -164,7 +161,7 @@ class BaselineNet(nn.Module):
 
             batch = support_data_list[iteration * batch_size: iteration * batch_size + batch_size]
             batch_sentences = [d['sentence'] for d in batch]
-            batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in batch_sentences]).squeeze().to(device)
+            batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in batch_sentences]).to(device)
             batch_labels = torch.Tensor([class_to_ix[d['label']] for d in batch]).long().to(device)
             # z = self.encoder(batch_sentences)
             z = batch_embeddings
@@ -202,7 +199,7 @@ class BaselineNet(nn.Module):
             for ix in range(0, len(query_data_list), 16):
                 batch = query_data_list[ix:ix + 16]
                 batch_sentences = [d['sentence'] for d in batch]
-                batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in batch_sentences]).squeeze().to(device)
+                batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in batch_sentences]).to(device)
                 # z = self.encoder(batch_sentences)
                 z = batch_embeddings
 
@@ -244,7 +241,7 @@ class BaselineNet(nn.Module):
         self.encoder.eval()
         logger.info("Embedding sentences...")
         sentences_to_embed = [s for label, sentences in data_dict.items() for s in sentences]
-        sentence_to_embedding_dict = {s: self.encoder.forward([s]).cpu().detach().numpy() for s in tqdm.tqdm(sentences_to_embed)}
+        sentence_to_embedding_dict = {s: self.encoder.forward([s]).cpu().detach().numpy().squeeze() for s in tqdm.tqdm(sentences_to_embed)}
 
         for episode in tqdm.tqdm(range(n_episodes)):
             episode_classes = np.random.choice(list(data_dict.keys()), size=n_classes, replace=False)

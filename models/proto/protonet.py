@@ -75,6 +75,8 @@ class ProtoNet(nn.Module):
             dists = euclidean_dist(zq, z_proto)
         elif self.metric == "cosine":
             dists = (-cosine_similarity(zq, z_proto) + 1) * 5
+        else:
+            raise NotImplementedError
 
         log_p_y = torch_functional.log_softmax(-dists, dim=1).view(n_class, n_query, -1)
         dists.view(n_class, n_query, -1)
@@ -145,7 +147,7 @@ class ProtoNet(nn.Module):
             'target': target_inds
         }
 
-    def train_step(self, optimizer, data_dict: Dict[str, List[str]], n_support, n_classes, n_query, n_unlabeled):
+    def train_step(self, optimizer, data_dict: Dict[str, List[str]], n_support: int, n_classes: int, n_query: int, n_unlabeled: int):
 
         episode = create_episode(
             data_dict=data_dict,
@@ -203,7 +205,7 @@ def run_proto(
         n_classes: int,
         valid_path: str = None,
         test_path: str = None,
-        refined: bool = False,
+        n_unlabeled: int = 0,
         output_path: str = f'runs/{now()}',
         max_iter: int = 10000,
         evaluate_every: int = 100,
@@ -278,7 +280,7 @@ def run_proto(
         loss, loss_dict = protonet.train_step(
             optimizer=optimizer,
             data_dict=train_data_dict,
-            n_unlabeled=refined,
+            n_unlabeled=n_unlabeled,
             n_support=n_support,
             n_query=n_query,
             n_classes=n_classes
@@ -320,7 +322,7 @@ def run_proto(
                     if path:
                         set_results = protonet.test_step(
                             data_dict=set_data,
-                            n_unlabeled=refined,
+                            n_unlabeled=n_unlabeled,
                             n_support=n_support,
                             n_query=n_query,
                             n_classes=n_classes,
@@ -368,7 +370,7 @@ def main():
 
     parser.add_argument("--output-path", type=str, default=f'runs/{now()}')
     parser.add_argument("--model-name-or-path", type=str, required=True, help="Transformer model to use")
-    parser.add_argument("--refined", action="store_true", help="Whether or not to use soft K-Means using unlabeled data")
+    parser.add_argument("--n-unlabeled", type=int, help="Number of unlabeled data points per class (proto++)", default=0)
     parser.add_argument("--max-iter", type=int, default=10000, help="Max number of training episodes")
     parser.add_argument("--evaluate-every", type=int, default=100, help="Number of training episodes between each evaluation (on both valid, test)")
     parser.add_argument("--log-every", type=int, default=10, help="Number of training episodes between each logging")
@@ -402,7 +404,7 @@ def main():
         output_path=args.output_path,
 
         model_name_or_path=args.model_name_or_path,
-        refined=args.refined,
+        n_unlabeled=args.n_unlabeled,
 
         n_support=args.n_support,
         n_query=args.n_query,

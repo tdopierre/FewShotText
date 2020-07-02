@@ -7,3 +7,7 @@ runs
 
 # Shell scripts are ignored by default
 **/*.sh
+
+# Jupyter stuff
+notebooks
+**/.ipynb_checkpoints

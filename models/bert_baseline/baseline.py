@@ -6,6 +6,7 @@ import tqdm
 from models.encoders.bert_encoder import BERTEncoder
 from utils.data import get_jsonl_data
 from utils.python import now, set_seeds
+from utils.few_shot import create_ARSC_train_episode, get_ARSC_test_tasks
 import random
 import collections
 import os
@@ -42,6 +43,281 @@ class BaselineNet(nn.Module):
         self.hidden_dim = hidden_dim
         self.metric = metric
         assert self.metric in ("euclidean", "cosine")
+
+    def train_ARSC_one_episode(
+            self,
+            n_iter: int = 100,
+    ):
+        self.train()
+        episode = create_ARSC_train_episode(n_support=5, n_query=0, n_unlabeled=0)
+        n_episode_classes = len(episode["xs"])
+        loss_fn = nn.CrossEntropyLoss()
+        episode_matrix = None
+        episode_classifier = None
+        if self.is_pp:
+            with torch.no_grad():
+                init_matrix = np.array([
+                    [
+                        self.encoder.forward([sentence]).squeeze().cpu().detach().numpy()
+                        for sentence in episode["xs"][c]
+                    ]
+                    for c in range(n_episode_classes)
+                ]).mean(1)
+
+            episode_matrix = torch.Tensor(init_matrix).to(device)
+            episode_matrix.requires_grad = True
+            optimizer = torch.optim.Adam(list(self.parameters()) + [episode_matrix], lr=2e-5)
+        else:
+            episode_classifier = nn.Linear(in_features=self.hidden_dim, out_features=n_episode_classes).to(device)
+            optimizer = torch.optim.Adam(list(self.parameters()) + list(episode_classifier.parameters()), lr=2e-5)
+
+        # Train on support
+        iter_bar = tqdm.tqdm(range(n_iter))
+        losses = list()
+        accuracies = list()
+
+        for _ in iter_bar:
+            optimizer.zero_grad()
+
+            sentences = [sentence for sentence_list in episode["xs"] for sentence in sentence_list]
+            labels = torch.Tensor([ix for ix, sl in enumerate(episode["xs"]) for _ in sl]).long().to(device)
+            z = self.encoder(sentences)
+
+            # z = batch_embeddings
+
+            if self.is_pp:
+                if self.metric == "cosine":
+                    z = cosine_similarity(z, episode_matrix) * 5
+                elif self.metric == "euclidean":
+                    z = -euclidean_dist(z, episode_matrix)
+                else:
+                    raise NotImplementedError
+            else:
+                z = self.dropout(z)
+                z = episode_classifier(z)
+
+            loss = loss_fn(input=z, target=labels)
+            acc = (z.argmax(1) == labels).float().mean()
+            loss.backward()
+            optimizer.step()
+            iter_bar.set_description(f"{loss.item():.3f} | {acc.item():.3f}")
+            losses.append(loss.item())
+            accuracies.append(acc.item())
+        return {
+            "loss": np.mean(losses),
+            "acc": np.mean(accuracies)
+        }
+
+    def run_ARSC(
+            self,
+            train_summary_writer: SummaryWriter = None,
+            valid_summary_writer: SummaryWriter = None,
+            test_summary_writer: SummaryWriter = None,
+            n_episodes: int = 1000,
+            n_train_iter: int = 100,
+            train_eval_every: int = 100,
+            n_test_iter: int = 1000,
+            test_eval_every: int = 100,
+    ):
+        metrics = list()
+        for episode_ix in range(n_episodes):
+            output = self.train_ARSC_one_episode(n_iter=n_train_iter)
+            episode_metrics = {
+                "train": output
+            }
+
+            if train_summary_writer:
+                train_summary_writer.add_scalar(tag=f'loss', global_step=episode_ix, scalar_value=output["loss"])
+                train_summary_writer.add_scalar(tag=f'acc', global_step=episode_ix, scalar_value=output["acc"])
+
+            # Running evaluation
+            if (train_eval_every and (episode_ix + 1) % train_eval_every == 0) or (not train_eval_every and episode_ix + 1 == n_episodes):
+                test_metrics = self.test_model_ARSC(
+                    valid_summary_writer=valid_summary_writer,
+                    test_summary_writer=test_summary_writer,
+                    n_iter=n_test_iter,
+                    eval_every=test_eval_every
+                )
+                episode_metrics["test"] = test_metrics
+
+            metrics.append(episode_metrics)
+        return metrics
+
+    def test_model_ARSC(
+            self,
+            n_iter: int = 1000,
+            valid_summary_writer: SummaryWriter = None,
+            test_summary_writer: SummaryWriter = None,
+            eval_every: int = 100
+    ):
+        self.eval()
+
+        tasks = get_ARSC_test_tasks()
+        metrics = list()
+        logger.info("Embedding sentences...")
+        sentences_to_embed = [
+            s
+            for task in tasks
+            for sentences_lists in task['xs'] + task['x_test'] + task['x_valid']
+            for s in sentences_lists
+        ]
+
+        # sentence_to_embedding_dict = {s: np.random.randn(768) for s in tqdm.tqdm(sentences_to_embed)}
+        sentence_to_embedding_dict = {s: self.encoder.forward([s]).cpu().detach().numpy().squeeze() for s in tqdm.tqdm(sentences_to_embed)}
+        for ix_task, task in enumerate(tasks):
+            task_metrics = list()
+
+            n_episode_classes = 2
+            loss_fn = nn.CrossEntropyLoss()
+            episode_matrix = None
+            episode_classifier = None
+            if self.is_pp:
+                with torch.no_grad():
+                    init_matrix = np.array([
+                        [
+                            sentence_to_embedding_dict[sentence]
+                            for sentence in task["xs"][c]
+                        ]
+                        for c in range(n_episode_classes)
+                    ]).mean(1)
+
+                episode_matrix = torch.Tensor(init_matrix).to(device)
+                episode_matrix.requires_grad = True
+                optimizer = torch.optim.Adam([episode_matrix], lr=2e-5)
+            else:
+                episode_classifier = nn.Linear(in_features=self.hidden_dim, out_features=n_episode_classes).to(device)
+                optimizer = torch.optim.Adam(list(episode_classifier.parameters()), lr=2e-5)
+
+            # Train on support
+            iter_bar = tqdm.tqdm(range(n_iter))
+            losses = list()
+            accuracies = list()
+
+            for iteration in iter_bar:
+                optimizer.zero_grad()
+
+                sentences = [sentence for sentence_list in task["xs"] for sentence in sentence_list]
+                labels = torch.Tensor([ix for ix, sl in enumerate(task["xs"]) for _ in sl]).long().to(device)
+                batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in sentences]).to(device)
+                # z = self.encoder(sentences)
+                z = batch_embeddings
+
+                if self.is_pp:
+                    if self.metric == "cosine":
+                        z = cosine_similarity(z, episode_matrix) * 5
+                    elif self.metric == "euclidean":
+                        z = -euclidean_dist(z, episode_matrix)
+                    else:
+                        raise NotImplementedError
+                else:
+                    z = self.dropout(z)
+                    z = episode_classifier(z)
+
+                loss = loss_fn(input=z, target=labels)
+                acc = (z.argmax(1) == labels).float().mean()
+                loss.backward()
+                optimizer.step()
+                iter_bar.set_description(f"{loss.item():.3f} | {acc.item():.3f}")
+                losses.append(loss.item())
+                accuracies.append(acc.item())
+
+                if (eval_every and (iteration + 1) % eval_every == 0) or (not eval_every and iteration + 1 == n_iter):
+                    self.eval()
+                    if not self.is_pp:
+                        episode_classifier.eval()
+
+                    # --------------
+                    #   VALIDATION
+                    # --------------
+                    valid_query_data_list = [
+                        {"sentence": sentence, "label": label}
+                        for label, sentences in enumerate(task["x_valid"])
+                        for sentence in sentences
+                    ]
+
+                    valid_query_labels = torch.Tensor([d['label'] for d in valid_query_data_list]).long().to(device)
+                    logits = list()
+                    with torch.no_grad():
+                        for ix in range(0, len(valid_query_data_list), 16):
+                            batch = valid_query_data_list[ix:ix + 16]
+                            batch_sentences = [d['sentence'] for d in batch]
+                            batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in batch_sentences]).to(device)
+                            # z = self.encoder(batch_sentences)
+                            z = batch_embeddings
+
+                            if self.is_pp:
+                                if self.metric == "cosine":
+                                    z = cosine_similarity(z, episode_matrix) * 5
+                                elif self.metric == "euclidean":
+                                    z = -euclidean_dist(z, episode_matrix)
+                                else:
+                                    raise NotImplementedError
+                            else:
+                                z = episode_classifier(z)
+
+                            logits.append(z)
+                    logits = torch.cat(logits, dim=0)
+                    y_hat = logits.argmax(1)
+
+                    valid_loss = loss_fn(input=logits, target=valid_query_labels)
+                    valid_acc = (y_hat == valid_query_labels).float().mean()
+
+                    # --------------
+                    #      TEST
+                    # --------------
+                    test_query_data_list = [
+                        {"sentence": sentence, "label": label}
+                        for label, sentences in enumerate(task["x_test"])
+                        for sentence in sentences
+                    ]
+
+                    test_query_labels = torch.Tensor([d['label'] for d in test_query_data_list]).long().to(device)
+                    logits = list()
+                    with torch.no_grad():
+                        for ix in range(0, len(test_query_data_list), 16):
+                            batch = test_query_data_list[ix:ix + 16]
+                            batch_sentences = [d['sentence'] for d in batch]
+                            batch_embeddings = torch.Tensor([sentence_to_embedding_dict[s] for s in batch_sentences]).to(device)
+                            # z = self.encoder(batch_sentences)
+                            z = batch_embeddings
+
+                            if self.is_pp:
+                                if self.metric == "cosine":
+                                    z = cosine_similarity(z, episode_matrix) * 5
+                                elif self.metric == "euclidean":
+                                    z = -euclidean_dist(z, episode_matrix)
+                                else:
+                                    raise NotImplementedError
+                            else:
+                                z = episode_classifier(z)
+
+                            logits.append(z)
+                    logits = torch.cat(logits, dim=0)
+                    y_hat = logits.argmax(1)
+
+                    test_loss = loss_fn(input=logits, target=test_query_labels)
+                    test_acc = (y_hat == test_query_labels).float().mean()
+
+                    # --RETURN METRICS
+                    task_metrics.append({
+                        "test": {
+                            "loss": test_loss.item(),
+                            "acc": test_acc.item()
+                        },
+                        "valid": {
+                            "loss": valid_loss.item(),
+                            "acc": valid_acc.item()
+                        },
+                        "step": iteration + 1
+                    })
+                    # if valid_summary_writer:
+                    #     valid_summary_writer.add_scalar(tag=f'loss', global_step=ix_task, scalar_value=valid_loss.item())
+                    #     valid_summary_writer.add_scalar(tag=f'acc', global_step=ix_task, scalar_value=valid_acc.item())
+                    # if test_summary_writer:
+                    #     test_summary_writer.add_scalar(tag=f'loss', global_step=ix_task, scalar_value=test_loss.item())
+                    #     test_summary_writer.add_scalar(tag=f'acc', global_step=ix_task, scalar_value=test_acc.item())
+            metrics.append(task_metrics)
+        return metrics
 
     def train_model(
             self,
@@ -283,7 +559,8 @@ def run_baseline(
         is_pp: bool = False,
         test_batch_size: int = 4,
         n_test_iter: int = 100,
-        metric: str = "cosine"
+        metric: str = "cosine",
+        arsc_format: bool = False
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -323,57 +600,82 @@ def run_baseline(
     baseline_net = BaselineNet(encoder=bert, is_pp=is_pp, metric=metric).to(device)
 
     # Load data
-    train_data = get_jsonl_data(train_path)
-    train_data_dict = raw_data_to_labels_dict(train_data, shuffle=True)
-    logger.info(f"train labels: {train_data_dict.keys()}")
+    if not arsc_format:
+        train_data = get_jsonl_data(train_path)
+        train_data_dict = raw_data_to_labels_dict(train_data, shuffle=True)
+        logger.info(f"train labels: {train_data_dict.keys()}")
 
-    if valid_path:
-        valid_data = get_jsonl_data(valid_path)
-        valid_data_dict = raw_data_to_labels_dict(valid_data, shuffle=True)
-        logger.info(f"valid labels: {valid_data_dict.keys()}")
-    else:
-        valid_data_dict = None
+        if valid_path:
+            valid_data = get_jsonl_data(valid_path)
+            valid_data_dict = raw_data_to_labels_dict(valid_data, shuffle=True)
+            logger.info(f"valid labels: {valid_data_dict.keys()}")
+        else:
+            valid_data_dict = None
 
-    if test_path:
-        test_data = get_jsonl_data(test_path)
-        test_data_dict = raw_data_to_labels_dict(test_data, shuffle=True)
-        logger.info(f"test labels: {test_data_dict.keys()}")
-    else:
-        test_data_dict = None
+        if test_path:
+            test_data = get_jsonl_data(test_path)
+            test_data_dict = raw_data_to_labels_dict(test_data, shuffle=True)
+            logger.info(f"test labels: {test_data_dict.keys()}")
+        else:
+            test_data_dict = None
 
-    baseline_net.train_model(
-        data_dict=train_data_dict,
-        summary_writer=train_writer,
-        n_epoch=n_train_epoch,
-        batch_size=train_batch_size,
-        log_every=log_every
-    )
-
-    # Validation
-    if valid_path:
-        validation_metrics = baseline_net.test_model(
-            data_dict=valid_data_dict,
-            n_support=n_support,
-            n_classes=n_classes,
-            n_episodes=n_test_episodes,
-            summary_writer=valid_writer,
-            n_test_iter=n_test_iter,
-            test_batch_size=test_batch_size
-        )
-        with open(os.path.join(output_path, 'validation_metrics.json'), "w") as file:
-            json.dump(validation_metrics, file, ensure_ascii=False)
-    # Test
-    if test_path:
-        test_metrics = baseline_net.test_model(
-            data_dict=test_data_dict,
-            n_support=n_support,
-            n_classes=n_classes,
-            n_episodes=n_test_episodes,
-            summary_writer=test_writer
+        baseline_net.train_model(
+            data_dict=train_data_dict,
+            summary_writer=train_writer,
+            n_epoch=n_train_epoch,
+            batch_size=train_batch_size,
+            log_every=log_every
         )
 
-        with open(os.path.join(output_path, 'test_metrics.json'), "w") as file:
-            json.dump(test_metrics, file, ensure_ascii=False)
+        # Validation
+        if valid_path:
+            validation_metrics = baseline_net.test_model(
+                data_dict=valid_data_dict,
+                n_support=n_support,
+                n_classes=n_classes,
+                n_episodes=n_test_episodes,
+                summary_writer=valid_writer,
+                n_test_iter=n_test_iter,
+                test_batch_size=test_batch_size
+            )
+            with open(os.path.join(output_path, 'validation_metrics.json'), "w") as file:
+                json.dump(validation_metrics, file, ensure_ascii=False)
+        # Test
+        if test_path:
+            test_metrics = baseline_net.test_model(
+                data_dict=test_data_dict,
+                n_support=n_support,
+                n_classes=n_classes,
+                n_episodes=n_test_episodes,
+                summary_writer=test_writer
+            )
+
+            with open(os.path.join(output_path, 'test_metrics.json'), "w") as file:
+                json.dump(test_metrics, file, ensure_ascii=False)
+
+    else:
+        # baseline_net.train_model_ARSC(
+        #     train_summary_writer=train_writer,
+        #     n_episodes=10,
+        #     n_train_iter=20
+        # )
+        # metrics = baseline_net.test_model_ARSC(
+        #     n_iter=n_test_iter,
+        #     valid_summary_writer=valid_writer,
+        #     test_summary_writer=test_writer
+        # )
+        metrics = baseline_net.run_ARSC(
+            train_summary_writer=train_writer,
+            valid_summary_writer=valid_writer,
+            test_summary_writer=test_writer,
+            n_episodes=1000,
+            train_eval_every=50,
+            n_train_iter=50,
+            n_test_iter=200,
+            test_eval_every=25
+        )
+        with open(os.path.join(output_path, 'baseline_metrics.json'), "w") as file:
+            json.dump(metrics, file, ensure_ascii=False)
 
 
 def main():
@@ -388,8 +690,8 @@ def main():
     parser.add_argument("--seed", type=int, default=42, help="Random seed to set")
 
     # Few-Shot related stuff
-    parser.add_argument("--n-support", type=int, help="Number of support points for each class", required=True)
-    parser.add_argument("--n-classes", type=int, help="Number of classes per episode", required=True)
+    parser.add_argument("--n-support", type=int, default=5, help="Number of support points for each class")
+    parser.add_argument("--n-classes", type=int, default=5, help="Number of classes per episode")
     parser.add_argument("--n-test-episodes", type=int, default=600, help="Number of episodes during evaluation (valid, test)")
     parser.add_argument("--n-train-epoch", type=int, default=400, help="Number of epoch during training")
     parser.add_argument("--train-batch-size", type=int, default=16, help="Batch size used during training")
@@ -399,8 +701,11 @@ def main():
     # Baseline++
     parser.add_argument("--pp", default=False, action="store_true", help="Boolean to use the ++ baseline model")
     parser.add_argument("--metric", default="cosine", type=str, help="Which metric to use in baseline++", choices=("euclidean", "cosine"))
+    # ARSC data
+    parser.add_argument("--arsc-format", default=False, action="store_true", help="Using ARSC few-shot format")
 
     args = parser.parse_args()
+    logger.info(f"Received args:{args}")
 
     # Set random seed
     set_seeds(args.seed)
@@ -429,12 +734,13 @@ def main():
 
         test_batch_size=args.test_batch_size,
         n_test_iter=args.n_test_iter,
-        metric=args.metric
+        metric=args.metric,
+        arsc_format=args.arsc_format
     )
 
     # Save config
     with open(os.path.join(args.output_path, "config.json"), "w") as file:
-        json.dump(vars(args), file, ensure_ascii=False)
+        json.dump(vars(args), file, ensure_ascii=False, indent=1)
 
 
 if __name__ == '__main__':

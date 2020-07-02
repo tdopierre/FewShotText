@@ -13,7 +13,7 @@ import torch
 import torch.nn as nn
 import warnings
 import logging
-from utils.few_shot import create_episode
+from utils.few_shot import create_episode, create_ARSC_train_episode, create_ARSC_test_episode
 from utils.math import euclidean_dist, cosine_similarity
 
 logging.basicConfig()
@@ -130,6 +130,37 @@ class MatchingNet(nn.Module):
             "acc": np.mean(accuracies)
         }
 
+    def train_step_ARSC(self, optimizer):
+        episode = create_ARSC_train_episode(n_support=5, n_query=5)
+
+        self.train()
+        optimizer.zero_grad()
+        torch.cuda.empty_cache()
+        loss, loss_dict = self.loss(episode)
+        loss.backward()
+        optimizer.step()
+
+        return loss, loss_dict
+
+    def test_step_ARSC(self, n_episodes=1000, set_type="test"):
+        assert set_type in ("dev", "test")
+        accuracies = list()
+        losses = list()
+        self.eval()
+        for i in range(n_episodes):
+            episode = create_ARSC_test_episode(n_query=5, set_type=set_type)
+
+            with torch.no_grad():
+                loss, loss_dict = self.loss(episode)
+
+            accuracies.append(loss_dict["acc"])
+            losses.append(loss_dict["loss"])
+
+        return {
+            "loss": np.mean(losses),
+            "acc": np.mean(accuracies)
+        }
+
 
 def run_matching(
         train_path: str,
@@ -145,7 +176,8 @@ def run_matching(
         early_stop: int = None,
         n_test_episodes: int = 1000,
         log_every: int = 10,
-        metric: str = "cosine"
+        metric: str = "cosine",
+        arsc_format: bool = False
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -186,22 +218,27 @@ def run_matching(
     optimizer = torch.optim.Adam(matching_net.parameters(), lr=2e-5)
 
     # Load data
-    train_data = get_jsonl_data(train_path)
-    train_data_dict = raw_data_to_labels_dict(train_data, shuffle=True)
-    logger.info(f"train labels: {train_data_dict.keys()}")
+    if not arsc_format:
+        train_data = get_jsonl_data(train_path)
+        train_data_dict = raw_data_to_labels_dict(train_data, shuffle=True)
+        logger.info(f"train labels: {train_data_dict.keys()}")
 
-    if valid_path:
-        valid_data = get_jsonl_data(valid_path)
-        valid_data_dict = raw_data_to_labels_dict(valid_data, shuffle=True)
-        logger.info(f"valid labels: {valid_data_dict.keys()}")
+        if valid_path:
+            valid_data = get_jsonl_data(valid_path)
+            valid_data_dict = raw_data_to_labels_dict(valid_data, shuffle=True)
+            logger.info(f"valid labels: {valid_data_dict.keys()}")
+        else:
+            valid_data_dict = None
+
+        if test_path:
+            test_data = get_jsonl_data(test_path)
+            test_data_dict = raw_data_to_labels_dict(test_data, shuffle=True)
+            logger.info(f"test labels: {test_data_dict.keys()}")
+        else:
+            test_data_dict = None
     else:
+        train_data_dict = None
         valid_data_dict = None
-
-    if test_path:
-        test_data = get_jsonl_data(test_path)
-        test_data_dict = raw_data_to_labels_dict(test_data, shuffle=True)
-        logger.info(f"test labels: {test_data_dict.keys()}")
-    else:
         test_data_dict = None
 
     train_accuracies = list()
@@ -210,13 +247,18 @@ def run_matching(
     best_valid_acc = 0.0
 
     for step in range(max_iter):
-        loss, loss_dict = matching_net.train_step(
-            optimizer=optimizer,
-            data_dict=train_data_dict,
-            n_support=n_support,
-            n_query=n_query,
-            n_classes=n_classes
-        )
+        if not arsc_format:
+            loss, loss_dict = matching_net.train_step(
+                optimizer=optimizer,
+                data_dict=train_data_dict,
+                n_support=n_support,
+                n_query=n_query,
+                n_classes=n_classes
+            )
+        else:
+            loss, loss_dict = matching_net.train_step_ARSC(
+                optimizer=optimizer
+            )
         train_accuracies.append(loss_dict["acc"])
         train_losses.append(loss_dict["loss"])
 
@@ -252,13 +294,20 @@ def run_matching(
                         [valid_data_dict, test_data_dict]
                 ):
                     if path:
-                        set_results = matching_net.test_step(
-                            data_dict=set_data,
-                            n_support=n_support,
-                            n_query=n_query,
-                            n_classes=n_classes,
-                            n_episodes=n_test_episodes
-                        )
+                        if not arsc_format:
+                            set_results = matching_net.test_step(
+                                data_dict=set_data,
+                                n_support=n_support,
+                                n_query=n_query,
+                                n_classes=n_classes,
+                                n_episodes=n_test_episodes
+                            )
+                        else:
+                            set_results = matching_net.test_step_ARSC(
+                                n_episodes=n_test_episodes,
+                                set_type={"valid": "dev", "test": "test"}[set_type]
+                            )
+
                         writer.add_scalar(tag="loss", scalar_value=set_results["loss"], global_step=step)
                         writer.add_scalar(tag="accuracy", scalar_value=set_results["acc"], global_step=step)
                         log_dict[set_type].append({
@@ -308,14 +357,16 @@ def main():
     parser.add_argument("--early-stop", type=int, default=0, help="Number of worse evaluation steps before stopping. 0=disabled")
 
     # Few-Shot related stuff
-    parser.add_argument("--n-support", type=int, help="Number of support points for each class", required=True)
-    parser.add_argument("--n-query", type=int, help="Number of query points for each class", required=True)
-    parser.add_argument("--n-classes", type=int, help="Number of classes per episode", required=True)
+    parser.add_argument("--n-support", type=int, default=5, help="Number of support points for each class")
+    parser.add_argument("--n-query", type=int, default=5, help="Number of query points for each class")
+    parser.add_argument("--n-classes", type=int, default=5, help="Number of classes per episode")
     parser.add_argument("--n-test-episodes", type=int, default=1000, help="Number of episodes during evaluation (valid, test)")
 
     # Which metric to use
     parser.add_argument("--metric", type=str, default="cosine", help="Metric to use", choices=("euclidean", "cosine"))
 
+    # ARSC data
+    parser.add_argument("--arsc-format", default=False, action="store_true", help="Using ARSC few-shot format")
     args = parser.parse_args()
 
     # Set random seed
@@ -343,7 +394,8 @@ def main():
         max_iter=args.max_iter,
         evaluate_every=args.evaluate_every,
         metric=args.metric,
-        early_stop=args.early_stop
+        early_stop=args.early_stop,
+        arsc_format=args.arsc_format
     )
 
     # Save config

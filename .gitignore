@@ -11,3 +11,7 @@ runs
 # Jupyter stuff
 notebooks
 **/.ipynb_checkpoints
+
+# Spreadsheet stuff
+**/*.ods
+**/*.xlsx

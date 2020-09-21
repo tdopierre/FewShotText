@@ -46,10 +46,11 @@ class BaselineNet(nn.Module):
 
     def train_ARSC_one_episode(
             self,
+            data_path: str,
             n_iter: int = 100,
     ):
         self.train()
-        episode = create_ARSC_train_episode(n_support=5, n_query=0, n_unlabeled=0)
+        episode = create_ARSC_train_episode(prefix=data_path, n_support=5, n_query=0, n_unlabeled=0)
         n_episode_classes = len(episode["xs"])
         loss_fn = nn.CrossEntropyLoss()
         episode_matrix = None
@@ -110,6 +111,7 @@ class BaselineNet(nn.Module):
 
     def run_ARSC(
             self,
+            data_path: str,
             train_summary_writer: SummaryWriter = None,
             valid_summary_writer: SummaryWriter = None,
             test_summary_writer: SummaryWriter = None,
@@ -121,7 +123,7 @@ class BaselineNet(nn.Module):
     ):
         metrics = list()
         for episode_ix in range(n_episodes):
-            output = self.train_ARSC_one_episode(n_iter=n_train_iter)
+            output = self.train_ARSC_one_episode(data_path=data_path, n_iter=n_train_iter)
             episode_metrics = {
                 "train": output
             }
@@ -133,6 +135,7 @@ class BaselineNet(nn.Module):
             # Running evaluation
             if (train_eval_every and (episode_ix + 1) % train_eval_every == 0) or (not train_eval_every and episode_ix + 1 == n_episodes):
                 test_metrics = self.test_model_ARSC(
+                    data_path=data_path,
                     valid_summary_writer=valid_summary_writer,
                     test_summary_writer=test_summary_writer,
                     n_iter=n_test_iter,
@@ -145,6 +148,7 @@ class BaselineNet(nn.Module):
 
     def test_model_ARSC(
             self,
+            data_path: str,
             n_iter: int = 1000,
             valid_summary_writer: SummaryWriter = None,
             test_summary_writer: SummaryWriter = None,
@@ -152,7 +156,7 @@ class BaselineNet(nn.Module):
     ):
         self.eval()
 
-        tasks = get_ARSC_test_tasks()
+        tasks = get_ARSC_test_tasks(prefix=data_path)
         metrics = list()
         logger.info("Embedding sentences...")
         sentences_to_embed = [
@@ -493,6 +497,48 @@ class BaselineNet(nn.Module):
         logits = torch.cat(logits, dim=0)
         y_hat = logits.argmax(1)
 
+        y_pred = logits.argmax(1).cpu().detach().numpy()
+        probas_pred = logits.cpu().detach().numpy()
+        probas_pred = np.exp(probas_pred) / np.exp(probas_pred).sum(1)[:, None]
+
+        y_true = query_labels.cpu().detach().numpy()
+        where_ok = np.where(y_pred == y_true)[0]
+        import uuid
+        tag = str(uuid.uuid4())
+        summary_writer.add_text(tag=tag, text_string=json.dumps(ix_to_class, ensure_ascii=False), global_step=0)
+        if len(where_ok):
+            # Looking for OK but with less confidence (not too easy)
+            ok_idx = sorted(where_ok, key=lambda x: probas_pred[x][y_pred[x]])[0]
+            ok_sentence = query_data_list[ok_idx]['sentence']
+            ok_prediction = ix_to_class[y_pred[ok_idx]]
+            ok_label = query_data_list[ok_idx]['label']
+            summary_writer.add_text(
+                tag=tag,
+                text_string=json.dumps({
+                    "sentence": ok_sentence,
+                    "true_label": ok_label,
+                    "predicted_label": ok_prediction,
+                    "p": probas_pred[ok_idx].tolist(),
+                }),
+                global_step=1)
+
+        where_ko = np.where(y_pred != y_true)[0]
+        if len(where_ko):
+            # Looking for KO but with most confidence
+            ko_idx = sorted(where_ko, key=lambda x: probas_pred[x][y_pred[x]], reverse=True)[0]
+            ko_sentence = query_data_list[ko_idx]['sentence']
+            ko_prediction = ix_to_class[y_pred[ko_idx]]
+            ko_label = query_data_list[ko_idx]['label']
+            summary_writer.add_text(
+                tag=tag,
+                text_string=json.dumps({
+                    "sentence": ko_sentence,
+                    "true_label": ko_label,
+                    "predicted_label": ko_prediction,
+                    "p": probas_pred[ko_idx].tolist()
+                }),
+                global_step=2)
+
         loss = loss_fn(input=logits, target=query_labels)
         acc = (y_hat == query_labels).float().mean()
 
@@ -534,7 +580,8 @@ class BaselineNet(nn.Module):
                 query_data_dict=episode_query_data_dict,
                 n_iter=n_test_iter,
                 batch_size=test_batch_size,
-                sentence_to_embedding_dict=sentence_to_embedding_dict
+                sentence_to_embedding_dict=sentence_to_embedding_dict,
+                summary_writer=summary_writer
             )
             logger.info(f"Episode metrics: {episode_metrics}")
             test_metrics.append(episode_metrics)
@@ -560,7 +607,8 @@ def run_baseline(
         test_batch_size: int = 4,
         n_test_iter: int = 100,
         metric: str = "cosine",
-        arsc_format: bool = False
+        arsc_format: bool = False,
+        data_path: str = None
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -672,7 +720,8 @@ def run_baseline(
             train_eval_every=50,
             n_train_iter=50,
             n_test_iter=200,
-            test_eval_every=25
+            test_eval_every=25,
+            data_path=data_path
         )
         with open(os.path.join(output_path, 'baseline_metrics.json'), "w") as file:
             json.dump(metrics, file, ensure_ascii=False)
@@ -683,6 +732,7 @@ def main():
     parser.add_argument("--train-path", type=str, required=True, help="Path to training data")
     parser.add_argument("--valid-path", type=str, default=None, help="Path to validation data")
     parser.add_argument("--test-path", type=str, default=None, help="Path to testing data")
+    parser.add_argument("--data-path", type=str, default=None, help="Path to data (ARSC only)")
 
     parser.add_argument("--output-path", type=str, default=f'runs/{now()}')
     parser.add_argument("--model-name-or-path", type=str, required=True, help="Transformer model to use")
@@ -720,6 +770,7 @@ def main():
         train_path=args.train_path,
         valid_path=args.valid_path,
         test_path=args.test_path,
+        data_path=args.data_path,
         output_path=args.output_path,
 
         model_name_or_path=args.model_name_or_path,

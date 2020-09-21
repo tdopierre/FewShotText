@@ -202,8 +202,8 @@ class ProtoNet(nn.Module):
             "acc": np.mean(accuracies)
         }
 
-    def train_step_ARSC(self, optimizer, n_unlabeled: int):
-        episode = create_ARSC_train_episode(n_support=5, n_query=5, n_unlabeled=n_unlabeled)
+    def train_step_ARSC(self, data_path: str, optimizer, n_unlabeled: int):
+        episode = create_ARSC_train_episode(prefix=data_path, n_support=5, n_query=5, n_unlabeled=n_unlabeled)
 
         self.train()
         optimizer.zero_grad()
@@ -217,13 +217,13 @@ class ProtoNet(nn.Module):
 
         return loss, loss_dict
 
-    def test_step_ARSC(self, n_unlabeled=0, n_episodes=1000, set_type="test"):
+    def test_step_ARSC(self, data_path: str, n_unlabeled=0, n_episodes=1000, set_type="test"):
         assert set_type in ("dev", "test")
         accuracies = list()
         losses = list()
         self.eval()
         for i in range(n_episodes):
-            episode = create_ARSC_test_episode(n_query=5, n_unlabeled=n_unlabeled, set_type=set_type)
+            episode = create_ARSC_test_episode(prefix=data_path, n_query=5, n_unlabeled=n_unlabeled, set_type=set_type)
 
             with torch.no_grad():
                 if n_unlabeled:
@@ -256,7 +256,8 @@ def run_proto(
         n_test_episodes: int = 1000,
         log_every: int = 10,
         metric: str = "euclidean",
-        arsc_format: bool = False
+        arsc_format: bool = False,
+        data_path:str=None
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -338,7 +339,8 @@ def run_proto(
         else:
             loss, loss_dict = protonet.train_step_ARSC(
                 optimizer=optimizer,
-                n_unlabeled=n_unlabeled
+                n_unlabeled=n_unlabeled,
+                data_path=data_path
             )
         train_accuracies.append(loss_dict["acc"])
         train_losses.append(loss_dict["loss"])
@@ -386,6 +388,7 @@ def run_proto(
                             )
                         else:
                             set_results = protonet.test_step_ARSC(
+                                data_path=data_path,
                                 n_unlabeled=n_unlabeled,
                                 n_episodes=n_test_episodes,
                                 set_type={"valid": "dev", "test": "test"}[set_type]
@@ -430,6 +433,7 @@ def main():
     parser.add_argument("--train-path", type=str, required=True, help="Path to training data")
     parser.add_argument("--valid-path", type=str, default=None, help="Path to validation data")
     parser.add_argument("--test-path", type=str, default=None, help="Path to testing data")
+    parser.add_argument("--data-path", type=str, default=None, help="Path to data (ARSC only)")
 
     parser.add_argument("--output-path", type=str, default=f'runs/{now()}')
     parser.add_argument("--model-name-or-path", type=str, required=True, help="Transformer model to use")
@@ -481,7 +485,9 @@ def main():
 
         metric=args.metric,
         early_stop=args.early_stop,
-        arsc_format=args.arsc_format
+        arsc_format=args.arsc_format,
+        data_path=args.data_path,
+        log_every=args.log_every
     )
 
     # Save config

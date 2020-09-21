@@ -133,8 +133,8 @@ class RelationNet(nn.Module):
             "acc": np.mean(accuracies)
         }
 
-    def train_step_ARSC(self, optimizer):
-        episode = create_ARSC_train_episode(n_support=5, n_query=5)
+    def train_step_ARSC(self, data_path: str, optimizer):
+        episode = create_ARSC_train_episode(prefix=data_path, n_support=5, n_query=5)
 
         self.train()
         optimizer.zero_grad()
@@ -145,13 +145,13 @@ class RelationNet(nn.Module):
 
         return loss, loss_dict
 
-    def test_step_ARSC(self, n_episodes=1000, set_type="test"):
+    def test_step_ARSC(self, data_path: str, n_episodes=1000, set_type="test"):
         assert set_type in ("dev", "test")
         accuracies = list()
         losses = list()
         self.eval()
         for i in range(n_episodes):
-            episode = create_ARSC_test_episode(n_query=5, set_type=set_type)
+            episode = create_ARSC_test_episode(prefix=data_path, n_query=5, set_type=set_type)
 
             with torch.no_grad():
                 loss, loss_dict = self.loss(episode)
@@ -224,7 +224,8 @@ def run_relation(
         log_every: int = 10,
         relation_module_type: str = "base",
         ntl_n_slices: int = 100,
-        arsc_format: bool = False
+        arsc_format: bool = False,
+        data_path: str = None
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -303,7 +304,7 @@ def run_relation(
                 n_classes=n_classes
             )
         else:
-            loss, loss_dict = matching_net.train_step_ARSC(optimizer=optimizer)
+            loss, loss_dict = matching_net.train_step_ARSC(optimizer=optimizer, data_path=data_path)
 
         train_accuracies.append(loss_dict["acc"])
         train_losses.append(loss_dict["loss"])
@@ -350,6 +351,7 @@ def run_relation(
                             )
                         else:
                             set_results = matching_net.test_step_ARSC(
+                                data_path=data_path,
                                 n_episodes=n_test_episodes,
                                 set_type={"valid": "dev", "test": "test"}[set_type]
                             )
@@ -392,6 +394,7 @@ def main():
     parser.add_argument("--train-path", type=str, required=True, help="Path to training data")
     parser.add_argument("--valid-path", type=str, default=None, help="Path to validation data")
     parser.add_argument("--test-path", type=str, default=None, help="Path to testing data")
+    parser.add_argument("--data-path", type=str, default=None, help="Path to data (ARSC only)")
 
     parser.add_argument("--output-path", type=str, default=f"runs/{now()}")
     parser.add_argument("--model-name-or-path", type=str, required=True, help="Transformer model to use")
@@ -444,7 +447,8 @@ def main():
         ntl_n_slices=args.ntl_n_slices,
 
         early_stop=args.early_stop,
-        arsc_format=args.arsc_format
+        arsc_format=args.arsc_format,
+        data_path=args.data_path
     )
 
     # Save config

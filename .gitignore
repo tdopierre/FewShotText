@@ -4,6 +4,8 @@
 **/__pycache__
 # Runs folder
 runs
+runs.bkp
+tmp
 
 # Shell scripts are ignored by default
 **/*.sh

@@ -1,7 +1,7 @@
 import json
 import argparse
 from models.encoders.bert_encoder import BERTEncoder
-from utils.data import get_jsonl_data
+from utils.data import get_jsonl_data, FewShotDataLoader
 from utils.python import now, set_seeds
 import random
 import collections
@@ -64,12 +64,19 @@ class ProtoNet(nn.Module):
         target_inds = torch.arange(0, n_class).view(n_class, 1, 1).expand(n_class, n_query, 1).long()
         target_inds = Variable(target_inds, requires_grad=False).to(device)
 
-        x = [item for xs_ in xs for item in xs_] + [item for xq_ in xq for item in xq_]
+        n_augmentations = [len(item['augmentations']) for xs_ in xs for item in xs_]
+        assert set(n_augmentations) == {5}
+        n_augmentations = n_augmentations[0]
+
+        x = [aug["text"] for xs_ in xs for item in xs_ for aug in xs_["augmentations"]] + [item["sentence"] for xq_ in xq for item in xq_]
         z = self.encoder.forward(x)
         z_dim = z.size(-1)
 
-        z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
-        zq = z[n_class * n_support:]
+        # When not using augmentations
+        # z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
+        # When using augmentations
+        z_proto = z[:n_class * n_support * n_augmentations].view(n_class, n_support, n_augmentations, z_dim).mean(dim=[1, 2])
+        zq = z[n_class * n_support * n_augmentations:]
 
         if self.metric == "euclidean":
             dists = euclidean_dist(zq, z_proto)
@@ -153,20 +160,57 @@ class ProtoNet(nn.Module):
             'target': target_inds
         }
 
-    def train_step(self, optimizer, data_dict: Dict[str, List[str]], n_support: int, n_classes: int, n_query: int, n_unlabeled: int):
+    def loss_consistency(self, sample):
+        x_augment = sample["x_augment"]
+        n_samples = len(x_augment)
 
-        episode = create_episode(
-            data_dict=data_dict,
-            n_support=n_support,
-            n_classes=n_classes,
-            n_query=n_query,
-            n_unlabeled=n_unlabeled
-        )
+        # x_augment = [(A, [A_1, A_2, ..., A_n]), (B, [B_1, B_2, ..., B_m])]
+        lengths = [1 + len(augments) for sentence, augments in x_augment]
 
+        x = list()
+        for sentence, augs in x_augment:
+            x.append(sentence)
+            x += augs
+
+        z = self.encoder.forward(x)
+        assert len(z) == sum(lengths)
+
+        i = 0
+        original_embeddings = list()
+        augmented_embeddings = list()
+        for length in lengths:
+            original_embeddings.append(z[i])
+            augmented_embeddings.append(z[i + 1:i + length + 1])
+            i += length
+
+        augmented_embeddings = [a.mean(0) for a in augmented_embeddings]
+        if self.metric == "euclidean":
+            dists = euclidean_dist(original_embeddings, augmented_embeddings)
+        elif self.metric == "cosine":
+            dists = (-cosine_similarity(original_embeddings, augmented_embeddings) + 1) * 5
+        else:
+            raise NotImplementedError
+
+        log_p_y = torch_functional.log_softmax(-dists, dim=1).view(n_samples, n_samples, -1)
+
+        import code
+        code.interact(local=locals())
+        # loss_val = -log_p_y.gather(2, target_inds).squeeze().view(-1).mean()
+        # _, y_hat = log_p_y.max(2)
+        # acc_val = torch.eq(y_hat, target_inds.squeeze()).float().mean()
+        #
+        # return loss_val, {
+        #     'loss': loss_val.item(),
+        #     'acc': acc_val.item(),
+        #     'dists': dists,
+        #     'target': target_inds
+        # }
+
+    def train_step(self, optimizer, episode, unlabeled: bool = False):
         self.train()
         optimizer.zero_grad()
         torch.cuda.empty_cache()
-        if n_unlabeled:
+        if unlabeled:
             loss, loss_dict = self.loss_softkmeans(episode)
         else:
             loss, loss_dict = self.loss(episode)
@@ -175,17 +219,23 @@ class ProtoNet(nn.Module):
 
         return loss, loss_dict
 
-    def test_step(self, data_dict, n_support, n_classes, n_query, n_unlabeled=0, n_episodes=1000):
+    def test_step(self,
+                  data_loader: FewShotDataLoader,
+                  n_support: int,
+                  n_query: int,
+                  n_classes: int,
+                  n_unlabeled: int = 0,
+                  n_episodes: int = 1000):
         accuracies = list()
         losses = list()
         self.eval()
         for i in range(n_episodes):
-            episode = create_episode(
-                data_dict=data_dict,
+            episode = data_loader.create_episode(
                 n_support=n_support,
-                n_classes=n_classes,
                 n_query=n_query,
-                n_unlabeled=n_unlabeled
+                n_unlabeled=n_unlabeled,
+                n_classes=n_classes,
+                n_augment=0
             )
 
             with torch.no_grad():
@@ -249,6 +299,7 @@ def run_proto(
         valid_path: str = None,
         test_path: str = None,
         n_unlabeled: int = 0,
+        n_augment: int = 0,
         output_path: str = f'runs/{now()}',
         max_iter: int = 10000,
         evaluate_every: int = 100,
@@ -257,7 +308,7 @@ def run_proto(
         log_every: int = 10,
         metric: str = "euclidean",
         arsc_format: bool = False,
-        data_path:str=None
+        data_path: str = None
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -282,16 +333,6 @@ def run_proto(
         test_writer = SummaryWriter(logdir=os.path.join(output_path, "logs/test"), flush_secs=1, max_queue=1)
         log_dict["test"] = list()
 
-    def raw_data_to_labels_dict(data, shuffle=True):
-        labels_dict = collections.defaultdict(list)
-        for item in data:
-            labels_dict[item['label']].append(item["sentence"])
-        labels_dict = dict(labels_dict)
-        if shuffle:
-            for key, val in labels_dict.items():
-                random.shuffle(val)
-        return labels_dict
-
     # Load model
     bert = BERTEncoder(model_name_or_path).to(device)
     protonet = ProtoNet(encoder=bert, metric=metric)
@@ -299,27 +340,24 @@ def run_proto(
 
     # Load data
     if not arsc_format:
-        train_data = get_jsonl_data(train_path)
-        train_data_dict = raw_data_to_labels_dict(train_data, shuffle=True)
-        logger.info(f"train labels: {train_data_dict.keys()}")
+        train_data_loader = FewShotDataLoader(train_path)
+        logger.info(f"train labels: {train_data_loader.data_dict.keys()}")
 
         if valid_path:
-            valid_data = get_jsonl_data(valid_path)
-            valid_data_dict = raw_data_to_labels_dict(valid_data, shuffle=True)
-            logger.info(f"valid labels: {valid_data_dict.keys()}")
+            valid_data_loader = FewShotDataLoader(valid_path)
+            logger.info(f"valid labels: {valid_data_loader.data_dict.keys()}")
         else:
-            valid_data_dict = None
+            valid_data_loader = None
 
         if test_path:
-            test_data = get_jsonl_data(test_path)
-            test_data_dict = raw_data_to_labels_dict(test_data, shuffle=True)
-            logger.info(f"test labels: {test_data_dict.keys()}")
+            test_data_loader = FewShotDataLoader(test_path)
+            logger.info(f"test labels: {test_data_loader.data_dict.keys()}")
         else:
-            test_data_dict = None
+            test_data_loader = None
     else:
-        train_data_dict = None
-        valid_data_dict = None
-        test_data_dict = None
+        train_data_loader = None
+        valid_data_loader = None
+        test_data_loader = None
 
     train_accuracies = list()
     train_losses = list()
@@ -328,20 +366,18 @@ def run_proto(
 
     for step in range(max_iter):
         if not arsc_format:
-            loss, loss_dict = protonet.train_step(
-                optimizer=optimizer,
-                data_dict=train_data_dict,
-                n_unlabeled=n_unlabeled,
+            episode = train_data_loader.create_episode(
                 n_support=n_support,
                 n_query=n_query,
-                n_classes=n_classes
+                n_classes=n_classes,
+                n_unlabeled=n_unlabeled,
+                n_augment=n_augment
             )
         else:
-            loss, loss_dict = protonet.train_step_ARSC(
-                optimizer=optimizer,
-                n_unlabeled=n_unlabeled,
-                data_path=data_path
-            )
+            episode = create_ARSC_train_episode(n_support=5, n_query=5)
+
+        loss, loss_dict = protonet.train_step(optimizer=optimizer, episode=episode, unlabeled=(n_unlabeled > 0))
+
         train_accuracies.append(loss_dict["acc"])
         train_losses.append(loss_dict["loss"])
 
@@ -370,16 +406,16 @@ def run_proto(
 
         if valid_path or test_path:
             if (step + 1) % evaluate_every == 0:
-                for path, writer, set_type, set_data in zip(
+                for path, writer, set_type, set_data_loader in zip(
                         [valid_path, test_path],
                         [valid_writer, test_writer],
                         ["valid", "test"],
-                        [valid_data_dict, test_data_dict]
+                        [valid_data_loader, valid_data_loader]
                 ):
                     if path:
                         if not arsc_format:
                             set_results = protonet.test_step(
-                                data_dict=set_data,
+                                data_loader=set_data_loader,
                                 n_unlabeled=n_unlabeled,
                                 n_support=n_support,
                                 n_query=n_query,

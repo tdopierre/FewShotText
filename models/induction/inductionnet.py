@@ -72,20 +72,32 @@ class InductionNet(nn.Module):
 
         class_representatives = self.induction_module.forward(z_s=z_support)
         relation_module_scores = self.relation_module.forward(z_q=z_query, z_c=class_representatives)
+        relation_module_scores = torch.sigmoid(relation_module_scores)
         true_labels = torch.zeros_like(relation_module_scores).to(device)
 
         for ix_class, class_query_sentences in enumerate(xq):
             for ix_sentence, sentence in enumerate(class_query_sentences):
                 true_labels[ix_class * n_query + ix_sentence, ix_class] = 1
 
-        loss_fn = nn.CrossEntropyLoss()
+        # loss_fn = nn.CrossEntropyLoss()
+        # loss_val = loss_fn(relation_module_scores, true_labels.argmax(1))
+        # acc_val = (true_labels.argmax(1) == relation_module_scores.argmax(1)).float().mean()
 
-        loss_val = loss_fn(relation_module_scores, true_labels.argmax(1))
-        acc_val = (true_labels.argmax(1) == relation_module_scores.argmax(1)).float().mean()
+        loss_fn = nn.MSELoss()
+        loss_val = loss_fn(relation_module_scores, true_labels)
+        acc_full = ((relation_module_scores > 0.5).float() == true_labels.float()).float().mean()
+        acc_exact = (((relation_module_scores > 0.5).float() - true_labels.float()).abs().max(dim=1)[0] == 0).float().mean()
+        acc_max = (relation_module_scores.argmax(1) == true_labels.argmax(1)).float().mean()
 
         return loss_val, {
             "loss": loss_val.item(),
-            "acc": acc_val.item(),
+            "metrics": {
+                "loss": loss_val.item(),
+                "acc_full": acc_full.item(),
+                "acc_exact": acc_exact.item(),
+                "acc_max": acc_max.item(),
+                "acc": acc_full.item()
+            },
             "y_hat": relation_module_scores.argmax(1).cpu().detach().numpy()
         }
 
@@ -108,8 +120,7 @@ class InductionNet(nn.Module):
         return loss, loss_dict
 
     def test_step(self, data_dict, n_support, n_classes, n_query, n_episodes=1000):
-        accuracies = list()
-        losses = list()
+        metrics = collections.defaultdict(list)
         self.eval()
         for i in range(n_episodes):
             episode = create_episode(
@@ -122,12 +133,11 @@ class InductionNet(nn.Module):
             with torch.no_grad():
                 loss, loss_dict = self.loss(episode)
 
-            accuracies.append(loss_dict["acc"])
-            losses.append(loss_dict["loss"])
+            for key, value in loss_dict["metrics"].items():
+                metrics[key].append(value)
 
         return {
-            "loss": np.mean(losses),
-            "acc": np.mean(accuracies)
+            key: np.mean(value) for key, value in metrics.items()
         }
 
     def train_step_ARSC(self, data_path: str, optimizer):
@@ -305,8 +315,7 @@ def run_induction(
         test_data_dict = None
         valid_data_dict = None
 
-    train_accuracies = list()
-    train_losses = list()
+    train_metrics = collections.defaultdict(list)
     n_eval_since_last_best = 0
     best_valid_acc = 0.0
 
@@ -324,31 +333,28 @@ def run_induction(
                 optimizer=optimizer,
                 data_path=data_path
             )
-        train_accuracies.append(loss_dict["acc"])
-        train_losses.append(loss_dict["loss"])
+
+        for key, value in loss_dict["metrics"].items():
+            train_metrics[key].append(value)
 
         # Logging
         if (step + 1) % log_every == 0:
-            train_writer.add_scalar(tag="loss", scalar_value=np.mean(train_losses), global_step=step)
-            train_writer.add_scalar(tag="accuracy", scalar_value=np.mean(train_accuracies), global_step=step)
-            logger.info(f"train | loss: {np.mean(train_losses):.4f} | acc: {np.mean(train_accuracies):.4f}")
+            for key, value in train_metrics.items():
+                train_writer.add_scalar(tag=key, scalar_value=np.mean(value), global_step=step)
+
+            logger.info(f"train | " + " | ".join([f"{key}:{np.mean(value):.4f}" for key, value in train_metrics.items()]))
             log_dict["train"].append({
                 "metrics": [
                     {
-                        "tag": "accuracy",
-                        "value": np.mean(train_accuracies)
-                    },
-                    {
-                        "tag": "loss",
-                        "value": np.mean(train_losses)
+                        "tag": key,
+                        "value": np.mean(value)
                     }
-
+                    for key, value in train_metrics.items()
                 ],
                 "global_step": step
             })
 
-            train_accuracies = list()
-            train_losses = list()
+            train_metrics = collections.defaultdict(list)
 
         if valid_path or test_path:
             if (step + 1) % evaluate_every == 0:
@@ -373,24 +379,21 @@ def run_induction(
                                 n_episodes=n_test_episodes,
                                 set_type={"valid": "dev", "test": "test"}[set_type]
                             )
-                        writer.add_scalar(tag="loss", scalar_value=set_results["loss"], global_step=step)
-                        writer.add_scalar(tag="accuracy", scalar_value=set_results["acc"], global_step=step)
+                        for key, val in set_results.items():
+                            writer.add_scalar(tag=key, scalar_value=val, global_step=step)
                         log_dict[set_type].append({
                             "metrics": [
                                 {
-                                    "tag": "accuracy",
-                                    "value": set_results["acc"]
-                                },
-                                {
-                                    "tag": "loss",
-                                    "value": set_results["loss"]
+                                    "tag": key,
+                                    "value": val
                                 }
-
+                                for key, val in set_results.items()
                             ],
                             "global_step": step
                         })
 
-                        logger.info(f"{set_type} | loss: {set_results['loss']:.4f} | acc: {set_results['acc']:.4f}")
+                        logger.info(f"{set_type} | " + " | ".join([f"{key}:{np.mean(value):.4f}" for key, value in set_results.items()]))
+
                         if set_type == "valid":
                             if set_results["acc"] > best_valid_acc:
                                 best_valid_acc = set_results["acc"]

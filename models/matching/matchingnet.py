@@ -85,7 +85,10 @@ class MatchingNet(nn.Module):
 
         return loss_val, {
             "loss": loss_val.item(),
-            "acc": acc_val.item(),
+            "metrics": {
+                "acc": acc_val.item(),
+                "loss": loss_val.item(),
+            },
             "y_hat": distances_from_query_to_classes.argmax(1).cpu().detach().numpy()
         }
 
@@ -108,8 +111,7 @@ class MatchingNet(nn.Module):
         return loss, loss_dict
 
     def test_step(self, data_dict, n_support, n_classes, n_query, n_episodes=1000):
-        accuracies = list()
-        losses = list()
+        metrics = collections.defaultdict(list)
         self.eval()
         for i in range(n_episodes):
             episode = create_episode(
@@ -122,12 +124,11 @@ class MatchingNet(nn.Module):
             with torch.no_grad():
                 loss, loss_dict = self.loss(episode)
 
-            accuracies.append(loss_dict["acc"])
-            losses.append(loss_dict["loss"])
+            for k, v in loss_dict["metrics"]:
+                metrics[k].append(v)
 
         return {
-            "loss": np.mean(losses),
-            "acc": np.mean(accuracies)
+            key: np.mean(value) for key, value in metrics.items()
         }
 
     def train_step_ARSC(self, data_path: str, optimizer):
@@ -144,8 +145,7 @@ class MatchingNet(nn.Module):
 
     def test_step_ARSC(self, data_path: str, n_episodes=1000, set_type="test"):
         assert set_type in ("dev", "test")
-        accuracies = list()
-        losses = list()
+        metrics = collections.defaultdict(list)
         self.eval()
         for i in range(n_episodes):
             episode = create_ARSC_test_episode(prefix=data_path, n_query=5, set_type=set_type)
@@ -153,12 +153,11 @@ class MatchingNet(nn.Module):
             with torch.no_grad():
                 loss, loss_dict = self.loss(episode)
 
-            accuracies.append(loss_dict["acc"])
-            losses.append(loss_dict["loss"])
+                for k, v in loss_dict["metrics"].items():
+                    metrics[k].append(v)
 
         return {
-            "loss": np.mean(losses),
-            "acc": np.mean(accuracies)
+            key: np.mean(value) for key, value in metrics.items()
         }
 
 
@@ -242,8 +241,7 @@ def run_matching(
         valid_data_dict = None
         test_data_dict = None
 
-    train_accuracies = list()
-    train_losses = list()
+    train_metrics = collections.defaultdict(list)
     n_eval_since_last_best = 0
     best_valid_acc = 0.0
 
@@ -261,31 +259,26 @@ def run_matching(
                 data_path=data_path,
                 optimizer=optimizer
             )
-        train_accuracies.append(loss_dict["acc"])
-        train_losses.append(loss_dict["loss"])
+        for key, value in loss_dict["metrics"].items():
+            train_metrics[key].append(value)
 
         # Logging
         if (step + 1) % log_every == 0:
-            train_writer.add_scalar(tag="loss", scalar_value=np.mean(train_losses), global_step=step)
-            train_writer.add_scalar(tag="accuracy", scalar_value=np.mean(train_accuracies), global_step=step)
-            logger.info(f"train | loss: {np.mean(train_losses):.4f} | acc: {np.mean(train_accuracies):.4f}")
+            for key, value in train_metrics.items():
+                train_writer.add_scalar(tag=key, scalar_value=np.mean(value), global_step=step)
+            logger.info(f"train | " + " | ".join([f"{key}:{np.mean(value):.4f}" for key, value in train_metrics.items()]))
             log_dict["train"].append({
                 "metrics": [
                     {
-                        "tag": "accuracy",
-                        "value": np.mean(train_accuracies)
-                    },
-                    {
-                        "tag": "loss",
-                        "value": np.mean(train_losses)
+                        "tag": key,
+                        "value": np.mean(value)
                     }
-
+                    for key, value in train_metrics.items()
                 ],
                 "global_step": step
             })
 
-            train_accuracies = list()
-            train_losses = list()
+            train_metrics = collections.defaultdict(list)
 
         if valid_path or test_path:
             if (step + 1) % evaluate_every == 0:
@@ -311,24 +304,20 @@ def run_matching(
                                 set_type={"valid": "dev", "test": "test"}[set_type]
                             )
 
-                        writer.add_scalar(tag="loss", scalar_value=set_results["loss"], global_step=step)
-                        writer.add_scalar(tag="accuracy", scalar_value=set_results["acc"], global_step=step)
+                        for key, val in set_results.items():
+                            writer.add_scalar(tag=key, scalar_value=val, global_step=step)
                         log_dict[set_type].append({
                             "metrics": [
                                 {
-                                    "tag": "accuracy",
-                                    "value": set_results["acc"]
-                                },
-                                {
-                                    "tag": "loss",
-                                    "value": set_results["loss"]
+                                    "tag": key,
+                                    "value": val
                                 }
-
+                                for key, val in set_results.items()
                             ],
                             "global_step": step
                         })
 
-                        logger.info(f"{set_type} | loss: {set_results['loss']:.4f} | acc: {set_results['acc']:.4f}")
+                        logger.info(f"{set_type} | " + " | ".join([f"{key}:{np.mean(value):.4f}" for key, value in set_results.items()]))
                         if set_type == "valid":
                             if set_results["acc"] > best_valid_acc:
                                 best_valid_acc = set_results["acc"]

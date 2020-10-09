@@ -46,10 +46,10 @@ def create_episode(data_dict, n_support, n_classes, n_query, n_unlabeled=0):
     return episode
 
 
-def create_ARSC_train_episode(n_support: int = 5, n_query: int = 5, n_unlabeled=0):
+def create_ARSC_train_episode(prefix: str = "data/ARSC-Yu/raw", n_support: int = 5, n_query: int = 5, n_unlabeled=0):
     labels = sorted(
-        set([line.strip() for line in open("data/ARSC-Yu/raw/workspace.filtered.list", "r").readlines()])
-        - set([line.strip() for line in open("data/ARSC-Yu/raw/workspace.target.list", "r").readlines()]))
+        set([line.strip() for line in open(f"{prefix}/workspace.filtered.list", "r").readlines()])
+        - set([line.strip() for line in open(f"{prefix}/workspace.target.list", "r").readlines()]))
 
     # Pick a random label
     label = random.choice(labels)
@@ -66,9 +66,9 @@ def create_ARSC_train_episode(n_support: int = 5, n_query: int = 5, n_unlabeled=
         binary_task = random.choice([2, 4, 5])
 
     data = (
-            get_tsv_data(f"data/ARSC-Yu/raw/{label}.t{binary_task}.train", label=label) +
-            get_tsv_data(f"data/ARSC-Yu/raw/{label}.t{binary_task}.dev", label=label) +
-            get_tsv_data(f"data/ARSC-Yu/raw/{label}.t{binary_task}.test", label=label)
+            get_tsv_data(f"{prefix}/{label}.t{binary_task}.train", label=label) +
+            get_tsv_data(f"{prefix}/{label}.t{binary_task}.dev", label=label) +
+            get_tsv_data(f"{prefix}/{label}.t{binary_task}.test", label=label)
     )
 
     random.shuffle(data)
@@ -99,9 +99,9 @@ def create_ARSC_train_episode(n_support: int = 5, n_query: int = 5, n_unlabeled=
     return episode
 
 
-def create_ARSC_test_episode(n_query: int = 5, n_unlabeled=0, set_type: str = "test"):
+def create_ARSC_test_episode(prefix: str = "data/ARSC-Yu/raw", n_query: int = 5, n_unlabeled=0, set_type: str = "test"):
     assert set_type in ("test", "dev")
-    labels = [line.strip() for line in open("data/ARSC-Yu/raw/workspace.target.list", "r").readlines()]
+    labels = [line.strip() for line in open(f"{prefix}/workspace.target.list", "r").readlines()]
 
     # Pick a random label
     label = random.choice(labels)
@@ -109,7 +109,7 @@ def create_ARSC_test_episode(n_query: int = 5, n_unlabeled=0, set_type: str = "t
     # Pick a random binary task (2, 4, 5)
     binary_task = random.choice([2, 4, 5])
 
-    support_data = get_tsv_data(f"data/ARSC-Yu/raw/{label}.t{binary_task}.train", label=label)
+    support_data = get_tsv_data(f"{prefix}/{label}.t{binary_task}.train", label=label)
     assert len(support_data) == 10  # 2 * 5 shots
     support_dict = collections.defaultdict(list)
     for d in support_data:

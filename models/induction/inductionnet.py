@@ -72,31 +72,41 @@ class InductionNet(nn.Module):
 
         class_representatives = self.induction_module.forward(z_s=z_support)
         relation_module_scores = self.relation_module.forward(z_q=z_query, z_c=class_representatives)
-        relation_module_scores = torch.sigmoid(relation_module_scores)
         true_labels = torch.zeros_like(relation_module_scores).to(device)
 
         for ix_class, class_query_sentences in enumerate(xq):
             for ix_sentence, sentence in enumerate(class_query_sentences):
                 true_labels[ix_class * n_query + ix_sentence, ix_class] = 1
 
-        # loss_fn = nn.CrossEntropyLoss()
-        # loss_val = loss_fn(relation_module_scores, true_labels.argmax(1))
-        # acc_val = (true_labels.argmax(1) == relation_module_scores.argmax(1)).float().mean()
+        # MSE LOSS
+        # relation_module_scores = torch.sigmoid(relation_module_scores)
+        # loss_fn = nn.MSELoss()
+        # loss_val = loss_fn(relation_module_scores, true_labels)
+        # acc_full = ((relation_module_scores > 0.5).float() == true_labels.float()).float().mean()
+        # acc_exact = (((relation_module_scores > 0.5).float() - true_labels.float()).abs().max(dim=1)[0] == 0).float().mean()
+        # acc_max = (relation_module_scores.argmax(1) == true_labels.argmax(1)).float().mean()
+        #
+        # return loss_val, {
+        #     "loss": loss_val.item(),
+        #     "metrics": {
+        #         "loss": loss_val.item(),
+        #         "acc_full": acc_full.item(),
+        #         "acc_exact": acc_exact.item(),
+        #         "acc_max": acc_max.item(),
+        #         "acc": acc_max.item()
+        #     },
+        #     "y_hat": relation_module_scores.argmax(1).cpu().detach().numpy()
+        # }
 
-        loss_fn = nn.MSELoss()
-        loss_val = loss_fn(relation_module_scores, true_labels)
-        acc_full = ((relation_module_scores > 0.5).float() == true_labels.float()).float().mean()
-        acc_exact = (((relation_module_scores > 0.5).float() - true_labels.float()).abs().max(dim=1)[0] == 0).float().mean()
-        acc_max = (relation_module_scores.argmax(1) == true_labels.argmax(1)).float().mean()
-
+        # CE LOSS
+        loss_fn = nn.CrossEntropyLoss()
+        loss_val = loss_fn(relation_module_scores, true_labels.argmax(1))
+        acc_val = (true_labels.argmax(1) == relation_module_scores.argmax(1)).float().mean()
         return loss_val, {
             "loss": loss_val.item(),
             "metrics": {
                 "loss": loss_val.item(),
-                "acc_full": acc_full.item(),
-                "acc_exact": acc_exact.item(),
-                "acc_max": acc_max.item(),
-                "acc": acc_full.item()
+                "acc": acc_val.item()
             },
             "y_hat": relation_module_scores.argmax(1).cpu().detach().numpy()
         }
@@ -154,8 +164,7 @@ class InductionNet(nn.Module):
 
     def test_step_ARSC(self, data_path: str, n_episodes=1000, set_type="test"):
         assert set_type in ("dev", "test")
-        accuracies = list()
-        losses = list()
+        metrics = collections.defaultdict(list)
         self.eval()
         for i in range(n_episodes):
             episode = create_ARSC_test_episode(prefix=data_path, n_query=5, set_type=set_type)
@@ -163,12 +172,11 @@ class InductionNet(nn.Module):
             with torch.no_grad():
                 loss, loss_dict = self.loss(episode)
 
-            accuracies.append(loss_dict["acc"])
-            losses.append(loss_dict["loss"])
+            for key, value in loss_dict["metrics"].items():
+                metrics[key].append(value)
 
         return {
-            "loss": np.mean(losses),
-            "acc": np.mean(accuracies)
+            key: np.mean(value) for key, value in metrics.items()
         }
 
 

@@ -64,19 +64,28 @@ class ProtoNet(nn.Module):
         target_inds = torch.arange(0, n_class).view(n_class, 1, 1).expand(n_class, n_query, 1).long()
         target_inds = Variable(target_inds, requires_grad=False).to(device)
 
-        n_augmentations = [len(item['augmentations']) for xs_ in xs for item in xs_]
-        assert set(n_augmentations) == {5}
-        n_augmentations = n_augmentations[0]
+        has_augmentations = any(["augmentations" in item for xs_ in xs for item in xs_])
+        if has_augmentations:
+            # When using augmentations
+            n_augmentations = [len(item['augmentations']) for xs_ in xs for item in xs_]
+            assert set(n_augmentations) == {5}
+            n_augmentations = n_augmentations[0]
 
-        x = [aug["text"] for xs_ in xs for item in xs_ for aug in xs_["augmentations"]] + [item["sentence"] for xq_ in xq for item in xq_]
-        z = self.encoder.forward(x)
-        z_dim = z.size(-1)
+            x = [aug["text"] for xs_ in xs for item in xs_ for aug in item["augmentations"]] + [item["sentence"] for xq_ in xq for item in xq_]
+            z = self.encoder.forward(x)
+            z_dim = z.size(-1)
 
-        # When not using augmentations
-        # z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
-        # When using augmentations
-        z_proto = z[:n_class * n_support * n_augmentations].view(n_class, n_support, n_augmentations, z_dim).mean(dim=[1, 2])
-        zq = z[n_class * n_support * n_augmentations:]
+            z_proto = z[:n_class * n_support * n_augmentations].view(n_class, n_support, n_augmentations, z_dim).mean(dim=[1, 2])
+            zq = z[n_class * n_support * n_augmentations:]
+        else:
+            # When not using augmentations
+            x = [item["sentence"] for xs_ in xs for item in xs_] + [item["sentence"] for xq_ in xq for item in xq_]
+
+            z = self.encoder.forward(x)
+            z_dim = z.size(-1)
+            z_support = z[:n_class * n_support]
+            zq = z[n_class * n_support:]
+            z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
 
         if self.metric == "euclidean":
             dists = euclidean_dist(zq, z_proto)
@@ -225,8 +234,6 @@ class ProtoNet(nn.Module):
 
         return loss, loss_dict
 
-    def test_step(self, data_dict, n_support, n_classes, n_query, n_unlabeled=0, n_episodes=1000):
-        metrics = collections.defaultdict(list)
     def test_step(self,
                   data_loader: FewShotDataLoader,
                   n_support: int,
@@ -234,8 +241,8 @@ class ProtoNet(nn.Module):
                   n_classes: int,
                   n_unlabeled: int = 0,
                   n_episodes: int = 1000):
-        accuracies = list()
-        losses = list()
+        metrics = collections.defaultdict(list)
+
         self.eval()
         for i in range(n_episodes):
             episode = data_loader.create_episode(
@@ -252,7 +259,7 @@ class ProtoNet(nn.Module):
                 else:
                     loss, loss_dict = self.loss(episode)
 
-            for k, v in loss_dict["metrics"]:
+            for k, v in loss_dict["metrics"].items():
                 metrics[k].append(v)
 
         return {

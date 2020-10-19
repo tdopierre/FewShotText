@@ -4,6 +4,7 @@
 **/__pycache__
 # Runs folder
 runs
+runs*
 runs.bkp
 tmp
 

@@ -1,5 +1,17 @@
 # FewShotText
-Library of various Few-Shot Learning frameworks for text classification
+This repository contains code for the paper [A Neural Few-Shot Text Classification Reality Check](https://arxiv.org/abs/2101.12073)
+
+## Environment setup
+```bash
+# Create environment
+python3 -m virtualenv .venv --python=python3.6
+
+# Install environment
+.venv/bin/pip install -r requirements.txt
+
+# Activate environment
+source .venv/bin/activate
+```
 
 ## Fine-tuning BERT on the MLM task
 ```bash
@@ -30,3 +42,14 @@ python scripts_transformers/run_language_modeling.py \
 
 ## Training a few-shot model
 To run the paper's experiments, simply use the ```utils/scripts/runner.sh``` file. 
+
+## Reference
+If you use the data or codes in this repository, please cite our paper:
+```bash
+@article{dopierre2021neural,
+    title={A Neural Few-Shot Text Classification Reality Check},
+    author={Dopierre, Thomas and Gravier, Christophe and Logerais, Wilfried},
+    journal={arXiv preprint arXiv:2101.12073},
+    year={2021}
+}
+```

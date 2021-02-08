@@ -21,3 +21,4 @@ notebooks
 
 # Ignore data by default
 data
+**/*.zip

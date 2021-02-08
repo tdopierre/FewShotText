@@ -6,7 +6,7 @@ from utils.python import now, set_seeds
 import random
 import collections
 import os
-from typing import List, Dict
+from typing import List, Dict, Callable, Union
 from tensorboardX import SummaryWriter
 import numpy as np
 import torch
@@ -28,15 +28,16 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 
 
 class ProtoNet(nn.Module):
-    def __init__(self, encoder, metric="euclidean"):
+    def __init__(self, encoder: BERTEncoder, metric="euclidean"):
         super(ProtoNet, self).__init__()
 
-        self.encoder = encoder
+        self.encoder: BERTEncoder = encoder
         self.metric = metric
         assert self.metric in ('euclidean', 'cosine')
 
-    def loss(self, sample):
+    def loss(self, sample, supervised_loss_share: float = 0):
         """
+        :param supervised_loss_share: share of supervised loss in total loss
         :param sample: {
             "xs": [
                 [support_A_1, support_A_2, ...],
@@ -64,49 +65,100 @@ class ProtoNet(nn.Module):
         target_inds = torch.arange(0, n_class).view(n_class, 1, 1).expand(n_class, n_query, 1).long()
         target_inds = Variable(target_inds, requires_grad=False).to(device)
 
-        has_augmentations = any(["augmentations" in item for xs_ in xs for item in xs_])
+        has_augmentations = ("x_augment" in sample)
+
         if has_augmentations:
             # When using augmentations
-            n_augmentations = [len(item['augmentations']) for xs_ in xs for item in xs_]
-            assert set(n_augmentations) == {5}
-            n_augmentations = n_augmentations[0]
+            augmentations = sample["x_augment"]
 
-            x = [aug["text"] for xs_ in xs for item in xs_ for aug in item["augmentations"]] + [item["sentence"] for xq_ in xq for item in xq_]
-            z = self.encoder.forward(x)
+            n_augmentations_samples = len(sample["x_augment"])
+            n_augmentations_per_sample = [len(item['augmentations']) for item in augmentations]
+            assert set(n_augmentations_per_sample) == {5}
+            n_augmentations_per_sample = n_augmentations_per_sample[0]
+
+            supports = [item["sentence"] for xs_ in xs for item in xs_]
+            queries = [item["sentence"] for xq_ in xq for item in xq_]
+            augmentations_supports = [[item2["text"] for item2 in item["augmentations"]] for item in sample["x_augment"]]
+            augmentation_queries = [item["sentence"] for item in sample["x_augment"]]
+
+            # Encode
+            x = supports + queries + [item2 for item1 in augmentations_supports for item2 in item1] + augmentation_queries
+            z = self.encoder.embed_sentences(x)
             z_dim = z.size(-1)
 
-            z_proto = z[:n_class * n_support * n_augmentations].view(n_class, n_support, n_augmentations, z_dim).mean(dim=[1, 2])
-            zq = z[n_class * n_support * n_augmentations:]
+            # Dispatch
+            z_support = z[:len(supports)].view(n_class, n_support, z_dim).mean(dim=[1])
+            z_query = z[len(supports):len(supports) + len(queries)]
+            z_aug_support = (z[len(supports) + len(queries):len(supports) + len(queries) + n_augmentations_per_sample * n_augmentations_samples]
+                             .view(n_augmentations_samples, n_augmentations_per_sample, z_dim).mean(dim=[1]))
+            z_aug_query = z[-len(augmentation_queries):]
         else:
             # When not using augmentations
-            x = [item["sentence"] for xs_ in xs for item in xs_] + [item["sentence"] for xq_ in xq for item in xq_]
+            supports = [item["sentence"] for xs_ in xs for item in xs_]
+            queries = [item["sentence"] for xq_ in xq for item in xq_]
 
-            z = self.encoder.forward(x)
+            # Encode
+            x = supports + queries
+            z = self.encoder.embed_sentences(x)
             z_dim = z.size(-1)
-            z_support = z[:n_class * n_support]
-            zq = z[n_class * n_support:]
-            z_proto = z[:n_class * n_support].view(n_class, n_support, z_dim).mean(1)
+
+            # Dispatch
+            z_support = z[:len(supports)].view(n_class, n_support, z_dim).mean(dim=[1])
+            z_query = z[len(supports):len(supports) + len(queries)]
 
         if self.metric == "euclidean":
-            dists = euclidean_dist(zq, z_proto)
+            supervised_dists = euclidean_dist(z_query, z_support)
+            if has_augmentations:
+                unsupervised_dists = euclidean_dist(z_aug_query, z_aug_support)
         elif self.metric == "cosine":
-            dists = (-cosine_similarity(zq, z_proto) + 1) * 5
+            supervised_dists = (-cosine_similarity(z_query, z_support) + 1) * 5
+            if has_augmentations:
+                unsupervised_dists = (-cosine_similarity(z_aug_query, z_aug_support) + 1) * 5
         else:
             raise NotImplementedError
 
-        log_p_y = torch_functional.log_softmax(-dists, dim=1).view(n_class, n_query, -1)
-        dists.view(n_class, n_query, -1)
-        loss_val = -log_p_y.gather(2, target_inds).squeeze().view(-1).mean()
-        _, y_hat = log_p_y.max(2)
-        acc_val = torch.eq(y_hat, target_inds.squeeze()).float().mean()
+        # Supervised loss
+        # -- legacy
+        # log_p_y = torch_functional.log_softmax(-supervised_dists, dim=1).view(n_class, n_query, -1)
+        # dists.view(n_class, n_query, -1)
+        # loss_val = -log_p_y.gather(2, target_inds).squeeze().view(-1).mean()
+        # -- NEW
+        from torch.nn import CrossEntropyLoss
+        supervised_loss = CrossEntropyLoss()(-supervised_dists, target_inds.reshape(-1))
+        _, y_hat_supervised = (-supervised_dists).max(1)
+        acc_val_supervised = torch.eq(y_hat_supervised, target_inds.reshape(-1)).float().mean()
 
-        return loss_val, {
-            "loss": loss_val.item(),
+        if has_augmentations:
+            # Unsupervised loss
+            unsupervised_target_inds = torch.range(0, n_augmentations_samples - 1).to(device).long()
+            unsupervised_loss = CrossEntropyLoss()(-unsupervised_dists, unsupervised_target_inds)
+            _, y_hat_unsupervised = (-unsupervised_dists).max(1)
+            acc_val_unsupervised = torch.eq(y_hat_unsupervised, unsupervised_target_inds.reshape(-1)).float().mean()
+
+            # Final loss
+            assert 0 <= supervised_loss_share <= 1
+            final_loss = (supervised_loss_share) * supervised_loss + (1 - supervised_loss_share) * unsupervised_loss
+
+            return final_loss, {
+                "metrics": {
+                    "supervised_acc": acc_val_supervised.item(),
+                    "unsupervised_acc": acc_val_unsupervised.item(),
+                    "supervised_loss": supervised_loss.item(),
+                    "unsupervised_loss": unsupervised_loss.item(),
+                    "supervised_loss_share": supervised_loss_share,
+                    "final_loss": final_loss.item(),
+                },
+                "supervised_dists": supervised_dists,
+                "unsupervised_dists": unsupervised_dists,
+                "target": target_inds
+            }
+
+        return supervised_loss, {
             "metrics": {
-                "acc": acc_val.item(),
-                "loss": loss_val.item(),
+                "acc": acc_val_supervised.item(),
+                "loss": supervised_loss.item(),
             },
-            "dists": dists,
+            "dists": supervised_dists,
             "target": target_inds
         }
 
@@ -123,8 +175,8 @@ class ProtoNet(nn.Module):
         target_inds = torch.arange(0, n_class).view(n_class, 1, 1).expand(n_class, n_query, 1).long()
         target_inds = Variable(target_inds, requires_grad=False).to(device)
 
-        x = [item for xs_ in xs for item in xs_] + [item for xq_ in xq for item in xq_] + [item for item in xu]
-        z = self.encoder.forward(x)
+        x = [item["sentence"] for xs_ in xs for item in xs_] + [item["sentence"] for xq_ in xq for item in xq_] + [item["sentence"] for item in xu]
+        z = self.encoder.embed_sentences(x)
         z_dim = z.size(-1)
 
         zs = z[:n_class * n_support]
@@ -187,7 +239,7 @@ class ProtoNet(nn.Module):
             x.append(sentence)
             x += augs
 
-        z = self.encoder.forward(x)
+        z = self.encoder.embed_sentences(x)
         assert len(z) == sum(lengths)
 
         i = 0
@@ -208,8 +260,6 @@ class ProtoNet(nn.Module):
 
         log_p_y = torch_functional.log_softmax(-dists, dim=1).view(n_samples, n_samples, -1)
 
-        import code
-        code.interact(local=locals())
         # loss_val = -log_p_y.gather(2, target_inds).squeeze().view(-1).mean()
         # _, y_hat = log_p_y.max(2)
         # acc_val = torch.eq(y_hat, target_inds.squeeze()).float().mean()
@@ -221,14 +271,14 @@ class ProtoNet(nn.Module):
         #     'target': target_inds
         # }
 
-    def train_step(self, optimizer, episode, unlabeled: bool = False):
+    def train_step(self, optimizer, episode, supervised_loss_share: float, unlabeled: bool = False):
         self.train()
         optimizer.zero_grad()
         torch.cuda.empty_cache()
         if unlabeled:
             loss, loss_dict = self.loss_softkmeans(episode)
         else:
-            loss, loss_dict = self.loss(episode)
+            loss, loss_dict = self.loss(episode, supervised_loss_share=supervised_loss_share)
         loss.backward()
         optimizer.step()
 
@@ -257,7 +307,7 @@ class ProtoNet(nn.Module):
                 if n_unlabeled:
                     loss, loss_dict = self.loss_softkmeans(episode)
                 else:
-                    loss, loss_dict = self.loss(episode)
+                    loss, loss_dict = self.loss(episode, supervised_loss_share=0)
 
             for k, v in loss_dict["metrics"].items():
                 metrics[k].append(v)
@@ -308,6 +358,7 @@ def run_proto(
         n_support: int,
         n_query: int,
         n_classes: int,
+        unlabeled_path: str = None,
         valid_path: str = None,
         test_path: str = None,
         n_unlabeled: int = 0,
@@ -320,7 +371,8 @@ def run_proto(
         log_every: int = 10,
         metric: str = "euclidean",
         arsc_format: bool = False,
-        data_path: str = None
+        data_path: str = None,
+        supervised_loss_share_fn: Callable[[int, int], float] = lambda x, y: 1 - (x / y)
 ):
     if output_path:
         if os.path.exists(output_path) and len(os.listdir(output_path)):
@@ -352,7 +404,7 @@ def run_proto(
 
     # Load data
     if not arsc_format:
-        train_data_loader = FewShotDataLoader(train_path)
+        train_data_loader = FewShotDataLoader(train_path, unlabeled_file_path=unlabeled_path)
         logger.info(f"train labels: {train_data_loader.data_dict.keys()}")
 
         if valid_path:
@@ -387,7 +439,8 @@ def run_proto(
         else:
             episode = create_ARSC_train_episode(n_support=5, n_query=5)
 
-        loss, loss_dict = protonet.train_step(optimizer=optimizer, episode=episode, unlabeled=(n_unlabeled > 0))
+        supervised_loss_share = supervised_loss_share_fn(step, max_iter)
+        loss, loss_dict = protonet.train_step(optimizer=optimizer, episode=episode, unlabeled=(n_unlabeled > 0), supervised_loss_share=supervised_loss_share)
 
         for key, value in loss_dict["metrics"].items():
             train_metrics[key].append(value)
@@ -471,6 +524,7 @@ def main():
     parser.add_argument("--train-path", type=str, required=True, help="Path to training data")
     parser.add_argument("--valid-path", type=str, default=None, help="Path to validation data")
     parser.add_argument("--test-path", type=str, default=None, help="Path to testing data")
+    parser.add_argument("--unlabeled-path", type=str, default=None, help="Path to data containing augmentations used for consistency")
     parser.add_argument("--data-path", type=str, default=None, help="Path to data (ARSC only)")
 
     parser.add_argument("--output-path", type=str, default=f'runs/{now()}')
@@ -486,10 +540,14 @@ def main():
     parser.add_argument("--n-support", type=int, default=5, help="Number of support points for each class")
     parser.add_argument("--n-query", type=int, default=5, help="Number of query points for each class")
     parser.add_argument("--n-classes", type=int, default=5, help="Number of classes per episode")
+    parser.add_argument("--n-augment", type=int, default=5, help="Number of augmented samples to take")
     parser.add_argument("--n-test-episodes", type=int, default=1000, help="Number of episodes during evaluation (valid, test)")
 
     # Metric to use in proto distance calculation
     parser.add_argument("--metric", type=str, default="euclidean", help="Metric to use", choices=("euclidean", "cosine"))
+
+    # Supervised loss share
+    parser.add_argument("--supervised-loss-share-power", default=1.0, type=float, help="supervised_loss_share = 1 - (x/y) ** <param>")
 
     # ARSC data
     parser.add_argument("--arsc-format", default=False, action="store_true", help="Using ARSC few-shot format")
@@ -503,12 +561,23 @@ def main():
         if arg and not os.path.exists(arg):
             raise FileNotFoundError(f"Data @ {arg} not found.")
 
+    # Create supervised_loss_share_fn
+    def get_supervised_loss_share_fn(supervised_loss_share_power: Union[int, float]) -> Callable[[int, int], float]:
+        def _supervised_loss_share_fn(current_step: int, max_steps: int) -> float:
+            assert current_step <= max_steps
+            return 1 - (current_step / max_steps) ** supervised_loss_share_power
+
+        return _supervised_loss_share_fn
+
+    supervised_loss_share_fn = get_supervised_loss_share_fn(args.supervised_loss_share_power)
+
     # Run
     run_proto(
         train_path=args.train_path,
         valid_path=args.valid_path,
         test_path=args.test_path,
         output_path=args.output_path,
+        unlabeled_path=args.unlabeled_path,
 
         model_name_or_path=args.model_name_or_path,
         n_unlabeled=args.n_unlabeled,
@@ -517,6 +586,7 @@ def main():
         n_query=args.n_query,
         n_classes=args.n_classes,
         n_test_episodes=args.n_test_episodes,
+        n_augment=args.n_augment,
 
         max_iter=args.max_iter,
         evaluate_every=args.evaluate_every,
@@ -525,7 +595,10 @@ def main():
         early_stop=args.early_stop,
         arsc_format=args.arsc_format,
         data_path=args.data_path,
-        log_every=args.log_every
+        log_every=args.log_every,
+
+        supervised_loss_share_fn=supervised_loss_share_fn
+
     )
 
     # Save config

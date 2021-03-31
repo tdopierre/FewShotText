@@ -1,0 +1,1366 @@
+{"global_ix": 5088, "sentence": "When did Charles Lindbergh die ?", "label": "NUM:date"}
+{"global_ix": 3781, "sentence": "What does Warner Bros. call a flightless cuckoo ?", "label": "ENTY:termeq"}
+{"global_ix": 3653, "sentence": "What is office automation ?", "label": "DESC:def"}
+{"global_ix": 866, "sentence": "What Texas city got its name from the Spanish for `` yellow '' ?", "label": "LOC:city"}
+{"global_ix": 3819, "sentence": "What happened in the city of Dogtown in 1899 ?", "label": "DESC:desc"}
+{"global_ix": 217, "sentence": "How much does a new railroad coal car cost ?", "label": "NUM:money"}
+{"global_ix": 2473, "sentence": "What are John C. Calhoun and Henry Clay known as ?", "label": "ENTY:termeq"}
+{"global_ix": 4591, "sentence": "What 's a `` coup de poing '' to a French boxer ?", "label": "DESC:def"}
+{"global_ix": 3258, "sentence": "What is a term for behavior , appearance , or expression that violates the accepted standards of sexual morality ?", "label": "ENTY:termeq"}
+{"global_ix": 1146, "sentence": "When did Israel begin turning the Gaza Strip and Jericho over to the PLO ?", "label": "NUM:date"}
+{"global_ix": 1296, "sentence": "What does each of the utilities cost in Monopoly ?", "label": "NUM:money"}
+{"global_ix": 370, "sentence": "What product does `` Mrs. Olsen '' promote ?", "label": "ENTY:product"}
+{"global_ix": 779, "sentence": "What is a Certified Nurse Midwife ?", "label": "DESC:def"}
+{"global_ix": 4295, "sentence": "What 's the motto of the Boy Scouts ?", "label": "DESC:desc"}
+{"global_ix": 4638, "sentence": "What is `` Chicago Hope '' ?", "label": "DESC:def"}
+{"global_ix": 4851, "sentence": "What Grand Slam golf tournament wasn 't held between 1940 and 1945 ?", "label": "ENTY:sport"}
+{"global_ix": 2647, "sentence": "What is the term for the side of the mountain that faces the prevailing winds ?", "label": "ENTY:termeq"}
+{"global_ix": 2911, "sentence": "In which sport is there a `` scrum '' ?", "label": "ENTY:sport"}
+{"global_ix": 3875, "sentence": "What does appropriates money mean ?", "label": "DESC:def"}
+{"global_ix": 4947, "sentence": "What do a diamond and lump of coal have in common ?", "label": "DESC:desc"}
+{"global_ix": 498, "sentence": "What is the largest city on the Great Lakes ?", "label": "LOC:city"}
+{"global_ix": 2189, "sentence": "What is leukemia ?", "label": "DESC:def"}
+{"global_ix": 4314, "sentence": "What is the first day of the week ?", "label": "NUM:date"}
+{"global_ix": 3897, "sentence": "What 's the third month of the Gregorian calendar ?", "label": "NUM:date"}
+{"global_ix": 3029, "sentence": "What African capital is named for a U.S. president ?", "label": "LOC:city"}
+{"global_ix": 3171, "sentence": "What is the feudal system ?", "label": "DESC:def"}
+{"global_ix": 695, "sentence": "What does the Latin ante mortem mean ?", "label": "DESC:def"}
+{"global_ix": 4951, "sentence": "How much did a McDonald 's hamburger cost in 1963 ?", "label": "NUM:money"}
+{"global_ix": 1155, "sentence": "What does the word `` meta '' mean ?", "label": "DESC:def"}
+{"global_ix": 3945, "sentence": "How much does one ton of cement cost ?", "label": "NUM:money"}
+{"global_ix": 4917, "sentence": "What is the origin of the term `` blue moon , '' and how often do they occur ?", "label": "DESC:desc"}
+{"global_ix": 1062, "sentence": "What is a handheld PC ?", "label": "DESC:def"}
+{"global_ix": 1787, "sentence": "What are snowballs to a hot-rodder ?", "label": "DESC:def"}
+{"global_ix": 1709, "sentence": "When will Jean Aeul publish her next book ?", "label": "NUM:date"}
+{"global_ix": 15, "sentence": "What did the only repealed amendment to the U.S. Constitution deal with ?", "label": "DESC:desc"}
+{"global_ix": 2414, "sentence": "What is diabetes ?", "label": "DESC:def"}
+{"global_ix": 2416, "sentence": "When do MORMONS believe Christ was born ?", "label": "NUM:date"}
+{"global_ix": 86, "sentence": "When did CNN begin broadcasting ?", "label": "NUM:date"}
+{"global_ix": 2400, "sentence": "When was London 's Docklands Light Railway constructed ?", "label": "NUM:date"}
+{"global_ix": 1688, "sentence": "What war did the Potsdam Conference follow ?", "label": "ENTY:event"}
+{"global_ix": 4621, "sentence": "What type of exercise burns the most calories ?", "label": "ENTY:sport"}
+{"global_ix": 2682, "sentence": "On what day were John F and Jackie Kennedy married ?", "label": "NUM:date"}
+{"global_ix": 769, "sentence": "How much was the minimum wage in 1991 ?", "label": "NUM:money"}
+{"global_ix": 757, "sentence": "What is an isthmus ?", "label": "DESC:def"}
+{"global_ix": 2492, "sentence": "What is meant by the term `` yield to maturity '' in reference to bonds ?", "label": "DESC:def"}
+{"global_ix": 1639, "sentence": "When did humans first begin to write history seriously ?", "label": "NUM:date"}
+{"global_ix": 495, "sentence": "What is a nanometer ?", "label": "DESC:def"}
+{"global_ix": 3517, "sentence": "What do you call a date that contains sequencing numbers , like 9-8-98 ?", "label": "ENTY:termeq"}
+{"global_ix": 4406, "sentence": "What Japanese city was once called Edo ?", "label": "LOC:city"}
+{"global_ix": 4637, "sentence": "What is yohimbine ?", "label": "DESC:def"}
+{"global_ix": 884, "sentence": "In what city is the headquarters of Sinn Fein ?", "label": "LOC:city"}
+{"global_ix": 2930, "sentence": "What started in 1849 when gold was discovered at Sutter 's Mill ?", "label": "ENTY:event"}
+{"global_ix": 4452, "sentence": "What are Fortune 500 companies ?", "label": "DESC:def"}
+{"global_ix": 4361, "sentence": "What were the first three cities to have a population of more than a million ?", "label": "LOC:city"}
+{"global_ix": 3506, "sentence": "What does the name Calder mean ?", "label": "DESC:def"}
+{"global_ix": 2425, "sentence": "What 's a short ton ?", "label": "DESC:def"}
+{"global_ix": 642, "sentence": "In what Olympic Games did Nadia Comaneci become popular ?", "label": "ENTY:sport"}
+{"global_ix": 2865, "sentence": "What does the term 3 mean to a newspaper editor ?", "label": "DESC:def"}
+{"global_ix": 1767, "sentence": "What is a neurosurgeon ?", "label": "DESC:def"}
+{"global_ix": 677, "sentence": "What are the five most expensive cities in the world ?", "label": "LOC:city"}
+{"global_ix": 601, "sentence": "What is white chocolate ?", "label": "DESC:def"}
+{"global_ix": 2794, "sentence": "What was originally defined as one 1-millionth of the distance from the equator to the Pole ?", "label": "ENTY:termeq"}
+{"global_ix": 56, "sentence": "What is the Kashmir issue ?", "label": "DESC:def"}
+{"global_ix": 1604, "sentence": "What is the federal minimum wage ?", "label": "NUM:money"}
+{"global_ix": 4993, "sentence": "Define Sinn Fein .", "label": "DESC:def"}
+{"global_ix": 139, "sentence": "What is the origin of the word , JJ .", "label": "DESC:desc"}
+{"global_ix": 2589, "sentence": "Name a product that controls the ripening of apples .", "label": "ENTY:product"}
+{"global_ix": 1846, "sentence": "What is celebrated during the week of February 21-27 ?", "label": "ENTY:event"}
+{"global_ix": 1622, "sentence": "When did Aldous Huxley write , `` Brave New World '' ?", "label": "NUM:date"}
+{"global_ix": 956, "sentence": "What is the Immaculate Conception ?", "label": "DESC:def"}
+{"global_ix": 78, "sentence": "What is the origin of head lice ?", "label": "DESC:desc"}
+{"global_ix": 238, "sentence": "What is the origin of the name Katie ?", "label": "DESC:desc"}
+{"global_ix": 4980, "sentence": "When was cigarette advertising banned on television and radio ?", "label": "NUM:date"}
+{"global_ix": 1079, "sentence": "What are the Urals ?", "label": "DESC:def"}
+{"global_ix": 5096, "sentence": "In what city does Maurizio Pellegrin now live ?", "label": "LOC:city"}
+{"global_ix": 4550, "sentence": "What incident of 1933 did the German Nazis use to justify emergency decrees , imprisoning opponents and vesting more power in themselves ?", "label": "ENTY:event"}
+{"global_ix": 4312, "sentence": "What 's distinctive about a palmiped 's feet ?", "label": "DESC:desc"}
+{"global_ix": 4576, "sentence": "What is the difference between love and infatuation ?", "label": "DESC:desc"}
+{"global_ix": 1419, "sentence": "When will the millennium officially begin ?", "label": "NUM:date"}
+{"global_ix": 4162, "sentence": "How much money did the Marcos steal from their country ?", "label": "NUM:money"}
+{"global_ix": 4949, "sentence": "What effect does LSD have on the brain ?", "label": "DESC:desc"}
+{"global_ix": 4204, "sentence": "What is sound ?", "label": "DESC:def"}
+{"global_ix": 365, "sentence": "What is the use of a 24-hour clock instead of a 12-hour clock ?", "label": "DESC:desc"}
+{"global_ix": 2929, "sentence": "The trials resulting from World War II are known as what ?", "label": "ENTY:event"}
+{"global_ix": 3793, "sentence": "What is ouzo ?", "label": "DESC:def"}
+{"global_ix": 933, "sentence": "When did Iraqi troops invade Kuwait ?", "label": "NUM:date"}
+{"global_ix": 3176, "sentence": "What is the main application of sodium hydrosulfite ?", "label": "DESC:desc"}
+{"global_ix": 3384, "sentence": "What year did the War of 1812 begin ?", "label": "NUM:date"}
+{"global_ix": 4660, "sentence": "What are the historical trials following World War II called ?", "label": "ENTY:event"}
+{"global_ix": 3631, "sentence": "What are the benefits of home school ?", "label": "DESC:desc"}
+{"global_ix": 2338, "sentence": "How do you say , `` I love you '' in other languages ?", "label": "ENTY:termeq"}
+{"global_ix": 180, "sentence": "What does gringo mean ?", "label": "DESC:def"}
+{"global_ix": 3841, "sentence": "When did the American Civil War end ?", "label": "NUM:date"}
+{"global_ix": 4657, "sentence": "What category does the color pink denote in the Trivial Pursuit Baby Boomer Edition ?", "label": "DESC:def"}
+{"global_ix": 4463, "sentence": "What good are mosquitoes ?", "label": "DESC:desc"}
+{"global_ix": 2320, "sentence": "What are some fun things to do in Cozumel , Mexico for teenagers ?", "label": "DESC:desc"}
+{"global_ix": 407, "sentence": "What does the name Billie mean ?", "label": "DESC:def"}
+{"global_ix": 3864, "sentence": "What is the name of the 1919 occurrence in which British troops killed over 3 unarmed Indian protestors ?", "label": "ENTY:event"}
+{"global_ix": 744, "sentence": "What city is the setting for Puccini 's opera La Boheme ?", "label": "LOC:city"}
+{"global_ix": 2024, "sentence": "What year did the first issue of `` Playboy '' come out ?", "label": "NUM:date"}
+{"global_ix": 3665, "sentence": "Hitler came to power in Germany in what year ?", "label": "NUM:date"}
+{"global_ix": 398, "sentence": "What are some interesting facts and information about dogsledding ?", "label": "DESC:desc"}
+{"global_ix": 3001, "sentence": "What is a swatch ?", "label": "DESC:def"}
+{"global_ix": 4564, "sentence": "What is the Milky Way ?", "label": "DESC:def"}
+{"global_ix": 2133, "sentence": "What do I need to learn to design web pages ?", "label": "DESC:desc"}
+{"global_ix": 4171, "sentence": "What city has a newspaper called The Plain Dealer ?", "label": "LOC:city"}
+{"global_ix": 4750, "sentence": "What was the `` Dead Man 's Hand '' ?", "label": "DESC:def"}
+{"global_ix": 2245, "sentence": "What is the literal meaning of `` D-DAY '' ?", "label": "DESC:def"}
+{"global_ix": 4622, "sentence": "What is `` the only cigarette made with no leftovers '' ?", "label": "DESC:desc"}
+{"global_ix": 88, "sentence": "What are bear and bull markets ?", "label": "DESC:def"}
+{"global_ix": 296, "sentence": "What day was Pearl Harbor attacked in 1942 ?", "label": "NUM:date"}
+{"global_ix": 1648, "sentence": "What is the origin of the peace symbol ?", "label": "DESC:desc"}
+{"global_ix": 3504, "sentence": "What is the fare cost for the round trip between New York and London on Concorde ?", "label": "NUM:money"}
+{"global_ix": 2644, "sentence": "What four tournaments make up tennis ' Grand Slam ?", "label": "ENTY:sport"}
+{"global_ix": 1464, "sentence": "What was the name of the ball game played by the mayans ?", "label": "ENTY:sport"}
+{"global_ix": 3037, "sentence": "What is home banking ?", "label": "DESC:def"}
+{"global_ix": 4252, "sentence": "What city 's the kickoff point for climbs of Mount Everest ?", "label": "LOC:city"}
+{"global_ix": 3467, "sentence": "What is the fastest computer ?", "label": "ENTY:product"}
+{"global_ix": 1987, "sentence": "What was the date of Iraq 's invasion of Kuwait ?", "label": "NUM:date"}
+{"global_ix": 417, "sentence": "What does Inuit and Eskimo mean ?", "label": "DESC:def"}
+{"global_ix": 1161, "sentence": "What is the difference between New York-style and Chicago-style pizza ?", "label": "DESC:desc"}
+{"global_ix": 853, "sentence": "What information can you get me on Fairground Park in St. Louis", "label": "DESC:desc"}
+{"global_ix": 3106, "sentence": "What sport is known for hooligans ?", "label": "ENTY:sport"}
+{"global_ix": 4675, "sentence": "What is the spectrum of a sine wave ?", "label": "DESC:def"}
+{"global_ix": 3189, "sentence": "What was Franklin Roosevelt 's program for economic recovery called during the Great Depression ?", "label": "ENTY:event"}
+{"global_ix": 201, "sentence": "What are the rites accompanying the circumcision of a newly born-child in Judaism called ?", "label": "ENTY:event"}
+{"global_ix": 1980, "sentence": "When did the Jurassic Period end ?", "label": "NUM:date"}
+{"global_ix": 960, "sentence": "What does the Ouarterly Review of Doublespeak call an `` inoperative statement '' ?", "label": "ENTY:termeq"}
+{"global_ix": 2233, "sentence": "What first-aid product `` Helps the hurt stop hurting '' ?", "label": "ENTY:product"}
+{"global_ix": 1679, "sentence": "What season is the setting for Shakespeare 's Midsummer Night 's Dream ?", "label": "NUM:date"}
+{"global_ix": 3347, "sentence": "What century 's the setting for TV 's The Adventures of Robin Hood ?", "label": "NUM:date"}
+{"global_ix": 1594, "sentence": "When was Yemen reunified ?", "label": "NUM:date"}
+{"global_ix": 1708, "sentence": "What Asian city boasts the world 's biggest bowling alley ?", "label": "LOC:city"}
+{"global_ix": 2384, "sentence": "What is thalassemia ?", "label": "DESC:def"}
+{"global_ix": 1151, "sentence": "What does Venus Retrograde mean ?", "label": "DESC:def"}
+{"global_ix": 4778, "sentence": "What kind of greeting is appropriate to send on Yom Kippur ?", "label": "DESC:desc"}
+{"global_ix": 3016, "sentence": "Where did the saying `` rule of thumb '' come from ?", "label": "DESC:desc"}
+{"global_ix": 1147, "sentence": "What are the major differences in the Catholic and Methodist religions ?", "label": "DESC:desc"}
+{"global_ix": 3959, "sentence": "In what year was the cannon invented ?", "label": "NUM:date"}
+{"global_ix": 1226, "sentence": "What do you call a `` twirl '' in ballet ?", "label": "ENTY:termeq"}
+{"global_ix": 1941, "sentence": "On what date did Rosa Parks Become a symbol of the civil rights movement for refusing to give up her seat on the bus ?", "label": "NUM:date"}
+{"global_ix": 155, "sentence": "What is the busiest air travel season ?", "label": "NUM:date"}
+{"global_ix": 4358, "sentence": "What is the capital of Kosovo ?", "label": "LOC:city"}
+{"global_ix": 4821, "sentence": "When was Nostradamus born ?", "label": "NUM:date"}
+{"global_ix": 3449, "sentence": "When was child labor abolished ?", "label": "NUM:date"}
+{"global_ix": 4722, "sentence": "What was the verdict in the 1925 trial of John T. Scopes ?", "label": "DESC:desc"}
+{"global_ix": 5092, "sentence": "What are my legal rights in an automobile repossession in California ?", "label": "DESC:desc"}
+{"global_ix": 4496, "sentence": "What was the 1940 annual salary for a boilermaker ?", "label": "NUM:money"}
+{"global_ix": 3075, "sentence": "What is a 2-sided object called ?", "label": "ENTY:termeq"}
+{"global_ix": 3141, "sentence": "What was the name of the Crimean meeting of Roosevelt , Churchill , and Stalin ?", "label": "ENTY:event"}
+{"global_ix": 672, "sentence": "What city has the world 's longest subway system ?", "label": "LOC:city"}
+{"global_ix": 537, "sentence": "What 's an auberge in France ?", "label": "DESC:def"}
+{"global_ix": 1899, "sentence": "What bowl game began as an East-West contest between Michigan and Stanford in 192 ?", "label": "ENTY:sport"}
+{"global_ix": 133, "sentence": "What is gymnophobia ?", "label": "DESC:def"}
+{"global_ix": 1589, "sentence": "When was Queen Victoria born ?", "label": "NUM:date"}
+{"global_ix": 4354, "sentence": "What city was Martin Luther King Jr. assassinated in ?", "label": "LOC:city"}
+{"global_ix": 494, "sentence": "What city is Logan Airport in ?", "label": "LOC:city"}
+{"global_ix": 4432, "sentence": "What sport does Chris Jogis play ?", "label": "ENTY:sport"}
+{"global_ix": 1075, "sentence": "What game is fatal to anybody over 21 ?", "label": "ENTY:sport"}
+{"global_ix": 2836, "sentence": "What is he doing now ?", "label": "DESC:desc"}
+{"global_ix": 680, "sentence": "What is a virtual IP address ?", "label": "DESC:def"}
+{"global_ix": 2221, "sentence": "What is e-commerce ?", "label": "DESC:def"}
+{"global_ix": 1643, "sentence": "What city in the U.S. experienced the most growth recently ?", "label": "LOC:city"}
+{"global_ix": 3556, "sentence": "What is Judy Garland 's date of birth ?", "label": "NUM:date"}
+{"global_ix": 97, "sentence": "What is the origin of the word `` attic '' ?", "label": "DESC:desc"}
+{"global_ix": 2275, "sentence": "What is the biblical meaning of ` stones ' ?", "label": "DESC:def"}
+{"global_ix": 2894, "sentence": "What is limbo ?", "label": "DESC:def"}
+{"global_ix": 963, "sentence": "What is a pyrotechnic display ?", "label": "DESC:def"}
+{"global_ix": 1123, "sentence": "What year did Rossetti paint `` Beata Beatrix '' ?", "label": "NUM:date"}
+{"global_ix": 3598, "sentence": "What is the origin of the word `` tampon '' ?", "label": "DESC:desc"}
+{"global_ix": 1122, "sentence": "In what year did Hitler gain power of Germany ?", "label": "NUM:date"}
+{"global_ix": 587, "sentence": "When is Bastille Day ?", "label": "NUM:date"}
+{"global_ix": 1578, "sentence": "What is the largest variety of cactus ?", "label": "DESC:def"}
+{"global_ix": 1502, "sentence": "What is film noir ?", "label": "DESC:def"}
+{"global_ix": 1487, "sentence": "What do the names Andrew and Christina mean ?", "label": "DESC:def"}
+{"global_ix": 3492, "sentence": "What was the rallying cry of the early American revolutionaries ?", "label": "DESC:desc"}
+{"global_ix": 3505, "sentence": "What is a bone marrow transplant meant for ?", "label": "DESC:def"}
+{"global_ix": 2010, "sentence": "When was the Bill of Rights ratified ?", "label": "NUM:date"}
+{"global_ix": 3028, "sentence": "What is the difference between a classical and an acoustic guitar ?", "label": "DESC:desc"}
+{"global_ix": 1039, "sentence": "What is the history of `` the toast '' ?", "label": "DESC:desc"}
+{"global_ix": 4688, "sentence": "Define Spumante .", "label": "DESC:def"}
+{"global_ix": 1493, "sentence": "What is commonly considered the fifth sense ?", "label": "DESC:def"}
+{"global_ix": 3206, "sentence": "What was the first minimum wage ?", "label": "NUM:money"}
+{"global_ix": 3992, "sentence": "What is the origin of the word nevermind ?", "label": "DESC:desc"}
+{"global_ix": 4264, "sentence": "What are the Baltic States ?", "label": "DESC:def"}
+{"global_ix": 1820, "sentence": "What is the difference between a fruit and a vegetable ?", "label": "DESC:desc"}
+{"global_ix": 2614, "sentence": "What garment was named for Bradley , Voorhees and Day ?", "label": "ENTY:product"}
+{"global_ix": 3196, "sentence": "What will the California gas tax be in the year 2000 ?", "label": "NUM:money"}
+{"global_ix": 3120, "sentence": "What are the requirements for becoming a citizen of Australia ?", "label": "DESC:desc"}
+{"global_ix": 22, "sentence": "What 's the Olympic motto ?", "label": "DESC:desc"}
+{"global_ix": 1658, "sentence": "What is the term for a group of geese ?", "label": "ENTY:termeq"}
+{"global_ix": 3440, "sentence": "What exactly is radiation ?", "label": "DESC:def"}
+{"global_ix": 4801, "sentence": "What significant battle was fought in Belgium in 1815 ?", "label": "ENTY:event"}
+{"global_ix": 515, "sentence": "When did Muhammad live ?", "label": "NUM:date"}
+{"global_ix": 4939, "sentence": "What is the Islamic equivalent of the Red Cross ?", "label": "ENTY:termeq"}
+{"global_ix": 4693, "sentence": "What are geckos ?", "label": "DESC:def"}
+{"global_ix": 2103, "sentence": "What is carpal tunnel syndrome ?", "label": "DESC:def"}
+{"global_ix": 2761, "sentence": "What is the recommended daily requirement for folic acid for pregnant women ?", "label": "DESC:desc"}
+{"global_ix": 392, "sentence": "What Nevada center has been dubbed The Biggest Little City in the World ?", "label": "LOC:city"}
+{"global_ix": 833, "sentence": "What year did the Vietnam War end ?", "label": "NUM:date"}
+{"global_ix": 4325, "sentence": "What does Melissa mean ?", "label": "DESC:def"}
+{"global_ix": 3020, "sentence": "What month 's third weekend is the Monterey Jazz Festival held on ?", "label": "NUM:date"}
+{"global_ix": 2567, "sentence": "How much money can a person be fined for having a dog on a beach ?", "label": "NUM:money"}
+{"global_ix": 830, "sentence": "When was the San Francisco fire ?", "label": "NUM:date"}
+{"global_ix": 3315, "sentence": "What are the ten safest American cities for pedestrians ?", "label": "LOC:city"}
+{"global_ix": 3093, "sentence": "In what year was the Berlin Wall erected ?", "label": "NUM:date"}
+{"global_ix": 266, "sentence": "When did Spielberg direct `` Jaws '' ?", "label": "NUM:date"}
+{"global_ix": 3220, "sentence": "What are some children 's rights ?", "label": "DESC:desc"}
+{"global_ix": 2990, "sentence": "What is the cost of the drugs used in tuberculosis treatments ?", "label": "NUM:money"}
+{"global_ix": 696, "sentence": "What does the name Shawn mean ?", "label": "DESC:def"}
+{"global_ix": 4779, "sentence": "What is dextropropoxyphen napsylate ?", "label": "DESC:def"}
+{"global_ix": 3427, "sentence": "What are the Low Countries ?", "label": "DESC:def"}
+{"global_ix": 1205, "sentence": "What are amicable numbers ?", "label": "DESC:def"}
+{"global_ix": 2434, "sentence": "What is goldenseal ?", "label": "DESC:def"}
+{"global_ix": 4572, "sentence": "What is meant by `` capital market '' ?", "label": "DESC:def"}
+{"global_ix": 3885, "sentence": "When did Lucelly Garcia , a former ambassador of Columbia to Honduras , die ?", "label": "NUM:date"}
+{"global_ix": 1611, "sentence": "What should you yell to hail a taxi in Madrid ?", "label": "DESC:desc"}
+{"global_ix": 2441, "sentence": "What is Tetrinet ?", "label": "DESC:def"}
+{"global_ix": 1096, "sentence": "What is the origin of blue for boys and pink for girls ?", "label": "DESC:desc"}
+{"global_ix": 1137, "sentence": "What 's the difference between sleet and freezing rain ?", "label": "DESC:desc"}
+{"global_ix": 3267, "sentence": "What city was Bobby Kennedy assassinated in ?", "label": "LOC:city"}
+{"global_ix": 829, "sentence": "What other name were the `` Little Rascals '' known as ?", "label": "ENTY:termeq"}
+{"global_ix": 2072, "sentence": "What is dew point ?", "label": "DESC:def"}
+{"global_ix": 961, "sentence": "How much did the minimum wage amount to in 1991 ?", "label": "NUM:money"}
+{"global_ix": 3701, "sentence": "What is the difference between molecules and compounds ?", "label": "DESC:desc"}
+{"global_ix": 3837, "sentence": "What is the definition of spamming ?", "label": "DESC:def"}
+{"global_ix": 2192, "sentence": "What date is Richard Nixon 's birthday ?", "label": "NUM:date"}
+{"global_ix": 4971, "sentence": "What do you call a section of your finger from one joint to another ?", "label": "ENTY:termeq"}
+{"global_ix": 1057, "sentence": "What European capital celebrated its 2 , 000th anniversary in 1951 ?", "label": "LOC:city"}
+{"global_ix": 4978, "sentence": "What 's a Craps player called ?", "label": "ENTY:termeq"}
+{"global_ix": 1499, "sentence": "What kind of a sports team is the Wisconsin Badgers ?", "label": "ENTY:sport"}
+{"global_ix": 893, "sentence": "What sport is Chris Jogis a top player of ?", "label": "ENTY:sport"}
+{"global_ix": 3934, "sentence": "What season does a hiemal activity normally take place in ?", "label": "NUM:date"}
+{"global_ix": 1332, "sentence": "What Kentucky city calls itself The Horse Center of America ?", "label": "LOC:city"}
+{"global_ix": 824, "sentence": "What events happened January 26 , 1978 ?", "label": "ENTY:event"}
+{"global_ix": 3489, "sentence": "What is the origin of Boxing Day ?", "label": "DESC:desc"}
+{"global_ix": 2352, "sentence": "What is Franz Kafka 's short story `` A Country Doctor '' trying to tell us ?", "label": "DESC:desc"}
+{"global_ix": 3448, "sentence": "What exactly , specifically does sleep do for you ?", "label": "DESC:desc"}
+{"global_ix": 939, "sentence": "Where did the term `` 86 '' come from ?", "label": "DESC:desc"}
+{"global_ix": 4593, "sentence": "What is the Islamic counterpart to the Red Cross ?", "label": "ENTY:termeq"}
+{"global_ix": 419, "sentence": "What field sport did dentist William Beers promote and write a standard book of rules for ?", "label": "ENTY:sport"}
+{"global_ix": 1061, "sentence": "What was the first Funk 'N Lata , Brazilian group , success ?", "label": "DESC:desc"}
+{"global_ix": 2419, "sentence": "What is average salary of restaurant manager in United States ?", "label": "NUM:money"}
+{"global_ix": 2277, "sentence": "When was the internal combustion engine developed ?", "label": "NUM:date"}
+{"global_ix": 4799, "sentence": "What is fellatio ?", "label": "DESC:def"}
+{"global_ix": 1049, "sentence": "When was the slinky invented ?", "label": "NUM:date"}
+{"global_ix": 4607, "sentence": "What is the mean income of the top 10% , top 5% , and top 1% ?", "label": "NUM:money"}
+{"global_ix": 2396, "sentence": "What is June 's birthstone ?", "label": "DESC:def"}
+{"global_ix": 1041, "sentence": "What is an arab strap ?", "label": "DESC:def"}
+{"global_ix": 1040, "sentence": "What was the name of the Protestant revolt against the supremacy of the Pope ?", "label": "ENTY:event"}
+{"global_ix": 3257, "sentence": "What is thermal equilibrium ?", "label": "DESC:def"}
+{"global_ix": 456, "sentence": "What U.S. city is The Queen of the Pacific ?", "label": "LOC:city"}
+{"global_ix": 608, "sentence": "What does the name Gina mean ?", "label": "DESC:def"}
+{"global_ix": 1812, "sentence": "What do the French call La Manche ?", "label": "ENTY:termeq"}
+{"global_ix": 377, "sentence": "What South Korean city is served by Kimpo International Airport ?", "label": "LOC:city"}
+{"global_ix": 3990, "sentence": "What was Dwight Eisenhower 's favorite card game ?", "label": "ENTY:sport"}
+{"global_ix": 896, "sentence": "What century does Captain Video live in ?", "label": "NUM:date"}
+{"global_ix": 197, "sentence": "CNN began broadcasting in what year ?", "label": "NUM:date"}
+{"global_ix": 3929, "sentence": "What was the V-8 Juice slogan : `` the tastebud '' ?", "label": "DESC:desc"}
+{"global_ix": 518, "sentence": "Where do rocks come from ?", "label": "DESC:desc"}
+{"global_ix": 1293, "sentence": "What does the name Kelly mean ?", "label": "DESC:def"}
+{"global_ix": 3393, "sentence": "What is a geoscientist ?", "label": "DESC:def"}
+{"global_ix": 1466, "sentence": "What is the exchange rate for Australian to American money ?", "label": "NUM:money"}
+{"global_ix": 3629, "sentence": "When was the first practical commercial typewriter marketed ?", "label": "NUM:date"}
+{"global_ix": 2480, "sentence": "What is Zionism ?", "label": "DESC:def"}
+{"global_ix": 2556, "sentence": "What city hosted the first Winter Olympics in Asia ?", "label": "LOC:city"}
+{"global_ix": 1521, "sentence": "What is Head Start ?", "label": "DESC:def"}
+{"global_ix": 1835, "sentence": "What is digitalis ?", "label": "DESC:def"}
+{"global_ix": 1866, "sentence": "What is the name of the art of growing miniature trees ?", "label": "ENTY:termeq"}
+{"global_ix": 4615, "sentence": "How much do tuberculosis combatting drugs cost ?", "label": "NUM:money"}
+{"global_ix": 3327, "sentence": "What is barnstorming ?", "label": "DESC:def"}
+{"global_ix": 2129, "sentence": "What is the Socratic method ?", "label": "DESC:def"}
+{"global_ix": 3605, "sentence": "What is a plant supplement ?", "label": "DESC:def"}
+{"global_ix": 3209, "sentence": "What are the limits to `` self-defense ? ''", "label": "DESC:desc"}
+{"global_ix": 4060, "sentence": "What was the worst hurricane ?", "label": "ENTY:event"}
+{"global_ix": 4643, "sentence": "What is the average date when most malls begin putting up Christmas holiday decorations ?", "label": "NUM:date"}
+{"global_ix": 3111, "sentence": "When was the Congress of Vienna ?", "label": "NUM:date"}
+{"global_ix": 3159, "sentence": "Name the product that is `` at your grocer 's , at your fingertips . ''", "label": "ENTY:product"}
+{"global_ix": 1366, "sentence": "What is the origin of the atom ?", "label": "DESC:desc"}
+{"global_ix": 1387, "sentence": "What are you hearing when you put a seashell to your ear ?", "label": "DESC:desc"}
+{"global_ix": 3452, "sentence": "What does a red flag mean in auto racing ?", "label": "DESC:def"}
+{"global_ix": 4865, "sentence": "What do you know about multicultural and multilingual schools ?", "label": "DESC:desc"}
+{"global_ix": 4495, "sentence": "What non-mechanical sport achieves the highest speeds ?", "label": "ENTY:sport"}
+{"global_ix": 968, "sentence": "What is the origin of the term `` The Brooklyn Side '' in bowling ?", "label": "DESC:desc"}
+{"global_ix": 3731, "sentence": "What is the origin of U.S. Army sergeant 's stripes ?", "label": "DESC:desc"}
+{"global_ix": 4507, "sentence": "What is Sinn Fein ?", "label": "DESC:def"}
+{"global_ix": 2462, "sentence": "What day is known as the `` national day of prayer '' ?", "label": "NUM:date"}
+{"global_ix": 1852, "sentence": "What 's another name for aspartame ?", "label": "ENTY:termeq"}
+{"global_ix": 2054, "sentence": "What is the origin of the city `` Corpus Christi '' ?", "label": "DESC:desc"}
+{"global_ix": 667, "sentence": "What is the origin and the meaning of the name , `` Hajo ? ''", "label": "DESC:desc"}
+{"global_ix": 4953, "sentence": "What is a horologist ?", "label": "DESC:def"}
+{"global_ix": 891, "sentence": "What is the AIM-54C Phoenix ?", "label": "DESC:def"}
+{"global_ix": 3613, "sentence": "What is an ecological niche ?", "label": "DESC:def"}
+{"global_ix": 4448, "sentence": "What is the origin of the word `` Teddy bear '' ?", "label": "DESC:desc"}
+{"global_ix": 3620, "sentence": "How much would a black-and-white 1-cent stamp be worth , Thomas Jefferson on it ?", "label": "NUM:money"}
+{"global_ix": 2184, "sentence": "What Scandinavian capital is built on nine bridge-connected islands ?", "label": "LOC:city"}
+{"global_ix": 3662, "sentence": "What is `` cat scratch fever '' ?", "label": "DESC:def"}
+{"global_ix": 91, "sentence": "What is the meaning of Jesus ?", "label": "DESC:def"}
+{"global_ix": 3392, "sentence": "What is endometriosis ?", "label": "DESC:def"}
+{"global_ix": 3414, "sentence": "What is the definition of the Scrabble word ` syzygy ' ?", "label": "DESC:def"}
+{"global_ix": 3847, "sentence": "What are dinosaur droppings called ?", "label": "ENTY:termeq"}
+{"global_ix": 3260, "sentence": "What is the origin of the typing practice sentence `` Now is the time for all good men to come to the aid of their country '' ?", "label": "DESC:desc"}
+{"global_ix": 4103, "sentence": "What is a `` node '' in computer terms ?", "label": "DESC:def"}
+{"global_ix": 1873, "sentence": "When did Princess Diana and Prince Charles get married ?", "label": "NUM:date"}
+{"global_ix": 1567, "sentence": "What happened in dogtown in 1899 to make that year remembered ?", "label": "DESC:desc"}
+{"global_ix": 3150, "sentence": "What are the titles of some R-Rated Sony Playstation games ?", "label": "ENTY:sport"}
+{"global_ix": 3965, "sentence": "What is the origin of the expression `` four-letter word '' ?", "label": "DESC:desc"}
+{"global_ix": 4238, "sentence": "When did the last Americans leave Vietnam ?", "label": "NUM:date"}
+{"global_ix": 52, "sentence": "What is the nature of learning ?", "label": "DESC:def"}
+{"global_ix": 7, "sentence": "What are liver enzymes ?", "label": "DESC:def"}
+{"global_ix": 4300, "sentence": "What 's a male `` cuckquean '' ?", "label": "DESC:def"}
+{"global_ix": 3510, "sentence": "What is the nickname of the Cleveland Indians ?", "label": "ENTY:termeq"}
+{"global_ix": 2950, "sentence": "When did Amtrak begin operations ?", "label": "NUM:date"}
+{"global_ix": 1106, "sentence": "What are the Twin Cities ?", "label": "DESC:def"}
+{"global_ix": 1134, "sentence": "Boxing Day is celebrated on what date ?", "label": "NUM:date"}
+{"global_ix": 4866, "sentence": "What is the origin of U.S. Army sergeant 's stripes ?", "label": "DESC:desc"}
+{"global_ix": 3617, "sentence": "What facial feature did Walt Disney sport that none of Disney 's employees is allowed to ?", "label": "DESC:desc"}
+{"global_ix": 1453, "sentence": "When were camcorders introduced in Malaysia ?", "label": "NUM:date"}
+{"global_ix": 3350, "sentence": "What are the `` Star Wars '' satellites ?", "label": "DESC:def"}
+{"global_ix": 3820, "sentence": "What was the largest city in the world to declare martial law in 1989 ?", "label": "LOC:city"}
+{"global_ix": 775, "sentence": "How do you say 2 in Latin ?", "label": "ENTY:termeq"}
+{"global_ix": 340, "sentence": "Define the Pheonix Club ?", "label": "DESC:def"}
+{"global_ix": 98, "sentence": "What did Delilah do to Samson 's hair ?", "label": "DESC:desc"}
+{"global_ix": 3118, "sentence": "What concerts are held in New York this week ?", "label": "ENTY:event"}
+{"global_ix": 3558, "sentence": "What is Shirley MacLaine known as ?", "label": "ENTY:termeq"}
+{"global_ix": 2149, "sentence": "When did Hitler come to power in Germany ?", "label": "NUM:date"}
+{"global_ix": 2169, "sentence": "What year was the NAACP founded ?", "label": "NUM:date"}
+{"global_ix": 2638, "sentence": "What happened to Phillip Taylor Kramer ?", "label": "DESC:desc"}
+{"global_ix": 4760, "sentence": "Where did the marriage ceremony come from ?", "label": "DESC:desc"}
+{"global_ix": 1206, "sentence": "When were the Olympic Games in which Nadia Comaneci became popular played ?", "label": "NUM:date"}
+{"global_ix": 730, "sentence": "What was the price of Varian Associates ' vacuum products division ?", "label": "NUM:money"}
+{"global_ix": 997, "sentence": "What does Elysium mean ?", "label": "DESC:def"}
+{"global_ix": 2097, "sentence": "What are the environmental influences on plant genetics ?", "label": "DESC:desc"}
+{"global_ix": 1077, "sentence": "What happened to Moon Maiden ?", "label": "DESC:desc"}
+{"global_ix": 2182, "sentence": "What 's the term for an organism that lives on or in another ?", "label": "ENTY:termeq"}
+{"global_ix": 1078, "sentence": "What city is wiener schnitzel named for ?", "label": "LOC:city"}
+{"global_ix": 1312, "sentence": "What was the proper Laugh-In respones to : `` Say goodnight , Dick '' ?", "label": "DESC:desc"}
+{"global_ix": 1232, "sentence": "When did Fraze get his first patent for the pull-tab can ?", "label": "NUM:date"}
+{"global_ix": 1670, "sentence": "What South American city features the exclusive Copacabana Beach and Ipanema ?", "label": "LOC:city"}
+{"global_ix": 4549, "sentence": "What is the name of the ` female ' counterpart to El Nino , which results in cooling temperatures and very dry weather ?", "label": "ENTY:termeq"}
+{"global_ix": 3946, "sentence": "What is a Mexican hairless ?", "label": "DESC:def"}
+{"global_ix": 4324, "sentence": "What is object-oriented design ?", "label": "DESC:def"}
+{"global_ix": 4605, "sentence": "How much could you rent a Volkswagen bug for in 1966 ?", "label": "NUM:money"}
+{"global_ix": 2910, "sentence": "What is difference between a poster and a print ?", "label": "DESC:desc"}
+{"global_ix": 653, "sentence": "Name the disposable razor that `` costs about 19 cents . ''", "label": "ENTY:product"}
+{"global_ix": 2994, "sentence": "What was Nine Tailors , the television show from 1974 , about ?", "label": "DESC:desc"}
+{"global_ix": 4401, "sentence": "What was Suzy Parker doing to earn $1 , 000 in the early 1950 's ?", "label": "DESC:desc"}
+{"global_ix": 3648, "sentence": "What does the Peugeot company manufacture ?", "label": "ENTY:product"}
+{"global_ix": 1291, "sentence": "What war saw battles at Parrot 's Beak and Black Virgin ?", "label": "ENTY:event"}
+{"global_ix": 1548, "sentence": "What did n't Rocky Marciano do in his pro boxing career ?", "label": "DESC:desc"}
+{"global_ix": 2924, "sentence": "When is the Sun closest to the Earth ?", "label": "NUM:date"}
+{"global_ix": 2534, "sentence": "What does an emperor do ?", "label": "DESC:desc"}
+{"global_ix": 2529, "sentence": "What city in Florida is Sea World in ?", "label": "LOC:city"}
+{"global_ix": 5032, "sentence": "What is the history of the soft drink Mr. Pibb ?", "label": "DESC:desc"}
+{"global_ix": 503, "sentence": "What does `` Janelle '' mean ?", "label": "DESC:def"}
+{"global_ix": 3575, "sentence": "What 's the most popular form of gambling with women in Las Vegas ?", "label": "ENTY:sport"}
+{"global_ix": 724, "sentence": "What is Olestra ?", "label": "DESC:def"}
+{"global_ix": 1771, "sentence": "What season begins with the vernal equinox ?", "label": "NUM:date"}
+{"global_ix": 1570, "sentence": "In what year was the first patent for the pull-tab opener on cans obtained ?", "label": "NUM:date"}
+{"global_ix": 1951, "sentence": "When was the first Barbie produced ?", "label": "NUM:date"}
+{"global_ix": 250, "sentence": "What European city do Nicois live in ?", "label": "LOC:city"}
+{"global_ix": 188, "sentence": "When was the first Wall Street Journal published ?", "label": "NUM:date"}
+{"global_ix": 263, "sentence": "When was the battle of the Somme fought ?", "label": "NUM:date"}
+{"global_ix": 908, "sentence": "What is the average cost for four years of medical school ?", "label": "NUM:money"}
+{"global_ix": 404, "sentence": "How much money are Dumbo 's ears insured for ?", "label": "NUM:money"}
+{"global_ix": 1551, "sentence": "What is the definition of ` graphic details ' ?", "label": "DESC:def"}
+{"global_ix": 1200, "sentence": "What 's the distinction of U.S. Supreme Court Justice Thurgood Marshall ?", "label": "DESC:desc"}
+{"global_ix": 4777, "sentence": "What was an `` Asiento '' ?", "label": "DESC:def"}
+{"global_ix": 3411, "sentence": "What is a leaky heart valve ?", "label": "DESC:def"}
+{"global_ix": 126, "sentence": "What is a transistor ?", "label": "DESC:def"}
+{"global_ix": 946, "sentence": "What year was Desmond Mpilo Tutu awarded the Nobel Peace Prize ?", "label": "NUM:date"}
+{"global_ix": 3363, "sentence": "What is the per-capita income of Colombia , South America ?", "label": "NUM:money"}
+{"global_ix": 2455, "sentence": "What new games are available for Nintendo 64 ?", "label": "ENTY:sport"}
+{"global_ix": 2150, "sentence": "When did Gothic art and architecture flourish ?", "label": "NUM:date"}
+{"global_ix": 4212, "sentence": "What blood sport features a movement called a veronica ?", "label": "ENTY:sport"}
+{"global_ix": 4935, "sentence": "When did the use of `` the syringe '' first appear in medicinal history ?", "label": "NUM:date"}
+{"global_ix": 2975, "sentence": "What happens to used motor oil ?", "label": "DESC:desc"}
+{"global_ix": 4043, "sentence": "What is InterLata Internet service ?", "label": "DESC:def"}
+{"global_ix": 3290, "sentence": "What is infomatics ?", "label": "DESC:def"}
+{"global_ix": 1878, "sentence": "The Orange Bowl is in what city ?", "label": "LOC:city"}
+{"global_ix": 4961, "sentence": "What is the name given to the Islamic counterpart of the Red Cross ?", "label": "ENTY:termeq"}
+{"global_ix": 216, "sentence": "When did beethoven die ?", "label": "NUM:date"}
+{"global_ix": 3554, "sentence": "How can you define time ?", "label": "DESC:def"}
+{"global_ix": 651, "sentence": "What are amphibians ?", "label": "DESC:def"}
+{"global_ix": 2003, "sentence": "What happens when lightning strikes a body of water ?", "label": "DESC:desc"}
+{"global_ix": 4290, "sentence": "What are new computer games for Windows 95 or 98 ?", "label": "ENTY:sport"}
+{"global_ix": 2695, "sentence": "What does Aaron mean ?", "label": "DESC:def"}
+{"global_ix": 1035, "sentence": "What is the proof that houseplants metabolize carcinogens ?", "label": "DESC:desc"}
+{"global_ix": 2514, "sentence": "What is troilism ?", "label": "DESC:def"}
+{"global_ix": 2811, "sentence": "What can be done about snoring ?", "label": "DESC:desc"}
+{"global_ix": 3944, "sentence": "What happened to Pepsi Clear ?", "label": "DESC:desc"}
+{"global_ix": 4231, "sentence": "What year did Charles Dicken die ?", "label": "NUM:date"}
+{"global_ix": 487, "sentence": "How much would a black-and-white 1-cent stamp be worth , Thomas Jefferson on it , ?", "label": "NUM:money"}
+{"global_ix": 4909, "sentence": "What is the Order of the Arrow in Boy Scouts ?", "label": "DESC:def"}
+{"global_ix": 212, "sentence": "What is the daily requirement of folic acid for an expectant mother ?", "label": "DESC:desc"}
+{"global_ix": 2132, "sentence": "How much is Clara Peller being paid by Wendy 's to say `` Where 's the beef '' ?", "label": "NUM:money"}
+{"global_ix": 1302, "sentence": "What city is often called The Insurance Capital of the World ?", "label": "LOC:city"}
+{"global_ix": 4787, "sentence": "What does Esa-Pekka Salonen look like ?", "label": "DESC:desc"}
+{"global_ix": 3714, "sentence": "What is the difference between fatalism and determinism ?", "label": "DESC:desc"}
+{"global_ix": 2652, "sentence": "What time of year has the most air travel ?", "label": "NUM:date"}
+{"global_ix": 1552, "sentence": "What was `` America 's recessed-filter cigarette '' ?", "label": "ENTY:product"}
+{"global_ix": 4703, "sentence": "What is habeas corpus ?", "label": "DESC:def"}
+{"global_ix": 821, "sentence": "What are the living conditions in Cuba ?", "label": "DESC:desc"}
+{"global_ix": 1919, "sentence": "What is a gandy dancer ?", "label": "DESC:def"}
+{"global_ix": 1056, "sentence": "What do the names Neil , Mary , and Anthony mean ?", "label": "DESC:def"}
+{"global_ix": 3129, "sentence": "What is Win Rah ?", "label": "DESC:def"}
+{"global_ix": 2264, "sentence": "What do Japanese school uniforms look like ?", "label": "DESC:desc"}
+{"global_ix": 1615, "sentence": "What city is found in the city of OZ ?", "label": "LOC:city"}
+{"global_ix": 2118, "sentence": "What does palindromic mean ?", "label": "DESC:def"}
+{"global_ix": 852, "sentence": "What astronomical phenomenon takes place in Jan. 1999 ?", "label": "ENTY:event"}
+{"global_ix": 1918, "sentence": "What do you do when your mouse is n't working as fast as it 's supposed to ?", "label": "DESC:desc"}
+{"global_ix": 2654, "sentence": "When was the G7 group of nations formed ?", "label": "NUM:date"}
+{"global_ix": 3244, "sentence": "The operating system that runs on IBM-compatible machines is called what ?", "label": "ENTY:termeq"}
+{"global_ix": 4589, "sentence": "What are the benefits of a rowing machine ?", "label": "DESC:desc"}
+{"global_ix": 3114, "sentence": "What year was the first automobile manufactured ?", "label": "NUM:date"}
+{"global_ix": 3226, "sentence": "What series of trials followed World War II ?", "label": "ENTY:event"}
+{"global_ix": 90, "sentence": "What is `` dew point '' ?", "label": "DESC:def"}
+{"global_ix": 3156, "sentence": "What is a synonym for aspartame ?", "label": "ENTY:termeq"}
+{"global_ix": 2415, "sentence": "What phenomenon would you expect to read about in the monthly publication The Bigfoot News ?", "label": "ENTY:event"}
+{"global_ix": 1601, "sentence": "What is magnetar ?", "label": "DESC:def"}
+{"global_ix": 3831, "sentence": "What war was fought by the Spanish as far as the Philippines ?", "label": "ENTY:event"}
+{"global_ix": 1698, "sentence": "What was the name of Hitler 's unsuccessful attempt to overthrow the Bavarian government in Munich in 1923 ?", "label": "ENTY:event"}
+{"global_ix": 113, "sentence": "What 's the common name for acetylsalicylic acid ?", "label": "ENTY:termeq"}
+{"global_ix": 4293, "sentence": "What European race sees the winner of its mountain stage awarded a jersey with large red polka dots ?", "label": "ENTY:sport"}
+{"global_ix": 1988, "sentence": "What is a courier ?", "label": "DESC:def"}
+{"global_ix": 130, "sentence": "How much would it cost to purchase a 2-foot-square party tent , with sides , ?", "label": "NUM:money"}
+{"global_ix": 2217, "sentence": "What 's the name of the Tokyo Stock Exchange ?", "label": "ENTY:termeq"}
+{"global_ix": 2680, "sentence": "What is La Nina ?", "label": "DESC:def"}
+{"global_ix": 686, "sentence": "What 's the literary term for a play on words ?", "label": "ENTY:termeq"}
+{"global_ix": 1501, "sentence": "What do Caroll Baker , Tammy Grimes , Debbie Reynolds , and Judy Garland all have in common ?", "label": "DESC:desc"}
+{"global_ix": 1929, "sentence": "What do you call the feeling of having experienced something before ?", "label": "ENTY:termeq"}
+{"global_ix": 341, "sentence": "Which city did Christian Crusaders fight to recapture from the Muslims ?", "label": "LOC:city"}
+{"global_ix": 2458, "sentence": "What U.S. city was named for St. Francis of Assisi ?", "label": "LOC:city"}
+{"global_ix": 3720, "sentence": "How much do drugs to treat tuberculosis cost ?", "label": "NUM:money"}
+{"global_ix": 4096, "sentence": "In Sinclair Lewis ' `` Main Street , '' what was the name of the typical American town ?", "label": "LOC:city"}
+{"global_ix": 281, "sentence": "What city did the Flintstones live in ?", "label": "LOC:city"}
+{"global_ix": 3173, "sentence": "What 's the geographic term for the submerged fringe of a continent ?", "label": "ENTY:termeq"}
+{"global_ix": 4178, "sentence": "When was Beethoven born ?", "label": "NUM:date"}
+{"global_ix": 2543, "sentence": "What is the largest city in Germany ?", "label": "LOC:city"}
+{"global_ix": 4253, "sentence": "What is the average salary of a paleontologist ?", "label": "NUM:money"}
+{"global_ix": 3895, "sentence": "What is the rounded part on the top of a matchbook called ?", "label": "ENTY:termeq"}
+{"global_ix": 4414, "sentence": "What is the most expensive car in the world ?", "label": "ENTY:product"}
+{"global_ix": 1494, "sentence": "What was another name for East Germany ?", "label": "ENTY:termeq"}
+{"global_ix": 2575, "sentence": "What date did man first land on the moon ?", "label": "NUM:date"}
+{"global_ix": 2583, "sentence": "What is the difference between a bottle and a jar ?", "label": "DESC:desc"}
+{"global_ix": 669, "sentence": "What year did the United States pass the Copyright law ?", "label": "NUM:date"}
+{"global_ix": 2485, "sentence": "What product is for kids , and not for silly rabbits ?", "label": "ENTY:product"}
+{"global_ix": 3314, "sentence": "What is a cullion ?", "label": "DESC:def"}
+{"global_ix": 4206, "sentence": "What are the current immigration laws in US ?", "label": "DESC:desc"}
+{"global_ix": 1098, "sentence": "What is the Hub of London ?", "label": "DESC:def"}
+{"global_ix": 4218, "sentence": "What are the side effects of mevacor ?", "label": "DESC:desc"}
+{"global_ix": 4942, "sentence": "What month of the year is there no television in Iceland ?", "label": "NUM:date"}
+{"global_ix": 1202, "sentence": "What was a Mae West on a World War II battleship ?", "label": "DESC:def"}
+{"global_ix": 34, "sentence": "When did the neanderthal man live ?", "label": "NUM:date"}
+{"global_ix": 1398, "sentence": "What is the virus HIV ?", "label": "DESC:def"}
+{"global_ix": 1164, "sentence": "What kind of hat does Bat Masterson wear ?", "label": "ENTY:product"}
+{"global_ix": 648, "sentence": "In what sport are these following numbers relevant : 118 , 126 , 134 , 142 , 15 , 158 , 167 , 177 , and 19 ?", "label": "ENTY:sport"}
+{"global_ix": 4963, "sentence": "What city is graced by the Arch of Titus ?", "label": "LOC:city"}
+{"global_ix": 1216, "sentence": "What term does a Czech use to describe a Pole ?", "label": "ENTY:termeq"}
+{"global_ix": 1023, "sentence": "What is the executor in a will ?", "label": "DESC:def"}
+{"global_ix": 1868, "sentence": "What does Tiffany mean ?", "label": "DESC:def"}
+{"global_ix": 3451, "sentence": "What time of year is air travel the heaviest ?", "label": "NUM:date"}
+{"global_ix": 3697, "sentence": "What are the cookies in Internet ?", "label": "DESC:def"}
+{"global_ix": 2880, "sentence": "What North American city would you visit to see Cleopatra 's Needle ?", "label": "LOC:city"}
+{"global_ix": 54, "sentence": "What 's the term for a young fox ?", "label": "ENTY:termeq"}
+{"global_ix": 1476, "sentence": "What were the trials called which followed World War II ?", "label": "ENTY:event"}
+{"global_ix": 4371, "sentence": "What would happen to Canada if Quebec separated ?", "label": "DESC:desc"}
+{"global_ix": 1932, "sentence": "What is the difference between a bachelor and a 1 bedroom apartment ?", "label": "DESC:desc"}
+{"global_ix": 507, "sentence": "What are the distinct physical characterstics of the Arabian horse ?", "label": "DESC:desc"}
+{"global_ix": 2653, "sentence": "What does the term `` spaghetti western '' mean ?", "label": "DESC:def"}
+{"global_ix": 3881, "sentence": "What is a `` False Moon '' ?", "label": "DESC:def"}
+{"global_ix": 4153, "sentence": "When was Babe Ruth born ?", "label": "NUM:date"}
+{"global_ix": 2895, "sentence": "What city contains the district of Hell 's Kitchen ?", "label": "LOC:city"}
+{"global_ix": 3873, "sentence": "What star-faring race brought about the Inhumans on Marvel 's Earth ?", "label": "ENTY:sport"}
+{"global_ix": 901, "sentence": "What are some of the significant historical events of the 1990s ?", "label": "ENTY:event"}
+{"global_ix": 1832, "sentence": "What are the Arabic Numerals from 1 to 10 ?", "label": "DESC:desc"}
+{"global_ix": 1969, "sentence": "What is the difference between a preface and a foreword ?", "label": "DESC:desc"}
+{"global_ix": 3337, "sentence": "What is the origin of the term `` buffalo wings '' that is used as a menu item in bars across the nation for chicken wings in a spicey sauce ?", "label": "DESC:desc"}
+{"global_ix": 2215, "sentence": "What United States city produces the most oil ?", "label": "LOC:city"}
+{"global_ix": 3360, "sentence": "What is a portal ?", "label": "DESC:def"}
+{"global_ix": 783, "sentence": "What is the origin of the expression `` tout de suite '' ?", "label": "DESC:desc"}
+{"global_ix": 752, "sentence": "What is the meaning of W.B. Yeat 's poem , `` The Three Hermits ? ''", "label": "DESC:def"}
+{"global_ix": 2490, "sentence": "When did Theo Rousseau paint the `` Forest of Fontaine '' ?", "label": "NUM:date"}
+{"global_ix": 1855, "sentence": "What is the date of Bastille Day ?", "label": "NUM:date"}
+{"global_ix": 19, "sentence": "What is the date of Boxing Day ?", "label": "NUM:date"}
+{"global_ix": 911, "sentence": "What is the current ticket fare from from Cairo to Barbados ?", "label": "NUM:money"}
+{"global_ix": 1063, "sentence": "What did John Hinckley do to impress Jodie Foster ?", "label": "DESC:desc"}
+{"global_ix": 194, "sentence": "When did the royal wedding of Prince Andrew and Fergie take place ?", "label": "NUM:date"}
+{"global_ix": 3069, "sentence": "What is splatterpunk ?", "label": "DESC:def"}
+{"global_ix": 1342, "sentence": "What is a meerkat ?", "label": "DESC:def"}
+{"global_ix": 4377, "sentence": "How much did Varian Associates try to sell its vacuum products division to the BOC group for ?", "label": "NUM:money"}
+{"global_ix": 2349, "sentence": "What is a Guild ?", "label": "DESC:def"}
+{"global_ix": 4285, "sentence": "What is the nature of snow and how is the formation of snow different from that of ice ?", "label": "DESC:desc"}
+{"global_ix": 761, "sentence": "What 's the origin of the word ` news ' ?", "label": "DESC:desc"}
+{"global_ix": 2339, "sentence": "What is The Gay Science ?", "label": "DESC:def"}
+{"global_ix": 4936, "sentence": "What was the Long March in China ?", "label": "DESC:def"}
+{"global_ix": 2918, "sentence": "What is the Scotch `` for people who know the difference '' ?", "label": "ENTY:termeq"}
+{"global_ix": 3547, "sentence": "What does verdandi mean ?", "label": "DESC:def"}
+{"global_ix": 2069, "sentence": "Where does `` bovine '' come from ?", "label": "DESC:desc"}
+{"global_ix": 3369, "sentence": "What are `` darning needles '' and `` horse stingers '' better known as ?", "label": "ENTY:termeq"}
+{"global_ix": 4430, "sentence": "What is the origin of the term soda jerk ?", "label": "DESC:desc"}
+{"global_ix": 3425, "sentence": "What city does McCarren Airport serve ?", "label": "LOC:city"}
+{"global_ix": 4266, "sentence": "Which large U.S. city had the highest murder rate for 1988 ?", "label": "LOC:city"}
+{"global_ix": 2578, "sentence": "What 's the last line of Dickens 's A Christmas Carol ?", "label": "DESC:desc"}
+{"global_ix": 4056, "sentence": "What revelation did Alexander Butterfield make to the Senate Watergate committee ?", "label": "DESC:desc"}
+{"global_ix": 4596, "sentence": "What is tyvek ?", "label": "DESC:def"}
+{"global_ix": 1901, "sentence": "What is deadrise , nautical , ?", "label": "DESC:def"}
+{"global_ix": 3566, "sentence": "What is the meaning of `` CPR '' ?", "label": "DESC:def"}
+{"global_ix": 1191, "sentence": "What is one of the cities that the University of Minnesota is located in ?", "label": "LOC:city"}
+{"global_ix": 2112, "sentence": "What famed tennis tournament 's men 's singles title was Fred Perry the last Englishman to win ?", "label": "ENTY:sport"}
+{"global_ix": 1796, "sentence": "What does an echidna look like ?", "label": "DESC:desc"}
+{"global_ix": 1422, "sentence": "What is real time processing ?", "label": "DESC:def"}
+{"global_ix": 3446, "sentence": "When did Mount St. Helens last erupt ?", "label": "NUM:date"}
+{"global_ix": 1802, "sentence": "What is the name of the Islamic counterpart to the Red Cross ?", "label": "ENTY:termeq"}
+{"global_ix": 2862, "sentence": "What international sport was originally called hurley ?", "label": "ENTY:sport"}
+{"global_ix": 768, "sentence": "What soap was touted as being `` for people who like people '' ?", "label": "ENTY:product"}
+{"global_ix": 2960, "sentence": "What is the brand name of a chemical used to control ripening ?", "label": "ENTY:product"}
+{"global_ix": 1727, "sentence": "What does `` Semper Fidelis '' mean ?", "label": "DESC:def"}
+{"global_ix": 511, "sentence": "What Russian seaport has a name meaning `` Lord of the East '' ?", "label": "LOC:city"}
+{"global_ix": 1436, "sentence": "What will happen when sodium is put in water ?", "label": "DESC:desc"}
+{"global_ix": 2765, "sentence": "What is the HIGHEST Roman numeral ?", "label": "DESC:def"}
+{"global_ix": 567, "sentence": "What is the Amish religion ?", "label": "DESC:def"}
+{"global_ix": 4373, "sentence": "What is ` Last Chance for Animals ' ?", "label": "DESC:desc"}
+{"global_ix": 3917, "sentence": "What chess outcome results when a player has no legal move ?", "label": "ENTY:sport"}
+{"global_ix": 2726, "sentence": "What did Mighty Mouse always sing as he went into action ?", "label": "DESC:desc"}
+{"global_ix": 2015, "sentence": "What is a heuristic ?", "label": "DESC:def"}
+{"global_ix": 2084, "sentence": "What is the difference between terry cloth and French terry ?", "label": "DESC:desc"}
+{"global_ix": 1249, "sentence": "What do Christian Scientists believe in ?", "label": "DESC:desc"}
+{"global_ix": 4284, "sentence": "What does the name Melissa mean ?", "label": "DESC:def"}
+{"global_ix": 2357, "sentence": "When do you plant winter wheat ?", "label": "NUM:date"}
+{"global_ix": 1662, "sentence": "What do you call a Poker hand with five cards of the same suit ?", "label": "ENTY:termeq"}
+{"global_ix": 3454, "sentence": "What is osteichthyes ?", "label": "DESC:def"}
+{"global_ix": 3380, "sentence": "What is a serigraph ?", "label": "DESC:def"}
+{"global_ix": 4235, "sentence": "What is the origin of the rock band Led Zeppelin 's name ?", "label": "DESC:desc"}
+{"global_ix": 3477, "sentence": "When was the Hoover Dam constructed ?", "label": "NUM:date"}
+{"global_ix": 2510, "sentence": "The film `` Jaws '' was made in what year ?", "label": "NUM:date"}
+{"global_ix": 5001, "sentence": "When did French revolutionaries storm the Bastille ?", "label": "NUM:date"}
+{"global_ix": 63, "sentence": "What is a caldera ?", "label": "DESC:def"}
+{"global_ix": 1157, "sentence": "What 's the term for any four-sided figure ?", "label": "ENTY:termeq"}
+{"global_ix": 5000, "sentence": "What Peruvian city is home to the mummified body of Francisco Pizarro ?", "label": "LOC:city"}
+{"global_ix": 3795, "sentence": "What is the capital of Uruguay ?", "label": "LOC:city"}
+{"global_ix": 4273, "sentence": "What is osmosis ?", "label": "DESC:def"}
+{"global_ix": 3585, "sentence": "What does the word affiant mean ?", "label": "DESC:def"}
+{"global_ix": 2311, "sentence": "What is Compaq 's mission statement ?", "label": "DESC:desc"}
+{"global_ix": 574, "sentence": "What is color ?", "label": "DESC:def"}
+{"global_ix": 683, "sentence": "What facial feature typically contains about 55 hairs ?", "label": "DESC:desc"}
+{"global_ix": 3941, "sentence": "What is a wet dream ?", "label": "DESC:def"}
+{"global_ix": 3359, "sentence": "What is a philanthropist ?", "label": "DESC:def"}
+{"global_ix": 1250, "sentence": "What World War I battle saw 6 , 0 troops killed in one day ?", "label": "ENTY:event"}
+{"global_ix": 977, "sentence": "What is Martin Luther King Jr. 's real birthday ?", "label": "NUM:date"}
+{"global_ix": 4345, "sentence": "How much did Alaska cost when bought from Russia ?", "label": "NUM:money"}
+{"global_ix": 4765, "sentence": "The Olympic Games in which year allowed Nadia Comaneci to become popular ?", "label": "NUM:date"}
+{"global_ix": 1591, "sentence": "What must a Las Vegas blackjack dealer do when he reaches 16 ?", "label": "DESC:desc"}
+{"global_ix": 1074, "sentence": "When was Dick Clark born ?", "label": "NUM:date"}
+{"global_ix": 2969, "sentence": "What 's a male witch called ?", "label": "ENTY:termeq"}
+{"global_ix": 4846, "sentence": "Where did the energy for the Big Bang come from ?", "label": "DESC:desc"}
+{"global_ix": 879, "sentence": "What is Australia Day ?", "label": "DESC:def"}
+{"global_ix": 18, "sentence": "What is an annotated bibliography ?", "label": "DESC:def"}
+{"global_ix": 4728, "sentence": "What is a common dolphin ?", "label": "DESC:def"}
+{"global_ix": 3018, "sentence": "How much money does the Sultan of Brunei have ?", "label": "NUM:money"}
+{"global_ix": 4685, "sentence": "When was the first successful heart transplant for a human ?", "label": "NUM:date"}
+{"global_ix": 755, "sentence": "What is Spumante ?", "label": "DESC:def"}
+{"global_ix": 4824, "sentence": "What is nuclear proliferation ?", "label": "DESC:def"}
+{"global_ix": 5068, "sentence": "What is an aortic abdominal aneurysm ?", "label": "DESC:def"}
+{"global_ix": 1355, "sentence": "What is the difference between jazz and blues ?", "label": "DESC:desc"}
+{"global_ix": 999, "sentence": "What is Shalom ?", "label": "DESC:def"}
+{"global_ix": 4559, "sentence": "When are the Oscars Academy Awards in 1999 ?", "label": "NUM:date"}
+{"global_ix": 2565, "sentence": "What tennis term is said to come from the French word for egg ?", "label": "ENTY:termeq"}
+{"global_ix": 1853, "sentence": "What did John F. Kennedy consider his greatest blunder in office ?", "label": "DESC:desc"}
+{"global_ix": 3230, "sentence": "What was the eighth day following the Nones in each month of the Roman calendar called ?", "label": "ENTY:termeq"}
+{"global_ix": 399, "sentence": "What year did Hitler die ?", "label": "NUM:date"}
+{"global_ix": 1405, "sentence": "Which city in Canada is the least-populated ?", "label": "LOC:city"}
+{"global_ix": 2668, "sentence": "What is Cabarnet Sauvignon ?", "label": "DESC:def"}
+{"global_ix": 1602, "sentence": "What feud ended with a marriage in Kentucky on March 21 , 1891 ?", "label": "ENTY:event"}
+{"global_ix": 1825, "sentence": "What are the Valdez Principles ?", "label": "DESC:def"}
+{"global_ix": 3757, "sentence": "What does Playboy title its `` continuing dialog on contemporary issues between Playboy and its readers '' ?", "label": "ENTY:termeq"}
+{"global_ix": 3077, "sentence": "Name the French historical period during the reign of Napoleon III .", "label": "ENTY:event"}
+{"global_ix": 4575, "sentence": "What is the difference between hair and fur ?", "label": "DESC:desc"}
+{"global_ix": 1839, "sentence": "What is `` flintknapping '' ?", "label": "DESC:def"}
+{"global_ix": 3390, "sentence": "What is the meaning of `` subaru ? ''", "label": "DESC:def"}
+{"global_ix": 1795, "sentence": "What 's the setting of John Le Carre 's A Small Town in Germany ?", "label": "DESC:desc"}
+{"global_ix": 736, "sentence": "What does `` antidisestablishmentarianism '' mean ?", "label": "DESC:def"}
+{"global_ix": 3870, "sentence": "What is the starting salary of a radiographer ?", "label": "NUM:money"}
+{"global_ix": 3386, "sentence": "What are the words to the cd Eminem 's , or slim shady , `` My Name Is '' ?", "label": "DESC:desc"}
+{"global_ix": 727, "sentence": "When was Hurricane Hugo ?", "label": "NUM:date"}
+{"global_ix": 557, "sentence": "What kind of sport is often associated with hooligans ?", "label": "ENTY:sport"}
+{"global_ix": 2381, "sentence": "What does caliente mean , in English ?", "label": "DESC:def"}
+{"global_ix": 1803, "sentence": "What year were the Olympic Games played in where Nadia Comaneci became popular ?", "label": "NUM:date"}
+{"global_ix": 2833, "sentence": "What effect does friction have on perpetual motion ?", "label": "DESC:desc"}
+{"global_ix": 4481, "sentence": "What card game derived its name from biritch , or Russian Whist ?", "label": "ENTY:sport"}
+{"global_ix": 2605, "sentence": "What is hydrogen ?", "label": "DESC:def"}
+{"global_ix": 2527, "sentence": "What is the capital of Seattle ?", "label": "LOC:city"}
+{"global_ix": 1010, "sentence": "What is the origin of thank you notes ?", "label": "DESC:desc"}
+{"global_ix": 1479, "sentence": "What famous events have happened on March 27 ?", "label": "ENTY:event"}
+{"global_ix": 4246, "sentence": "What Southern California town is named after a character made famous by Edgar Rice Burroughs ?", "label": "LOC:city"}
+{"global_ix": 2908, "sentence": "What is the Bernoulli Principle ?", "label": "DESC:def"}
+{"global_ix": 1780, "sentence": "What is the origin of a.m. and p.m. ?", "label": "DESC:desc"}
+{"global_ix": 2443, "sentence": "What is Chiricahua the name of ?", "label": "ENTY:termeq"}
+{"global_ix": 1101, "sentence": "What was the filling in the first golf balls ?", "label": "DESC:def"}
+{"global_ix": 3494, "sentence": "What is the best selling computer model ever ?", "label": "ENTY:product"}
+{"global_ix": 2134, "sentence": "What was the date of CNN 's first broadcast ?", "label": "NUM:date"}
+{"global_ix": 3514, "sentence": "By how much will the California state gas tax rise by the year 2000 ?", "label": "NUM:money"}
+{"global_ix": 346, "sentence": "What Jewish holiday saw the start of the 1973 Mideast War ?", "label": "ENTY:event"}
+{"global_ix": 50, "sentence": "Where did the term `` 86ed '' come from ?", "label": "DESC:desc"}
+{"global_ix": 4776, "sentence": "What are faults in the earth 's crust ?", "label": "DESC:def"}
+{"global_ix": 1449, "sentence": "What French seaport claims to be The Home of Wines ?", "label": "LOC:city"}
+{"global_ix": 3644, "sentence": "What is `` the computer for the rest of us '' ?", "label": "DESC:desc"}
+{"global_ix": 1671, "sentence": "What German city do Italians call The Monaco of Bavaria ?", "label": "LOC:city"}
+{"global_ix": 4579, "sentence": "What is the amount of money owed for illegally having a dog on a beach ?", "label": "NUM:money"}
+{"global_ix": 3378, "sentence": "What does idle mean ?", "label": "DESC:def"}
+{"global_ix": 1104, "sentence": "What is typhoid fever ?", "label": "DESC:def"}
+{"global_ix": 1474, "sentence": "What does the name `` Sabrina '' mean ?", "label": "DESC:def"}
+{"global_ix": 1821, "sentence": "What is tumbled marble ?", "label": "DESC:def"}
+{"global_ix": 3616, "sentence": "Where did the term fireplug come from ?", "label": "DESC:desc"}
+{"global_ix": 374, "sentence": "What does `` intractable plantar keratoma '' mean ?", "label": "DESC:def"}
+{"global_ix": 4582, "sentence": "When did the original Howdy Doody show go off the air ?", "label": "NUM:date"}
+{"global_ix": 2959, "sentence": "What is the origin of the candy cane at Christmas ?", "label": "DESC:desc"}
+{"global_ix": 2436, "sentence": "What is the Lost Colony ?", "label": "DESC:def"}
+{"global_ix": 3645, "sentence": "What nuclear process takes place in an H-bomb ?", "label": "DESC:desc"}
+{"global_ix": 4772, "sentence": "What is a specimen of basidiomycetes ?", "label": "DESC:def"}
+{"global_ix": 1790, "sentence": "What Kenyan city is the safari center for East Africa ?", "label": "LOC:city"}
+{"global_ix": 219, "sentence": "What is the filmmakers collabrative ?", "label": "DESC:def"}
+{"global_ix": 4397, "sentence": "What was The Living Room War ?", "label": "DESC:def"}
+{"global_ix": 1572, "sentence": "What is the regular price ?", "label": "NUM:money"}
+{"global_ix": 315, "sentence": "Hazmat stands for what ?", "label": "DESC:def"}
+{"global_ix": 2380, "sentence": "What are the Poconos ?", "label": "DESC:def"}
+{"global_ix": 4998, "sentence": "What kind of car did Janis Joplin ask the Lord to buy her ?", "label": "ENTY:product"}
+{"global_ix": 3079, "sentence": "What is time ?", "label": "DESC:def"}
+{"global_ix": 229, "sentence": "What is the contents of proposition 98 ?", "label": "DESC:def"}
+{"global_ix": 5029, "sentence": "What is the poetic meter of blank verse ?", "label": "DESC:def"}
+{"global_ix": 4316, "sentence": "What capital is built around Monument Circle which contains soldiers and sailors monument ?", "label": "LOC:city"}
+{"global_ix": 3715, "sentence": "When did Thatcher become prime minister ?", "label": "NUM:date"}
+{"global_ix": 2609, "sentence": "What is recruitment interview technique ?", "label": "DESC:def"}
+{"global_ix": 3695, "sentence": "What Russian city used to be called St. Petersburg and Petrograd ?", "label": "LOC:city"}
+{"global_ix": 609, "sentence": "What is the most advanced handheld calculator in the world ?", "label": "ENTY:product"}
+{"global_ix": 734, "sentence": "What is prepared mustard ?", "label": "DESC:def"}
+{"global_ix": 70, "sentence": "What is the history of skateboarding ?", "label": "DESC:desc"}
+{"global_ix": 3207, "sentence": "What is the difference between a college and a university ?", "label": "DESC:desc"}
+{"global_ix": 1684, "sentence": "What is the current ticket fare from from Cairo to Barbados ?", "label": "NUM:money"}
+{"global_ix": 4321, "sentence": "What is the history of Spartacus , the Roman slave and gladiator ?", "label": "DESC:desc"}
+{"global_ix": 4724, "sentence": "How much did Lucy Van Pelt originally charge for psychiatric sessions ?", "label": "NUM:money"}
+{"global_ix": 247, "sentence": "When did World War I start ?", "label": "NUM:date"}
+{"global_ix": 3498, "sentence": "What are the short- and long-term effects of underage drinking ?", "label": "DESC:desc"}
+{"global_ix": 198, "sentence": "What is a ball that hits the foul pole called ?", "label": "ENTY:termeq"}
+{"global_ix": 240, "sentence": "When did the Berlin Wall go up ?", "label": "NUM:date"}
+{"global_ix": 4244, "sentence": "What 's the meaning of the name Tatiana ?", "label": "DESC:def"}
+{"global_ix": 2238, "sentence": "What does the Greek word polis mean , as in Minneapolis ?", "label": "DESC:def"}
+{"global_ix": 693, "sentence": "What happened during the Blackhawk Indian war of 1832 ?", "label": "DESC:desc"}
+{"global_ix": 4565, "sentence": "What is Remembrance Day all about ?", "label": "DESC:desc"}
+{"global_ix": 1887, "sentence": "What is ethylene ?", "label": "DESC:def"}
+{"global_ix": 2255, "sentence": "What is Dick Clark 's date of birth ?", "label": "NUM:date"}
+{"global_ix": 2333, "sentence": "What is the snowiest city in the U.S. ?", "label": "LOC:city"}
+{"global_ix": 2815, "sentence": "What is porphyria ?", "label": "DESC:def"}
+{"global_ix": 3798, "sentence": "What is making love ?", "label": "DESC:def"}
+{"global_ix": 1351, "sentence": "What is the origin of the midwest slang , ` you 're darn tootin ' ?", "label": "DESC:desc"}
+{"global_ix": 803, "sentence": "When did the Dow first reach ?", "label": "NUM:date"}
+{"global_ix": 3783, "sentence": "How do you say `` eat the day '' in Latin ?", "label": "ENTY:termeq"}
+{"global_ix": 2392, "sentence": "What happens when a body part falls asleep ?", "label": "DESC:desc"}
+{"global_ix": 1695, "sentence": "What is Nitrox diving ?", "label": "DESC:def"}
+{"global_ix": 4138, "sentence": "What did the Confederate Constitution say about slavery ?", "label": "DESC:desc"}
+{"global_ix": 62, "sentence": "Which city has the oldest relationship as a sisterðcity with Los Angeles ?", "label": "LOC:city"}
+{"global_ix": 855, "sentence": "What is the difference between a median and a mean ?", "label": "DESC:desc"}
+{"global_ix": 1963, "sentence": "What is a wart ?", "label": "DESC:def"}
+{"global_ix": 161, "sentence": "In what year did Thatcher become prime minister ?", "label": "NUM:date"}
+{"global_ix": 4396, "sentence": "What are binomial coefficients ?", "label": "DESC:def"}
+{"global_ix": 3214, "sentence": "What is software piracy ?", "label": "DESC:def"}
+{"global_ix": 3215, "sentence": "What year was Janet Jackson 's first album released ?", "label": "NUM:date"}
+{"global_ix": 4885, "sentence": "When was the first stained glass window made ?", "label": "NUM:date"}
+{"global_ix": 5085, "sentence": "What war added jeep and quisling to the English language ?", "label": "ENTY:event"}
+{"global_ix": 3794, "sentence": "What race is 1 , 137 miles long ?", "label": "ENTY:sport"}
+{"global_ix": 2170, "sentence": "In what year did Thatcher gain power ?", "label": "NUM:date"}
+{"global_ix": 1690, "sentence": "What month , date , and year did Charles I die ?", "label": "NUM:date"}
+{"global_ix": 2303, "sentence": "What is `` Vocal Sampling '' ?", "label": "DESC:def"}
+{"global_ix": 2628, "sentence": "What is a storm surge ?", "label": "DESC:def"}
+{"global_ix": 611, "sentence": "What are shooting stars ?", "label": "DESC:def"}
+{"global_ix": 1705, "sentence": "In what year did they build the Berlin Wall ?", "label": "NUM:date"}
+{"global_ix": 2148, "sentence": "What is the name for clouds that produce rain ?", "label": "ENTY:termeq"}
+{"global_ix": 1410, "sentence": "What is the definition of the term `` weapons system '' ?", "label": "DESC:def"}
+{"global_ix": 192, "sentence": "What is Eagle 's syndrome styloid process ?", "label": "DESC:def"}
+{"global_ix": 1749, "sentence": "What Australian city became the home of the America 's Cup ?", "label": "LOC:city"}
+{"global_ix": 3903, "sentence": "What is a `` repeating voter '' ?", "label": "DESC:def"}
+{"global_ix": 1313, "sentence": "What city was John F. Kennedy nominated for president in ?", "label": "LOC:city"}
+{"global_ix": 2890, "sentence": "What is the origin of the word `` amen '' ?", "label": "DESC:desc"}
+{"global_ix": 1306, "sentence": "When were fish first believed to be found on earth ?", "label": "NUM:date"}
+{"global_ix": 959, "sentence": "In what city is the famed St. Mark 's Square ?", "label": "LOC:city"}
+{"global_ix": 5056, "sentence": "In what year did Joe DiMaggio compile his 56-game hitting streak ?", "label": "NUM:date"}
+{"global_ix": 137, "sentence": "What city boasts Penn 's Landing , on the banks of the Delaware river ?", "label": "LOC:city"}
+{"global_ix": 3381, "sentence": "What football bowl game 's first queen was Hallie Woods ?", "label": "ENTY:sport"}
+{"global_ix": 1717, "sentence": "What is a gas release event ?", "label": "DESC:def"}
+{"global_ix": 1129, "sentence": "What is the highest Roman numeral ?", "label": "DESC:def"}
+{"global_ix": 2663, "sentence": "When did the Carolingian period begin ?", "label": "NUM:date"}
+{"global_ix": 93, "sentence": "What is the definition of a cascade ?", "label": "DESC:def"}
+{"global_ix": 521, "sentence": "What is viscosity ?", "label": "DESC:def"}
+{"global_ix": 2919, "sentence": "When was Richard Nixon born ?", "label": "NUM:date"}
+{"global_ix": 731, "sentence": "When was `` the Great Depression '' ?", "label": "NUM:date"}
+{"global_ix": 2208, "sentence": "What 's the meaning of the zoological term ruminant ?", "label": "DESC:def"}
+{"global_ix": 282, "sentence": "What is Latin for incompetent ?", "label": "ENTY:termeq"}
+{"global_ix": 261, "sentence": "When is Boxing Day ?", "label": "NUM:date"}
+{"global_ix": 5058, "sentence": "When did the art of quilting begin ?", "label": "NUM:date"}
+{"global_ix": 2935, "sentence": "What two Japanese cities are spelled with the letters K , O , O , T and Y ?", "label": "LOC:city"}
+{"global_ix": 892, "sentence": "When are sheep shorn ?", "label": "NUM:date"}
+{"global_ix": 4769, "sentence": "The Jewish alphabet is known as what ?", "label": "ENTY:termeq"}
+{"global_ix": 1262, "sentence": "What does an irate car owner call iron oxide ?", "label": "ENTY:termeq"}
+{"global_ix": 1893, "sentence": "What is the origin of the word `` pallbearer ? ''", "label": "DESC:desc"}
+{"global_ix": 2928, "sentence": "What is the origin of the word `` sideburns '' ?", "label": "DESC:desc"}
+{"global_ix": 3473, "sentence": "What does the term glory hole mean ?", "label": "DESC:def"}
+{"global_ix": 3047, "sentence": "What 's the common name for a Japanese dwarf tree ?", "label": "ENTY:termeq"}
+{"global_ix": 4483, "sentence": "What personality traits are Capricorns said to have ?", "label": "DESC:desc"}
+{"global_ix": 2388, "sentence": "When did Nostradamus believe World War III would begin ?", "label": "NUM:date"}
+{"global_ix": 476, "sentence": "McCarren Airport is located in what city ?", "label": "LOC:city"}
+{"global_ix": 613, "sentence": "When was the first American encyclopedia published ?", "label": "NUM:date"}
+{"global_ix": 828, "sentence": "What are the seven virtues ?", "label": "DESC:def"}
+{"global_ix": 2992, "sentence": "What famed gangland slaughter cut into the membership of Bugs Moran 's outfit ?", "label": "ENTY:event"}
+{"global_ix": 2243, "sentence": "How much money does each player get at the beginning of the game in Monopoly ?", "label": "NUM:money"}
+{"global_ix": 252, "sentence": "What is the classic definition of tragic hero ?", "label": "DESC:def"}
+{"global_ix": 2310, "sentence": "What is the origin of the word trigonometry ?", "label": "DESC:desc"}
+{"global_ix": 2163, "sentence": "What was the name of the U.S. 's first manned space program ?", "label": "ENTY:event"}
+{"global_ix": 2700, "sentence": "What is different about the red and black fox ?", "label": "DESC:desc"}
+{"global_ix": 2852, "sentence": "How much is a Canadian 1967 twenty dollar gold coin worth ?", "label": "NUM:money"}
+{"global_ix": 335, "sentence": "What year did Jack Nicklaus join the Professional Golfers Association tour ?", "label": "NUM:date"}
+{"global_ix": 2440, "sentence": "What is the lens behind the iris in the eye called ?", "label": "ENTY:termeq"}
+{"global_ix": 904, "sentence": "What is the difference between Neoclassical art and Romanticism art ?", "label": "DESC:desc"}
+{"global_ix": 3919, "sentence": "When was Christ born ?", "label": "NUM:date"}
+{"global_ix": 2717, "sentence": "What are Kythnos , Siphnos , Seriphos and Mykonos ?", "label": "DESC:def"}
+{"global_ix": 4889, "sentence": "When did swimming become commonplace ?", "label": "NUM:date"}
+{"global_ix": 3305, "sentence": "What month did the Edmund Fitzgerald sink ?", "label": "NUM:date"}
+{"global_ix": 3008, "sentence": "What were the first words spoken on a film sound track ?", "label": "DESC:desc"}
+{"global_ix": 4610, "sentence": "What can I do to get into an Ivy League school ?", "label": "DESC:desc"}
+{"global_ix": 4111, "sentence": "What is the origin of the word Marijuana ?", "label": "DESC:desc"}
+{"global_ix": 2346, "sentence": "What 's new in the postal world in 1999 ?", "label": "DESC:desc"}
+{"global_ix": 1829, "sentence": "What is the origin of the word assassinate ?", "label": "DESC:desc"}
+{"global_ix": 4118, "sentence": "How much will gas be taxed in California by the year 2000 ?", "label": "NUM:money"}
+{"global_ix": 1325, "sentence": "What are some important events of the 1830 's ?", "label": "ENTY:event"}
+{"global_ix": 575, "sentence": "When is the site www.questions.com going to open ?", "label": "NUM:date"}
+{"global_ix": 355, "sentence": "What war did Florence Nightingale tend the troops in ?", "label": "ENTY:event"}
+{"global_ix": 4979, "sentence": "When was the Berlin Wall erected ?", "label": "NUM:date"}
+{"global_ix": 1660, "sentence": "What was the name of the famous battle between Texas and Mexico ?", "label": "ENTY:event"}
+{"global_ix": 791, "sentence": "What age followed the Bronze Age ?", "label": "ENTY:event"}
+{"global_ix": 4097, "sentence": "What hide-and-seek game is played around a tin can ?", "label": "ENTY:sport"}
+{"global_ix": 3197, "sentence": "What city is served by Tempelhol Airport ?", "label": "LOC:city"}
+{"global_ix": 1879, "sentence": "What are the alveoli ?", "label": "DESC:def"}
+{"global_ix": 3479, "sentence": "What do you need to do to marry someone in jail ?", "label": "DESC:desc"}
+{"global_ix": 4462, "sentence": "When was the Big Thompson flood ?", "label": "NUM:date"}
+{"global_ix": 2326, "sentence": "What is the definition of hazmat ?", "label": "DESC:def"}
+{"global_ix": 153, "sentence": "What is a dental root canal ?", "label": "DESC:def"}
+{"global_ix": 2029, "sentence": "In Waugh 's `` A Handful of Dust , '' what does the mad old man force the hero to do every afternoon ?", "label": "DESC:desc"}
+{"global_ix": 720, "sentence": "What historical event happened in Dogtown in 1899 ?", "label": "ENTY:event"}
+{"global_ix": 5018, "sentence": "What features of the African elephant are larger than those of the Indian elephant ?", "label": "DESC:desc"}
+{"global_ix": 242, "sentence": "What 's the meaning of the Latin battle cry : Ad arma , ad arma .", "label": "DESC:def"}
+{"global_ix": 3269, "sentence": "What is the medical condition of hypertension ?", "label": "DESC:def"}
+{"global_ix": 2664, "sentence": "What motto ended Merrie Melodies cartoons ?", "label": "DESC:desc"}
+{"global_ix": 1666, "sentence": "What is moxie ?", "label": "DESC:def"}
+{"global_ix": 4048, "sentence": "What is `` alternative '' anymore ?", "label": "DESC:def"}
+{"global_ix": 1692, "sentence": "What is the hair style called that new military recruits receive ?", "label": "DESC:def"}
+{"global_ix": 924, "sentence": "What auto race was Wilbur Reed the first to win three times ?", "label": "ENTY:sport"}
+{"global_ix": 4925, "sentence": "What sport can a free-legged pacer compete in ?", "label": "ENTY:sport"}
+{"global_ix": 993, "sentence": "Where did marijuana come from ?", "label": "DESC:desc"}
+{"global_ix": 447, "sentence": "How do you say `` fresh '' in Spanish ?", "label": "ENTY:termeq"}
+{"global_ix": 1962, "sentence": "What are the 10 largest cities in the US ?", "label": "LOC:city"}
+{"global_ix": 3045, "sentence": "What U.S. city 's skyline boasts the Gateway Arch ?", "label": "LOC:city"}
+{"global_ix": 3834, "sentence": "What is the largest city in Connecticut ?", "label": "LOC:city"}
+{"global_ix": 1616, "sentence": "What ever happened to the once popular Yale Lock Company ?", "label": "DESC:desc"}
+{"global_ix": 3309, "sentence": "What is a pig in a poke ?", "label": "DESC:def"}
+{"global_ix": 2771, "sentence": "What operating system do IBM-compatible machines use ?", "label": "ENTY:product"}
+{"global_ix": 921, "sentence": "What are the Greek numerals ?", "label": "DESC:def"}
+{"global_ix": 2839, "sentence": "Where did the term `` 69 '' come from ?", "label": "DESC:desc"}
+{"global_ix": 2879, "sentence": "What is the distinction of Erle Stanley Gardner 's The Case of the Terrified Typist ?", "label": "DESC:desc"}
+{"global_ix": 2152, "sentence": "What day of the week was July 13 ?", "label": "NUM:date"}
+{"global_ix": 4013, "sentence": "When was China 's first nuclear test ?", "label": "NUM:date"}
+{"global_ix": 3910, "sentence": "In what year was the Wall built ?", "label": "NUM:date"}
+{"global_ix": 4068, "sentence": "What is the capital of Italy ?", "label": "LOC:city"}
+{"global_ix": 2828, "sentence": "When is a woman most fertile ?", "label": "NUM:date"}
+{"global_ix": 1284, "sentence": "What is the capital of Burkina Faso ?", "label": "LOC:city"}
+{"global_ix": 2345, "sentence": "What clause in the U.S. Constitution may not be changed , altered or amended ?", "label": "DESC:desc"}
+{"global_ix": 4540, "sentence": "What is deconstructionism ?", "label": "DESC:def"}
+{"global_ix": 4213, "sentence": "What was spawned the term `` MiG Alley '' ?", "label": "ENTY:termeq"}
+{"global_ix": 3573, "sentence": "What city does Orly Airport serve ?", "label": "LOC:city"}
+{"global_ix": 1260, "sentence": "How much does the President get paid ?", "label": "NUM:money"}
+{"global_ix": 448, "sentence": "What do bee hives do in cranberry bogs ?", "label": "DESC:desc"}
+{"global_ix": 1356, "sentence": "What is the C programming language ?", "label": "DESC:def"}
+{"global_ix": 1227, "sentence": "What is the brand name of daminozide ?", "label": "ENTY:product"}
+{"global_ix": 2305, "sentence": "What city is near the mouth of the Amazon ?", "label": "LOC:city"}
+{"global_ix": 2180, "sentence": "What is narcolepsy ?", "label": "DESC:def"}
+{"global_ix": 2087, "sentence": "What are `` inkhorn terms '' ?", "label": "DESC:def"}
+{"global_ix": 1377, "sentence": "What sport is played on the largest field ?", "label": "ENTY:sport"}
+{"global_ix": 4288, "sentence": "What kind of sports team is the Buffalo Sabres ?", "label": "ENTY:sport"}
+{"global_ix": 4852, "sentence": "What is idealab ! ?", "label": "DESC:def"}
+{"global_ix": 572, "sentence": "What is the `` coppertop '' battery ?", "label": "DESC:def"}
+{"global_ix": 2483, "sentence": "What have you not let a tennis ball do if you volley ?", "label": "DESC:desc"}
+{"global_ix": 610, "sentence": "What is the belt of low pressure around the equator called ?", "label": "ENTY:termeq"}
+{"global_ix": 1871, "sentence": "What is the meaning of thalassemia ?", "label": "DESC:def"}
+{"global_ix": 3744, "sentence": "When was Florida admitted into the Union ?", "label": "NUM:date"}
+{"global_ix": 4946, "sentence": "When was the first railroad from the east coast to the west coast completed ?", "label": "NUM:date"}
+{"global_ix": 164, "sentence": "In what year was De Gaulle elected president of France ?", "label": "NUM:date"}
+{"global_ix": 4183, "sentence": "What does seccession mean ?", "label": "DESC:def"}
+{"global_ix": 4554, "sentence": "What is the text of the Fifth Amendment ?", "label": "DESC:desc"}
+{"global_ix": 1613, "sentence": "What year did Apartheid start ?", "label": "NUM:date"}
+{"global_ix": 2552, "sentence": "What is the song Stairway to Heaven by Led Zeppelin about ?", "label": "DESC:desc"}
+{"global_ix": 4027, "sentence": "When is Dick Clark 's birthday ?", "label": "NUM:date"}
+{"global_ix": 4876, "sentence": "What city 's airport is named Logan International ?", "label": "LOC:city"}
+{"global_ix": 1484, "sentence": "What are Maid-Rites ?", "label": "DESC:def"}
+{"global_ix": 3753, "sentence": "Where does the expression `` cloud nine '' come from ?", "label": "DESC:desc"}
+{"global_ix": 185, "sentence": "What city is sometimes called Gotham ?", "label": "LOC:city"}
+{"global_ix": 1651, "sentence": "When was the first flush toilet invented ?", "label": "NUM:date"}
+{"global_ix": 1498, "sentence": "What is a bourdon tube ?", "label": "DESC:def"}
+{"global_ix": 33, "sentence": "What do Mormons believe ?", "label": "DESC:desc"}
+{"global_ix": 4558, "sentence": "Which city in China has the largest number of foreign financial companies ?", "label": "LOC:city"}
+{"global_ix": 1927, "sentence": "What 's the rathaus in Frankfurt ?", "label": "DESC:def"}
+{"global_ix": 2679, "sentence": "What was the Vietnam War ?", "label": "DESC:def"}
+{"global_ix": 2389, "sentence": "What is so powerful about Power Bars ?", "label": "DESC:desc"}
+{"global_ix": 3871, "sentence": "What is a disaccharide ?", "label": "DESC:def"}
+{"global_ix": 4315, "sentence": "What is goulash ?", "label": "DESC:def"}
+{"global_ix": 4007, "sentence": "What geological time do we live in ?", "label": "NUM:date"}
+{"global_ix": 1610, "sentence": "What war saw battles at Parrot 's Beak and Black Virgin ?", "label": "ENTY:event"}
+{"global_ix": 94, "sentence": "When did Rococo painting and architecture flourish ?", "label": "NUM:date"}
+{"global_ix": 4683, "sentence": "What does the name Jenna mean ?", "label": "DESC:def"}
+{"global_ix": 2366, "sentence": "What is a hydrogen bond ?", "label": "DESC:def"}
+{"global_ix": 1188, "sentence": "What is pandoro ?", "label": "DESC:def"}
+{"global_ix": 207, "sentence": "What is `` snoogans '' ?", "label": "DESC:def"}
+{"global_ix": 396, "sentence": "What is the difference between classical conditioning and operant conditioning ?", "label": "DESC:desc"}
+{"global_ix": 3896, "sentence": "When did Nixon visit China ?", "label": "NUM:date"}
+{"global_ix": 501, "sentence": "What product on the market is good for hiding facial scars ?", "label": "ENTY:product"}
+{"global_ix": 3193, "sentence": "What is the starting salary for beginning lawyers ?", "label": "NUM:money"}
+{"global_ix": 3007, "sentence": "What steps can be taken to prevent diabetes ?", "label": "DESC:desc"}
+{"global_ix": 2942, "sentence": "What is Butterfield 8 in Butterfield 8 ?", "label": "DESC:def"}
+{"global_ix": 3387, "sentence": "What does Final Four refer to in the sports world ?", "label": "ENTY:termeq"}
+{"global_ix": 1983, "sentence": "What is the chemiosmotic theory ?", "label": "DESC:def"}
+{"global_ix": 647, "sentence": "What did Richard Feynman say upon hearing he would receive the Nobel Prize in Physics ?", "label": "DESC:desc"}
+{"global_ix": 1237, "sentence": "What civil war was fought between 1936 and 1939 ?", "label": "ENTY:event"}
+{"global_ix": 3271, "sentence": "What city is served by McCarren Airport ?", "label": "LOC:city"}
+{"global_ix": 124, "sentence": "When did the Bounty mutiny take place ?", "label": "NUM:date"}
+{"global_ix": 3402, "sentence": "What is the VDRL test of blood ?", "label": "DESC:def"}
+{"global_ix": 3536, "sentence": "What is object-oriented design ?", "label": "DESC:def"}
+{"global_ix": 3823, "sentence": "What was the first minimum wage ?", "label": "NUM:money"}
+{"global_ix": 116, "sentence": "Which two products use a tiger as their symbol ?", "label": "ENTY:product"}
+{"global_ix": 3657, "sentence": "What does Lloyd 's Lutine Bell announce ?", "label": "DESC:desc"}
+{"global_ix": 4018, "sentence": "How much can a person be fined for having a dog on a beach ?", "label": "NUM:money"}
+{"global_ix": 4403, "sentence": "What year did Montana become a state ?", "label": "NUM:date"}
+{"global_ix": 3532, "sentence": "What is cunnilingus ?", "label": "DESC:def"}
+{"global_ix": 2378, "sentence": "What is a multiplexer ?", "label": "DESC:def"}
+{"global_ix": 3569, "sentence": "What is capitalism according to Max Weber ?", "label": "DESC:def"}
+{"global_ix": 3687, "sentence": "What happened to Pompeii ?", "label": "DESC:desc"}
+{"global_ix": 2560, "sentence": "What is the origin of `` Beauty is in the eye of the beholder '' ?", "label": "DESC:desc"}
+{"global_ix": 2256, "sentence": "What does the name `` Sheri '' mean ?", "label": "DESC:def"}
+{"global_ix": 4931, "sentence": "What is an aurora ?", "label": "DESC:def"}
+{"global_ix": 3487, "sentence": "What do insects do through their spiracles ?", "label": "DESC:desc"}
+{"global_ix": 674, "sentence": "What is Bombay duck ?", "label": "DESC:def"}
+{"global_ix": 1245, "sentence": "What is the half-life of P-32 ?", "label": "DESC:def"}
+{"global_ix": 4807, "sentence": "What is fiber in food ?", "label": "DESC:def"}
+{"global_ix": 2620, "sentence": "What is Occam 's Razor ?", "label": "DESC:def"}
+{"global_ix": 1411, "sentence": "What are Christopher Marlowe 's and Shakespeare 's literary contributions to English literature ?", "label": "DESC:desc"}
+{"global_ix": 2119, "sentence": "What baseball expression came from the nautical term for ships sailing between the Atlantic and Pacific before the Panama Canal ?", "label": "DESC:desc"}
+{"global_ix": 1843, "sentence": "In what year was the movie the Ten Commandments released ?", "label": "NUM:date"}
+{"global_ix": 513, "sentence": "When was the Battle of Hastings ?", "label": "NUM:date"}
+{"global_ix": 3205, "sentence": "What is the price for tuberculosis drugs ?", "label": "NUM:money"}
+{"global_ix": 5073, "sentence": "When did communist control end in Hungary ?", "label": "NUM:date"}
+{"global_ix": 1511, "sentence": "What are a baseball team 's firemen ?", "label": "DESC:def"}
+{"global_ix": 497, "sentence": "When did CNN go on the air ?", "label": "NUM:date"}
+{"global_ix": 2612, "sentence": "What New Hampshire hamlet rises early to vote first in U.S. presidential elections ?", "label": "LOC:city"}
+{"global_ix": 2868, "sentence": "What does Freddy Freeman say to become Captain Marvel Jr. ?", "label": "DESC:desc"}
+{"global_ix": 1228, "sentence": "What is the former name of Zimbabwe ?", "label": "ENTY:termeq"}
+{"global_ix": 2793, "sentence": "When did Nixon die ?", "label": "NUM:date"}
+{"global_ix": 502, "sentence": "What city gained renown for its pea-soup fogs ?", "label": "LOC:city"}
+{"global_ix": 878, "sentence": "What card game has variations called Canfield , Klondike and Spider ?", "label": "ENTY:sport"}
+{"global_ix": 1066, "sentence": "What war saw a naval battle between the luxury liners Cap Trafalgar and the Carmania ?", "label": "ENTY:event"}
+{"global_ix": 5036, "sentence": "When was Microsoft established ?", "label": "NUM:date"}
+{"global_ix": 4847, "sentence": "What is the difference between the Koran and The Bible ?", "label": "DESC:desc"}
+{"global_ix": 2660, "sentence": "When did they canonize the Bible ?", "label": "NUM:date"}
+{"global_ix": 4996, "sentence": "What is probability theory ?", "label": "DESC:def"}
+{"global_ix": 4758, "sentence": "When does the Bible say the seasons started ?", "label": "NUM:date"}
+{"global_ix": 132, "sentence": "What are equity securities ?", "label": "DESC:def"}
+{"global_ix": 2642, "sentence": "What is the origin of the Christmas tree ?", "label": "DESC:desc"}
+{"global_ix": 275, "sentence": "What do Italians call Florence ?", "label": "ENTY:termeq"}
+{"global_ix": 4199, "sentence": "What is the Golden Rule ?", "label": "DESC:def"}
+{"global_ix": 3200, "sentence": "What is the origin of the name Igor ?", "label": "DESC:desc"}
+{"global_ix": 4415, "sentence": "What is an Angelus ?", "label": "DESC:def"}
+{"global_ix": 2782, "sentence": "What is the fine for having a dog on a beach ?", "label": "NUM:money"}
+{"global_ix": 4632, "sentence": "What city would you be in if you were feeding the pigeons in the Piazza San Marco ?", "label": "LOC:city"}
+{"global_ix": 2611, "sentence": "What does the donation process entail ?", "label": "DESC:def"}
+{"global_ix": 2749, "sentence": "What is the origin of the word `` mushroom '' ?", "label": "DESC:desc"}
+{"global_ix": 234, "sentence": "What are the powers and weaknesses of Green Lantern 's ring ?", "label": "DESC:desc"}
+{"global_ix": 1781, "sentence": "What is the definition of cosmology ?", "label": "DESC:def"}
+{"global_ix": 1255, "sentence": "What is the economic impact of unemployment on the economy ?", "label": "DESC:desc"}
+{"global_ix": 4084, "sentence": "What are the capital cities of the two large countries that occupy the Iberian peninsula in Europe ?", "label": "LOC:city"}
+{"global_ix": 4221, "sentence": "What was the name of the computer in ` 2001 : A Space Odyssey ' ?", "label": "ENTY:product"}
+{"global_ix": 1203, "sentence": "Define cosmology .", "label": "DESC:def"}
+{"global_ix": 4166, "sentence": "What is the origin of music ?", "label": "DESC:desc"}
+{"global_ix": 1738, "sentence": "What is the history of yo-yos ?", "label": "DESC:desc"}
+{"global_ix": 3415, "sentence": "What is the salary of a U.S. Representative ?", "label": "NUM:money"}
+{"global_ix": 2126, "sentence": "How do you say `` Grandma '' in Irish ?", "label": "ENTY:termeq"}
+{"global_ix": 1504, "sentence": "In what year did China and the Republic of Korea establish diplomatic relations ?", "label": "NUM:date"}
+{"global_ix": 3607, "sentence": "What product did William Horlick discover and produce ?", "label": "ENTY:product"}
+{"global_ix": 4553, "sentence": "What is the capital of Congo ?", "label": "LOC:city"}
+{"global_ix": 2649, "sentence": "What does caliente translate to in English ?", "label": "ENTY:termeq"}
+{"global_ix": 4841, "sentence": "What U.S. city is known as The Rubber Capital of the World ?", "label": "LOC:city"}
+{"global_ix": 2111, "sentence": "What is the largest city in the world ?", "label": "LOC:city"}
+{"global_ix": 4515, "sentence": "What is Megan 's law ?", "label": "DESC:def"}
+{"global_ix": 746, "sentence": "What is measured in curies ?", "label": "DESC:def"}
+{"global_ix": 2587, "sentence": "What happens to the female body with lack of sleep and food ?", "label": "DESC:desc"}
+{"global_ix": 4342, "sentence": "What are values ?", "label": "DESC:def"}
+{"global_ix": 4453, "sentence": "What is the difference between ninjitsu and kung fu ?", "label": "DESC:desc"}
+{"global_ix": 3904, "sentence": "What are dingoes ?", "label": "DESC:def"}
+{"global_ix": 2383, "sentence": "What is the mission of Nike ?", "label": "ENTY:event"}
+{"global_ix": 4098, "sentence": "What is the largest city in Texas ?", "label": "LOC:city"}
+{"global_ix": 3002, "sentence": "What does Ouija mean ?", "label": "DESC:def"}
+{"global_ix": 987, "sentence": "What is Plc ?", "label": "DESC:def"}
+{"global_ix": 1038, "sentence": "What Colorado city owns its own glacier ?", "label": "LOC:city"}
+{"global_ix": 1925, "sentence": "What 's the capital of Iowa ?", "label": "LOC:city"}
+{"global_ix": 1477, "sentence": "What is hebephrenia ?", "label": "DESC:def"}
+{"global_ix": 2144, "sentence": "What 's the difference and advantages of selecting a Super VHS VCR over plain VHS model ?", "label": "DESC:desc"}
+{"global_ix": 2737, "sentence": "What shampoo prevents eczema , seborrhea , and psoriasis ?", "label": "ENTY:product"}
+{"global_ix": 4835, "sentence": "What 's the difference between TFT and dual-scan display ?", "label": "DESC:desc"}
+{"global_ix": 767, "sentence": "What city houses the U.S. headquarters of Procter and Gamble ?", "label": "LOC:city"}
+{"global_ix": 2355, "sentence": "What are the lyrics to the Star Spangled Banner ?", "label": "DESC:desc"}
+{"global_ix": 2110, "sentence": "On which date is the Ukrainians ' Christmas ?", "label": "NUM:date"}
+{"global_ix": 2195, "sentence": "CNN 's first broadcast occurred on what date ?", "label": "NUM:date"}
+{"global_ix": 5093, "sentence": "What is the meaning of caliente , in English , ?", "label": "DESC:def"}
+{"global_ix": 2551, "sentence": "How much does it cost to have a tree planted by dialing , 900 , 740-TREE ?", "label": "NUM:money"}
+{"global_ix": 3251, "sentence": "What should you do for an ankle sprain ?", "label": "DESC:desc"}
+{"global_ix": 4959, "sentence": "What do the figures represent on the Easter Island ?", "label": "DESC:def"}
+{"global_ix": 3733, "sentence": "What town was the setting for The Music Man ?", "label": "LOC:city"}
+{"global_ix": 4627, "sentence": "What product 's ads claim that it `` eliminates odors , kills household germs , mold , and mildew '' ?", "label": "ENTY:product"}
+{"global_ix": 2889, "sentence": "What international amateur sports spectacle was first telecast in 1956 ?", "label": "ENTY:sport"}
+{"global_ix": 1935, "sentence": "What are Cobol , Fortran , and Pascal ?", "label": "DESC:def"}
+{"global_ix": 4131, "sentence": "What is agent orange ?", "label": "DESC:def"}
+{"global_ix": 156, "sentence": "What are hook worms ?", "label": "DESC:def"}
+{"global_ix": 598, "sentence": "What day of the week sees the most fatal car accidents ?", "label": "NUM:date"}
+{"global_ix": 1373, "sentence": "What is the meaning of the name Ella ?", "label": "DESC:def"}
+{"global_ix": 919, "sentence": "What holidays are celebrated in Ireland ?", "label": "ENTY:event"}
+{"global_ix": 3848, "sentence": "What was the infamous feat of Germany 's U-2 submarine ?", "label": "DESC:desc"}
+{"global_ix": 3732, "sentence": "What is proposition 98 about ?", "label": "DESC:def"}
+{"global_ix": 4372, "sentence": "When is the Jimmy Buffett concert coming to the E center in Camden NJ ?", "label": "NUM:date"}
+{"global_ix": 3125, "sentence": "What is idealab ! ?", "label": "DESC:def"}
+{"global_ix": 3464, "sentence": "What is the term for the sum of all genetic material in a given organism ?", "label": "ENTY:termeq"}
+{"global_ix": 2913, "sentence": "What is false consciousness ?", "label": "DESC:def"}
+{"global_ix": 4470, "sentence": "What two cities usually mark the extremes of English Channel swims ?", "label": "LOC:city"}
+{"global_ix": 2626, "sentence": "How is thalassemia defined ?", "label": "DESC:def"}
+{"global_ix": 213, "sentence": "What is the `` 7-minute cigarette '' ?", "label": "DESC:def"}
+{"global_ix": 5069, "sentence": "What are chloroplasts ?", "label": "DESC:def"}
+{"global_ix": 817, "sentence": "What is the city in which Maurizio Pellegrin lives called ?", "label": "LOC:city"}
+{"global_ix": 4379, "sentence": "What are boxcars ?", "label": "DESC:def"}
+{"global_ix": 1714, "sentence": "What were the first three cities to have a population of more than a million ?", "label": "LOC:city"}
+{"global_ix": 3187, "sentence": "What do pointed letters mean to a handwriting analyst ?", "label": "DESC:def"}
+{"global_ix": 1154, "sentence": "What does Las Vegas mean ?", "label": "DESC:def"}
+{"global_ix": 4216, "sentence": "What is the origin of infinity ?", "label": "DESC:desc"}
+{"global_ix": 5039, "sentence": "What is platinum ?", "label": "DESC:def"}
+{"global_ix": 3212, "sentence": "What effect does a prism have on light ?", "label": "DESC:desc"}
+{"global_ix": 958, "sentence": "What is Candlemas Day ?", "label": "DESC:def"}
+{"global_ix": 3081, "sentence": "What is the name of the largest city in Chile , South America ?", "label": "LOC:city"}
+{"global_ix": 1492, "sentence": "What are perfect tenses ?", "label": "DESC:def"}
+{"global_ix": 3158, "sentence": "What are vermicilli , rigati , zitoni , and tubetti ?", "label": "DESC:def"}
+{"global_ix": 3676, "sentence": "When was General Manuel Noriega ousted as the leader of Panama and turned over to U.S. authorities ?", "label": "NUM:date"}
+{"global_ix": 2210, "sentence": "What is hyperopia ?", "label": "DESC:def"}
+{"global_ix": 877, "sentence": "What is the origin of the surname of Braun ?", "label": "DESC:desc"}
+{"global_ix": 3894, "sentence": "What is the history of Hot Wheels cars , and how are they produced ?", "label": "DESC:desc"}
+{"global_ix": 1485, "sentence": "What city is terrorized by Dracula in The Night Stalker ?", "label": "LOC:city"}
+{"global_ix": 3761, "sentence": "How much did Manchester United spend on players in 1993 ?", "label": "NUM:money"}
+{"global_ix": 2082, "sentence": "What is multimedia ?", "label": "DESC:def"}
+{"global_ix": 3989, "sentence": "How do you say 2 in Latin ?", "label": "ENTY:termeq"}
+{"global_ix": 3330, "sentence": "When was the Brandenburg Gate in Berlin built ?", "label": "NUM:date"}
+{"global_ix": 2903, "sentence": "What is a tonne ?", "label": "DESC:def"}
+{"global_ix": 1605, "sentence": "Mississippi is nicknamed what ?", "label": "ENTY:termeq"}
+{"global_ix": 2860, "sentence": "What is literary criticism ?", "label": "DESC:def"}
+{"global_ix": 3748, "sentence": "What will the increase be in the California gas tax by 2000 ?", "label": "NUM:money"}
+{"global_ix": 1163, "sentence": "What type of betting is used in horse racing ?", "label": "ENTY:sport"}
+{"global_ix": 2285, "sentence": "What are the words to the song sung by `` Banana in Pajamas '' ?", "label": "DESC:desc"}
+{"global_ix": 1527, "sentence": "What 's the difference between J.D. and LL.M. ?", "label": "DESC:desc"}
+{"global_ix": 2141, "sentence": "When was Calypso music invented ?", "label": "NUM:date"}
+{"global_ix": 2925, "sentence": "What are some chemical properties of mendelevium ?", "label": "DESC:desc"}
+{"global_ix": 3429, "sentence": "Aspartame is also called what ?", "label": "ENTY:termeq"}
+{"global_ix": 2669, "sentence": "What is a virtual IP address ?", "label": "DESC:def"}
+{"global_ix": 2270, "sentence": "What is swap math ?", "label": "DESC:def"}
+{"global_ix": 4051, "sentence": "What year was the Avery Dennison company founded ?", "label": "NUM:date"}
+{"global_ix": 3696, "sentence": "What is the definition of a witch ?", "label": "DESC:def"}
+{"global_ix": 4398, "sentence": "What are some translations of the phrase `` Thank-you '' ?", "label": "ENTY:termeq"}
+{"global_ix": 4498, "sentence": "What indoor sport saw the Phoenix Inferno become the Phoenix Pride on July 14 , 1983 , when the temperature hit 111 degrees ?", "label": "ENTY:sport"}
+{"global_ix": 233, "sentence": "What is paracetamol ?", "label": "DESC:def"}
+{"global_ix": 154, "sentence": "What war did the Wanna-Go-Home Riots occur after ?", "label": "ENTY:event"}
+{"global_ix": 4055, "sentence": "What is a biologist ?", "label": "DESC:def"}
+{"global_ix": 1441, "sentence": "When was CNN 's first broadcast ?", "label": "NUM:date"}
+{"global_ix": 279, "sentence": "What 's the term for a bet before cards are dealt ?", "label": "ENTY:termeq"}
+{"global_ix": 4226, "sentence": "How much did Mercury spend on advertising in 1993 ?", "label": "NUM:money"}
+{"global_ix": 4797, "sentence": "What is a hormone ?", "label": "DESC:def"}
+{"global_ix": 4399, "sentence": "What is President Nixon 's birthdate ?", "label": "NUM:date"}
+{"global_ix": 2558, "sentence": "What month were you born in if your birthstone is sardonyx ?", "label": "NUM:date"}
+{"global_ix": 1838, "sentence": "What was the outcome of the 1945 Yalta Conference ?", "label": "DESC:desc"}
+{"global_ix": 3112, "sentence": "What are the lyrics to `` Smelly Cat '' ?", "label": "DESC:desc"}
+{"global_ix": 3165, "sentence": "When was Franklin D. Roosevelt stricken with polio ?", "label": "NUM:date"}
+{"global_ix": 2684, "sentence": "What is meant by blood SED rate ?", "label": "DESC:def"}
+{"global_ix": 3109, "sentence": "What sport was the first televised in the U.S. ?", "label": "ENTY:sport"}
+{"global_ix": 599, "sentence": "What is the origin of the word , magic ?", "label": "DESC:desc"}
+{"global_ix": 421, "sentence": "When does the average teenager first have intercourse ?", "label": "NUM:date"}
+{"global_ix": 3338, "sentence": "What date is Boxing Day ?", "label": "NUM:date"}
+{"global_ix": 2643, "sentence": "When is the Thai New Year ?", "label": "NUM:date"}
+{"global_ix": 3354, "sentence": "What is the term for someone who hates mankind ?", "label": "ENTY:termeq"}
+{"global_ix": 1431, "sentence": "What is the theory of equivalence states ?", "label": "DESC:def"}
+{"global_ix": 3179, "sentence": "What product features a frog that says `` dig 'em '' ?", "label": "ENTY:product"}
+{"global_ix": 2088, "sentence": "What is the difference between pop music and rock and roll ?", "label": "DESC:desc"}
+{"global_ix": 4518, "sentence": "What is usenet for the Internet ?", "label": "DESC:def"}
+{"global_ix": 2090, "sentence": "What does hazmat stand for ?", "label": "DESC:def"}
+{"global_ix": 688, "sentence": "What does an average daycare provider get paid in New England ?", "label": "NUM:money"}
+{"global_ix": 3191, "sentence": "What 's the capital of Taiwan ?", "label": "LOC:city"}
+{"global_ix": 4064, "sentence": "What is the price for AAA 's liability auto insurance ?", "label": "NUM:money"}
+{"global_ix": 3565, "sentence": "What is a nematode ?", "label": "DESC:def"}
+{"global_ix": 1788, "sentence": "What is the origin of the word Ozymandias ?", "label": "DESC:desc"}
+{"global_ix": 2531, "sentence": "What 's a water funnel ?", "label": "DESC:def"}
+{"global_ix": 4465, "sentence": "What 's played at Wembley Stadium , London , every May ?", "label": "ENTY:sport"}
+{"global_ix": 85, "sentence": "In which year was New Zealand excluded from the ANZUS alliance ?", "label": "NUM:date"}
+{"global_ix": 2348, "sentence": "What is the difference between the anus and the rectum ?", "label": "DESC:desc"}
+{"global_ix": 2358, "sentence": "What will a compass do in outer space ?", "label": "DESC:desc"}
+{"global_ix": 3529, "sentence": "What do you call a book of quotes ?", "label": "ENTY:termeq"}
+{"global_ix": 1626, "sentence": "What is a Devo hat ?", "label": "DESC:def"}
+{"global_ix": 4839, "sentence": "What does the word `` opera '' mean ?", "label": "DESC:def"}
+{"global_ix": 2288, "sentence": "What is the root of all evil ?", "label": "DESC:desc"}
+{"global_ix": 2049, "sentence": "What brand of white rum is still made in Cuba ?", "label": "ENTY:product"}
+{"global_ix": 2181, "sentence": "What is the name of the American literary era that includes 1896 ?", "label": "ENTY:event"}
+{"global_ix": 529, "sentence": "What is a green bog ?", "label": "DESC:def"}
+{"global_ix": 2037, "sentence": "What does Choo Choo Charlie say ?", "label": "DESC:desc"}
+{"global_ix": 1185, "sentence": "In what year did the Bounty mutiny happen ?", "label": "NUM:date"}
+{"global_ix": 4102, "sentence": "What was the longest war in U.S. history ?", "label": "ENTY:event"}
+{"global_ix": 865, "sentence": "What was archy , and mehitabel ?", "label": "DESC:def"}
+{"global_ix": 4521, "sentence": "What is witch hazel ?", "label": "DESC:def"}
+{"global_ix": 2777, "sentence": "What is Java ?", "label": "DESC:def"}
+{"global_ix": 1160, "sentence": "What is graduate school ?", "label": "DESC:def"}
+{"global_ix": 1760, "sentence": "What 's the mystery of the Bermuda Triangle ?", "label": "DESC:desc"}
+{"global_ix": 3092, "sentence": "What is a cake of soap ?", "label": "DESC:def"}
+{"global_ix": 2486, "sentence": "What else has the swastika stood for ?", "label": "DESC:def"}
+{"global_ix": 4837, "sentence": "What is the English meaning of caliente ?", "label": "DESC:def"}
+{"global_ix": 1328, "sentence": "What is God ?", "label": "DESC:def"}
+{"global_ix": 1540, "sentence": "What year did Degas create the bronze sculpture , `` Fourth Position Front ? ''", "label": "NUM:date"}
+{"global_ix": 881, "sentence": "What was the Chivington Massacre ?", "label": "DESC:def"}
+{"global_ix": 4279, "sentence": "How much did the first Barbie doll sell for in 1959 ?", "label": "NUM:money"}
+{"global_ix": 4125, "sentence": "What is Linux ?", "label": "DESC:def"}
+{"global_ix": 5037, "sentence": "When did President Kennedy , Lee Harvey Oswald , and Jack Ruby all die ?", "label": "NUM:date"}
+{"global_ix": 285, "sentence": "What board game does a `` wood-pusher '' play poorly ?", "label": "ENTY:sport"}
+{"global_ix": 1641, "sentence": "What is Toulmin logic ?", "label": "DESC:def"}
+{"global_ix": 586, "sentence": "What Russian city boasts the Hermitage Museum ?", "label": "LOC:city"}
+{"global_ix": 1437, "sentence": "What 's the meaning of UOL ?", "label": "DESC:def"}
+{"global_ix": 2694, "sentence": "What is the origin of gametophytic tissue ?", "label": "DESC:desc"}
+{"global_ix": 3352, "sentence": "What debts did Qintex group leave ?", "label": "NUM:money"}
+{"global_ix": 926, "sentence": "What was organized as a Confederate veterans ' social club in Pulaski , in Tennessee , in 1866 ?", "label": "ENTY:event"}
+{"global_ix": 1141, "sentence": "What game is Garry Kasparov really good at ?", "label": "ENTY:sport"}
+{"global_ix": 2367, "sentence": "What is the exchange rate between England and the U.S. ?", "label": "NUM:money"}
+{"global_ix": 4718, "sentence": "What card game can feature dealer 's choice ?", "label": "ENTY:sport"}
+{"global_ix": 1279, "sentence": "What are the words to the Canadian National anthem ?", "label": "DESC:desc"}
+{"global_ix": 4592, "sentence": "What 's the difference between carelessness and carefreeness ?", "label": "DESC:desc"}
+{"global_ix": 4786, "sentence": "What city is the Kentucky Horse Park near ?", "label": "LOC:city"}
+{"global_ix": 1732, "sentence": "What were the three prophecies the witches make to Macbeth ?", "label": "DESC:desc"}
+{"global_ix": 3073, "sentence": "What Italian city of 155 were Leonardo da Vinci , Michaelangelo , and Machiavelli all working in ?", "label": "LOC:city"}
+{"global_ix": 1448, "sentence": "What is the English translation for the word `` caliente '' ?", "label": "ENTY:termeq"}
+{"global_ix": 1350, "sentence": "When is President Nixon 's birthday ?", "label": "NUM:date"}
+{"global_ix": 4326, "sentence": "What is form drag ?", "label": "DESC:def"}
+{"global_ix": 2402, "sentence": "What is the origin of the proverb `` A stitch in time saves nine '' ?", "label": "DESC:desc"}
+{"global_ix": 245, "sentence": "When did Mount St. Helen last have a significant eruption ?", "label": "NUM:date"}
+{"global_ix": 1526, "sentence": "What is saltpeter ?", "label": "DESC:def"}
+{"global_ix": 3026, "sentence": "What does the theory of quantum leaps mean in simpler terms ?", "label": "DESC:def"}
+{"global_ix": 1768, "sentence": "What baseball outcome required nine balls in 1879 , eight balls in 1880 and seven balls in 1881 ?", "label": "ENTY:sport"}
+{"global_ix": 381, "sentence": "What is the difference between a generator and an alternator ?", "label": "DESC:desc"}
+{"global_ix": 1942, "sentence": "In what year did the US Marine Corps adopt the motto `` Semper Fidelis '' ?", "label": "NUM:date"}
+{"global_ix": 4954, "sentence": "What was the effect of the Yalta Conference ?", "label": "DESC:desc"}
+{"global_ix": 4854, "sentence": "What toy can you make sleep ?", "label": "ENTY:product"}
+{"global_ix": 3979, "sentence": "What Georgia town did Scarlett O 'Hara condemn as being full of pushy people ?", "label": "LOC:city"}
+{"global_ix": 1280, "sentence": "What is the name of the Jewish alphabet ?", "label": "ENTY:termeq"}
+{"global_ix": 389, "sentence": "When was the women 's suffrage amendment ratified ?", "label": "NUM:date"}
+{"global_ix": 1703, "sentence": "What sport features snatches and clean jerks ?", "label": "ENTY:sport"}
+{"global_ix": 4608, "sentence": "What North American city sprouts the most parking meters ?", "label": "LOC:city"}
+{"global_ix": 935, "sentence": "What car was driven in the 199 release of `` Smokey and the Bandit '' ?", "label": "ENTY:product"}
+{"global_ix": 3637, "sentence": "What city boasts the Billingsgate fishmarket ?", "label": "LOC:city"}
+{"global_ix": 1849, "sentence": "When was the De Beers company founded ?", "label": "NUM:date"}
+{"global_ix": 3595, "sentence": "What does the word terrorism mean ?", "label": "DESC:def"}
+{"global_ix": 3248, "sentence": "What is the meaning of the name Kathryn ?", "label": "DESC:def"}
+{"global_ix": 2479, "sentence": "Garry Kasparov plays what game ?", "label": "ENTY:sport"}
+{"global_ix": 1858, "sentence": "Which two products use a tiger as their symbol ?", "label": "ENTY:product"}
+{"global_ix": 4659, "sentence": "Name the Islamic counterpart to the Red Cross .", "label": "ENTY:termeq"}
+{"global_ix": 2557, "sentence": "What is the origin of the first name ` Breony ' ?", "label": "DESC:desc"}
+{"global_ix": 516, "sentence": "What then-derogatory term was applied to the painters Monet , Sisley , Pissarro , Renoir and Degas ?", "label": "ENTY:termeq"}
+{"global_ix": 607, "sentence": "How do you say I love you in Spanish ?", "label": "ENTY:termeq"}
+{"global_ix": 1816, "sentence": "What 's the Red Planet ?", "label": "DESC:def"}
+{"global_ix": 2008, "sentence": "What are different products of petroleum ?", "label": "ENTY:product"}
+{"global_ix": 442, "sentence": "What are Maid-Rites ?", "label": "DESC:def"}
+{"global_ix": 249, "sentence": "What is a Canada two-penny black ?", "label": "DESC:def"}
+{"global_ix": 2635, "sentence": "What does camera-ready art mean ?", "label": "DESC:def"}
+{"global_ix": 2698, "sentence": "What is a conifer ?", "label": "DESC:def"}
+{"global_ix": 177, "sentence": "What is the 401 , K , plan ?", "label": "DESC:def"}
+{"global_ix": 4412, "sentence": "What household products are there for adult acne ?", "label": "ENTY:product"}
+{"global_ix": 1482, "sentence": "What do I call the sons and daughters of my first cousins ?", "label": "ENTY:termeq"}
+{"global_ix": 260, "sentence": "What is molybdenum ?", "label": "DESC:def"}
+{"global_ix": 3054, "sentence": "What is hydroelectricity ?", "label": "DESC:def"}
+{"global_ix": 4898, "sentence": "When does menstruation begin ?", "label": "NUM:date"}
+{"global_ix": 1326, "sentence": "The Iraqis launched their attack on Kuwait on what day ?", "label": "NUM:date"}
+{"global_ix": 1467, "sentence": "What is the origin of the word ` posh ' ?", "label": "DESC:desc"}
+{"global_ix": 60, "sentence": "What is titanium ?", "label": "DESC:def"}
+{"global_ix": 105, "sentence": "Where do chihuahuas come from ?", "label": "DESC:desc"}
+{"global_ix": 450, "sentence": "When is the Tulip Festival in Michigan ?", "label": "NUM:date"}
+{"global_ix": 714, "sentence": "Which hair care product told us `` hate that gray , wash it away '' ?", "label": "ENTY:product"}
+{"global_ix": 4563, "sentence": "When was Dubai 's first concrete house built ?", "label": "NUM:date"}
+{"global_ix": 532, "sentence": "What city is served by Logan International Airport ?", "label": "LOC:city"}
+{"global_ix": 4695, "sentence": "What is cosmology ?", "label": "DESC:def"}
+{"global_ix": 23, "sentence": "What is the origin of the name ` Scarlett ' ?", "label": "DESC:desc"}
+{"global_ix": 1769, "sentence": "What are amaretto biscuits ?", "label": "DESC:def"}
+{"global_ix": 1697, "sentence": "What happened in the Long March ?", "label": "DESC:desc"}
+{"global_ix": 1031, "sentence": "What is the difference between microprocessors & microcontrollers ?", "label": "DESC:desc"}
+{"global_ix": 174, "sentence": "What game 's board shows the territories of Irkutsk , Yakutsk and Kamchatka ?", "label": "ENTY:sport"}
+{"global_ix": 750, "sentence": "Italy is the largest producer of what ?", "label": "ENTY:product"}
+{"global_ix": 1000, "sentence": "What was the favorite sport of Tom Wolfe 's The Pump House Gang ?", "label": "ENTY:sport"}
+{"global_ix": 3009, "sentence": "What year is etched on the Gold Medal of Excellence from the Paris Exposition depicted on a can of Campbell 's tomato soup ?", "label": "NUM:date"}
+{"global_ix": 1779, "sentence": "What is the origin of `` jiggy '' as in getting jiggy with it ?", "label": "DESC:desc"}
+{"global_ix": 4707, "sentence": "What are bottle caps with presidents ' pictures inside worth ?", "label": "NUM:money"}
+{"global_ix": 268, "sentence": "What is California 's capital ?", "label": "LOC:city"}
+{"global_ix": 2291, "sentence": "What amount of money did the Philippine ex-dictator Marcos steal from the treasury ?", "label": "NUM:money"}
+{"global_ix": 4674, "sentence": "What happened to Answers.com ?", "label": "DESC:desc"}
+{"global_ix": 3433, "sentence": "What holidays or observances are celebrated in Italy ?", "label": "ENTY:event"}
+{"global_ix": 4263, "sentence": "The Jewish alphabet is called what ?", "label": "ENTY:termeq"}
+{"global_ix": 796, "sentence": "What is a rhomboideus minor ?", "label": "DESC:def"}
+{"global_ix": 4035, "sentence": "When was the bar-code invented ?", "label": "NUM:date"}
+{"global_ix": 371, "sentence": "What time of day did Emperor Hirohito die ?", "label": "NUM:date"}
+{"global_ix": 955, "sentence": "What tragedy befell the city of Dogtown in 1899 ?", "label": "ENTY:event"}
+{"global_ix": 3344, "sentence": "What is a leper ?", "label": "DESC:def"}
+{"global_ix": 2475, "sentence": "What are some good exercises for kids to do ?", "label": "ENTY:sport"}
+{"global_ix": 517, "sentence": "What is a wop ?", "label": "DESC:def"}
+{"global_ix": 3862, "sentence": "What 's the capital of Monaco ?", "label": "LOC:city"}
+{"global_ix": 887, "sentence": "What is the dialogue circle in cartoons called ?", "label": "ENTY:termeq"}
+{"global_ix": 2147, "sentence": "What is Dick Clark 's birthday ?", "label": "NUM:date"}
+{"global_ix": 4368, "sentence": "What was the minimum wage in 1991 ?", "label": "NUM:money"}
+{"global_ix": 114, "sentence": "What does the Georgetown `` Hoya '' mean ?", "label": "DESC:def"}
+{"global_ix": 4863, "sentence": "The Kentucky Horse Park is close to which American city ?", "label": "LOC:city"}
+{"global_ix": 4749, "sentence": "What do the red-and-white stripes on a barbershop pole stand for ?", "label": "DESC:def"}
+{"global_ix": 1347, "sentence": "What is cache memory ?", "label": "DESC:def"}
+{"global_ix": 2997, "sentence": "What is Boston Kreme ?", "label": "DESC:def"}
+{"global_ix": 1644, "sentence": "What is a dangling participle ?", "label": "DESC:def"}
+{"global_ix": 2417, "sentence": "In what year was actress Joan Collins born ?", "label": "NUM:date"}
+{"global_ix": 2988, "sentence": "What is the most populated city in the world ?", "label": "LOC:city"}
+{"global_ix": 273, "sentence": "What is the history of Valentine 's Day cards ?", "label": "DESC:desc"}
+{"global_ix": 2053, "sentence": "What does the number 33 on the Rolling Rock beer bottle mean ?", "label": "DESC:def"}
+{"global_ix": 4791, "sentence": "What does Robert mean ?", "label": "DESC:def"}
+{"global_ix": 2344, "sentence": "What is the difference between optical and digital video ?", "label": "DESC:desc"}
+{"global_ix": 4069, "sentence": "What game does Garry Kasparov play ?", "label": "ENTY:sport"}
+{"global_ix": 179, "sentence": "What are the three winter months in the southern hemisphere ?", "label": "NUM:date"}
+{"global_ix": 2940, "sentence": "What is mandibulofacial dysostosis ?", "label": "DESC:def"}
+{"global_ix": 3151, "sentence": "What is an urban legend ?", "label": "DESC:def"}
+{"global_ix": 3475, "sentence": "What 's the staff of life mentioned in the Lord 's Prayer ?", "label": "DESC:def"}
+{"global_ix": 1294, "sentence": "What is a phalanx ?", "label": "DESC:def"}
+{"global_ix": 3811, "sentence": "What qualifications are there for individuals donating blood ?", "label": "DESC:desc"}
+{"global_ix": 2091, "sentence": "What is `` bloodhound '' ?", "label": "DESC:def"}
+{"global_ix": 1972, "sentence": "What does storm wave mean in Japanese ?", "label": "DESC:def"}
+{"global_ix": 646, "sentence": "What does a nihilist believe in ?", "label": "DESC:desc"}
+{"global_ix": 1192, "sentence": "What are the words to `` My Way '' written by Paul Anka ?", "label": "DESC:desc"}
+{"global_ix": 3070, "sentence": "What is the orgin of xoxoxox ?", "label": "DESC:desc"}
+{"global_ix": 2936, "sentence": "What does laser stand for ?", "label": "DESC:def"}
+{"global_ix": 2403, "sentence": "What state capital comes last alphabetically ?", "label": "LOC:city"}
+{"global_ix": 2453, "sentence": "What is amezaiku ?", "label": "DESC:def"}
+{"global_ix": 4983, "sentence": "What city 's theatrical district has been dubbed The Roaring Forties ?", "label": "LOC:city"}
+{"global_ix": 3634, "sentence": "What do Hank Aaron , Jimmy Stewart , and Howard K. Smith have in common ?", "label": "DESC:desc"}
+{"global_ix": 2354, "sentence": "What South American capital is the world 's highest ?", "label": "LOC:city"}
+{"global_ix": 2691, "sentence": "What is the nursery rhyme Rock-a-by Baby about ?", "label": "DESC:desc"}
+{"global_ix": 5062, "sentence": "How much did the Iran-Contra investigation cost ?", "label": "NUM:money"}
+{"global_ix": 4678, "sentence": "What do you say to a friend who ignores you for other friends ?", "label": "DESC:desc"}
+{"global_ix": 3090, "sentence": "What century did art 's Romantic Period begin in ?", "label": "NUM:date"}
+{"global_ix": 2723, "sentence": "What is the average cost for four years of medical school ?", "label": "NUM:money"}
+{"global_ix": 2827, "sentence": "What product `` doubles your pleasure , doubles your fun '' ?", "label": "ENTY:product"}
+{"global_ix": 3658, "sentence": "When did the Chernobyl nuclear accident occur ?", "label": "NUM:date"}
+{"global_ix": 4538, "sentence": "What is an auto-commentary ?", "label": "DESC:def"}
+{"global_ix": 1561, "sentence": "What is a Cartesian Diver ?", "label": "DESC:def"}
+{"global_ix": 1996, "sentence": "What term means a sexual attraction between a male and a female ?", "label": "ENTY:termeq"}
+{"global_ix": 2390, "sentence": "What do the Japanese call Japan ?", "label": "ENTY:termeq"}
+{"global_ix": 3780, "sentence": "What are the rules to `` snow golf '' ?", "label": "DESC:desc"}
+{"global_ix": 929, "sentence": "What is an example of an actual case of using the Fourteenth Amendment ?", "label": "DESC:desc"}
+{"global_ix": 3342, "sentence": "What type of childhood did Jules Verne have ?", "label": "DESC:desc"}
+{"global_ix": 112, "sentence": "How much money does a back injury lawsuit get ?", "label": "NUM:money"}
+{"global_ix": 1960, "sentence": "What year did nylon stockings first go on sale ?", "label": "NUM:date"}
+{"global_ix": 236, "sentence": "When was the first steel mill in the United States built ?", "label": "NUM:date"}
+{"global_ix": 4712, "sentence": "In 1990 , what day of the week did Christmas fall on ?", "label": "NUM:date"}
+{"global_ix": 1073, "sentence": "What is the origin of the word `` mind '' ?", "label": "DESC:desc"}
+{"global_ix": 2187, "sentence": "What does the name ` Alexandra ' mean ?", "label": "DESC:def"}
+{"global_ix": 1536, "sentence": "What city or state do the most gay men live in ?", "label": "LOC:city"}
+{"global_ix": 9, "sentence": "When was Ozzy Osbourne born ?", "label": "NUM:date"}
+{"global_ix": 4215, "sentence": "What is the difference between khaki and chino ?", "label": "DESC:desc"}
+{"global_ix": 721, "sentence": "What is being done about the millennium bug ?", "label": "DESC:def"}
+{"global_ix": 4834, "sentence": "What does `` E Pluribus Unum '' on the penny mean ?", "label": "DESC:def"}
+{"global_ix": 2701, "sentence": "What is e-commerce ?", "label": "DESC:def"}
+{"global_ix": 1317, "sentence": "What can you be fined for having a dog on a beach ?", "label": "NUM:money"}
+{"global_ix": 2730, "sentence": "Dialing , 900 , 740-TREE to have a tree planted will cost how much ?", "label": "NUM:money"}
+{"global_ix": 4774, "sentence": "What is the capital of California ?", "label": "LOC:city"}
+{"global_ix": 2850, "sentence": "What is it like to experience a near death episode ?", "label": "DESC:desc"}
+{"global_ix": 3850, "sentence": "When did the vesuvius last erupt ?", "label": "NUM:date"}
+{"global_ix": 4650, "sentence": "What are the Cleveland Indians also called ?", "label": "ENTY:termeq"}
+{"global_ix": 4251, "sentence": "Where did the name root beer come from ?", "label": "DESC:desc"}
+{"global_ix": 2207, "sentence": "What year did Spielberg make `` Jaws '' ?", "label": "NUM:date"}
+{"global_ix": 169, "sentence": "Where did Indian Pudding come from ?", "label": "DESC:desc"}
+{"global_ix": 4557, "sentence": "What is the Internet2 ?", "label": "DESC:def"}
+{"global_ix": 4045, "sentence": "What is the `` fourth dimension '' ?", "label": "DESC:def"}
+{"global_ix": 3597, "sentence": "What does N est-ce pas mean ?", "label": "DESC:def"}
+{"global_ix": 1359, "sentence": "What is a ` borrow pit ' ?", "label": "DESC:def"}
+{"global_ix": 1220, "sentence": "Describe the Finnish music personality Salonen 's appearance .", "label": "DESC:desc"}
+{"global_ix": 1841, "sentence": "What were the cities of Dickens 's A Tale of Two Cities ?", "label": "LOC:city"}
+{"global_ix": 4442, "sentence": "What is the definition of cecum ?", "label": "DESC:def"}
+{"global_ix": 1964, "sentence": "What is spaceball played on ?", "label": "DESC:def"}
+{"global_ix": 1728, "sentence": "What kind of suit did true hepcats wear in 1942 ?", "label": "ENTY:product"}
+{"global_ix": 970, "sentence": "What net game sees its women 's world amateur champions receive the Uber Cup ?", "label": "ENTY:sport"}
+{"global_ix": 1222, "sentence": "What is a stratocaster ?", "label": "DESC:def"}
+{"global_ix": 1242, "sentence": "When was the Triangle Shirtwaist fire ?", "label": "NUM:date"}
+{"global_ix": 535, "sentence": "What game do Steve McQueen and Edward G. Robinson play in The Cincinnati Kid ?", "label": "ENTY:sport"}
+{"global_ix": 934, "sentence": "What was Mark Johnson referring to when he said : `` I still can 't believe it- we beat the Russians ? ''", "label": "ENTY:termeq"}
+{"global_ix": 3913, "sentence": "What are pomegranates ?", "label": "DESC:def"}
+{"global_ix": 2791, "sentence": "What is a mathematical factor ?", "label": "DESC:def"}
+{"global_ix": 840, "sentence": "When was Berlin 's Brandenburg gate erected ?", "label": "NUM:date"}
+{"global_ix": 4021, "sentence": "What are people doing to help prevent the extinction of birds ?", "label": "DESC:desc"}
+{"global_ix": 372, "sentence": "What is dry ice ?", "label": "DESC:def"}
+{"global_ix": 2247, "sentence": "What year was the ATM first introduced ?", "label": "NUM:date"}
+{"global_ix": 1577, "sentence": "In what city is the US Declaration of Independence located ?", "label": "LOC:city"}
+{"global_ix": 3023, "sentence": "What is a caul ?", "label": "DESC:def"}
+{"global_ix": 4020, "sentence": "What is a turnkey contract ?", "label": "DESC:def"}
+{"global_ix": 3900, "sentence": "What sport features slotbacks , tailbacks , and touchbacks ?", "label": "ENTY:sport"}
+{"global_ix": 2263, "sentence": "In which year was the cartoon character Chilly Willy created ?", "label": "NUM:date"}
+{"global_ix": 2290, "sentence": "What time does Wee Willie Winkie run through the town ?", "label": "NUM:date"}
+{"global_ix": 3994, "sentence": "What is power steering ?", "label": "DESC:def"}
+{"global_ix": 4726, "sentence": "When was the Parthenon built ?", "label": "NUM:date"}
+{"global_ix": 3692, "sentence": "What is another name for nearsightedness ?", "label": "ENTY:termeq"}
+{"global_ix": 2011, "sentence": "What do the number 1 , 2 , and 4 mean on Dr. Pepper bottles ?", "label": "DESC:def"}
+{"global_ix": 2640, "sentence": "What time of year do most people fly ?", "label": "NUM:date"}
+{"global_ix": 1442, "sentence": "What is the circumorbital hematoma ?", "label": "DESC:def"}
+{"global_ix": 1253, "sentence": "What computer operating system is on the most computers ?", "label": "ENTY:product"}
+{"global_ix": 3551, "sentence": "What is the origin of `` barbeque '' ?", "label": "DESC:desc"}
+{"global_ix": 564, "sentence": "What does the name `` Justin '' mean ?", "label": "DESC:def"}
+{"global_ix": 3035, "sentence": "When was John D. Rockefeller born ?", "label": "NUM:date"}
+{"global_ix": 4364, "sentence": "What is a glory hole ?", "label": "DESC:def"}
+{"global_ix": 210, "sentence": "What is the design of the ship Titanic ?", "label": "DESC:desc"}
+{"global_ix": 3021, "sentence": "What is the `` Global Economy '' ?", "label": "DESC:def"}
+{"global_ix": 3852, "sentence": "When did the supercontinent Pangaea break up ?", "label": "NUM:date"}
+{"global_ix": 670, "sentence": "What 's the first day of the week ?", "label": "NUM:date"}
+{"global_ix": 4629, "sentence": "What is the history of Buffalo chicken wings ?", "label": "DESC:desc"}
+{"global_ix": 2131, "sentence": "What is hypertext ?", "label": "DESC:def"}
+{"global_ix": 3782, "sentence": "When did Mount St. Helen last have a major eruption ?", "label": "NUM:date"}
+{"global_ix": 4375, "sentence": "What is the weather like on the moon ?", "label": "DESC:desc"}
+{"global_ix": 5063, "sentence": "What does the double-O indicate in 007 ?", "label": "DESC:def"}
+{"global_ix": 2753, "sentence": "What is the brand name of the chemical daminozide ?", "label": "ENTY:product"}
+{"global_ix": 3185, "sentence": "What is the best brand for a laptop computer ?", "label": "ENTY:product"}
+{"global_ix": 4981, "sentence": "What is the name of the game that Garry Kasparov plays ?", "label": "ENTY:sport"}
+{"global_ix": 2235, "sentence": "What was the verdict in the trial of Lizzie Borden ?", "label": "DESC:desc"}
+{"global_ix": 1797, "sentence": "What is the secret of the universe ?", "label": "DESC:desc"}
+{"global_ix": 4473, "sentence": "What are tannins ?", "label": "DESC:def"}
+{"global_ix": 2881, "sentence": "When was the NFL established ?", "label": "NUM:date"}
+{"global_ix": 48, "sentence": "What is ethology ?", "label": "DESC:def"}
+{"global_ix": 3441, "sentence": "What are the two cities in Dicken 's `` A Tale of Two Cities '' ?", "label": "LOC:city"}
+{"global_ix": 1694, "sentence": "What effects do nitrates have on the environment ?", "label": "DESC:desc"}
+{"global_ix": 3816, "sentence": "What is the history of the hairdryer ?", "label": "DESC:desc"}
+{"global_ix": 2710, "sentence": "The second most popular sport worldwide is what ?", "label": "ENTY:sport"}
+{"global_ix": 2619, "sentence": "What new year is celebrated on February 16th ?", "label": "ENTY:event"}
+{"global_ix": 634, "sentence": "What do players try to do when the music stops in a game of musical chairs ?", "label": "DESC:desc"}
+{"global_ix": 1959, "sentence": "What 's the International Lawn Tennis Challenge Trophy usually called ?", "label": "ENTY:termeq"}
+{"global_ix": 3969, "sentence": "What is the difference between a board of directors and an advisory board ?", "label": "DESC:desc"}
+{"global_ix": 4270, "sentence": "When was the last major eruption of Mount St. Helens ?", "label": "NUM:date"}
+{"global_ix": 2271, "sentence": "What is hypnotherapy ?", "label": "DESC:def"}
+{"global_ix": 2025, "sentence": "The Orange Bowl is located in what city ?", "label": "LOC:city"}
+{"global_ix": 1092, "sentence": "What day is August 13 , 1971 ?", "label": "NUM:date"}
+{"global_ix": 3739, "sentence": "What kind of sports did they play in the years 1642-1649 , the English Civil War time ?", "label": "ENTY:sport"}
+{"global_ix": 994, "sentence": "What is the per-capita income of Colombia , South America , ?", "label": "NUM:money"}
+{"global_ix": 2041, "sentence": "What is a Jake brake ?", "label": "DESC:def"}
+{"global_ix": 3805, "sentence": "What is a urologist ?", "label": "DESC:def"}
+{"global_ix": 4243, "sentence": "What 's the most popular four-player game of all time ?", "label": "ENTY:sport"}
+{"global_ix": 1440, "sentence": "Which operating system runs on IBM-compatible machines ?", "label": "ENTY:product"}
+{"global_ix": 873, "sentence": "What sports event is Meyer Wolfsheim supposed to have fixed in The Great Gatsby ?", "label": "ENTY:sport"}
+{"global_ix": 1208, "sentence": "What 's the largest U.S. city on the Great Lakes ?", "label": "LOC:city"}
+{"global_ix": 3273, "sentence": "What is Doegs ?", "label": "DESC:def"}
+{"global_ix": 4715, "sentence": "What is federal income tax ?", "label": "DESC:def"}
+{"global_ix": 2005, "sentence": "What does e=mc2 mean ?", "label": "DESC:def"}
+{"global_ix": 5047, "sentence": "Describe the Long March .", "label": "DESC:desc"}
+{"global_ix": 1924, "sentence": "What is the dot on an the letter i called ?", "label": "ENTY:termeq"}
+{"global_ix": 4187, "sentence": "What will the weather be today ?", "label": "DESC:desc"}
+{"global_ix": 1750, "sentence": "Aspartame is known by what other name ?", "label": "ENTY:termeq"}
+{"global_ix": 4869, "sentence": "What are some science fair projects for 8th graders ?", "label": "ENTY:event"}
+{"global_ix": 2350, "sentence": "What is the difference between college and graduate school ?", "label": "DESC:desc"}
+{"global_ix": 4662, "sentence": "What city has the two steepest streets in the U.S. ?", "label": "LOC:city"}
+{"global_ix": 1042, "sentence": "How much does it cost , average or whatever is available , to produce and send junk mail catalogues in the US ? , DT CD NN NN ,", "label": "NUM:money"}
+{"global_ix": 4541, "sentence": "What did Lenny Bruce say that got him arrested ?", "label": "DESC:desc"}
+{"global_ix": 2533, "sentence": "What is a Chinese `` spouting '' bowl ?", "label": "DESC:def"}
+{"global_ix": 2460, "sentence": "What is the definition of `` chancery '' file in real estate ?", "label": "DESC:def"}
+{"global_ix": 2704, "sentence": "When did Spain and Korea start ambassadorial relations ?", "label": "NUM:date"}
+{"global_ix": 2983, "sentence": "What war did Johnny Reb and Billy Yank fight ?", "label": "ENTY:event"}
+{"global_ix": 4259, "sentence": "What 's the state motto of California ?", "label": "DESC:desc"}
+{"global_ix": 13, "sentence": "What is considered the costliest disaster the insurance industry has ever faced ?", "label": "ENTY:event"}
+{"global_ix": 1557, "sentence": "What was the first town to be chartered in Vermont ?", "label": "LOC:city"}
+{"global_ix": 3155, "sentence": "What is Smartnet ?", "label": "DESC:def"}
+{"global_ix": 947, "sentence": "What 's a `` Drinker respirator '' better known as ?", "label": "ENTY:termeq"}
+{"global_ix": 2831, "sentence": "What brand of jeans did Calvin Klein admit in a 1984 interview he felt more comfortable wearing ?", "label": "ENTY:product"}
+{"global_ix": 888, "sentence": "What does the word camaro mean , from the GM car the Camaro ?", "label": "DESC:def"}
+{"global_ix": 944, "sentence": "What is `` the washed vodka '' ?", "label": "DESC:def"}
+{"global_ix": 568, "sentence": "What does an average daycare provider get paid in New England ?", "label": "NUM:money"}
+{"global_ix": 2282, "sentence": "What is the name of the largest water conservancy project in China ?", "label": "ENTY:event"}
+{"global_ix": 3264, "sentence": "What city is . KDGE Radio located in ?", "label": "LOC:city"}
+{"global_ix": 1864, "sentence": "What did FCC chairman Newton Minow declare TV to be on May 9 , 1961 ?", "label": "DESC:desc"}
+{"global_ix": 2500, "sentence": "In what year was Gandhi assassinated ?", "label": "NUM:date"}
+{"global_ix": 3770, "sentence": "What does `` saute '' mean ?", "label": "DESC:def"}
+{"global_ix": 1822, "sentence": "What city is sometimes called The Athens of Switzerland ?", "label": "LOC:city"}
+{"global_ix": 203, "sentence": "What South American city has the world 's highest commercial landing field ?", "label": "LOC:city"}
+{"global_ix": 1266, "sentence": "What is the Home Rule Act ?", "label": "DESC:def"}
+{"global_ix": 842, "sentence": "What year did Germany sign its nonaggression pact with the Soviet Union ?", "label": "NUM:date"}
+{"global_ix": 2931, "sentence": "What is a First World country ?", "label": "DESC:def"}
+{"global_ix": 326, "sentence": "What product did Robert Conrad dare people to knock off his shoulder ?", "label": "ENTY:product"}
+{"global_ix": 342, "sentence": "What does it mean `` Rupee Depreciates '' ?", "label": "DESC:def"}
+{"global_ix": 3520, "sentence": "What was Joe Namath 's first contract worth ?", "label": "NUM:money"}
+{"global_ix": 4526, "sentence": "What North American city boasts the biggest Polish population ?", "label": "LOC:city"}
+{"global_ix": 4469, "sentence": "What is the Peloponnesian League ?", "label": "DESC:def"}
+{"global_ix": 1221, "sentence": "What is the origin of the ethnic category `` caucasian '' ?", "label": "DESC:desc"}
+{"global_ix": 616, "sentence": "What is the Motto for the State of Maryland ?", "label": "DESC:desc"}
+{"global_ix": 4519, "sentence": "What are field effect transistors ?", "label": "DESC:def"}
+{"global_ix": 5012, "sentence": "What is the origin of thank you notes ?", "label": "DESC:desc"}
+{"global_ix": 756, "sentence": "In what year did Ireland elect its first woman president ?", "label": "NUM:date"}
+{"global_ix": 5081, "sentence": "What sport do the Cleaveland Cavaliers play ?", "label": "ENTY:sport"}
+{"global_ix": 2808, "sentence": "What Russian seaport has a name meaning `` Lord of the East '' ?", "label": "LOC:city"}
+{"global_ix": 2452, "sentence": "What city did the Mormons establish as their headquarters in 1847 ?", "label": "LOC:city"}
+{"global_ix": 2334, "sentence": "What is crabgrass ?", "label": "DESC:def"}
+{"global_ix": 3027, "sentence": "What is a bone marrow transplant ?", "label": "DESC:def"}
+{"global_ix": 1085, "sentence": "When did the `` Star-Spangled Banner '' become the national anthem ?", "label": "NUM:date"}
+{"global_ix": 4972, "sentence": "What happened on January 15 , 1969 ?", "label": "ENTY:event"}
+{"global_ix": 4404, "sentence": "When was the USSR dissolved ?", "label": "NUM:date"}
+{"global_ix": 600, "sentence": "What sport do you shag flies in ?", "label": "ENTY:sport"}
+{"global_ix": 3754, "sentence": "What is lung cancer ?", "label": "DESC:def"}
+{"global_ix": 594, "sentence": "What is artificial intelligence ?", "label": "DESC:def"}
+{"global_ix": 1072, "sentence": "What was unusual about Alexandra 's appearance in Josie and the Pussycats ?", "label": "DESC:desc"}
+{"global_ix": 2175, "sentence": "What is Greek pita ?", "label": "DESC:def"}
+{"global_ix": 2573, "sentence": "What do the 12 days of Christmas mean ?", "label": "DESC:def"}
+{"global_ix": 4282, "sentence": "What are the seven deadly sins ?", "label": "DESC:desc"}
+{"global_ix": 4630, "sentence": "What is humidity ?", "label": "DESC:def"}
+{"global_ix": 4781, "sentence": "What is Srpska Krajina ?", "label": "DESC:def"}
+{"global_ix": 671, "sentence": "What city was President William McKinley shot in ?", "label": "LOC:city"}
+{"global_ix": 4742, "sentence": "In what war was the first submarine used ?", "label": "ENTY:event"}
+{"global_ix": 465, "sentence": "What is a firewall ?", "label": "DESC:def"}
+{"global_ix": 2569, "sentence": "What are the ages in comic book lingo ?", "label": "ENTY:event"}
+{"global_ix": 1783, "sentence": "What are manifest and latent function theories ?", "label": "DESC:def"}
+{"global_ix": 1268, "sentence": "What are Bellworts ?", "label": "DESC:def"}
+{"global_ix": 17, "sentence": "What is `` Nine Inch Nails '' ?", "label": "DESC:def"}
+{"global_ix": 1348, "sentence": "Aspartame is also known as what ?", "label": "ENTY:termeq"}
+{"global_ix": 480, "sentence": "What do economists do ?", "label": "DESC:desc"}
+{"global_ix": 1751, "sentence": "What is pasta ?", "label": "DESC:def"}
+{"global_ix": 3978, "sentence": "What is the cultural origin of the ceremony of potlatch ?", "label": "DESC:desc"}
+{"global_ix": 3329, "sentence": "What was the importance of Magellan ?", "label": "DESC:desc"}
+{"global_ix": 120, "sentence": "What is the historical relationship of Catholic Church and bingo ?", "label": "DESC:desc"}
+{"global_ix": 4428, "sentence": "What does the dot on the letter i mean ?", "label": "DESC:def"}
+{"global_ix": 3630, "sentence": "What is a drought ?", "label": "DESC:def"}
+{"global_ix": 1569, "sentence": "How much money was the minimum wage in 1991 ?", "label": "NUM:money"}
+{"global_ix": 2036, "sentence": "What does El Nino mean in spanish ?", "label": "ENTY:termeq"}
+{"global_ix": 895, "sentence": "What is the definition of low island ?", "label": "DESC:def"}
+{"global_ix": 3367, "sentence": "What is the term that describes a word where only one usage has been recorded in all literature ?", "label": "ENTY:termeq"}
+{"global_ix": 3469, "sentence": "What 's the term for a limestone deposit rising from the floor of a cave ?", "label": "ENTY:termeq"}
+{"global_ix": 794, "sentence": "What does the name `` Anthony '' mean ?", "label": "DESC:def"}
+{"global_ix": 4677, "sentence": "What is a person 's socioeconomic position ?", "label": "DESC:def"}
+{"global_ix": 5057, "sentence": "What year was the setting for American Graffiti ?", "label": "NUM:date"}
+{"global_ix": 4211, "sentence": "When did Jaco Pastorius die ?", "label": "NUM:date"}
+{"global_ix": 2706, "sentence": "What is chromatology ?", "label": "DESC:def"}
+{"global_ix": 482, "sentence": "What do I need to do to take my dog with me to live in Dominica , West Indies for a year ?", "label": "DESC:desc"}
+{"global_ix": 581, "sentence": "What is a Jellicle Cat ?", "label": "DESC:def"}
+{"global_ix": 58, "sentence": "What does `` extended definition '' mean and how would one write a paper on it ?", "label": "DESC:def"}
+{"global_ix": 4820, "sentence": "What does `` Philebus-like '' mean ?", "label": "DESC:def"}
+{"global_ix": 172, "sentence": "What is the name of the city that Maurizio Pellegrin lives in ?", "label": "LOC:city"}
+{"global_ix": 991, "sentence": "What is a hyperlink ?", "label": "DESC:def"}
+{"global_ix": 4417, "sentence": "What was the tragedy that struck the city of Dogtown in 1899 ?", "label": "ENTY:event"}
+{"global_ix": 1961, "sentence": "What is a research expedition in mountain climbing ?", "label": "ENTY:sport"}
+{"global_ix": 2973, "sentence": "On which dates does the running of the bulls occur in Pamplona , Spain ?", "label": "NUM:date"}
+{"global_ix": 4002, "sentence": "The Kentucky Horse Park is located near what city ?", "label": "LOC:city"}
+{"global_ix": 2655, "sentence": "What are differences between 1980 and 1990 ?", "label": "DESC:desc"}
+{"global_ix": 4418, "sentence": "What 's the oldest capital city in the Americas ?", "label": "LOC:city"}
+{"global_ix": 3063, "sentence": "What according to the Kinsey Institute , is the sexual preference of four percent of American males ?", "label": "DESC:desc"}
+{"global_ix": 1252, "sentence": "Tell me what city the Kentucky Horse Park is near ?", "label": "LOC:city"}
+{"global_ix": 2444, "sentence": "What 's the green variety of beryl called ?", "label": "ENTY:termeq"}
+{"global_ix": 871, "sentence": "What excuse did the NATO people give for hitting the Chinese embassy ?", "label": "DESC:desc"}

@@ -48,8 +48,8 @@ class MatchingNet(nn.Module):
                 [query_C_1, query_C_2, ...],
                 ...
             ]
-        } 
-        :return: 
+        }
+        :return:
         """
         xs = sample["xs"]  # support
         xq = sample["xq"]  # query
@@ -124,7 +124,7 @@ class MatchingNet(nn.Module):
             with torch.no_grad():
                 loss, loss_dict = self.loss(episode)
 
-            for k, v in loss_dict["metrics"]:
+            for k, v in loss_dict["metrics"].items():
                 metrics[k].append(v)
 
         return {

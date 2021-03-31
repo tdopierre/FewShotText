@@ -1,5 +1,5 @@
 import random
-from utils.data import get_jsonl_data, write_jsonl_data
+from utils.data import get_jsonl_data, write_jsonl_data, write_txt_data
 
 
 def process_dataset(name):
@@ -20,14 +20,17 @@ def process_dataset(name):
     write_jsonl_data([
         d for d in full if d['label'] in train_labels
     ], f"data/{name}/train.jsonl", force=True)
+    write_txt_data(train_labels, f"data/{name}/labels.train.txt")
 
     write_jsonl_data([
         d for d in full if d['label'] in valid_labels
     ], f"data/{name}/valid.jsonl", force=True)
+    write_txt_data(valid_labels, f"data/{name}/labels.valid.txt")
 
     write_jsonl_data([
         d for d in full if d['label'] in test_labels
     ], f"data/{name}/test.jsonl", force=True)
+    write_txt_data(test_labels, f"data/{name}/labels.test.txt")
 
 
 if __name__ == "__main__":

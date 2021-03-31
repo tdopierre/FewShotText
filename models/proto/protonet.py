@@ -51,8 +51,8 @@ class ProtoNet(nn.Module):
                 [query_C_1, query_C_2, ...],
                 ...
             ]
-        } 
-        :return: 
+        }
+        :return:
         """
         xs = sample['xs']  # support
         xq = sample['xq']  # query
@@ -540,7 +540,7 @@ def main():
     parser.add_argument("--n-support", type=int, default=5, help="Number of support points for each class")
     parser.add_argument("--n-query", type=int, default=5, help="Number of query points for each class")
     parser.add_argument("--n-classes", type=int, default=5, help="Number of classes per episode")
-    parser.add_argument("--n-augment", type=int, default=5, help="Number of augmented samples to take")
+    parser.add_argument("--n-augment", type=int, default=0, help="Number of augmented samples to take")
     parser.add_argument("--n-test-episodes", type=int, default=1000, help="Number of episodes during evaluation (valid, test)")
 
     # Metric to use in proto distance calculation

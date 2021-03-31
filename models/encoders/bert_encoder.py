@@ -20,29 +20,33 @@ class BERTEncoder(nn.Module):
         super(BERTEncoder, self).__init__()
         logger.info(f"Loading Encoder @ {config_name_or_path}")
         self.tokenizer = AutoTokenizer.from_pretrained(config_name_or_path)
-        self.bert = AutoModel.from_pretrained(config_name_or_path)
+        self.bert = AutoModel.from_pretrained(config_name_or_path).to(device)
         logger.info(f"Encoder loaded.")
+        self.warmed: bool = False
+
+    def embed_sentences(self, sentences: List[str]):
+        if self.warmed:
+            padding = True
+        else:
+            padding = "max_length"
+            self.warmed = True
+        batch = self.tokenizer.batch_encode_plus(
+            sentences,
+            return_tensors="pt",
+            max_length=64,
+            truncation=True,
+            padding=padding
+        )
+        batch = {k: v.to(device) for k, v in batch.items()}
+
+        fw = self.bert.forward(**batch)
+        return fw.pooler_output
 
     def forward(self, sentences: List[str]):
-        batch_size = 16
-        if len(sentences) > batch_size:
-            return torch.cat([self.forward(sentences[i:i + batch_size]) for i in range(0, len(sentences), batch_size)], 0)
-        encoded_plus = [self.tokenizer.encode_plus(s, max_length=128) for s in sentences]
-        max_len = max([len(e['input_ids']) for e in encoded_plus])
+        return self.embed_sentences(sentences)
 
-        input_ids = list()
-        attention_masks = list()
-        token_type_ids = list()
 
-        for e in encoded_plus:
-            e['input_ids'] = e['input_ids'][:max_len]
-            e['token_type_ids'] = e['token_type_ids'][:max_len]
-            pad_len = max_len - len(e['input_ids'])
-            input_ids.append(e['input_ids'] + pad_len * [self.tokenizer.pad_token_id])
-            attention_masks.append([1 for _ in e['input_ids']] + [0] * pad_len)
-            token_type_ids.append(e['token_type_ids'] + [0] * pad_len)
-
-        _, x = self.bert.forward(input_ids=torch.Tensor(input_ids).long().to(device),
-                                 attention_mask=torch.Tensor(attention_masks).long().to(device),
-                                 token_type_ids=torch.Tensor(token_type_ids).long().to(device))
-        return x
+def test():
+    encoder = BERTEncoder("bert-base-cased")
+    sentences = ["this is one", "why not another"]
+    encoder.embed_sentences(sentences)

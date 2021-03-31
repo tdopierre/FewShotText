@@ -2,44 +2,57 @@
 
 for n_class in 5 2 3 4; do
     for seed in 1 2 3 4 5; do
-#    for shots in 5 10; do
         for shots in 5; do
             for dataset in OOS TREC28 Liu; do
-                TRAIN_FILE="data/${dataset}/train.jsonl"
-                VALID_FILE="data/${dataset}/valid.jsonl"
-                TEST_FILE="data/${dataset}/test.jsonl"
-                bert_model_name_or_path="/home/dot10713/Projects/UDA_pytorch/transformer_models/${dataset}/fine-tuned"
+
                 OUTPUT_ROOT="runs/${dataset}/${n_class}C_${shots}K/seed${seed}"
+                data_params="
+                    --train-path data/${dataset}/train.jsonl
+                    --valid-path data/${dataset}/valid.jsonl
+                    --test-path data/${dataset}/test.jsonl"
+
+                baseline_params="
+                    --n-classes ${n_class}
+                    --n-support ${shots}
+                    --n-test-episodes 600"
+
+                few_shot_params="
+                    --n-classes ${n_class}
+                    --n-support ${shots}
+                    --n-query 5
+                    --n-test-episodes 600"
+
+                model_params="
+                    --model-name-or-path transformer_models/${dataset}/fine-tuned"
+
+
+                baseline_training_params="
+                    --n-train-epoch 10
+                    --seed ${seed}"
+
+                few_shot_training_params="
+                    --max-iter 10000
+                    --evaluate-every 100
+                    --early-stop 25
+                    --seed ${seed}"
 
                 # Baseline
                 OUT_PATH="${OUTPUT_ROOT}/baseline"
-
                 if [[ -d "${OUT_PATH}" ]]; then
                     echo "${OUT_PATH} already exists. Skipping."
                 else
                     mkdir -p ${OUT_PATH}
                     LOGS_PATH="${OUT_PATH}/training.log"
 
-                    sbatch \
-                        -n 1 \
-                        -p GPU \
-                        --gres=gpu:1 --nice=1800 \
-                        --exclude=calcul-gpu-lahc-2 \
-                        -J ${OUT_PATH} \
-                        -o ${LOGS_PATH} \
-                        models/bert_baseline/baseline.sh \
-                        --train-path ${TRAIN_FILE} \
-                        --valid-path ${VALID_FILE} \
-                        --test-path ${TEST_FILE} \
-                        --model-name-or-path "${bert_model_name_or_path}" \
-                        --n-test-episodes 600 \
-                        --n-support ${shots} \
-                        --n-classes ${n_class} \
-                        --n-train-epoch 10 \
-                        --output-path "${OUT_PATH}/output" --seed ${seed}
+                    ./models/bert_baseline/baseline.sh \
+                        $(echo ${data_params}) \
+                        $(echo ${baseline_params}) \
+                        $(echo ${model_params})  \
+                        $(echo ${baseline_training_params}) \
+                        --output-path "${OUT_PATH}/output" > ${LOGS_PATH}
                 fi
 
-                # Induction
+                # Induction Network
                 OUT_PATH="${OUTPUT_ROOT}/induction"
                 if [[ -d "${OUT_PATH}" ]]; then
                     echo "${OUT_PATH} already exists. Skipping."
@@ -47,91 +60,37 @@ for n_class in 5 2 3 4; do
                     mkdir -p ${OUT_PATH}
                     LOGS_PATH="${OUT_PATH}/training.log"
 
-                    sbatch \
-                        -n 1 \
-                        -p GPU \
-                        --gres=gpu:1 --nice=1800 \
-                        --exclude=calcul-gpu-lahc-2 \
-                        -J "${OUT_PATH}" \
-                        -o ${LOGS_PATH} \
-                        models/induction/inductionnet.sh \
-                        --train-path ${TRAIN_FILE} \
-                        --valid-path ${VALID_FILE} \
-                        --test-path ${TEST_FILE} \
-                        --model-name-or-path "${bert_model_name_or_path}" \
-                        --n-test-episodes 600 \
-                        --n-support ${shots} \
-                        --n-query 5 \
-                        --n-classes ${n_class} \
-                        --max-iter 10000 \
-                        --evaluate-every 100 \
-                        --output-path "${OUT_PATH}/output" \
+                    ./models/induction/inductionnet.sh \
+                        $(echo ${data_params}) \
+                        $(echo ${few_shot_params}) \
+                        $(echo ${model_params})  \
+                        $(echo ${few_shot_training_params}) \
                         --ntl-n-slices 100 \
-                        --n-routing-iter 3 \
-                        --early-stop 25 --seed ${seed}
+                        --n-routing-iter 3  \
+                        --output-path "${OUT_PATH}/output" > ${LOGS_PATH}
                 fi
 
-                # Relation-base
-                OUT_PATH="${OUTPUT_ROOT}/relation-base"
-                if [[ -d "${OUT_PATH}" ]]; then
-                    echo "${OUT_PATH} already exists. Skipping."
-                else
-                    mkdir -p ${OUT_PATH}
-                    LOGS_PATH="${OUT_PATH}/training.log"
+                # Relation Network
+                for relation_module_type in base ntl; do
 
-                    sbatch \
-                        -n 1 \
-                        -p GPU \
-                        --gres=gpu:1 --nice=1800 \
-                        --exclude=calcul-gpu-lahc-2 \
-                        -J "${OUT_PATH}" \
-                        -o ${LOGS_PATH} \
-                        models/relation/relationnet.sh \
-                        --train-path ${TRAIN_FILE} \
-                        --valid-path ${VALID_FILE} \
-                        --test-path ${TEST_FILE} \
-                        --model-name-or-path "${bert_model_name_or_path}" \
-                        --n-test-episodes 600 \
-                        --n-support ${shots} \
-                        --n-query 5 \
-                        --n-classes ${n_class} \
-                        --max-iter 10000 \
-                        --evaluate-every 100 \
-                        --output-path "${OUT_PATH}/output" \
-                        --relation-module-type "base" \
-                        --early-stop 25 --seed ${seed}
-                fi
+                    OUT_PATH="${OUTPUT_ROOT}/relation-${relation_module_type}"
+                    if [[ -d "${OUT_PATH}" ]]; then
+                        echo "${OUT_PATH} already exists. Skipping."
+                    else
+                        mkdir -p ${OUT_PATH}
+                        LOGS_PATH="${OUT_PATH}/training.log"
 
-                # Relation-ntl
-                OUT_PATH="${OUTPUT_ROOT}/relation-ntl"
-                if [[ -d "${OUT_PATH}" ]]; then
-                    echo "${OUT_PATH} already exists. Skipping."
-                else
-                    mkdir -p ${OUT_PATH}
-                    LOGS_PATH="${OUT_PATH}/training.log"
+                        ./models/relation/relationnet.sh \
+                            $(echo ${data_params}) \
+                            $(echo ${few_shot_params}) \
+                            $(echo ${model_params})  \
+                            $(echo ${few_shot_training_params}) \
+                            --relation-module-type "${relation_module_type}" \
+                            --output-path "${OUT_PATH}/output" > ${LOGS_PATH}
 
-                    sbatch \
-                        -n 1 \
-                        -p GPU \
-                        --gres=gpu:1 --nice=1800 \
-                        --exclude=calcul-gpu-lahc-2 \
-                        -J "${OUT_PATH}" \
-                        -o "${LOGS_PATH}" \
-                        models/relation/relationnet.sh \
-                        --train-path ${TRAIN_FILE} \
-                        --valid-path ${VALID_FILE} \
-                        --test-path ${TEST_FILE} \
-                        --model-name-or-path "${bert_model_name_or_path}" \
-                        --n-test-episodes 600 \
-                        --n-support ${shots} \
-                        --n-query 5 \
-                        --n-classes ${n_class} \
-                        --max-iter 10000 \
-                        --evaluate-every 100 \
-                        --output-path "${OUT_PATH}/output" \
-                        --relation-module-type "ntl" \
-                        --early-stop 25 --seed ${seed}
-                fi
+                    fi
+                done
+
 
                 for metric in euclidean cosine; do
                     # Baseline++
@@ -142,28 +101,16 @@ for n_class in 5 2 3 4; do
                         mkdir -p ${OUT_PATH}
                         LOGS_PATH="${OUT_PATH}/training.log"
 
-                        sbatch \
-                            -n 1 \
-                            -p GPU \
-                            --gres=gpu:1 --nice=1800 \
-                            --exclude=calcul-gpu-lahc-2 \
-                            -J ${OUT_PATH} \
-                            -o ${LOGS_PATH} \
-                            models/bert_baseline/baseline.sh \
-                            --train-path ${TRAIN_FILE} \
-                            --valid-path ${VALID_FILE} \
-                            --test-path ${TEST_FILE} \
-                            --model-name-or-path "${bert_model_name_or_path}" \
-                            --n-test-episodes 600 \
-                            --n-support ${shots} \
-                            --n-classes ${n_class} \
-                            --n-train-epoch 10 \
-                            --output-path "${OUT_PATH}/output" \
-                            --pp \
-                            --metric ${metric} --seed ${seed}
+                        ./models/bert_baseline/baseline.sh \
+                            $(echo ${data_params}) \
+                            $(echo ${baseline_params}) \
+                            $(echo ${model_params})  \
+                            $(echo ${baseline_training_params}) \
+                            --pp --metric "${metric}" \
+                            --output-path "${OUT_PATH}/output" > ${LOGS_PATH}
                     fi
 
-                    # Matching
+                    # Matching Network
                     OUT_PATH="${OUTPUT_ROOT}/matching-${metric}"
                     if [[ -d "${OUT_PATH}" ]]; then
                         echo "${OUT_PATH} already exists. Skipping."
@@ -171,30 +118,16 @@ for n_class in 5 2 3 4; do
                         mkdir -p ${OUT_PATH}
                         LOGS_PATH="${OUT_PATH}/training.log"
 
-                        sbatch \
-                            -n 1 \
-                            -p GPU \
-                            --gres=gpu:1 --nice=1800 \
-                            --exclude=calcul-gpu-lahc-2 \
-                            -J ${OUT_PATH} \
-                            -o ${LOGS_PATH} \
-                            models/matching/matchingnet.sh \
-                            --train-path ${TRAIN_FILE} \
-                            --valid-path ${VALID_FILE} \
-                            --test-path ${TEST_FILE} \
-                            --model-name-or-path "${bert_model_name_or_path}" \
-                            --n-test-episodes 600 \
-                            --n-support ${shots} \
-                            --n-query 5 \
-                            --n-classes ${n_class} \
-                            --max-iter 10000 \
-                            --evaluate-every 100 \
-                            --output-path "${OUT_PATH}/output" \
+                        ./models/matching/matchingnet.sh \
+                            $(echo ${data_params}) \
+                            $(echo ${model_params})  \
+                            $(echo ${few_shot_params}) \
+                            $(echo ${few_shot_training_params}) \
                             --metric ${metric} \
-                            --early-stop 25 --seed ${seed}
+                            --output-path "${OUT_PATH}/output" > ${LOGS_PATH}
                     fi
 
-                    # Proto
+                    # Prototypical Network
                     OUT_PATH="${OUTPUT_ROOT}/proto-${metric}"
                     if [[ -d "${OUT_PATH}" ]]; then
                         echo "${OUT_PATH} already exists. Skipping."
@@ -202,27 +135,13 @@ for n_class in 5 2 3 4; do
                         mkdir -p ${OUT_PATH}
                         LOGS_PATH="${OUT_PATH}/training.log"
 
-                        sbatch \
-                            -n 1 \
-                            -p GPU \
-                            --gres=gpu:1 --nice=1800 \
-                            --exclude=calcul-gpu-lahc-2 \
-                            -J ${OUT_PATH} \
-                            -o ${LOGS_PATH} \
-                            models/proto/protonet.sh \
-                            --train-path ${TRAIN_FILE} \
-                            --valid-path ${VALID_FILE} \
-                            --test-path ${TEST_FILE} \
-                            --model-name-or-path "${bert_model_name_or_path}" \
-                            --n-test-episodes 600 \
-                            --n-support ${shots} \
-                            --n-query 5 \
-                            --n-classes ${n_class} \
-                            --max-iter 10000 \
-                            --evaluate-every 100 \
-                            --output-path "${OUT_PATH}/output" \
+                        ./models/proto/protonet.sh \
+                            $(echo ${data_params}) \
+                            $(echo ${model_params})  \
+                            $(echo ${few_shot_params}) \
+                            $(echo ${few_shot_training_params}) \
                             --metric ${metric} \
-                            --early-stop 25 --seed ${seed}
+                            --output-path "${OUT_PATH}/output" > ${LOGS_PATH}
                     fi
 
                     # Proto++
@@ -238,28 +157,14 @@ for n_class in 5 2 3 4; do
                         else
                             n_unlabeled=20
                         fi
-                        sbatch \
-                            -n 1 \
-                            -p GPU \
-                            --gres=gpu:titanxt:1 --nice=1800 \
-                            --exclude=calcul-gpu-lahc-2 \
-                            -J ${OUT_PATH} \
-                            -o ${LOGS_PATH} \
-                            models/proto/protonet.sh \
-                            --train-path ${TRAIN_FILE} \
-                            --valid-path ${VALID_FILE} \
-                            --test-path ${TEST_FILE} \
-                            --model-name-or-path "${bert_model_name_or_path}" \
-                            --n-test-episodes 600 \
-                            --n-support ${shots} \
-                            --n-query 5 \
-                            --n-classes ${n_class} \
-                            --max-iter 10000 \
-                            --evaluate-every 100 \
-                            --output-path "${OUT_PATH}/output" \
+                        ./models/proto/protonet.sh \
+                            $(echo ${data_params}) \
+                            $(echo ${model_params})  \
+                            $(echo ${few_shot_params}) \
+                            $(echo ${few_shot_training_params}) \
                             --metric ${metric} \
-                            --early-stop 25 \
-                            --n-unlabeled ${n_unlabeled} --seed ${seed}
+                            --n-unlabeled ${n_unlabeled} \
+                            --output-path "${OUT_PATH}/output" > ${LOGS_PATH}
                     fi
                 done
             done

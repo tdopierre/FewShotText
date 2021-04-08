@@ -20,7 +20,7 @@ block_size=256
 dataset=OOS
 output_dir=transformer_models/${dataset}/fine-tuned
 
-python scripts_transformers/run_language_modeling.py \
+python language_modeling/run_language_modeling.py \
         --model_name_or_path ${model_name} \
         --output_dir ${output_dir} \
         --mlm \
@@ -29,7 +29,6 @@ python scripts_transformers/run_language_modeling.py \
         --do_eval \
         --eval_data_file data/${dataset}/full/full-test.txt \
         --overwrite_output_dir \
-        --evaluate_during_training \
         --logging_steps=1000 \
         --line_by_line \
         --logging_dir ${output_dir} \
@@ -37,7 +36,8 @@ python scripts_transformers/run_language_modeling.py \
         --save_steps=1000 \
         --num_train_epochs 20 \
         --save_total_limit 20 \
-        --seed 42
+        --seed 42 \
+        --evaluation_strategy epoch
 ```
 
 ## Training a few-shot model

@@ -29,7 +29,7 @@ from transformers import (
     CONFIG_MAPPING,
     MODEL_WITH_LM_HEAD_MAPPING,
     AutoConfig,
-    AutoModelWithLMHead,
+    AutoModelForMaskedLM,
     AutoTokenizer,
     DataCollatorForLanguageModeling,
     HfArgumentParser,
@@ -192,7 +192,7 @@ def main():
         )
 
     if model_args.model_name_or_path:
-        model = AutoModelWithLMHead.from_pretrained(
+        model = AutoModelForMaskedLM.from_pretrained(
             model_args.model_name_or_path,
             from_tf=bool(".ckpt" in model_args.model_name_or_path),
             config=config,
@@ -200,7 +200,7 @@ def main():
         )
     else:
         logger.info("Training new model from scratch")
-        model = AutoModelWithLMHead.from_config(config)
+        model = AutoModelForMaskedLM.from_config(config)
 
     model.resize_token_embeddings(len(tokenizer))
 
@@ -238,7 +238,6 @@ def main():
         data_collator=data_collator,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
-        prediction_loss_only=True,
     )
 
     # Training
@@ -252,7 +251,7 @@ def main():
         trainer.save_model()
         # For convenience, we also re-save the tokenizer to the same directory,
         # so that you can share your model easily on huggingface.co/models =)
-        if trainer.is_world_master():
+        if trainer.is_world_process_zero():
             tokenizer.save_pretrained(training_args.output_dir)
 
     # Evaluation
@@ -261,8 +260,7 @@ def main():
         logger.info("*** Evaluate ***")
 
         eval_output = trainer.evaluate()
-
-        perplexity = math.exp(eval_output["loss"])
+        perplexity = math.exp(eval_output["eval_loss"])
         result = {"perplexity": perplexity}
 
         output_eval_file = os.path.join(training_args.output_dir, "eval_results_lm.txt")

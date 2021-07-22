@@ -52,8 +52,8 @@ class InductionNet(nn.Module):
                 [query_C_1, query_C_2, ...],
                 ...
             ]
-        } 
-        :return: 
+        }
+        :return:
         """
         xs = sample["xs"]  # support
         xq = sample["xq"]  # query
@@ -188,9 +188,6 @@ class InductionModule(nn.Module):
 
         # Init Ws, bs
         self.Ws_bs = nn.Linear(input_dim, input_dim)
-        Ws = np.random.randn(input_dim, input_dim)
-        Ws = Ws / np.linalg.norm(Ws)
-        self.Ws = torch.Tensor(Ws).to(device)
 
     @staticmethod
     def squash(x):
@@ -205,7 +202,7 @@ class InductionModule(nn.Module):
         class_representatives: List[torch.Tensor] = list()
 
         for i in range(C):
-            z_squashed = self.squash(z_s[i])
+            z_squashed = self.squash(self.Ws_bs(z_s[i]))
             b_i = torch.autograd.Variable(torch.zeros(K)).to(device)
             for iteration in range(self.n_routing_iter):
                 d_i = b_i.clone().softmax(dim=-1)
@@ -224,8 +221,7 @@ class NTLRelationModule(nn.Module):
         self.n_slice = n_slice
         M = np.random.randn(n_slice, input_dim, input_dim)
         M = M / np.linalg.norm(M, axis=(1, 2))[:, None, None]
-        self.M = torch.Tensor(M).to(device)
-        self.M.requires_grad = True
+        self.register_parameter("M", nn.Parameter(torch.Tensor(M)))
         self.dropout = nn.Dropout(p=0.25)
         self.fc = nn.Linear(n_slice, 1)
 

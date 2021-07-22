@@ -56,8 +56,8 @@ class RelationNet(nn.Module):
                 [query_C_1, query_C_2, ...],
                 ...
             ]
-        } 
-        :return: 
+        }
+        :return:
         """
         xs = sample["xs"]  # support
         xq = sample["xq"]  # query
@@ -212,8 +212,7 @@ class NTLRelationModule(nn.Module):
         self.n_slice = n_slice
         M = np.random.randn(n_slice, input_dim, input_dim)
         M = M / np.linalg.norm(M, axis=(1, 2))[:, None, None]
-        self.M = torch.Tensor(M).to(device)
-        self.M.requires_grad = True
+        self.register_parameter("M", nn.Parameter(torch.Tensor(M)))
         self.dropout = nn.Dropout(p=0.25)
         self.fc = nn.Linear(n_slice, 1)
 

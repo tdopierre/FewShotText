@@ -30,7 +30,7 @@ class BERTEncoder(nn.Module):
         else:
             padding = "max_length"
             self.warmed = True
-        batch = self.tokenizer.batch_encode_plus(
+        batch = self.tokenizer(
             sentences,
             return_tensors="pt",
             max_length=64,
@@ -43,10 +43,14 @@ class BERTEncoder(nn.Module):
         return fw.pooler_output
 
     def forward(self, sentences: List[str]):
-        return self.embed_sentences(sentences)
+        try:
+            return self.embed_sentences(sentences)
+        except Exception as e:
+            logger.error(f"could not embed sentence {sentences} (err: {type(e)}, {e}, {str(e)}")
+            raise e
 
 
 def test():
     encoder = BERTEncoder("bert-base-cased")
-    sentences = ["this is one", "why not another"]
+    sentences = ["test sentence #1", "test sentence #2🍇"]
     encoder.embed_sentences(sentences)

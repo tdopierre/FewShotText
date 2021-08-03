@@ -344,7 +344,7 @@ def run_relation(
 
             train_metrics = collections.defaultdict(list)
 
-        if valid_path or test_path:
+        if valid_path or test_path or data_path:
             if (step + 1) % evaluate_every == 0:
                 for path, writer, set_type, set_data in zip(
                         [valid_path, test_path],
@@ -400,7 +400,7 @@ def run_relation(
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--train-path", type=str, required=True, help="Path to training data")
+    parser.add_argument("--train-path", type=str, default=None, help="Path to training data")
     parser.add_argument("--valid-path", type=str, default=None, help="Path to validation data")
     parser.add_argument("--test-path", type=str, default=None, help="Path to testing data")
     parser.add_argument("--data-path", type=str, default=None, help="Path to data (ARSC only)")
@@ -426,6 +426,7 @@ def main():
     parser.add_argument("--arsc-format", default=False, action="store_true", help="Using ARSC few-shot format")
 
     args = parser.parse_args()
+    logger.debug(f"Received args {args}")
 
     # Set random seed
     set_seeds(args.seed)

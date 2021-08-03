@@ -15,6 +15,7 @@ import warnings
 import logging
 from utils.few_shot import create_episode, create_ARSC_train_episode, create_ARSC_test_episode
 from utils.math import euclidean_dist, cosine_similarity
+from sklearn.metrics import f1_score
 
 logging.basicConfig()
 logger = logging.getLogger(__name__)
@@ -82,12 +83,17 @@ class MatchingNet(nn.Module):
         loss_fn = nn.CrossEntropyLoss()
         loss_val = loss_fn(distances_from_query_to_classes, true_labels.argmax(1))
         acc_val = (true_labels.argmax(1) == distances_from_query_to_classes.argmax(1)).float().mean()
-
+        f1_val = f1_score(
+            true_labels.argmax(1).cpu().numpy(),
+            distances_from_query_to_classes.argmax(1).cpu().numpy(),
+            average="weighted"
+        )
         return loss_val, {
             "loss": loss_val.item(),
             "metrics": {
                 "acc": acc_val.item(),
                 "loss": loss_val.item(),
+                "f1": f1_val,
             },
             "y_hat": distances_from_query_to_classes.argmax(1).cpu().detach().numpy()
         }

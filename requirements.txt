@@ -112,7 +112,7 @@ shortuuid==1.0.1
 simpletransformers==0.51.3
 six==1.15.0
 smmap==3.0.4
-streamlit==0.72.0
+streamlit==1.11.1
 subprocess32==3.5.4
 tensorboard==2.4.0
 tensorboard-plugin-wit==1.6.0.post3
